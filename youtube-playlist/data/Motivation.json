@@ -1,0 +1,260 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "rtztA2LOO-gKTnYzS_8El4J6IJ8",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "cU9hgnmmZCm35xFjwxsURHmQnO0",
+            "id": "UExRbmxqT0ZUc3BRWHdPRjlad1FZZ3JoZFdqM3ZNcU43cS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-06-27T13:04:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "inspiration dies, stop procrastinating and do the work right now!",
+                "description": "In this video, I explain my process of recording youtube videos, building software, writing poetry and much more. Creative work is challenging you to need to get to it right away. Inspired by people like Elizabeth Gilbert, Jordan Peterson,  Gary Vaynerchuk, Naval Ravikant and Steven Pressfield\n\n\nNaval’s podcast https://youtu.be/OwHeBvU6oEg\n\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXwOF9ZwQYgrhdWj3vMqN7q",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Sz7vnUNoBDw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ndp6cNHqm_fQx-grANCE1qv8RFI",
+            "id": "UExRbmxqT0ZUc3BRWHdPRjlad1FZZ3JoZFdqM3ZNcU43cS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-06-27T13:05:26Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "My Story",
+                "description": "My Name is Hussein Nasser, I'm from Bahrain, I'm an author and a software engineer who authored many books in software engineering and GIS technology. I moved with my family to California in 2015 for a new software engineering job on an H1-B visa, this is my story. I'm really happy that I did. \n\n\nA lot of people were asking me where I'm originally from? what did I study? what jobs did I have? Why did I start my blog and Youtube Channel? How did I write my books? How did I move to the United States? and much more. \n\n\nThank you guys for the support! Love you\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXwOF9ZwQYgrhdWj3vMqN7q",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "_EZ1tQ0yDo4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "LK9zhNTsUnZ_mgS4dcqL4b3hyLs",
+            "id": "UExRbmxqT0ZUc3BRWHdPRjlad1FZZ3JoZFdqM3ZNcU43cS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-06-27T13:06:32Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "No Excuses",
+                "description": "You don't need fancy equipment to get started in youtube and share your skills and knowledge. In this video we discuss how with just a screen sharing app (Quicktime) and this microphone I was able to grow my youtube software engineering channel to 2000 subs and more than 800K watch hours.  \n\nI started my youtube channel in order to share my software engineering knowledge with the world. My youtube channel is still small but it is continuing to grow at a 100 subs + a month.\n\nAmazon link to microphone (affiliate) https://goo.gl/rnVHVX\nDo the Work by Steven Pressfield (affiliate) https://goo.gl/YFcWii\n\nSoftware Engineering Content on IGeometry\n——————————————————————\n\n- [x] Proxy vs Reverse Proxy  https://goo.gl/ZYFQAi \n- [x] Stateful vs Stateless Applications  https://goo.gl/Fubfi6\n- [x] Virtual Machines vs Containers  https://goo.gl/fiECVb\n\n \nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/v48Q5Z86CIE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/v48Q5Z86CIE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/v48Q5Z86CIE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/v48Q5Z86CIE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/v48Q5Z86CIE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXwOF9ZwQYgrhdWj3vMqN7q",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "v48Q5Z86CIE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pxqGAvLsxUid7f6d96_T5kejvJs",
+            "id": "UExRbmxqT0ZUc3BRWHdPRjlad1FZZ3JoZFdqM3ZNcU43cS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-07-26T19:20:03Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Starting a Software Engineering YouTube Channel? This might help",
+                "description": "This is a podcast I did with @Adarsh Menon where I discuss my journey into Backend Engineering and some lessons learned during the course of my 20+ years engineering journey. Enjoy \n\n\n0:00 Intro\n2:45 Podcast Starts\n3:15 How did you get into programming?\n10:15 What problems do you solve at Esri ?\n14:55 Generalist or Specialist ?\n24:45 Advice to people starting out\n33:15 On being Humble\n47:05 YouTube advice for tech YouTubers\n53:45 Thoughts on starting a company\n56:45 Advice to 22 year old Hussein\n\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iyOC5eTiOXQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iyOC5eTiOXQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iyOC5eTiOXQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iyOC5eTiOXQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXwOF9ZwQYgrhdWj3vMqN7q",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iyOC5eTiOXQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "lwMR7cxOCvOy1K5dpmVginc-3Kk",
+            "id": "UExRbmxqT0ZUc3BRWHdPRjlad1FZZ3JoZFdqM3ZNcU43cS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-09-13T16:23:33Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How I deal with Stress and being Overwhelmed as a Software Engineer",
+                "description": "Some of you asked me how to deal with stress at my work and my content creation here on YouTube especially during the pendamic I share my thoughts with you\n\nIntro 0:00\nStress from Work  2:40\nFeeling down with no clear reason 7:13\nFeeling anxious overwhelmed with stuff to learn 14:55\nPandemic 21:14 \n\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cALteOt_tvU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cALteOt_tvU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cALteOt_tvU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/cALteOt_tvU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXwOF9ZwQYgrhdWj3vMqN7q",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "cALteOt_tvU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "5hdsx8ASt5ZhpAzwMpYAh1nqhas",
+            "id": "UExRbmxqT0ZUc3BRWHdPRjlad1FZZ3JoZFdqM3ZNcU43cS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-09-16T20:22:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How I Got \"Slightly\" Better at Communicating my Ideas Effectively as a Software Engineer",
+                "description": "In this video, I explain how I got better at communicating my thoughts, opinions and ideas and how making content on YouTube Channel actually helped. I still have a long way but I found that making content and continuously trying to get better at delivering the core point helps. \n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JI0lCQZLV2U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JI0lCQZLV2U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JI0lCQZLV2U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JI0lCQZLV2U/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXwOF9ZwQYgrhdWj3vMqN7q",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JI0lCQZLV2U"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 6,
+        "resultsPerPage": 50
+    }
+}

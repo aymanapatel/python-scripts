@@ -1,0 +1,370 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "VczoPq3_wxrDxnN6bB8rzje_bpI",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "_zlyYFNhktkMxkG4YIvd92_vNac",
+            "id": "UExRbmxqT0ZUc3BRWFNldnRScXZNTnljV2ZITTdjWGMzZC41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-05-08T13:09:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "URL Shortener System Design (Explained with Two proposed Designs with Pro and Cons of each)",
+                "description": "Building a URL Shortener System Design such as TinyURL & Bitly, every system design has pros & cons. Your design will shine regardless, take pride of what you build and have an open mind of improving. \n\n\nChapters\n0:00 You Are an Artist \n2:00 Design #1\n13:30 Design #2\n28:00 Scaling\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5uX3rDRaHXw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "114E2GMKaDdXGTRFjTVikKYZ-Lg",
+            "id": "UExRbmxqT0ZUc3BRWFNldnRScXZNTnljV2ZITTdjWGMzZC4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-05-08T13:52:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Multi-player System Game Design - Pros & Cons of Proposed Designs & System Design Interviews Advice",
+                "description": "In this video we will explain how to build a multiplayer system game design, will go through multiple designs and explain the pros and cons of each of them. Finally I want to discuss system design Interview Advice\n\n\nChapters\n0:00 Intro\n2:20 Game Requirements\n4:15 Features\n6:30 Design Overview\n10:00 Design 1 Stateful\n16:00 Design 2 Stateless\n21:50 Pros & Cons\n27:50 System Design Interview Advice\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vJ5cOfiJRgM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "eS1_bwx8xu-UHEvp3rSMWwdJZbA",
+            "id": "UExRbmxqT0ZUc3BRWFNldnRScXZNTnljV2ZITTdjWGMzZC4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-07-26T19:07:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Join me in a Blind System Design Exercise for Twitter (I make tons of mistakes and learn from them)",
+                "description": "In this video I attempt to do a system design for twitter. I pick one feature and dive 40 minutes just discussing several ways of building that features. Hope you enjoy it\n\n0:00 Intro\n0:40 Features\n2:50 High level Design Start\n6:30 Database\n10:00 Message Queue Thoughts\n12:50 System Design is an Art\n14:00 Pooling\n15:50 Streams & Channels\n17:00 Client Side SQLite \n22:00 Scaling \n24:00 Client Side Load Balancing\n26:30 L7 Server Load Balancing\n33:00 L4 Server Load Balancing\n36:30 System Design Advice\n\n\ncards\n  (pooling video) https://www.youtube.com/watch?v=GTeCtIoV2Tw\n  (HTTP/2 Playlist) https://www.youtube.com/playlist?list=PLQnljOFTspQWbBegaU790WhH7gNKcMAl-\n  Design Course (UX) Channel https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow\n  L7/L4 Load Balancing https://www.youtube.com/watch?v=ylkAc9wmKhc\n  http smulgging https://www.youtube.com/watch?v=PFllH0QccCs\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XYVWylZqnhM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XYVWylZqnhM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XYVWylZqnhM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/XYVWylZqnhM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "XYVWylZqnhM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "mSaxgMHkSSaMTOzaIz9XXJHW2MI",
+            "id": "UExRbmxqT0ZUc3BRWFNldnRScXZNTnljV2ZITTdjWGMzZC41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-08-15T18:38:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "When Designing a Backend System Minimize the “What If” Questions",
+                "description": "What if questions sometimes cripple the system design for backend application and complicate the end product. I discuss this in this video. \n\nYAGNI stands for You aren’t gonna need it and its a pillar in extreme programming, in this video I discuss this philosophy within the context of Backend Engineering.\n\nhttps://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it\n\n* Extreme Programming Rob Jefferies\n* You Aren’t Gonna Need it  .. true but only if the design is well defined \n* But I am going to need it\n* Waterfall vs Agile \n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n \nStay Awesome\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1a7E0qh48gM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1a7E0qh48gM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1a7E0qh48gM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1a7E0qh48gM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "1a7E0qh48gM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "lVyAMgGYYufOjJBjzENkioeuurE",
+            "id": "UExRbmxqT0ZUc3BRWFNldnRScXZNTnljV2ZITTdjWGMzZC4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-08-31T13:33:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building a Multi-player Game with WebSockets",
+                "description": "In this video I show how we can use websockets to build a browser-based multi-player game that works on any device. I design the multi-player game with the server authoritative model where the game state is stored on the server. I use WebSockets as a communication medium for the game I am building.\n\nChapters\n0:00 Intro\n6:00 Connect to Server\n9:45 Create game\n13:00 Join Game\n16:00 Play Game\n18:00 Broadcast State\n22:15 Example\n31:00 Code\n31:10 Connect Code\n50:00 Create Game Code\n59:10 Join Game Code\n1:25:40 Play Game Code\n1:30:00 Broadcast code\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/websocket-cell-game",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "cXxEiWudIUY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "HFHgyneVbjo5QDToUNNSdbn39pI",
+            "id": "UExRbmxqT0ZUc3BRWFNldnRScXZNTnljV2ZITTdjWGMzZC4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-09-12T23:38:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Twitter System Design - Building the \"Follow\" Feature",
+                "description": "In this video, I attempt to do system design for twitter. I pick one feature and dive 40 minutes just discussing several ways of building that features. Hope you enjoy it\n\nWatch Part 1 here https://www.youtube.com/watch?v=XYVWylZqnhM \n\n0:00 Intro\n0:30 System Design Style \n4:00 Follow People Feature\n15:10 Followers/Following Count Feature\n20:00 Followers/Following List Feature\n30:00 Display Profile and is Following\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gfq-LG9ZJQA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gfq-LG9ZJQA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gfq-LG9ZJQA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gfq-LG9ZJQA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gfq-LG9ZJQA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ITxaoT6kLR19sfQkAQa43eRBJqY",
+            "id": "UExRbmxqT0ZUc3BRWFNldnRScXZNTnljV2ZITTdjWGMzZC41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-09-18T00:48:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Apple and Google's Contact Tracing Bluetooth Spec For COVID-19 Explained",
+                "description": "Apple & Google have been working on Contact Tracing Technology Spec to combat COVID-19 virus spread. In this video, I illustrate the spec and how the contact tracing technology works with an example. \n\nEDIT: Apple has made Contact Tracing available in ios 14\n\nChapters\n0:00 Intro\n1:00 Tracing Key\n2:20 Daily Tracing Key\n3:45 Rolling Proximity Identifier \n6:30 Contact Example \n8:00 Positive Diagnostic Example\n9:15 Diagnostic Check Example\n\nSlides\nhttps://docs.google.com/presentation/d/1OoAtU8UEvhyUT0Z0UDd8o2vNQJXUBiSiB7mTAT_-uzU/edit?usp=sharing\n\nResources\nhttps://blog.google/documents/56/Contact_Tracing_-_Cryptography_Specification.pdf\nhttps://www.apple.com/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/otkKkFrkN88/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/otkKkFrkN88/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/otkKkFrkN88/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/otkKkFrkN88/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "otkKkFrkN88"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "QZf_ReyzDLvlIkRI-YAhbRxGu6s",
+            "id": "UExRbmxqT0ZUc3BRWFNldnRScXZNTnljV2ZITTdjWGMzZC5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-11-02T13:15:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Uber’s new Backend Architecture for Processing Payments",
+                "description": "In this video, I discuss the new Uber Backend Architecture that they deployed to process payments and jobs and orders. \n\nRevolutionizing Money Movements at Scale with Strong Data Consistency\nhttps://eng.uber.com/money-scale-strong-data/\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mL0fzj7e6WU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mL0fzj7e6WU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mL0fzj7e6WU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mL0fzj7e6WU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mL0fzj7e6WU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pnY7xOe3nlbSWJiuemdrIh8V1N4",
+            "id": "UExRbmxqT0ZUc3BRWFNldnRScXZNTnljV2ZITTdjWGMzZC45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-11-02T13:15:35Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Discord Backend Architecture Discussion",
+                "description": "In this Video, I discuss Discord WebRTC and Voice chat backend architecture, it is a very interesting article \n\nResources\nhttps://blog.discord.com/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429\n\n0:00 Intro\n3:30 WebRTC As a Choice?\n8:00 ReWriting WebRTC\n11:20 Backend Architecture\n20:00 Failover\n26:00 My Thoughts\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S3tLp_eKjbk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S3tLp_eKjbk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S3tLp_eKjbk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/S3tLp_eKjbk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "S3tLp_eKjbk"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 9,
+        "resultsPerPage": 50
+    }
+}

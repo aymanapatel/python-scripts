@@ -1,0 +1,250 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "1AcEzgXpLjhRd55ymeBVBeJEYcM",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "bRce2EK_P3vmZjVeydpCg2iLdk4",
+            "id": "UExRbmxqT0ZUc3BRVV9NODNBUno4bURkcjRMVGh6a0JLWC41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2019-03-10T00:01:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Python and MySQL Tutorial",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\n\n\nIn this video we will learn how can we connect and work with a mysql database from python! We did a popular video postgres and python so next is mysql ! \n\nWhat do you need? \nMysql database , whether locally on remotely , you need to username password etc. If you don’t have a mysql database, here is a video we made on how to spin a mysql database locally.  https://www.youtube.com/watch?v=kOrGN36ViaU \n\nPython 3 https://www.python.org/downloads/\nVisual Studio Code  or any text editor https://code.visualstudio.com/\n\n9:15 server side vs client side cursor \nhttps://www.youtube.com/watch?v=dLKZWbTHfgA\n\npip install mysql-connector-python\n\nSource Code:\nhttps://github.com/hnasr/python_playground/tree/master/mysqldemopython\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BnzZ7nrKlF0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BnzZ7nrKlF0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BnzZ7nrKlF0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BnzZ7nrKlF0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BnzZ7nrKlF0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "APGY3f0_lIljKjUeNQHr-lVIhuM",
+            "id": "UExRbmxqT0ZUc3BRVV9NODNBUno4bURkcjRMVGh6a0JLWC4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2019-04-19T13:58:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Postgres Database Cursors in Python with psycopg2",
+                "description": "In this video, we will learn the difference between a server-side cursor and a client side cursor. We will see the performance of both cursors by inserting 1 million rows, then reading the rows with a server side cursor vs a client side cursor. We are using psycopg2 in this tutorial with python.\n\nCheck out the videos we made in previous episodes\n\nSpinning PostgresSQL and PGAdmin with Docker on Mac\nhttps://www.youtube.com/watch?v=5QNL7_i-ay8\n\n\nStep-by-Step Python and Postgres Tutorial with psycopg2\nhttps://www.youtube.com/watch?v=2PDkXviEMD0\n \nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "dLKZWbTHfgA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "EhLnNj1v4zbosqu6x46JZxGUQCI",
+            "id": "UExRbmxqT0ZUc3BRVV9NODNBUno4bURkcjRMVGh6a0JLWC4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2019-04-19T13:59:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step-by-Step Python and Postgres Tutorial with psycopg2",
+                "description": "In this tutorial, we will go through the basic steps on how to write a python script to read and write data on a Postgres database. We will start by describing what we have setup. I have a postgres instance running on a docker container which I will be using for this tutorial. You can watch this video that I made to learn how to spin up a postgres docker container https://www.youtube.com/watch?v=5QNL7_i-ay8  obviously you don’t have to use docker you can still instal postgres phsyically on your machine or if you have a server running postgres that should do the trick. We will then start from scratch as usual using visual studio code and python3. We will talk about the #psycopg2 library and how to install it. we will start by establishing a connection to postgres, we will talk about cursors, client-side cursors, server-side cursors the differences. Then we will execute a cursor to retrieve all rows in the table and display them. we will then insert a row to the database and commit the changes \n\nOur Source Code\nhttps://github.com/hnasr/psycopg2/blob/master/db.py\n\nMore details on the official site here \nhttp://initd.org/psycopg/docs/usage.html\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n\nEnjoy guys!\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2PDkXviEMD0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "z0HIjXfzThHzBYcWv48H2B9CHLk",
+            "id": "UExRbmxqT0ZUc3BRVV9NODNBUno4bURkcjRMVGh6a0JLWC41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2019-04-19T13:59:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load Balancing Tutorial with Python and Nginx",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\n\nIn this video we will discuss how to implement load balancing. So lets start with defining load balancing with some graphics, then we will spin up few python services with different ports. We will finally install and configure a load balancer (nginx). \n\nload balancer, python load balancer, nginx, load balancer configuration, how to configure nginx, how to configure load balancer, \n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "4xGQS8Pv4io"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0IJAJWRCemPJ_bIxlRrfVX6Ia1c",
+            "id": "UExRbmxqT0ZUc3BRVV9NODNBUno4bURkcjRMVGh6a0JLWC4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2019-04-19T13:59:41Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building Image and File Upload Service With Python",
+                "description": "Check out the FULL Python Back-end Development course https://www.husseinnasser.com/courses\n\nIn this video, we learn how to build a fully functional web server with upload file capability using python. There are two parts, the client index.html which asks the user to browse for a file, the client then sends a multipart POST (enctype=\"multipart/form-data\") request and the server back-end python side where it accepts the file and saves it on the server. \n\nSource code here\n\nhttps://github.com/hnasr/python-on-the-backend/tree/lecture18-bonus\n\nCheck out the FULL Python Back-end Development course here 50% off limited offer for the holiday. https://www.husseinnasser.com/courses\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/00bLHDtU7U4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/00bLHDtU7U4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/00bLHDtU7U4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/00bLHDtU7U4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "00bLHDtU7U4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4SlPYFv2s1XMtaCUAADTAfF1kh0",
+            "id": "UExRbmxqT0ZUc3BRVV9NODNBUno4bURkcjRMVGh6a0JLWC4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2019-04-19T13:59:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Writing a Python HTTP Server with Tornado (Explained with 4 Examples)",
+                "description": "Check out my Online Video Course Python on the Backend to learn more about Python programming on the back end https://www.husseinnasser.com/courses\n\nIn this video we will learn how to build a python HTTP server using tornado. We explain 4 ways of serving content and api through python web server. The first method is through direct text return, the second is serving static HTML files, the third way is to obtain the parameters passed by the user as query string and the final way is using resource parameters. \n\nGit hub repo\nhttps://github.com/hnasr/pyweb\n\nHow to use the repo: \ngit clone https://github.com/hnasr/pyweb\ncd pyweb\npython index.py\n\nOpen browser\nlocalhost:8881/\nlocalhost:8881/blog\nlocalhost:8881/isEven?n=12\nlocalhost:8881/tweet/9128\n\n0:00 Intro \n2:45 Requirements\n4:00 Building the HTTP Server\n6:00 Basic request text handler\n8:50 Serving static files\n10:45 Query parameters get by arguments \n13:00 Resource parameters \n\n\n\nwww.husseinnasser.com/softwareengineering",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DQNW9qhl4eA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DQNW9qhl4eA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DQNW9qhl4eA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DQNW9qhl4eA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DQNW9qhl4eA"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 6,
+        "resultsPerPage": 50
+    }
+}

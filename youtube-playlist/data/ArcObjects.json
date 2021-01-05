@@ -1,0 +1,760 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "e3XwhbcLSTWyunwlU6r6nTilqpM",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "WKqN2aS90Qt_DtFoAFfWGBjHeKg",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2017-02-19T20:00:50Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Set up an ArcGIS Desktop Development Environment",
+                "description": "In this video, we discuss how to setup an ArcGIS Desktop environment for development from scratch. We start with a clean 8.1 Windows machine and then we install the required software. These are the list of software required.\n\n1. ArcGIS Desktop 10.4.1 \n2. Visual Studio Community 2015 \n3. ArcObjects SDK For Microsoft .NET Framework \n\nDownload ArcGIS for 60 days, details here: \n\nhttp://www.husseinnasser.com/2016/04/arcobjects-sdk-available-for-download.html\n\nDownload Visual Studio 2015 Community \nhttps://www.visualstudio.com/downloads/\n\n\nQuestions and comments are welcomed! \n\n-Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "wcvwBCF0Gag"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0wktRgSKox-KwcCRJ500lub7xwY",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2017-03-05T03:57:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Creating a button on ArcMap",
+                "description": "In this video we discuss how to customize ArcMap to add our own button. When the button is clicked we will list all the layers in the active map. \n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\nEnjoy",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "pMRZurfDJR8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vakbybIMRh9Bg1p9x2sWzHIHH8c",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2017-03-25T03:42:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Creating Polygon Features",
+                "description": "We learn how to create polygon feature using two approaches. Rubberband and point collections. \n\nEnjoy!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RXf15EB_P3M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RXf15EB_P3M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RXf15EB_P3M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/RXf15EB_P3M/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "RXf15EB_P3M"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "aRYm0OXVrTyxKcYFxprmo_dl3_Y",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2017-03-25T03:42:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Create Line Features",
+                "description": "We show how two different methods to construct line then we persist them as features in a geodatabase. First method using RubberBand (2:29), the second using a collection of points (7:00)\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\n\nEnjoy!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/t5SxS9ZeyqY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/t5SxS9ZeyqY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/t5SxS9ZeyqY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/t5SxS9ZeyqY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "t5SxS9ZeyqY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MLgtYb_MfOl-MuhfEbWNpj62jLk",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2017-03-25T03:42:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Creating Point Features",
+                "description": "We show how two different methods to construct point geometries then we persist them as feature in a geodatabase.\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\nEnjoy",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9qnFWmX5bO0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9qnFWmX5bO0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9qnFWmX5bO0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/9qnFWmX5bO0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "9qnFWmX5bO0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ohSR4femb1nZYh_e-o-1WIpKXZI",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2017-03-25T03:42:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Creating a button on ArcMap",
+                "description": "In this video we discuss how to customize ArcMap to add our own button. When the button is clicked we will list all the layers in the active map. \n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\nEnjoy",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/pMRZurfDJR8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "pMRZurfDJR8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DJcX_HpqiuJ_EQwX9H6naiHjvzE",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2017-03-25T03:42:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Creating a tool on ArcMap",
+                "description": "In this video we discuss how to customize ArcMap to add our own tool. When the tool is activated and the map is clicked we will display the map point x and y. In the future we will make more videos where we do more with tools.\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\n\n\nEnjoy",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7mZ2oWwdbWY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7mZ2oWwdbWY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7mZ2oWwdbWY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/7mZ2oWwdbWY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/7mZ2oWwdbWY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "7mZ2oWwdbWY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "_Wjq8YM_3kJ95EvmfXKRAIOyFqQ",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2017-04-01T19:46:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Inserting bulk features",
+                "description": "More ArcObject Videos https://goo.gl/NbebLP\n\nWe learn how to insert bulk of features into the geodatabase using buffering and insert cursor. The original method of using .store is good if you are planning to create few features and verify them, however it becomes slow when working with large number of features. So that is why we use this approach to insert bulk features.  \n\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EtGWhmlKXZw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EtGWhmlKXZw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EtGWhmlKXZw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/EtGWhmlKXZw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/EtGWhmlKXZw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "EtGWhmlKXZw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "-0JlZJeo9LtHZSkgvUrMfnYBG9Y",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2017-04-09T21:10:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Working with Coded-Value Domains",
+                "description": "This episode discusses how to work with coded value domains using ArcObjects\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\n\ntwitter: @hnasr\nEnjoy\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OHGf0FENaiI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OHGf0FENaiI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OHGf0FENaiI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/OHGf0FENaiI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/OHGf0FENaiI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "OHGf0FENaiI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "6sLRJ-K_kGNHKvN9BDJ9nen6EPk",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2017-04-11T04:47:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Read Cursor with Million Features (Recycling vs NonRecycling)",
+                "description": "This episode discusses how to fetch million features from a feature class using both recycling and non-recycling cursors. Explains the performance difference, benefits of the two.\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\n\ntwitter: @hnasr\nEnjoy\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qp7TkUGy9Ck/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qp7TkUGy9Ck/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qp7TkUGy9Ck/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qp7TkUGy9Ck/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/qp7TkUGy9Ck/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qp7TkUGy9Ck"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "qtSS5Nm-w2D7DPfxBbLfBStZFPQ",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2017-04-16T20:04:26Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Create Row in Table",
+                "description": "Very simple episode showing how you create a row in a table using ArcObjects\n\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\n\nEnjoy",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3FszqAD6WA0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3FszqAD6WA0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3FszqAD6WA0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/3FszqAD6WA0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/3FszqAD6WA0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "3FszqAD6WA0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "PhHT-bodArOKpZf3hNtMFAkVG3o",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2017-04-16T20:10:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Discover Workspaces in Map",
+                "description": "I think this is a very important piece of code that any arcobjectc developer need to learn. While working with a map there might be more than one workspace in the map, and to identify which workspace is the one the user is interested in working on is challenging.\n\nWe start from scratch as usual .. longer episode but beneficial! enjoy\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\n\ntwitter: @hnasr\nEnjoy",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IVMzVexTUlU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IVMzVexTUlU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IVMzVexTUlU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/IVMzVexTUlU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/IVMzVexTUlU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "IVMzVexTUlU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "6elgCl0A6Vod_LDZ8bztnf5FJno",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2017-06-03T21:02:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Find Layer in ArcMap with ArcObjects",
+                "description": "We discuss how to discover a layer which might be buried in nested groups and extract workspace and feature class out of it.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OTXf6VJ29cE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OTXf6VJ29cE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OTXf6VJ29cE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/OTXf6VJ29cE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/OTXf6VJ29cE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "OTXf6VJ29cE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "-8V5THv5Q4kplruYee_5UKqGwTw",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2017-06-03T21:08:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Editing a Feature or a Row Attribute",
+                "description": "How to edit an attribute for an existing feature.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TryNPeDn2As/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TryNPeDn2As/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TryNPeDn2As/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/TryNPeDn2As/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/TryNPeDn2As/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "TryNPeDn2As"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "C92M1jtTNdlv-xiy9ep3AS_qcVw",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2017-06-17T19:05:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Working with Graphics - Part 1",
+                "description": "In this episode we discuss graphics, an efficient way to work with points/lines/ and polygon in memory without the need to persist in geodatabase. We first create a marker element.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8ZxPFK1klOM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8ZxPFK1klOM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8ZxPFK1klOM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8ZxPFK1klOM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/8ZxPFK1klOM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8ZxPFK1klOM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zfyELzjJg2BaMNPSLThSzamW5tQ",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2017-06-24T05:11:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Working with Graphics - Part 2",
+                "description": "The second episode of working with graphics, really cool way to interact with graphics instead of actual features without requiring editor license. In this episode we create poly lines graphics and learn how to identify them.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UVp6NgKW8bs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UVp6NgKW8bs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UVp6NgKW8bs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/UVp6NgKW8bs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/UVp6NgKW8bs/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "UVp6NgKW8bs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vVYXJ_3sCvvwqwFxUypIYKHty08",
+            "id": "UExRbmxqT0ZUc3BRWEtCdjJOd2hDRDRPbllmbFlUR3FhZi4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2017-06-29T04:06:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects - Add commands to existing ArcMap/ArcCatalog Context Menus",
+                "description": "In this episode we learn how to add a command to an existing menu from scratch! We will add a right click button to get the feature count on the selected feature class.\n\nArcCatalog commands\nhttps://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#06f1ca7f-67f5-4710-9c7d-5abcfdc28f9f.htm\n\nArcMap commands \nhttps://desktop.arcgis.com/en/arcobjects/latest/net/webframe.htm#858a508c-b771-467c-81e6-c6aa72d88f9c.htm\n\n\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\n\ntwitter: @hnasr\nEnjoy\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/X2ppv-TwYgk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/X2ppv-TwYgk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/X2ppv-TwYgk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/X2ppv-TwYgk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/X2ppv-TwYgk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "X2ppv-TwYgk"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 17,
+        "resultsPerPage": 50
+    }
+}

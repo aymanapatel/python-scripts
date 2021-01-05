@@ -1,0 +1,685 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "BbBg3RG4g_Yv7fxLlnBFWIFfEqo",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "qjuKxcTbPqPLR36wba44GvCW3-M",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:07:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 1 - What is a Geodatabase?",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe geodatabase is a technology developed by Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\n\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "WObQDgaFRno"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Z_QcACdLdGshId1f6yo1JtdintY",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:07:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 2 - Tables",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe geodatabase is a technology developed by Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\n\nThis episode we talk about the table abstraction in the geodatabase.\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\n\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FvUBAji0mng/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FvUBAji0mng/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FvUBAji0mng/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/FvUBAji0mng/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/FvUBAji0mng/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "FvUBAji0mng"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "75oXmNzVWgPbUqbIJ6fA74Sbv1o",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:07:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 3 - Workspaces",
+                "description": "The geodatabase is a technology developed by Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\n\nThis episode discusses workspaces, the connection and channel to the geodatabase. Stay tuned. \n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TMygKY_ykqg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TMygKY_ykqg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TMygKY_ykqg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/TMygKY_ykqg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/TMygKY_ykqg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "TMygKY_ykqg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "frhhWKznQVcguQ68EaL-VADIY9E",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2018-08-16T03:45:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 4 - Versioning",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\n\nI talk about #GeodatabaseVersioning in this episode! \n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T6__IZliHWc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T6__IZliHWc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T6__IZliHWc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/T6__IZliHWc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/T6__IZliHWc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "T6__IZliHWc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "7sT76vz0G4aaRJ3vtDZU_RgJCGc",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2018-08-26T16:11:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 5 - Registration Types",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\nWe discuss briefly the 5 registration types in the enterprise geodatabase. Unversioned, unversioned with archiving, versioned, versioned with archiving and branched versioned.\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/R06mnnDYtE0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/R06mnnDYtE0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/R06mnnDYtE0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/R06mnnDYtE0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/R06mnnDYtE0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "R06mnnDYtE0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "wr06YQdzqmchLiPbdQysfZS6OLA",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2018-09-05T17:20:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 6 - High Isolation",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\nWe discuss the difference between Isolation and High Isolation. High Isolation is a concept of the geodatabase to provide complete isolation in a versioned environment. We talk about it in this episode.\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iqfB1zUTF5o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iqfB1zUTF5o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iqfB1zUTF5o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iqfB1zUTF5o/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/iqfB1zUTF5o/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iqfB1zUTF5o"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "yJ3JQ6p71oGlMWQhjiEZ4bIVoE4",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2018-09-08T03:21:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 7 - Stateful DB Connection",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\nThis episode I explain what is a stateful connection and how that compare to traditional vs the new branch versioning model. We also explain Pros and cons of the stateful connection (with a DMV example :) )\n\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VrrAYVD1or4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VrrAYVD1or4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VrrAYVD1or4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/VrrAYVD1or4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/VrrAYVD1or4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "VrrAYVD1or4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "7abjSfEcQ5-aA6Y2JGhy-7DxbEw",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2018-09-28T10:55:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 8 - Domains",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\nThis episode I explain what geodatabase domains are, what are the different types and we also talk about the future of domains. \n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DYtfS9cqEJU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DYtfS9cqEJU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DYtfS9cqEJU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DYtfS9cqEJU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/DYtfS9cqEJU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DYtfS9cqEJU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "5Mtq-_uFFQ8wmyFhpVgiRx2DAYI",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2018-10-04T02:51:01Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 9 - SDE",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\nThe communication between the client and the enterprise geodatabase is done through the spatial database engine. We explain that layer in this episode. \n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8HPXF0DQLFs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8HPXF0DQLFs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8HPXF0DQLFs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8HPXF0DQLFs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/8HPXF0DQLFs/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8HPXF0DQLFs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "XAuwC_i5lh05fWxa5fAudF86Y9g",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2018-10-07T02:20:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 10 - DDL vs DML",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\nIn this episode, we explain the difference between ddl and dml, with respect to the geodatabase\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IBucTu76PLE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IBucTu76PLE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IBucTu76PLE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/IBucTu76PLE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/IBucTu76PLE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "IBucTu76PLE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "HxCxgX-BM0wuR0kCzFyHhGp93V0",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2018-11-03T01:34:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 11 - Archiving",
+                "description": "Hussein's ArcGIS Books: https://www.husseinnasser.com/books\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\n \nArchiving is used to store or keep track of the state of rows even after they are edited in an older state. In this episode, we discuss how can you do archiving in the geodatabase.\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\n#podcast",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mlWaf_53emA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mlWaf_53emA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mlWaf_53emA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mlWaf_53emA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/mlWaf_53emA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mlWaf_53emA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "2Znn8cmJRh3CFLE1y4JmY55yjns",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2018-11-03T01:39:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 12 - Undo edits through services",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\n\nIn this episode, we discuss how using the new ArcGIS Server version management service we can undo edits even after the service goes down!\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n \n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n#geodatabase #versioning",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/h0SzHkp4GqI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/h0SzHkp4GqI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/h0SzHkp4GqI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/h0SzHkp4GqI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/h0SzHkp4GqI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "h0SzHkp4GqI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "AhMGh1InidkoxrWIc2HVHX-UaRM",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2018-11-03T01:44:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 13 - Split",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nWe discuss how Split work in the geodatabase, the split policy on the domain and the split editing model.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-eJ5IuROX8A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-eJ5IuROX8A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-eJ5IuROX8A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/-eJ5IuROX8A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/-eJ5IuROX8A/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "-eJ5IuROX8A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MbdhFF2WsoQVvxp-QhvKpIGZ0mU",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2018-11-28T17:12:47Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 14 - SDE Intercepts",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\nAny operation performed on ArcGIS ends up eventually to the geodatabase as a set of one or more queries. A “zoom-in” or pan operation translates to multiple queries to the underlying geodatabase. \n\nSDE intercepts always you to intercept and take a look at those queries to diagnose slow operations in your enterprise geodatabase. It also helps pinpoint where the bottleneck is and how can you optimize your app or geodatabase. support.esri.com/en/technical-article/000010355",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pEhKD9KWgiw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pEhKD9KWgiw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pEhKD9KWgiw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pEhKD9KWgiw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/pEhKD9KWgiw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "pEhKD9KWgiw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "OudO0R8uE4mff7sUpWpj1jULnE8",
+            "id": "UExRbmxqT0ZUc3BRVmNpSjRsdmZ1b2NPSmNydm9hcVBXdS41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2018-11-28T17:16:22Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "#Geodatabase Talk - Episode 15 - ObjectID",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\n\nThe #geodatabase is a technology developed by #Esri that abstracts the underlying storage medium into another layer. By doing that you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc. \n\nObjectId (among others) is a system field that is added to a geodatabase table. In this episode, we discuss best practices in coding against this field. Checkout my new book (learn gis programming with ArcGIS online and Javascript 4.9 API) ! www.husseinnasser.com",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/P__mdkz5f0M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/P__mdkz5f0M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/P__mdkz5f0M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/P__mdkz5f0M/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/P__mdkz5f0M/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "P__mdkz5f0M"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 15,
+        "resultsPerPage": 50
+    }
+}

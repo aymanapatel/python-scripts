@@ -1,0 +1,460 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "J1M1_L5O1f8c87bpQ5aHKMP1q4U",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KD0-EcJBbcaMoEoVHFmpZPBlmhk",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2015-12-21T06:06:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 01 - Getting Started",
+                "description": "Full Programming with VB.NET playlist \nhttps://www.youtube.com/watch?v=3s-bgPg7IWc&list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\nGetting started with programming using .NET. All you need is a computer with a windows to learn programming in a fun way. We learn programming by example here,  our example here is to build a Pizza ordering system. \n\nWe are adding new functionalities to this program episode by episode and learn programming in a fun way as we go! \n\nSince I started recording GIS videos late 2014, you guys were asking me to start a vanilla series to just discuss programming in the same approach we were doing our ArcObjects. You guys were emailing me, mentioning me on twitter and youtube comments to do this. \n\nThis is for all of you. I sincerely hope you enjoy it, this is the first episode, will continue to post new videos whenever I find a gap. \n\nYou don't need to know anything about programming to watch this series, this is where you start, all you need to get started is explained in the video. Follow this playlist, subscribe to the channel to get constant updates whenever I post new episode to stay up to date\n\nA new series of episodes to introduce folks to programming with .NET and specially VB.. So we will create form projects explain what a project is .. what is the output .. \n\nFirst episode we talk about .NET framework, installation,\nwrite our first project that says Hello world! on a form \nTalk about variables\n\nWhat do we need to start coding? \n- Windows OS, 8.1, 7, XP, Vista , 10 \n- IDE, Visual Studio Express 2013 for Desktop.\nDownload from here\nhttps://www.microsoft.com/en-us/download/details.aspx?id=44914\n\nStay Awesome\nHussein Nasser\nwww.husseinnasser.com",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "3s-bgPg7IWc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "3Y48FN1B0fAJRJ6WNw4-FloP5EQ",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2015-12-26T17:34:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 02 - Classes and Objects (Part 1)",
+                "description": "Full playlist \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\nIn this episode we talk about Object Oriented programming, difference between it and classical programming, and benefits of it. We talk about classes and objects and some fun stuff\n\nwe write up some examples to work with classes and objects, big topic we need multiple parts for that.. \n\nOh yeah we came with an amazing name for our Project! \n\nClasses v. Objects: 12:40\nhttp://www.husseinnasser.com/2016/02/class-v-object-simplest-explanation.html\n\n\nStay Awesome\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3TqDph6IqzQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3TqDph6IqzQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3TqDph6IqzQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/3TqDph6IqzQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/3TqDph6IqzQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "3TqDph6IqzQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pCx_vKGMy-F2RFvIxtIS9boTuYk",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2016-01-03T04:15:15Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 03 - Classes and Objects (Part 2)",
+                "description": "Full OOP playlist \nhttps://www.youtube.com/watch?v=3s-bgPg7IWc&list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\nWe continue talking about classes and objects, we inject more functionality into our pizza program, we explain methods, private variables, public variables and constants. \n\nEnjoy!\nstay awesome\nHappy new year! \nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/j_QtZpnXgjQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/j_QtZpnXgjQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/j_QtZpnXgjQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/j_QtZpnXgjQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/j_QtZpnXgjQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "j_QtZpnXgjQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Xj9KzF-9qeUEH4GoHNtQIvwX1Zg",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2016-01-10T17:12:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 04 - User Interface",
+                "description": "Full OOP playlist \nhttps://www.youtube.com/watch?v=3s-bgPg7IWc&list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\nThings are getting more fun y'all \n\nWe introduce User Interface controls, now we can add buttons, labels and interact with our classes. We also discuss variable scope and events\n\n\nYeah as I promised the code\n\nhttps://www.dropbox.com/sh/rtn0s0brv3ei2fv/AACXHXiRtJ_Q8wR_KuAVTqoga?dl=0\n\nstarting from this episode, you can start writing your own fancy things. I believe you have the tools to do so..\n\n\nStay awesome\nHussein! \ntwitter @hnasr",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/x7CstywNijQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/x7CstywNijQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/x7CstywNijQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/x7CstywNijQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/x7CstywNijQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "x7CstywNijQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "av23WEDZ_8gHYyrKVyCD4ekYK1Q",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2016-01-17T16:59:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 05 - By Value v. By Reference",
+                "description": "Full OOP playlist \nhttps://www.youtube.com/watch?v=3s-bgPg7IWc&list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\nShort episode today, we talk about the difference between by value and by reference which set us good for the next episode! \n\nStay awesome\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5TA2z43cRPk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5TA2z43cRPk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5TA2z43cRPk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5TA2z43cRPk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/5TA2z43cRPk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5TA2z43cRPk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "cVYKrWllhlG9Larv83FS8xhq1wE",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2016-01-17T18:43:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 06 - Variable size, 32 bit vs 64 bit",
+                "description": "Full OOP playlist \nhttps://www.youtube.com/watch?v=3s-bgPg7IWc&list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\nShort episode to explain the difference between variable sizes in the memory.\n\n-Stay awesome\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nrKQfQSMNtU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nrKQfQSMNtU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nrKQfQSMNtU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/nrKQfQSMNtU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/nrKQfQSMNtU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "nrKQfQSMNtU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "xplEFT2jvFAh7hGra4A0-8ROYp8",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2016-01-25T04:53:01Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 07 - Conditional Statements",
+                "description": "Full OOP playlist \nhttps://www.youtube.com/watch?v=3s-bgPg7IWc&list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\n\nWe introduce Conditions for the first time, “IF Statement” within the context of having an inventory for our pizza application. When things ran out in the inventory we do something..\n\nAlso we are showing the drop down list control for the first time, fun stuff ! \n\nThis is the code \n\nhttps://www.dropbox.com/s/3ve6rtac97psj0u/PizzaBit_E07.zip?dl=0\n\nStay Awesome \n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Jvl49U1Jwzk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Jvl49U1Jwzk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Jvl49U1Jwzk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Jvl49U1Jwzk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Jvl49U1Jwzk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Jvl49U1Jwzk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "RphRZR0fsxlxAVc23th6_L3pn8M",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2016-02-01T04:18:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 08 - Inheritance",
+                "description": "Full OOP playlist \nhttps://www.youtube.com/watch?v=3s-bgPg7IWc&list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\n\nWe talk about inheritance! Protected variables, and mention polymorphism for the first time.. \n\nCreate our first out of the box pizza and update the controls accordingly..\n\nStay awesome\nwww.husseinnasser.com",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1E-Bsx0uNVo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1E-Bsx0uNVo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1E-Bsx0uNVo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1E-Bsx0uNVo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/1E-Bsx0uNVo/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "1E-Bsx0uNVo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pIg3uzL4f-NdalIceYzxDo8WjKc",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2016-02-08T03:18:32Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 09 - Strategy Design Pattern",
+                "description": "Full OOP playlist \nhttps://www.youtube.com/watch?v=3s-bgPg7IWc&list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\nFinally after all these introductions, we talk about some good stuff, the design patterns, what is it? how does it help? Our code so happened to need a design pattern so we implemented the strategy design pattern.\n\nWe will get rid of the ugly crust type if statement and replace it with a beautiful polymorphism\n\nStay awesome\nwww.husseinnasser.com",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/30xJTWhPRBI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/30xJTWhPRBI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/30xJTWhPRBI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/30xJTWhPRBI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/30xJTWhPRBI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "30xJTWhPRBI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ZfZlbEAj_2uWFyOw8AqQEriVfBo",
+            "id": "UExRbmxqT0ZUc3BRWC1YWkNoWmctYjA2TUoyN25BSlFTOS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2016-02-15T04:05:39Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET - 10 -  How did I learn programming",
+                "description": "Full PlayList: https://www.youtube.com/playlist?list=PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9\n\nReally enjoyed recording this series you guys, but unfortunately it didn’t get enough attention I thought it will, and a lot of folks are asking me to resume my other series (ArcGIS C#) so time to put an end to this series and continue other one. \n\nI personally believe if someone followed and watched this series he will be able to start writing programs by himself.. I will always be here to help for sure! shoot me an email any time at hus.mhd@gmail.com \n\nThat being said, and as I said in the video, if I get enough requests to resume this series I for sure will. Big plans to start the SOA series service oriented architecture..\n\nFor this episode we introduce loops and arrays and more polymorphism\n\n\nFinal code in github\n\nhttps://github.com/hnasr/pizzabit\n\n\n\n\nC# Version of our Pizza bit! Thanks for  Conor MacF1 for translating our project to C# ! Cheers\n\nhttps://bitbucket.org/cjbmacf/pizzabit\n\n\nStay awesome!\nHussein\n\nwww.husseinnasser.com",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FVPs2tOT_zU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FVPs2tOT_zU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FVPs2tOT_zU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/FVPs2tOT_zU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/FVPs2tOT_zU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "FVPs2tOT_zU"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 10,
+        "resultsPerPage": 50
+    }
+}

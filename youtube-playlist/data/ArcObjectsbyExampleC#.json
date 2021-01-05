@@ -1,0 +1,730 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "7Mq2cLFX05tKR7sYaQ4dpkxroU4",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "CWM3eLwuFY7bnhQMVByqejmfr5o",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2015-11-03T04:15:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 1 - Extending ArcObjects vs Add-ins",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's GIS Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcObjects by Example Playlist https://www.youtube.com/watch?v=nn4mtxdi19A&list=PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja&index=1\n\n\n\n\nWe are back! \n\nBrand new episode, talking about ArcGIS for Desktop, customizations, describing the setup, Extending ArcObjects vs Add-ins and discussing what we are going to do in the coming episodes! \n\n\nYou can setup the development environment by following this video\nhttps://www.youtube.com/watch?v=wcvwBCF0Gag&t=40s&list=PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf&index=1\n  \nEnjoy\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "nn4mtxdi19A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "hVUS-nPzKgvAlTzn8of2fbjnHSI",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2015-11-10T05:14:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 2 - Building the Data Model",
+                "description": "Full ArcObjects by Example Playlist https://www.youtube.com/watch?v=nn4mtxdi19A&list=PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja&index=1\n\nIn this episode we introduce Phonatech, the failing cell phone company whom we want to save by building a GIS solution. We goes through their story and build an information model and then design the geodatabase and test it on ArcMap.\n\nMagic Mouse got me .. again! \n\nEpisode files can be downloaded here\n\nhttps://www.dropbox.com/s/suo4njfgv4cmjwo/02-Addins.zip?dl=0\n\n\nStay Awesome!\nHussein Nasser\nSupport IGeometry: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=E6LW23B4WNQQA&lc=US&item_name=IGeometry&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aN-jUsPmxP4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aN-jUsPmxP4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aN-jUsPmxP4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aN-jUsPmxP4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/aN-jUsPmxP4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "aN-jUsPmxP4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "QxXK6TeyIKX8K-Otx65UT5t1yIA",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2015-11-16T00:16:28Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 3 - ArcObjects COM",
+                "description": "Full ArcObjects by Example Playlist https://www.youtube.com/watch?v=nn4mtxdi19A&list=PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja&index=1\n\nWe don't code yet in this episode but we embark into a very important concept the difference between COM and .NET. We also talk about how .NET is talking to COM via interop and RCW (Runtime Callable Wrapper). Very important concepts to understand before coding ArcObjects.\n\n\nStay awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8Iub09eO368/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8Iub09eO368/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8Iub09eO368/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8Iub09eO368/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/8Iub09eO368/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8Iub09eO368"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "f8jm4zRvPGAziPp4E3YsSSaRcTQ",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2015-11-23T15:09:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 4 - Creating Add-ins",
+                "description": "Full ArcObjects by Example Playlist https://www.youtube.com/watch?v=nn4mtxdi19A&list=PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja&index=1\n\nIn this episode we sketch some telecom towers in our geodatabase using the data model we performed last time.. \n\nAfter that we create the first Add-in and illustrate it as we go\n\nEnjoy \n\nStay Awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xI_HQM3Wnd4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xI_HQM3Wnd4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xI_HQM3Wnd4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/xI_HQM3Wnd4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/xI_HQM3Wnd4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "xI_HQM3Wnd4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DQQ2OLlHEW0S4AsE36nfbf6kMz4",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2015-11-28T04:28:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 5 - Designing Class diagram UML",
+                "description": "Full ArcObjects by Example Playlist https://www.youtube.com/watch?v=nn4mtxdi19A&list=PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja&index=1\n\nAn earlier special thanksgiving episode. \n\nWe discuss one of UML diagrams (class diagram), and we write our Phonetech one.. We explain the difference between a class and an object, aggregation and composition, dependencies etc.. \n\nFun OO stuff,\n\nEnjoy\n\nStay awesome\n-Hussein Nasser\n\nwww.husseinnasser.com",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/O3p-1_VPk-o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/O3p-1_VPk-o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/O3p-1_VPk-o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/O3p-1_VPk-o/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/O3p-1_VPk-o/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "O3p-1_VPk-o"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "n2tW78VbHTzGxC0rTM0b0pPYSsQ",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2015-12-08T04:49:03Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 6 - Writing first function to query the database",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's GIS Books 📒⟶ https://www.husseinnasser.com/books\n\nWe finally get real and code!  a bit short episode, we spill our UML class diagram into physical classes, make our first query to the database and write our first method GetTowerByID! \n\nEnjoy\n\nThis is the code \n\nhttps://www.dropbox.com/s/xk5c4ltesttinin/06-Addins.zip?dl=0\n\nStay awesome\n \nwww.husseinnasser.com\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/88Z-3w8P_o0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/88Z-3w8P_o0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/88Z-3w8P_o0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/88Z-3w8P_o0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/88Z-3w8P_o0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "88Z-3w8P_o0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Ttyupdw3ET4VF57qbHvROxG9ouw",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2016-02-22T09:21:47Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 7 - Spatial Queries",
+                "description": "WE ARE BACK! Resuming ArcGIS Addins\n\nTalking about general stuff while coding .. \n\nHave fun you guys \n\np.s. late recording, bit tired sorry about that \n\nStay awesome\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2_Z47-4QdSE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2_Z47-4QdSE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2_Z47-4QdSE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2_Z47-4QdSE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/2_Z47-4QdSE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2_Z47-4QdSE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "5xggcYuSm2otuCl_FVu0J3ECj00",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2016-02-29T00:42:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 8 - Donut geometries",
+                "description": "Making things hot, Donuts! Geometry donuts not real ones. \n\nWe build the tower ranges ! \n\nCode is here! fork it like you mean it\n\nhttps://github.com/hnasr/phonatech.git",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vJJBDUv-JTU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vJJBDUv-JTU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vJJBDUv-JTU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vJJBDUv-JTU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/vJJBDUv-JTU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vJJBDUv-JTU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "VsAs1ajQ9LK6yPLpYlryR1CUC6M",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2016-03-02T05:19:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 9 - Row caching for performance",
+                "description": "Short episode, fixed few things offline, we cache the tower details table to save hits to the geodatabase. We read the tower coverage and redraw each coverage accordingly..\n\ngithub\n\nhttps://github.com/hnasr/phonatech.git",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gqyZ8c8yMC4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gqyZ8c8yMC4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gqyZ8c8yMC4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gqyZ8c8yMC4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/gqyZ8c8yMC4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gqyZ8c8yMC4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "oz1PHuqAOZ9yk1LOaZC4lV66xa0",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2016-03-07T15:46:28Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 10 - Geolocation",
+                "description": "We create a new tool to add a device (phone, tablet etc.) and get the current signal and the connected tower, also draw it on the map!\n\nWe checked in to github\n\nhttps://github.com/hnasr/phonatech.git",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iueDeR7T-z4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iueDeR7T-z4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iueDeR7T-z4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iueDeR7T-z4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/iueDeR7T-z4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iueDeR7T-z4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pTT3QMBwlC2nDqgUk8F2KmN0OUI",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2016-03-14T01:40:25Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 11 - Geometry intersection",
+                "description": "We find the areas with no receptions, which we calls dead areas, also some symbology stuff! Short episode \n\nEnjoy y’all \n\nGit hub repo\n\nhttps://github.com/hnasr/phonatech.git\n\n\n\nStay Awesome\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SpAR150EVGs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SpAR150EVGs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SpAR150EVGs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SpAR150EVGs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/SpAR150EVGs/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SpAR150EVGs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4QTNOC3x0n5nLrSq7f2I1UdK2dM",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2016-03-21T00:01:00Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 12 - Symmetric Difference",
+                "description": "Full ArcObjects by Example Playlist https://www.youtube.com/watch?v=nn4mtxdi19A&list=PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja&index=1\n\n\nWe will calculate reception and dead coverage percentage per service territory.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NQudkLKFLUw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NQudkLKFLUw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NQudkLKFLUw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/NQudkLKFLUw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/NQudkLKFLUw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "NQudkLKFLUw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "-of8Ex1LHSPyLcGpuKHlaCuOb3s",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2017-06-18T00:44:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 13 - Redesign",
+                "description": "Full ArcObjects by Example Playlist https://www.youtube.com/watch?v=nn4mtxdi19A&list=PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja&index=1\n\n\nResurrecting this series and making it even better! Subscribe & Like! \n\nEnjoy! \n\nhttps://github.com/hnasr/phonatech",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TgyXLV3yEwA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TgyXLV3yEwA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TgyXLV3yEwA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/TgyXLV3yEwA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/TgyXLV3yEwA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "TgyXLV3yEwA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "sEZtnrcNc9p6-zjPCOYaIbk8UlI",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2017-06-25T01:10:34Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 14 - Persisting Timestamps",
+                "description": "Full ArcObjects by Example Playlist https://www.youtube.com/watch?v=nn4mtxdi19A&list=PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja&index=1\n\n\nWhen we register a new device to the network we should log the date/time of registration. We do this in this episode, Subscribe & Like! \n\nEnjoy! \n\nhttps://github.com/hnasr/phonatech\n\n\n\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TIN1Fp4mroc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TIN1Fp4mroc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TIN1Fp4mroc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/TIN1Fp4mroc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/TIN1Fp4mroc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "TIN1Fp4mroc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "a2RV0xOGTkoOlt542wqslsgmNak",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2017-07-09T00:24:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C# (IGeometry) - Part 15 [Finale]",
+                "description": "📐https://www.husseinnasser.com/courses\n📒https://www.husseinnasser.com/books\n\n Full ArcObjects by Example Playlist https://www.youtube.com/watch?v=nn4mtxdi19A&list=PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja&index=1\n\n\nFinal episode of arcobjects, we enable archiving and build functionality to read device location from external file [csv] and update the device on the map in real-time.\n\nEnjoy! \n\nhttps://github.com/hnasr/phonatech\n\nhus.mhd@gmail.com\n@hnasr\n\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/21quPLwfRSM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/21quPLwfRSM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/21quPLwfRSM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/21quPLwfRSM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/21quPLwfRSM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "21quPLwfRSM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "bKNIvksqBdIxmtVtLS6aoPxgzIY",
+            "id": "UExRbmxqT0ZUc3BRVk1SeUJwN1VPdDhwVTd3eWdCbUVqYS41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2017-06-29T04:41:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "I wish I can change the name of this book",
+                "description": "https://www.packtpub.com/application-development/arcgis-example\n\n\nList of all my books here\nwww.husseinnasser.com\n\nthank you for all the support! \n\ndrop me a line at \nhus DOT mhd at gmail\n\ntweet me at @hnasr",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DzHxrCkWIpQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DzHxrCkWIpQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DzHxrCkWIpQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DzHxrCkWIpQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/DzHxrCkWIpQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DzHxrCkWIpQ"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 16,
+        "resultsPerPage": 50
+    }
+}

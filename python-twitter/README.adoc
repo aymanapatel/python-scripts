@@ -1,0 +1,7 @@
+= Python Twitter
+
+== pip installations
+
+- **Twipy:** Twitter API wrapper library
+
+- **click:** For CLI

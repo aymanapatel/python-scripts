@@ -1,0 +1,2021 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "D5gxSZxLg9WJTMAfcrDpUztGzFY",
+    "nextPageToken": "CDIQAA",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MR0mnn17YK5-KvcuSKwQWaN0qH4",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:55:13Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "REST API Pros and Cons (Explained by Example)",
+                "description": "REST stands for Representational state transfer its is an architecture that became very popular in build web APIs. It was the dissertation of Roy Fielding. In this video we discuss what makes an API RESTFUL, the REST APIs constrains,  ill the show you an example of a RESTFUL api in github. \n\n\nRepresentation and State transfer \nRepresentational \nThe resource is a representation or meta data, but the actual backend could be something else and stored differently. An \n\nExample, could be a user resource could be represented as a JSON object but it is stored on the backend as relation DBMS tables such as postgres. \n\n\nState transfer\nThe application server is stateless, and when we want communicate we transfer the current state of with each request. Thus the state transfer.  \n\nExample, lets say you are uploading a 5MB file in 5 chunks each is 1 MB in size and assemble it on the backend. The REST api end point takes the content along with a upload sequence, then persist it on a storage backend such as S3. Each chunk request could hit a completely different stateless server and the transfer will work fine since we are transferring the state (upload sequence) with every request.  The client maintains the state in this case. \n\n\nRest constraints\nClient/server architecture\nIs there separation of concern? Can you upgrade your server without upgrading client? Can you upgrade the server without upgrading the client? \n\nStatelessness\nIs your api stateless? Can you restart your backend server and clients of your api resume working normally without failing? Can you add a non sticky load balancer and transfer the load between the servers without the client breaking?\n\nCachablity \nCan resources that can be cached be cached with your api? And is there a way to identify stale resources? \n\nLayered systems\nCan I insert gateways and proxies and firewalls silently without this architecture breaking? Load balancers \n\nUniform interface\nResource identification (uri) \nResource Representation  (json) \n\n\nHATEOAS\n\nHypermedia as an engine to application state\nInitial link can link to the rest ( github) \nGithub \nEmojis \n\n\n\nHTTP video https://www.youtube.com/watch?v=0OrmKCB0UrQ\n\ncards:\nstateless vs stateful 4:50\nE-tags : 14:00\nfetch api 20:20 \nchrome/postgres 23:20\n\njump codes\nRepresentations and State transfer 3:00\nRest constraints  12:14\nREST API github api (18:18)\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/M3XQ6yEC51Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/M3XQ6yEC51Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/M3XQ6yEC51Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/M3XQ6yEC51Q/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "M3XQ6yEC51Q"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "wO6Abvh-1b4VsMQPxYydHLzU-K0",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2019-11-04T01:15:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Publish-Subscribe Architecture (Explained by Example)",
+                "description": "In this video, I want to discuss the Pub sub architecture or publish subsribe architecture and talk about the pros and cons and differences over Request Response. \n\n\nOne of you guys asked me which is better REST or Message queue. I struggled to answer for a while but After thinking about it I discovered that both REST and Message queue does boil down to basic elements. REST being HTTP which is Request-Response and Message Queue being Publish subscribe. \n\nTimecodes\n0:00 Intro\n3:00 Where does request response pattern breaks\n7:00 Response request pros & cons\n11:12 Pub/sub pattern\n17:50 Pub/sub pros/cons \n\n\n- [ ] Request/ Response \n- [ ] Pros and Cons\n- [ ] Publish-Subscribe Definition\n- [ ] Pros and Cons\n\nReq/res\n\nBrowsing\nFetch or XMLHttpRequest \nSQL query\n\nPros\n- Simple to implement (REST)\n- Stateless (HTTP)\n- Sync or Async (service and client) \n\nUploading a youtube video\n- Compress video\n- format video\n- Notify subscribers\n\nUpload breaks down the video into small chunks and uploads each one\n\nOnce all successfully uploaded send a whole video to the compress service \n\nOne video compressed, the compress service sends to the format service and notifications service  \n\nIf you are only using pure request-response, The client will be waiting until all of that stuff is done and if the connection is broken or any failure happens you lose. \n\nPlus let's assume You want to also add a feature where the video will need to be checked for copyrighted material.. so the compress service now need to make a request to the copyright service and make sure all of that requests return successfully \n\nCons\n- Doesn’t scale with multiple receivers\n- Creates extreme coupling between multiple services\n- The client and servers have to be running to communicate. \n- chaining, retries, circuit breaking \n- Chain effect and circuit breaking (microservices)\n\n\nMeet the publish-subscribe model \n\nOk, this is starting to sound like a commercial. \n\nPublish subscribe or pubsub for short is an architecture model where a publisher posts. a message to a topic (usually in the form of a queue) and clients optionally can subscribe to the topic and get notified when a new message is posted.\n\nUpload breaks down the video into small chunks and uploads each one\n\nOnce all successfully uploaded send a whole video to message queue or topic \n\nThe compress service subscribes to the topic. The new video will get received by the compress service, compresses the video and publish it back to the topic or queue as a compressed.\n\nThe notification and copyright service subscribes to the topic.\n\nRedis/kafka/RabbitMQ \n\nPub sub\nPros\n- Scales with many receivers\n- Loose coupling(publishers don’t know the subs, subs don't know the pubs)\n- Caching\n- Work while publishers or subscribers are offline \n- Great with microservices avoid chaining, retries, circuit breaking \n- Pairs with event-driven architecture \n\n\nIs the pub/sub perfect though? \n\nDecoupling side effect is a serious problem. You just decoupled the sub from the publisher, how do you guarantee to deliver a message?\n\nCons\n- Message delivery issues (exactly once delivery ar least once) https://youtu.be/IP-rGJKSZ3s\n- Network saturation- (depends on Pubsubs system) in push model clients might get overwhelmed, in pull model false attempts \n- scaling is still an issue \n\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "O1PgqUqZKTA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "IkQpYt9Q1dq7GTniT9vdQGTIMjg",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:48:25Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Redis Crash Course",
+                "description": "Redis is a noSQL key-value store, in memory database first that exploded in popularity in the past few years. In this video slash course, we will explain what Redis is, talk about the in-memory model, the optional durability, replication, clustering publish subscribe and the protocol and finally we will go through examples. During the video I will add time codes to each topic so you guys can jump to the topic that interests you the most.\n \n\nTable of Content and TimeCodes\n\n0:00 Intro\n3:49 Redis as a NoSQL In Memory Key-Value store\n10:00 Optional Durability\n15:10 Transport Protocol\n18:24 Pub/Sub\n20:40 Replication and Clustering\n23:41 Examples\n26:10 Spin Docker\n28:50 Command CLI\n30:30 Set key\n31:00 get key\n31:10 Set key with expiry\n32:00 exists key\n32:30 del key\n32:50 append key\n33:30 publish subscribe\n\nCommands \nDocker run --name redis -p 6379:6379 redis\ndocker exec -it rdb redis-cli\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "sVCZo5B8ghE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "28GSvXdaoHyWQMQU8be6vJcLBsg",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:49:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building a non-blocking multi-processes Web Server (Node JS fork example)",
+                "description": "If you build a backend such as a web server you need to account for requests that will yield expensive processing. Expensive requests will block other requests from being served if you only have a single process or thread for execution. This is when you might want to spin another process to execute your requests leaving the main process free to receive requests. In this video we will build a multi-process non-blocking web server using node js by forking incoming requests into their own processes for execution while keeping the main process free. We also explain the pros and cons of doing so, since it might not be always a good idea to create multiple processes as it increases the complexity of your application. \n\nBuilding ‘isPrime’ web service \n\nSome testing prime numbers\n2367949 (16 ms)\n43686389 (200 ms)\n93686687 (500 ms)\n936868033(4 seconds)\n29355126551 (doesn’t finish)\n\n \nSource Code \n\nisprime (blocking)\nhttps://github.com/hnasr/javascript_playground/tree/master/isprime-blocking\n\nisprime (non-blocking)\nhttps://github.com/hnasr/javascript_playground/tree/master/isprime-non-blocking\n\n\n\nJump code\n\nBlocking Single Process 2:40\n\nNon-Blocking Single Process  6:10\n\nPros & Cons 17:00\n\n\nPros\n* Non-blocking \n* utilizes the multi-core CPUs\n* De-coupling \nCons \n* Complex\n* You Won’t be able to debug \n* little challenging to know how long the client has been waiting since we are not measuring that on the server\n* Health Checking Messaging between processes, orphan processes, crashed processes \n\n\nCards \n4:15 Query parameters \n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hmTl5Y4ee_Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hmTl5Y4ee_Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hmTl5Y4ee_Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hmTl5Y4ee_Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hmTl5Y4ee_Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "G9XmcCPld8NLXE_oht4rX97l1r8",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:49:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "GraphQL Crash Course",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nGraphQL Pros and Cons, examples and when to use over REST\n\nGraphQL is an open source query language developed by facebook that allows clients to formulate queries to get different results. Its main goal is to combine multiple services into one endpoint. In this video we will discuss what is GraphQL, why facebook developed it, go through some examples using github GraphQL API, finally we will discuss the pros and cons and when you should use this technology. \n\n- What is GraphQL? \n- Examples \n- Pros and Cons\n- when to use REST vs GRAPHQL \n\nWhat is GraphQL \n- Schema\n- Query language \n- Nesting\n- Mutation and subscription \n\nExamples\nSchema intro \nGithub API \nRest api \n \n\nPros\n- Flexibility \n- efficient response : payload back only get what you want of fields since you know the schema\n- No round trips- Avoiding multiple round trips (HATEOS REST) \n- Uniform single interface API endpoint \n- Self documenting\n\nCons\n- Complexity \n- Typed system - ( use it to know if a type is available or not and fork logic) slows down adoption.. same as soap \n- No Caching etag since always POST \n- Error management non-standard for HTTP. \n- Over engineering can lead to Inefficiency of the joins can lead to performance and DOS\n\n\nhttps://developer.github.com/v4/guides/intro-to-graphql/#discovering-the-graphql-api\n\n\nWHEN TO USE GRAPHQL\nPublic ad-hoc API that you can’t predict how it will be used\nSpecific and well-design use cases API\nSimple API that serves one client (webpage)\nEnterprise API (new york times)\nWell defined schema\n\nWithout the need of performing multiple round trips. It  as a reaction to certain limitations of the REST API. \n\nSchema\n\nall post\nexcept schema call get\n \n\nvia fetch api\n\n\n\nSource Code for RESTAPI vs GraphQL \n\nhttps://github.com/hnasr/javascript_playground/tree/master/graphql_vs_restapi\n\n\n\n\nJump Codes\n2:30 What is GraphQL?\n13:50 Properties of GraphQL\n18:00 Examples\n34:00 Pros and Cons\n47:10 When to use GraphQL over REST\n\n\n\n\nCards\n4:00 REST API\n31:20 GIT HUB REST API\n33:00 Caddy Web Server\n43:55 GET VS POST\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fVmQCnQ_EPs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fVmQCnQ_EPs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fVmQCnQ_EPs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fVmQCnQ_EPs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "fVmQCnQ_EPs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DlqjeHdNCom14pPwYjES9wc2fi4",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:54:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "WebSockets Crash Course - Handshake, Use-cases, Pros & Cons and more",
+                "description": "WebSockets technology is a bidirectional, full-duplex protocol for communication between client and server over the web. It has been standardized in 2011 and its fully compatible with HTTP. This protocol enables realtime applications such as chatting, notifications, live feed , multiplayer gaming and otheruse cases.\n\nIn this video we will explain what WebSockets are and why it was invented. we will then build a server and client using WebSockets. We will also talk about the pros and cons of WebSockets, and discuss some alternatives to this technology \n\nChapters\n0:00 Intro\n2:00 HTTP\n5:40 WebSockets\n8:00 WebSockets Handshake\n11:20 WebSockets Usecases\n14:30 WebSockets Example Code\n36:40 WebSockets Pros and Cons \n42:10 Do you have to use webSockets?\n\nSource Code in the video for WebSockets \nhttps://github.com/hnasr/javascript_playground/tree/master/websocket-demo\n\n\nHTTP\n  * talk about request-response show a slide. Client initiate request all the time. Imagine building a chatting app? \n\nWebSockets \n- Slide showing bidrectional full duplex  standard web \n- \nHow WebSockets Work?\n- WebSockets handshake \n- Initial request is always HTTP which we all know creates a tcp connection, that request then http upgrade tells the server to use it as bidirectional.  \n- Once done switches to binary protocol. \n- Ws:// wss:// protocol \n\nWebSocket use cases\n- Chatting\n- Live feeds\n- Multiplayer gaming\n- Progress bar/ logging/ uploading..\n\n- WebSockets example (Server/Client) \n- WebServers Pros and Cons  \n\nPros\n1. Full-duplex no need for constant polling  \n2. compatible with HTTP, so proxies know to deal with it\n3. Firewalls won’t block it doesn’t use a special port\nCons\n1. Proxying is tricky, lots of proxies and transparent proxies don’t support it yet\n2. Layer 7 load balancing is tricky, timeouts on the load balancer. \n3. More complicated to implement (simple telnet use HTTP)\n4. Not ideal for all use cases - (microservices)\n\n\n- Do you have to use Web Sockets ? ( alternatives  ) \nIt is important to note that WebSockets is not the only HTTP realtime based solution, there are other ways to achieve real time such as eventsource, and long polling. \n\n- Load Balancing with WebSockets (bonus) \n- layer 4 \n- Layer 7 (tunnel) \n\nLongpolling\nEventsource\nWebSockets \n\n\n\n \nSources: \n\nhttps://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers\n\nhttps://www.ably.io/concepts/websockets\n\nhttps://link.medium.com/ljsSOsnW6Y\n\nhttps://blog.stanko.io/do-you-really-need-websockets-343aed40aa9b\n\n\n\n\n\nCards\nHTTP Crash Course https://www.youtube.com/watch?v=0OrmKCB0UrQ\nTLS https://www.youtube.com/watch?v=AlE5X1NlHgg\nWhat is a Web Servers https://www.youtube.com/watch?v=JhpUch6lWMw\nLayer 4 vs Layer 7 Load Balancing https://www.youtube.com/watch?v=aKMLgFVxZYk\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2Nt-ZrNP22A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "iU_ZHW_hw5EoHqgc1dJhYkJBhrs",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:54:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What are web servers and how do they work (with examples httpd and nodejs)",
+                "description": "A web server is a software that Serves web content through the HTTP protocol. It is the foundation of the internet and any website out there must be sitting and hosted on a web server. Web APIs can also be hosted on some sort of a web server. A web server can serve static or dynamic content. You can use an out of the box web servers such as apache tomcat or IIS or you can write your own from scratch to expose pieces of functionalities such as API. In this video we will explain what is a web server, how it works and we will then go through and spin off two types of web servers. Im going to put jump codes so you can skip to your favorite part of the video. \n\n\nChapters\n0:00 Intro\n2:13 What is web server?\n7:40 How web servers work?\n10:00 Blocking single threaded web server \n19:00 Code example Apache (httpd)\n29:00 Code example NodeJS\n\n\n\n- What is a web server? \n- [ ] Software that serves web content\n- [ ] Uses HTTP protocol\n- [ ] Static and dynamic \n- [ ] Used to host web pages or APIs.  \n- How it works? (Slide) \n    - process starts and listen to a port (usually 80) , a client makes a request to the web server, this establishes a TCP connection between client and server if its HTTPS it does TLS, then finally the GET request get sent. Now different implementation of webservers shine here, some servers use the same process to execute the request on the main thread. Which means the server cant accept any more requests until that is done this is referee to as Blocking single-threaded HTTP server). Other web servers implement this different and accepts new requests all the time and start new thread of execution. \n- Examples\n- Web servers (apache, tomcat, nodejs http-server,  NodeJS express, Python Tornado 🌪\n- Demo (tomcat and nodejs)\n- \n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JhpUch6lWMw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JhpUch6lWMw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JhpUch6lWMw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JhpUch6lWMw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JhpUch6lWMw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "AZXH2iORLnJs0VLYnwIdO2P92Ks",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:13:08Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "RabbitMQ Crash Course",
+                "description": "RabbitMQ is an open source distributed message queue written in Erlang and supports many communication protocols.  It was trying to solve the spaghetti 🍝 mesh architecture where every client is communicating with other client in System  by introducing an extra layer in the middle. \n \nIn this video we will explain basic components of RabbitMQ Such as AMQP, channel, queue, publisher, consumer and some stuff, we will also learn how to spin up a RabbitMQ server and we will finally write some code to develop a publisher client that post messages to RabbitMQ. We will also write the consumer piece which will be the code that reads rabbitMQ. Finally I will talk about my personal thoughts on this tech. \n\n- RabbitMQ Components(slide) \n- *Publisher\n- *Consumer\n- *Connection\n- *Channel\n- *Queue\n- Spin RabbitMQ server with Docker\n- Write a Publisher client NodeJs\n- Write a Consumer client Nodejs\n- My Thoughts about this tech\n- Summary\n\n\ntimecodes\n0:00 Intro\n2:00 RabbitMQ Components\n8:30 Spin up RabbitMQ Docker Container\n11:00 Write a Publisher client NodeJs\n20:30 Write a consumer client NodeJs\n33:50 My thoughts on RabbitMQ \n\n\nSource Code: https://github.com/hnasr/javascript_playground/tree/master/rabbitmq\n\nDocker commands here \nhttps://github.com/hnasr/javascript_playground/blob/master/rabbitmq/scripts.md\n\nExample\n\nSchedule async job\n\n￼\n\nExchange \nQueues\nPublisher\nConsumer\nAMQP\nChannel\nConnection \n\n\nHTTP \nAMQP\nUses Channels and Queues\nMultiples channels into one connections\n\n\nhttps://www.squaremobius.net/amqp.node/channel_api.html#channel_bindExchange\n\nhttps://www.rabbitmq.com/tutorials/tutorial-three-javascript.html\nThis work is not associated with or endorsed by VMware.\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Cie5v59mrTg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "a_QJAgdCKFuMIIxeAijWLkspbJE",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:13:12Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "RabbitMQ Crash Course",
+                "description": "RabbitMQ is an open source distributed message queue written in Erlang and supports many communication protocols.  It was trying to solve the spaghetti 🍝 mesh architecture where every client is communicating with other client in System  by introducing an extra layer in the middle. \n \nIn this video we will explain basic components of RabbitMQ Such as AMQP, channel, queue, publisher, consumer and some stuff, we will also learn how to spin up a RabbitMQ server and we will finally write some code to develop a publisher client that post messages to RabbitMQ. We will also write the consumer piece which will be the code that reads rabbitMQ. Finally I will talk about my personal thoughts on this tech. \n\n- RabbitMQ Components(slide) \n- *Publisher\n- *Consumer\n- *Connection\n- *Channel\n- *Queue\n- Spin RabbitMQ server with Docker\n- Write a Publisher client NodeJs\n- Write a Consumer client Nodejs\n- My Thoughts about this tech\n- Summary\n\n\ntimecodes\n0:00 Intro\n2:00 RabbitMQ Components\n8:30 Spin up RabbitMQ Docker Container\n11:00 Write a Publisher client NodeJs\n20:30 Write a consumer client NodeJs\n33:50 My thoughts on RabbitMQ \n\n\nSource Code: https://github.com/hnasr/javascript_playground/tree/master/rabbitmq\n\nDocker commands here \nhttps://github.com/hnasr/javascript_playground/blob/master/rabbitmq/scripts.md\n\nExample\n\nSchedule async job\n\n￼\n\nExchange \nQueues\nPublisher\nConsumer\nAMQP\nChannel\nConnection \n\n\nHTTP \nAMQP\nUses Channels and Queues\nMultiples channels into one connections\n\n\nhttps://www.squaremobius.net/amqp.node/channel_api.html#channel_bindExchange\n\nhttps://www.rabbitmq.com/tutorials/tutorial-three-javascript.html\nThis work is not associated with or endorsed by VMware.\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Cie5v59mrTg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "aRhoj9UD0takddA2G0-U4rmuCYk",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:14:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Sidecar Pattern Tutorial",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nSidecar Pattern is an architecture where two or more processes living in same host can communicate with each other via the loop back (localhost) essentially enabling interprocess communication. One of the most use cases of sidecar pattern is service mesh such as Linkerd and Envoy, where process or a container sits next the application and proxy the request and enables logging, service discovery and so much cool features which makes clients become thin in a microservices architecture. \n\nIn this tutorial we will learn how can we use the sidecar pattern to decouple application logic into another process and communicate between two processes using the loopback. \n\n\n1:20 Intro to Side pattern\n2:55 (reference sidecar pattern video)\n3:30 (Code) \n9:50 reference fetch api \n\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SwYGK--qqWM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SwYGK--qqWM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SwYGK--qqWM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SwYGK--qqWM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SwYGK--qqWM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DQj6LAuQznEU5IPGdZHJGQIyCuU",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:17:36Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Cross Origin Resource Sharing (Explained by Example)",
+                "description": "If you ever go a website and there some images you liked to reference in your page or blog. You would copy the link, and put in your blog. Only to find out that the image is broken?  You copy the link again and paste it in URL and it opens fine? \n\nThis is an effect of CORS or Cross Origin Resource Sharing. In this video, we will discuss the main errors that you get as a result of CORS and we will fix them by Example. \n\nJump codes for your convenient\n0:00 intro\n03:00 Direct same origin access \n04:00 No 'Access-Control-Allow-Origin' header is present \n08:10 The ‘Access-Control-Allow-Origin' header has a different value from the origin\n10:10 OPTIONS 405 Method not Allowed (Preflight failed)\n17:00 Response to preflight request did not pass No 'Access-Control-Allow-Origin' header is present \n19:00 Request header field “Content-Type” is not allowed\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ka8vG5miErk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ka8vG5miErk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ka8vG5miErk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Ka8vG5miErk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Ka8vG5miErk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MLoUHeqbUPHwrTxACceDkaypi98",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:20:50Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Understanding State Transfer in REST (Explained by Example)",
+                "description": "One of the most critical properties of the REST Architecture (Representational State Transfer) is that it is stateless and the state gets transferred between the client and the server. I personally always found this to be confusing until I really learned architecture by actually using it. In this video, I will explain the state transfer in REST by example. \n\nIn a stateful architecture, the client makes a request to the server and the server “remembers” the client. The next request from the client will be retrieved from the state stored locally in the server. The pros of this are the server will pick up where they left off with each request, so request throughput is higher in stateful architecture. Another advantage of the client can send less data through the wire too. The cons of this architecture are if the server is down, the request cannot be fulfilled and the client is forced to disconnect and reconnect again to another server anyway and go through the entire process.\n\nHowever, REST is a stateless architecture where every request is responsible to “bring” as much information about the client as possible for the server to reconstruct the state from scratch. This mean that no matter what server the client hit, the request will always be fulfilled so you get higher availability. This is where the state transfer in REST came from. Disadvantages of this architecture is the client now sends more information through the wire, thus your application consumes more bandwidth as a result, this is less of an issue with the introduction of protocol buffers and HTTP2. Another disadvantage is the throughput goes down since each request has to wait for the state to “replay” and get constructed. \n\nHope you guys enjoy the video\nCheckout the other content of this channel\n\nwww.husseinnasser.com/softwareengineering\n\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EKCM1oQQrCM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EKCM1oQQrCM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EKCM1oQQrCM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/EKCM1oQQrCM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "EKCM1oQQrCM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "hJDWo2AiPbvXBFMZQAHuvG07QBY",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:22:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Nodejs Express \"Hello, World\"",
+                "description": "In this episode we will spin a node js express server with npm in few command lines.  This is the hello world version of express node js.\n\nSteps: \n\n* NodeJs https://nodejs.org/en/\n* Reference https://expressjs.com/en/starter/hello-world.html\n\n\n-Hussein Nasse",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gTGWXcRPpvE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gTGWXcRPpvE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gTGWXcRPpvE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gTGWXcRPpvE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/gTGWXcRPpvE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gTGWXcRPpvE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "gf2tG6NJ0DDTBrwZAGobhq6qWSQ",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:23:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Simple Object Access Protocol Pros and Cons (Explained by Example)",
+                "description": "Soap (Simple Object Access Protocol) has been a popular messaging protocol in the early 2000s. It uses XML as a format with well defined schema, and your choice of stransport protocol. Despite it still being used people have been moving towards #REST architecture and more so #gRPC recently. In this episode we discuss why people moved from #SOAP and what are the advantages and disadvantages of SOAP. \n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/it8ybkQuAh8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/it8ybkQuAh8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/it8ybkQuAh8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/it8ybkQuAh8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "it8ybkQuAh8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ds77wLJ3oYTchzhxjoeTrQN2HXo",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:23:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Difference between Client Polling vs Server Push in Notifications",
+                "description": "Notifications have become part of our daily life. We receive them almost every minute on our phones, tablets, and computers. As software engineers, it is good to understand how notifications work, and what different type of notifications there are (push and poll notifications), the advantages and disadvantages of each.  \n\nIn this video I'll explain how the push notification and poll notification works and the stateful vs stateless nature of each and how it affects the architecture decision of our application that we are buildling. \n\nOnline diagram tool used in this video: Http://www.gliffy.com\n\nBecome a better software engineer by joining IGeometry checkout the other software engineering content on this channel\n\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8D1NAezC-Dk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8D1NAezC-Dk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8D1NAezC-Dk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8D1NAezC-Dk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8D1NAezC-Dk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "w1Y63TNTlUA4N-I1Osck2Hyirxg",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:24:35Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Canary Deployment (Explained by Example)",
+                "description": "Recently youtube has been conducting an experiment where 0.3% of all youtube traffic will go through an algorithm to auto generate thumbnail and ignore existing custom thumbnails. So certain number of users will see auto generated thumbnail of a video instead of the uploader’s custom thumbnail. In this video we will explain how youtube is able to do this experiment (Canary deployment) from a software engineering point of view. At the end of the video i’ll add my 2 cents about this experiment.\n\nCnet: Article: https://www.cnet.com/news/youtube-experimenting-with-auto-generated-video-thumbnails/\n\n-Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3IJ5ko8jSIA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3IJ5ko8jSIA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3IJ5ko8jSIA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/3IJ5ko8jSIA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "3IJ5ko8jSIA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9yI-FzI3CxJvLqB9HGi109JhghY",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:25:34Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "The evolution from virtual machines to containers",
+                "description": "In this video, we explain the evolution of application deployment from physical machines to virtual machines through containers and finally kubernetes. Hope you enjoy it. \n\nvideo created using gliffy tool.\n\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8qU3hZOXlBE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8qU3hZOXlBE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8qU3hZOXlBE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8qU3hZOXlBE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8qU3hZOXlBE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "rHXU3vdCcPjiEVe28eijAisc5pg",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:25:53Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "The Benefits of the 3-Tier Architecture (e.g. REST API)",
+                "description": "We explained how stateless REST API (Representational state transfer) is scalable by example. We bring the original problem of coupled client/server architecture and how REST API solved it by de-coupling the client from server. This is called Separation of Concerns or SoC and what makes rest truly Platform Independent. \n\nThe beauty and benefits of REST API. \n\nOnline diagram tool used in this video: Http://www.gliffy.com \n\n\nStay Awesome\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1o7bB4hUPew/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1o7bB4hUPew/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1o7bB4hUPew/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1o7bB4hUPew/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "1o7bB4hUPew"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ZDG0s4xoAVPwg8sH8pg9T83yFXU",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2019-10-14T04:13:50Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "github REST API v3 Crash Course with Vanilla Javascript (No dependencies)",
+                "description": "Git hub is a social platform for developers where they can put their code, version it and collaborate. In this tutorial we will learn about the github APi, how can we use it from Javascript, we will do both public operations and private with authentication. Ill be using vanilla javascript only no libraries \n\n\nHere are the jump codes so you can conveniently jump to the section your excited about.\n\nIntro\n00:00 Intro\n00:50 Table of contents\n03:47 section1 - Search repos\n04:30 Code starts \n06:18 nodejs server \n08:50 github api code starts\n13:00 query string video\n23:19 section 2 - Search issues\n30:48 section 3 - Search commits\n41:40 lazy fetch \n42:00 section 4 - Pagination\n55:10 Section 5 - Authorization\n01:07:00 section 6 - Creating Issues \n\n\nIntroduction \nGit hub is a social platform for developers where they can put their code, version it and collaborate. In this tutorial we will learn about the github APi, how can we use it from Javascript, we will do both public operations and private with authentication. Ill be using vanilla javascript only no libraries \n\n\nThis video is divided into 6 parts \n\nsection 1 we will learn how to do a public api search on repositories \nsection 2 we will learn how to search issues on a public repos \nsection 3 we will learn how we search commits on a public api \nsection 4 we will learn about pagination \nsection 5 we will learn about authorization by searching through private issues\nsection 6 we will learn how to create an issue \n\nSource code \n\nhttps://github.com/hnasr/javascript_playground/tree/master/githubtutorial\n \n\n\nSearch Repos\nFilter repos  #stars 5000\nhttps://help.github.com/en/articles/searching-for-repositories\n\n\nSearch Issues\nIssues with author\nhttps://help.github.com/en/articles/searching-issues-and-pull-requests\n \nhttps://api.github.com/search/issues?q=repo:freecodecamp/freecodecamp author:thecodingaviator \n\n\nSearch Commits\nCommits between two dates\nhttps://developer.github.com/v3/search/#search-commits\n\n\nPagination \n\nAuthorization\n- [ ] Basic\n- [ ] Token\n\nView private issues \n\n\nCreate an Issue\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5QlE6o-iYcE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5QlE6o-iYcE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5QlE6o-iYcE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5QlE6o-iYcE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5QlE6o-iYcE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "j1HiNjbUok6wDpWTij7I_kAQVmQ",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5ENDU4Q0M4RDExNzM1Mjcy",
+            "snippet": {
+                "publishedAt": "2019-11-17T22:05:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Varnish - HTTP Accelerator Crash Course",
+                "description": "Varnish is a reverse proxy web accelerator   Written in C designed to improve HTTP performance by using server side caching. \n\nIn this video I’m going to go through how Varnish works, we will spin up a Varnish docker container and finally talk about the pros and cons of this tech. \n\n\nChapters\n0:00 Intro\n1:53 Classic HTTP Architecture\n3:50 How Varnish Works\n7:50 Demo HTTP\n18:23 Demo HTTPS\n28:43 Varnish Pros\n39:26 Varnish Cons\n\n\nAgenda\n\n* Classic HTTP Architecture\n* How Varnish Works?\n* HTTP Setup - Varnish\n* HTTPS Setup - Varnish with Caddy as TLS Terminator.\n* Varnish Pros & Cons\n* Summary\n\nPros\n* Cache & prefetching documents\n* Resolve DNS hostnames in documents \n* Rewrite scripts to optimize code\n* Load Balancing \n* Backend Connection Pooling\n* Varnish Modules (VMODS, e.g. rewrite headers) \n* Edge side includes (personalized dynamic page)\n\n\nCons\n* Cache Invalidation\n* Only works on unencrypted HTTP\n* For HTTPS frontend, terminate TLS\n* For HTTPS backend, no solution in Varnish open source\n* Can’t cache POST requests (e.g. GraphQL queries)\n* HTTP/2 backends won’t benefit\n\n\ndocker commands\n\ndocker run --name varnish -p 8080:80 varnish\n\ndocker cp default.vcl varnish:/etc/varnish\n\n\ndefault.vcl\n\nvcl 4.0;\n\nbackend default {\n  .host = \"husseinmac\";\n  .port = \"2015\";\n}\n\n\n\n\n\nCards:\nConnection Pooling 2:15 https://www.youtube.com/watch?v=GTeCtIoV2Tw\nLayer 4 vs Layer 7 Load balancing  6:25 https://www.youtube.com/watch?v=aKMLgFVxZYk\nGET vs POST 6:48  https://www.youtube.com/watch?v=K8HJ6DN23zI\nPostgres NodeJS Chrome 8:23 https://www.youtube.com/watch?v=0JNq46eFuOM\nRedis 46:13 https://www.youtube.com/watch?v=sVCZo5B8ghE\nTLS Termination 49:35 https://www.youtube.com/watch?v=H0bkLsUe3no\n \n\nResources \nedge side includes\nhttps://www.fastly.com/blog/using-esi-part-1-simple-edge-side-include\nCache invalidation varnish\nhttps://www.smashingmagazine.com/2014/04/cache-invalidation-strategies-with-varnish-cache/\nVarnish Doc\nhttps://varnish-cache.org/docs/\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-cWs6eoyaLg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-cWs6eoyaLg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-cWs6eoyaLg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/-cWs6eoyaLg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "-cWs6eoyaLg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "PFQRX6hVXMGoILYGCHe_leWRG5s",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4yMDhBMkNBNjRDMjQxQTg1",
+            "snippet": {
+                "publishedAt": "2019-11-30T20:41:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Blockchain proof of work Explained & my opinion on this tech",
+                "description": "Blockchain is a tech that allows a piece of data called (block) to be linked to a previous piece of data creating a chain of blocks that are very hard to break and can be distributed and decentralized. In this video i want to go through the following and explain my personal opinion about this tech\n\n\nTimecodes\n0:00 Intro\n1:12 Blockchain\n3:15 Why blockchain hard to break\n14:15 Adding a block\n16:10 Pros & Cons\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/k2caqvBkYv8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/k2caqvBkYv8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/k2caqvBkYv8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/k2caqvBkYv8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 20,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "k2caqvBkYv8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "m2lyVz_gQmObWeemxmA1hvNYxWM",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2019-12-11T02:32:36Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spin up a lightweight Nodejs docker container running your application",
+                "description": "In this video we will write a Dockerfile that will allow you to build your NodeJS application in a docker container\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/docker\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 21,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vmSMrQ8Ev9w"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pFRsben1O74s6t0S78tPiCOE008",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2019-12-15T00:52:22Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Web-hooks Tutorial with Discord and Vanilla Javascript (fetch api)",
+                "description": "Webhooks are custom callbacks URLs that an application can call to communicate with another application. A popular uses of webhooks are github and discord. Where discord creates a webhook and you can share that webhook for other applications to “hook” into it to post messages discord when something happened in the application. When I upload a video post a link to discord\n\nIn this video, Ill demonstrate webhooks with vanilla Javascript fetch api and discord webhooks. We will execute a fetch api call from the browser, \n\n\n0:00 Intro\n1:10 Webhooks Explained\n5:20 Example \n\nconst whurl =\"https://discordapp.com/api/webhooks/655433405068214293/mcp5150ruDAwgWG_H5zrB_PHpd-UfMdP4Jn2aZVTt2k2jGmb_0VpCAo5roLPcQVZcNgU\"\n\nconst msg = {\n    \"content\": \"Hello! I'm a bot, this is fetch api\"\n}\n\nfetch(whurl + \"?wait=true\", \n{\"method\":\"POST\", \n\"headers\": {\"content-type\": \"application/json\"},\n\"body\": JSON.stringify(msg)})\n.then(a=xa.json()).then(console.log)\nreplacex with greater than\n\n\nDiscord API\nhttps://discordapp.com/developers/docs/resources/webhook\n\nDiscord Server Link https://discord.gg/CsFbFce\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-4Lid7tBr6Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-4Lid7tBr6Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-4Lid7tBr6Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/-4Lid7tBr6Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 22,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "-4Lid7tBr6Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pemWJAmCX9shaCVPkjd5KhSMDts",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS45NzUwQkI1M0UxNThBMkU0",
+            "snippet": {
+                "publishedAt": "2019-12-30T01:33:17Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What happens when type google.com into your browser address box and hit enter? (Detailed Analysis)",
+                "description": "In this video I want to go through what really happens under the hood when you type google.com and you hit enter in a browser. This is inspired by alex’s github page below, it is a great detailed description of what happens. I did however add more details to certain areas and I removed some stuff like keyboard events and low level operating system like that.  So if you are interested stay tuned! \n\nAlex Github page \n\nhttps://github.com/alex/what-happens-when\n \n\nChapters\n0:00 Intro\n1:54 Initial Typing\n3:00 URL Parsing\n7:40 DNS Lookup\n19:15 TCP Connection \n24:19 TLS, ALPN. SNI\n33:38 First GET request\n40:00 HTML Parsing\n\n\n\n\n\ninitial Typing \nAs you type g the browser will attempt a search and display an auto complete result of the previously visited sites\n\nSome browser does an actual search using the default configured search engine we will skip that part. This will have he same effect as next steps \n\nURL PARSE\nAs you complete the phrase google.com and hit enter , the browser will parse and will figure out whether this is a url or a search term . It is a url so it will attempt to visit the website google.com \n\nHTTP or HTTPS? Determine the port\nThe next step is to determine which protocol to use HTTP or HTTPS? to know that there is a protocol called HSTS list and we made a video about that tech. It is a local list of websites that only need to communicate with HTTPS. Google.com is in the HSTS list so we will use HTTPS so we now know the port is 443! We need to figure out the IP address so we can establish the connection\n\n\nDNS Lookup\nTO find out the IP address we do a DNS look up .first we ask the operating system, because the domain could be cached, we find that its not . The OS then looks through the hosts file and see if there is a n hardcoded entry , there isnt .. \n\nNext the browser check if DoH is enabled DNS over HTTPS if yes then it communicate with the DNS provided (e.g cloud flair and ask for DNS) thats another TLS connection assume we are not using DoH The we establish an insecure UDP request to port 53 on the default DNS Configured on our router (could be 8.8.8.8 or 1.1.1.1)  that in itself is a connection so we need to send the packet.. \n\n\nTCP connection\nWe know the IP we know the port! we can now establish a connection, we also know that we should also do TLS since its HTTPS and our client is smart enough to do TLS 1.3 so we will first do 3 way handshake and establish a TCP connection between 10.0.0.2 port random 1234 and 4.1.2.3 port 443 \n\n\nTLS, ALPN, SNI\nAssuming I’m using the latest browser so it supports TLS 1.3 and my server also supports TLS 1.3, next is Client Hello. Client generates a public and private key, merges public and private key in DH sends out public and merged keys which cannot be broken in a client hello. It also sends the supported cipher suits (supported for symmetric key algorithms) If TLS extensions are enabled such as ALPN & SNI the client also sends in the same request the host name google.com in the TLS client hello along with the fact that it actually supports HTTP2 (this might be different in Chrome since it uses HTTP/2 over UDP or QUIC) \n \nFirst Request GET/ \nThe client is now ready to send an actual HTTP data, so it builds header GET / since that is what we want to send, puts the hostname in the header and other stuff, checks if there are cookies and puts them, the whole thing is compressed and sent as a binary format. The data is then encrypted with the TLS symmetric key and sent.. \n\nThe get request is then streamed into the HTTP/2 tcp connection and sent to the server. \n\nHTML Parsing \nMake multiple requests css? JS? Multiple streams?\nIf H1 then pipeline? \n\n\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dh406O2v_1c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dh406O2v_1c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dh406O2v_1c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dh406O2v_1c/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 23,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "dh406O2v_1c"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9XYJgSSzjcC7rgumB2D07sIxl14",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5DNzE1RjZEMUZCMjA0RDBB",
+            "snippet": {
+                "publishedAt": "2020-02-24T13:56:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "gRPC Crash Course - Modes, Examples, Pros & Cons and more",
+                "description": "gRPC (gRPC Remote Procedure Calls) is an open source remote procedure call (RPC) system initially developed at Google in 2015. It uses HTTP/2 for transport, Protocol Buffers as the message format. \n\n⏰ Timecode ⏰ \n0:00 Intro\n04:30 Motivation behind gRPC\n8:40 The problem with client libraries\n16:40 gRPC Modes\n17:20 Unary\n17:40 Server streaming\n18:30 Client streaming\n19:10 Bidirectional\n19:49 gRPC Coding Example! \n57:00 gRPC Pros and Cons\n01:12:30 Why you shouldn’t invent your own Protocol \n\n \nIn this video I want to explore gRPC, go through examples, pros and cons of gRPC. \n\n\nClient/ Server communication\n- SOAP\n- HTTP (REST)\n- WebSockets\nClient Libraries\ngRPC \ngRPC Demo\n- todos\ngRPC Pros and Cons\nPros\n- Fast two/uni and request\n- Unform \n- One library to rule them all \n- Progress feedback( long synchronous requests) drop pluggable wait...)  \n- cancel request\n- All benefits of H2 and Protobuff\n\nCons\n- schema based (not everyone wants schema) \n- Thick client - limited languages - Proxies still don’t understand it \n- Still young \n- Error handling \n- No native browser support\n- Timeouts, circuit breaker just like any RPC (pub/sub rules in this case)\n\nCan you create your own protocol? \n- Spotify example with Hermes  \n\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/grpc-demo\n\n\n\nResources \n\nhttps://grpc.io/docs/guides/\n\nHaproxy grpc\nhttps://www.haproxy.com/blog/haproxy-1-9-2-adds-grpc-support/\n\nNginx grpc\nhttps://www.google.com/amp/s/www.nginx.com/blog/nginx-1-13-10-grpc/amp/\n\nhttps://grpc.io/docs/guides/concepts/\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Yw4rkaTc0f8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Yw4rkaTc0f8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Yw4rkaTc0f8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Yw4rkaTc0f8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 24,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Yw4rkaTc0f8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "n70v-yTSH5BXDOqm0exnCotkoJk",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS43MTI1NDIwOTMwQjIxMzNG",
+            "snippet": {
+                "publishedAt": "2020-02-29T20:59:24Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Basic Microservices System (3 NodeJS + 1 Load Balancer containers) with Docker",
+                "description": "In this video, you will learn how to build a small microservices system that has four services. We will spin up a load balancer container that will balance requests through and 3 identical node js containers.\n\nSource Code https://github.com/hnasr/javascript_playground/tree/master/microservices-example \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 25,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "9sAg7RooEDc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "c1EXKxQccNnUqMm6LPU8i5UCRCM",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+            "snippet": {
+                "publishedAt": "2020-02-29T21:01:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Microservices Pros & Cons (Explained by Example)",
+                "description": "Microservices technology is a new pattern of software engineering that has been popularized recently. In this video, we will explain what microservices are, their pros and cons by example. \n\nA lot of companies have moved in early 2010 such as  Twitter and Netflix to the microservices architecture.   In order to explain what microservices are, we need to explain how a traditional classical application looks like\n\nMicroservices Pros:\nPolyglot architecture \nEasy scaling for microservices that needs scaling. \nBetter Team management, each microservice is a team\nEasier to innovate certain areas.\nEach microservice can pick their own database \nScale busy services instead of the entire system \n\nMicroservices Cons:\nVery complicated to implement, network call, service discovery \nVery Difficult to debug\nHard to find where the fault is \nNetwork calls fail adds complexity.\n\n \n\n## Table of Content\n0:00 Intro\n01:30 Traditional Services Explained: \n04:00 Microservices Example\n08:00 Microservices Pros\n12:20 Microservices Cons\n\n\nMicroservices technology is a new pattern of software engineering that has been popularized recently. In this video, we will explain what microservices are, their pros and cons by example. \n\n\nMicroservices Pros:\n- Polyglot architecture \n- Easy scaling for microservices that needs scaling. \n- Better Team management, each microservice is a team\n- Easier to innovate certain areas.\n- Each microservice can pick their own database \n- Scale busy services instead of the entire system \n\n\nMicroservices Cons:\n- Very complicated to implement, network call, service discovery \n- Very Difficult to debug\n- Hard to find where the fault is \n- Network calls fail adds complexity.\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T-m7ZFxeg1A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T-m7ZFxeg1A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T-m7ZFxeg1A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/T-m7ZFxeg1A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 26,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "T-m7ZFxeg1A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "piPviNb8DBFqHgYgFfIWID3uCOw",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4yQUE2Q0JEMTk4NTM3RTZC",
+            "snippet": {
+                "publishedAt": "2020-03-08T03:53:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Sidecar Proxy Pros & Cons (Explained by Example)",
+                "description": "A sidecar proxy is an application design pattern which abstracts certain networking features, such as inter-service communications, monitoring and security, timeouts, retries, communication protocols, away from the main architecture to ease the maintenance of the application as a whole.\n\nIn this video I’d like to talk about how we classically do things: \n\n* Library Pattern\n    * getComments HTTP1:1/JSON\n    * Add features retries/timeout /hardcode the server name what it changed/add new server to load balance between them/credentials \n* Sidecar pattern \n    * getComments HTTP/2\n* Sidecar proxy/container\nExamples\n- Microservices (Linkerd, Envoy, Istio) \nPros\n- Language agnostic (polyglot)\n- Protocol upgrade\n- Security\n- Tracing and Monitoring\n- Service Discovery\n- Caching\nCons\n- Complexity\n- Latency\n- SideCar Proxy must be layer 7\n\nLibrary 2:25\nSidecar: 7:40\nExample: 13:00 (https://www.youtube.com/watch?v=cp3Ku1XeOn8)\nPros & Cons : 16:15\n\nCards\n6:22 HTTP/2\n10:50 Reverse Proxy / proxy\nexample 13:00 (https://www.youtube.com/watch?v=cp3Ku1XeOn8)\n16:00 Layer 4 vs Layer 7 load balancer\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/g7WeY0DZNJ0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/g7WeY0DZNJ0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/g7WeY0DZNJ0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/g7WeY0DZNJ0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 27,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "g7WeY0DZNJ0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zRnwM-mAIj9RzfN3NaLjfaVF0wc",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5DMkU4NTY1QUFGQTYwMDE3",
+            "snippet": {
+                "publishedAt": "2020-03-09T00:27:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Setup Active-Passive Cluster with Keepalived & HAProxy (Two raspberry pis)",
+                "description": "Keepalived is a routing software written in C that provides simple and robust facilities for loadbalancing and high-availability to Linux systems. In this video we will talk about this technology and implement it along side HAProxy as a high availability (failover) \n\n\nChapters\n0:00 Intro\n2:10 What is failover?\n4:30 What are we building\n7:20 KeepAlived Example\n\n* What is Keepalived?\n* Setup Keepalived with HAProxy\n    * VRRP/VIP\n    * Two rapsberrypis with keepalived and haproxy\n\nsudo apt-get install keepalived\n\nsudo vim /etc/keepalived/keepalived.conf\n\n\n\n \nvrrp_instance pi1 {\n    state MASTER\n    interface eth0\n    virtual_router_id 101\n    priority 100\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100 \n    }\n}\n\nvrrp_instance pi2 {\n    state BACKUP\n    interface wlan0\n    virtual_router_id 102\n    priority 200\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100\n    }\n}\n\n \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 28,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "NizRDkTvxZo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "tWip02VdtsDBvDWN7wopPaZNYTo",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS44Mjc5REFBRUE2MTdFRDU0",
+            "snippet": {
+                "publishedAt": "2020-03-13T21:27:51Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Share Javascript code between Node JS and Browser (New at Node JS 13.x)",
+                "description": "How to share Javascript code between Node JS and Browser\n\nIn this video I explain how to share Javascript code between NodeJS and the Browser, we will write a single .mjs file (javascript module) that calls github and retrieves emojis and consume the code from the browser and the NodeJS using import. \n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/mjs-github-shared-code-browser\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qO53PbCUv34/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qO53PbCUv34/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qO53PbCUv34/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qO53PbCUv34/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 29,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qO53PbCUv34"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zp2hiYNgTTTiit0BQbJ5E-vF7VI",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS43NDhFRTgwOTRERTU4Rjg3",
+            "snippet": {
+                "publishedAt": "2020-03-15T19:40:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Active-Active vs Active-Passive Cluster to Achieve High Availability in Scaling Systems",
+                "description": "In this video I want to talk over the active active active vs active passive cluster failover configuration for high availability. We will also explain the pros & cons of using an active-active cluster vs using an active-passive cluster.  \n\n\n2:25 Fail-over https://www.youtube.com/watch?v=Zgy1miPsTNs\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 30,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "d-Bfi5qywFo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Q6zkIPOgiXwi5GXcWDLX1VsTbq0",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS41QUZGQTY5OTE4QTREQUU4",
+            "snippet": {
+                "publishedAt": "2020-03-30T01:47:05Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is On Demand TLS?",
+                "description": "On-Demand TLS is a new feature developed by Caddy Web Server that allows TLS certificate to be generated on the first request, I explain this tech and their pros and cons in this video.\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JwQTBq3oivw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JwQTBq3oivw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JwQTBq3oivw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JwQTBq3oivw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 31,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JwQTBq3oivw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "3ebuRfmzxtljWcVxbHsFu0JqxC0",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4zRDBDOEZDOUM0MDY5NEEz",
+            "snippet": {
+                "publishedAt": "2020-04-05T20:29:27Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Multi-player System Game Design - Pros & Cons of Proposed Designs & System Design Interviews Advice",
+                "description": "In this video we will explain how to build a multiplayer system game design, will go through multiple designs and explain the pros and cons of each of them. Finally I want to discuss system design Interview Advice\n\n\nChapters\n0:00 Intro\n2:20 Game Requirements\n4:15 Features\n6:30 Design Overview\n10:00 Design 1 Stateful\n16:00 Design 2 Stateless\n21:50 Pros & Cons\n27:50 System Design Interview Advice\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 32,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vJ5cOfiJRgM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "3iMnUh8EVkqdk7DBIM8q3ChWWLM",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5CMEQ2Mjk5NTc3NDZFRUNB",
+            "snippet": {
+                "publishedAt": "2020-04-09T18:56:07Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Proxy vs Reverse Proxy Server Explained",
+                "description": "In this video, I explain the difference between a proxy and a reverse proxy server. How Reserver Proxy can act as a load balancer but much more. This is a refreshed version of the proxy video I made. \n\nChapters\n0:00 Intro\n0:25 What is a Proxy?\n5:00 What is a Reverse Proxy?\n9:50 Questions \n\n\nWhat is a Proxy ? \nProxy use cases\n- Logging\n- Anonymity\n- Geofencing \n- Caching\n- Block sites (office) \n- Enable Polyglot \n\n\nWhat is Reverse Proxy? \nReverse Proxy Example\nReverse Proxy Use Cases \n- Caching (Varnish) \n- Load Balancing\n- Ingress (/pics) \n- Canary Deployment\n\n\nMany types of proxy check it here\n\nQ and A\n* can we use proxy and reverse proxy together? \n* Can I use Proxy to hide my identity instead of a VPN? \n* Can I use proxy just for HTTP? \n\n\n\ntags: proxy vs reverse proxy, reverse proxy benefits, what is a reverse proxy, what is a proxy, what is the difference between proxy and reverse proxy \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 33,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SqqrOspasag"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "phvhKabRCbYN8g-2wLXriSRVUoE",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS42MTI4Njc2QjM1RjU1MjlG",
+            "snippet": {
+                "publishedAt": "2020-04-12T20:33:07Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "WhatsApp Limits Forwarding of Viral Messages",
+                "description": "WhatsApp limits the messages that can be forwarding based on certain critica. I explain this in this video \n\nResources\nhttps://blog.whatsapp.com/Keeping-WhatsApp-Personal-and-Private\nhttps://www.cnbc.com/2020/04/07/whatsapp-limits-message-forwards-to-combat-coronavirus-misinformation.html\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/v2whOJWJSiA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/v2whOJWJSiA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/v2whOJWJSiA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/v2whOJWJSiA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 34,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "v2whOJWJSiA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "tirvlh3ZMJ_1ckHiKaeS0c0xjcM",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS45RjNFMDhGQ0Q2RkFCQTc1",
+            "snippet": {
+                "publishedAt": "2020-04-12T21:23:05Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Asynchronous vs Multithreading and Multiprocessing Programming (The Main Difference)",
+                "description": "In this video, I explain the main difference between asynchronous execution, multithreading and multiprocessing programming. There are advantages and disadvantages of each approach. \n\n* Synchronous 0:30 \n* Multithreading a process have many threads shared resources 3:20\n* Async io single thread 6:00\n* Multiprocessing   11:00\n\n\nThreads are evil\nhttps://web.stanford.edu/~ouster/cgi-bin/papers/threads.pdf\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0vFgKr5bjWI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0vFgKr5bjWI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0vFgKr5bjWI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/0vFgKr5bjWI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 35,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "0vFgKr5bjWI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "v3CCPJZosmLqwJFW_f_kgeAxrcQ",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS40QTA3NTU2RkM1QzlCMzYx",
+            "snippet": {
+                "publishedAt": "2020-04-12T21:27:47Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How End-to-End encryption Works?",
+                "description": "In this video I explain End to End encryption within the context of WhatsApp. I explain how encryption and TLS works then the problem of having a centerlized server decrypting the traffic, I then talk about how end to end encryption (e2e) can help mitgate that and finally I explain the problems with e2e encryption\n\n\n* Classic Encryption Example 1:00 \n* End to end encryption 3:25\n* Problem with E2E 7:30 Web Trust? Fingerprints/CA (QR whatspp) \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hwQbPgvEQyw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hwQbPgvEQyw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hwQbPgvEQyw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hwQbPgvEQyw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 36,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hwQbPgvEQyw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "r3qP6jbX3DU2fhajQcKvr2yZZio",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5BRjJDODk5REM0NjkzMUIy",
+            "snippet": {
+                "publishedAt": "2020-04-19T23:30:41Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "JSON Web Token with NodeJS & Postgres Crash Course",
+                "description": "JSON Web Token (JWT, sometimes pronounced JOT) an internet standard for creating JSON-based access tokens that assert some number of claims. The tokens are signed either using a private secret or a public/private key. \n\nIn this video I want to discuss the difference between JWT and Session Based Auth, will show examples with Node JS and Postgres. Finally, I’ll discuss the pros and cons of JWT.  \n\nChapters\n0:00 Intro\n2:25 Session Based Auth\n9:00 JWT Based Auth \n16:10 Refresh Tokens\n25:17 Asymmetric JWT \n28:16 Example coding \n42:00 Pros and Cons\n\n\nSameSite https://www.youtube.com/watch?v=aUF2QCEudPo \n\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/jwt-course\n\nResources\nhttps://twitter.com/philippederyck/status/1250448877087600645?s=21\nhttps://pragmaticwebsecurity.com/recordings.html\nhttps://youtu.be/wlSG3pEiQdc\nhttps://youtu.be/DPrhem174Ws\ndraft-ietf-oauth-jwt-bcp-07 - JSON Web Token Best Current Practices\n\n\nFollow Dr Philippe https://twitter.com/PhilippeDeRyck\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T0k-3Ze4NLo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T0k-3Ze4NLo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T0k-3Ze4NLo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/T0k-3Ze4NLo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 37,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "T0k-3Ze4NLo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "09WBmVNu_C03OirH7k5ky1UqCdM",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4xOTEzQzhBQzU3MDNDNjcz",
+            "snippet": {
+                "publishedAt": "2020-04-26T21:21:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "When should you shard your database?",
+                "description": "Database Application level sharding is the process of splitting a table into multiple database instances in order to distribute the load. However, Sharding a database is an expensive operation (maintainability and overhead) and I suggest you do that only when you absolutely need to. That means when your single instance database can no longer serve queries with minimum latency. So I suggest you monitor that and only shard if necessary.. I rather do replication make master / backup and make requests read from replica than Sharding just because it is easier.. good question... nice idea for a video  \n\nTime codes\n0:00 Intro\n5:00 Partition horizontally \n7:45 Replication (Master/backup) Scale reads\n11:00 Scale writes by region \n12:30 Sharding \n16:40 Sharding in YouTube\n\n\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 38,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iHNovZUZM3A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "LDJSS0lFtN6Jnrr-cOpVF4CB-zs",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5GNDg1Njc1QzZERjlFRjE5",
+            "snippet": {
+                "publishedAt": "2020-04-30T02:20:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Should RabbitMQ Implement QUIC Protocol for their Channels Message Queue?",
+                "description": "In this video I talk about RabbitMQ Channels compared to HTTP/2 Streams and how QUIC helps mitigate some of the major limitations in Channels and Streams. \n\nChapters\n0:00 Intro\n0:10 RabbitMQ Channels \n3:10 HTTP/2 Streams\n6:00 How QUIC Helps\n\nThis work is not associated with or endorsed by VMware.\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\n\n\n\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 39,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "4Z3MAsdrEi8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "bIr4xPGY7Fygm9Y_2oyEtenUxgc",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS45NkVENTkxRDdCQUFBMDY4",
+            "snippet": {
+                "publishedAt": "2020-05-09T22:56:28Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is a Multitenancy Architecture and Why Is it becoming popular?",
+                "description": "In this video I explain the multi-tenancy architecture. The basic idea is to have a single instance of your application to serve multiple tenants or customers and the properties are this. This is as oppose to isolated or dedicated infrastructure. \n\nHere is some properties of a Multi-tenant application\n\n1. Shared Instance\n2. One database hosting multiple customers\n3. Isolation at the application level\n4. Can be multi-processes and multi-instances as long as they are pooled \n5. Stateless \n\n \nResources\nhttps://web.archive.org/web/20150221181153/http://se2.informatik.uni-wuerzburg.de/pa/uploads/papers/paper-371.pdf\nhttps://www.zdnet.com/article/defining-the-true-meaning-of-cloud/\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/x8vtmX4vF9I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/x8vtmX4vF9I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/x8vtmX4vF9I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/x8vtmX4vF9I/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 40,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "x8vtmX4vF9I"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "7Bbjpy3cHXWpkar2Bv7kSV4Y-XE",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5DNkMwRUI2MkI4QkI4NDFG",
+            "snippet": {
+                "publishedAt": "2020-05-10T21:13:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is Machine Learning? (Explained with Example - Occupancy Detection System HOV)",
+                "description": "Metroexpress lane is implementing a Machine Learning Occupancy Detection System which I found interesting. In this video I discuss machine learning, supervised learning, labeling and much more.\n\n* Metro HOV \n* Supervised Learning Machine Learning \n* Models & Labeling\n\nhttps://www.metroexpresslanes.net/occupancy-detection-system/\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gezpwfbUeUE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gezpwfbUeUE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gezpwfbUeUE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gezpwfbUeUE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/gezpwfbUeUE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 41,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gezpwfbUeUE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Gq6T02yKWKWLZs3gxxILxEg8ds4",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5DRUQwODMxQzUyRTlGRkY3",
+            "snippet": {
+                "publishedAt": "2020-05-13T15:24:50Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Scaling Websockets to Multiple Servers with HAProxy, Redis and Node JS - Group Chat Application",
+                "description": "In this video I want to demonstrate how to scale websockets connection to multiple servers using a load balancer such as HAProxy.\n\n0:00 Intro\n1:00 What are WebSockets?\n2:40 WebSockets Scaling\n7:44 Chat WebSocket App Code\n\n\n\n* WebSockets\n* WebSockets Scaling \n* Live chat application (microservices)\n* Demo\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/ws-live-chat-system\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 42,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gzIcGhJC8hA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "WcKqUicDOFOhIoFyw7Qb-3B7wsE",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS41MzY4MzcwOUFFRUU3QzEx",
+            "snippet": {
+                "publishedAt": "2020-06-17T02:35:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Overengineering in Software",
+                "description": "In this video, I explain the different cases where we overengineer software especially in two pieces, software code, and system design and architecture.\n\nChapters\n0:00 Intro\n1:45 OverEngineering in Software Development\n7:15 OverEngineering System Design\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HW1uha7h3dY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HW1uha7h3dY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HW1uha7h3dY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/HW1uha7h3dY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 43,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "HW1uha7h3dY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ONQDfEH6DFYuP2teFjZk18U41Ko",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4yQjZFRkExQjFGODk3RUFD",
+            "snippet": {
+                "publishedAt": "2020-07-13T23:56:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Server-Sent Events Crash Course",
+                "description": "Server-Sent Events or SSE is when the server sends events to the client in a unidirectional manner. In this video I explain Server-Sent Events and compare it to websockets and HTTP and Long Polling. \n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/server-sent-events\n\nResources\nhttps://developer.mozilla.org/en-US/docs/Web/API/EventSource\n\n\n0:00 Intro\n1:50 HTTP 1.0/1.1\n3:40 WebSockets\n5:00 Server Sent Events\n7:30 SSE Use Cases\n9:00 SSE Code Example\n18:00 SSE Pros & Cons\n25:20 Do You Need SSE?\n28:30 Summary\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4HlNv1qpZFY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4HlNv1qpZFY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4HlNv1qpZFY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4HlNv1qpZFY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 44,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "4HlNv1qpZFY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "wq4CjQevylMQao4-H8K8CeD_W9U",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS4yQUJFNUVCMzVDNjcxRTlF",
+            "snippet": {
+                "publishedAt": "2020-07-23T15:31:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "WhatsApp handles 3 MILLION TCP Connections Per Server! How do they do it? Let us discuss",
+                "description": "WhatsApp is a chatting application written in Erlang. Let us have a discussion on how WhatsApp managed to run 3 million TCP connections on each FreeBSD server. \n\nWhatsApp has the following metrics\n42 Billion messages a day\n1 Billion users\n3 Million connections!!\n\n\n0:00 Intro\n2:00 How WhatsApp reached 1,2 then 3 Million Connection\n7:00 How Many Processes? \n10:00 Server Side Load Balancing\n13:50 Client Side Load Balancing\n\n\nResources\nhttps://blog.whatsapp.com/1-million-is-so-2011\nhttps://blog.whatsapp.com/on-e-millio-n\nhttps://developers.facebook.com/videos/f8-2016/a-look-at-whatsapp-engineering-for-success-at-scale/\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vQ5o4wPvUXg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vQ5o4wPvUXg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vQ5o4wPvUXg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vQ5o4wPvUXg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 45,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vQ5o4wPvUXg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vUPAoIxz2zBTBCuHK62jn3kslwI",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS40QzRDOEU0QUYwNUIxN0M1",
+            "snippet": {
+                "publishedAt": "2020-08-15T18:38:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "When Designing a Backend System Minimize the “What If” Questions",
+                "description": "What if questions sometimes cripple the system design for backend application and complicate the end product. I discuss this in this video. \n\nYAGNI stands for You aren’t gonna need it and its a pillar in extreme programming, in this video I discuss this philosophy within the context of Backend Engineering.\n\nhttps://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it\n\n* Extreme Programming Rob Jefferies\n* You Aren’t Gonna Need it  .. true but only if the design is well defined \n* But I am going to need it\n* Waterfall vs Agile \n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n \nStay Awesome\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1a7E0qh48gM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1a7E0qh48gM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1a7E0qh48gM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1a7E0qh48gM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 46,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "1a7E0qh48gM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "5JZyCfsXg3Y4L1YV8IKsfM9hxpo",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS41RTNBREYwMkI5QzU3RkY2",
+            "snippet": {
+                "publishedAt": "2020-08-16T16:38:03Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Is YAGNI (You aren’t gonna need it) Still Relevant in Backend Engineering System Design?",
+                "description": "YAGNI stands for You aren’t gonna need it and its a pillar in extreme programming, in this video I discuss this philosophy within the context of Backend Engineering.\n\nhttps://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it\n\n* Extreme Programming Rob Jefferies\n* You Aren’t Gonna Need it  .. true but only if the design is well defined \n* But I am going to need it\n* Waterfall vs Agile \n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zHSbMe15c2Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zHSbMe15c2Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zHSbMe15c2Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/zHSbMe15c2Q/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 47,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "zHSbMe15c2Q"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "_Px7G7YBivNkqbjh3s5DcQq4-YE",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS5ENjI1QUI0MDI5NEQzODFE",
+            "snippet": {
+                "publishedAt": "2020-08-24T03:11:23Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "REST API has a major limitation and Vulcain solves it, Let us discuss",
+                "description": "GraphQL was born to solve a major limitation in REST API, but the cost of GraphQL and barrier to entry is high. Vulcain addresses REST limitations by introducing HTTP/2 push.  Is a simpler alternative? let us discuss \n\nLearn about Vulcain here https://github.com/dunglas/vulcain\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2tsRAcGac9U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2tsRAcGac9U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2tsRAcGac9U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2tsRAcGac9U/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 48,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2tsRAcGac9U"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "n4-1X8gPS4c05lyRsUlel9SM0qM",
+            "id": "UExRbmxqT0ZUc3BRWE5QNm1RY2hKVlAzUy0zb0tHRXV3OS44QzVGQUU2QjE2NDgxM0M4",
+            "snippet": {
+                "publishedAt": "2020-09-20T23:18:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Amazon Alexa is a Stateless Application, Here is Why",
+                "description": "In this video I demonstrate how alexa’s timer is stateless the reason is the application running on alexa but despite me unplugging alexa I was able to still get my timer. This proves that alexa is storing the state some where else while the application remain stateless. We will show how to make your stateful application into a stateless application\n\nSource code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/timer-app\n\n\nhttps://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zhwMv5RxGew/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zhwMv5RxGew/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zhwMv5RxGew/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/zhwMv5RxGew/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+                "position": 49,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "zhwMv5RxGew"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 54,
+        "resultsPerPage": 50
+    }
+}

@@ -1,0 +1,610 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "hZM22Ww63JRA62nJGFcK045t-aw",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9ruyoeyqWOIP82E6RgYj4Ususcc",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-05-01T18:26:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Should RabbitMQ Implement QUIC Protocol for their Channels Message Queue?",
+                "description": "In this video I talk about RabbitMQ Channels compared to HTTP/2 Streams and how QUIC helps mitigate some of the major limitations in Channels and Streams. \n\nChapters\n0:00 Intro\n0:10 RabbitMQ Channels \n3:10 HTTP/2 Streams\n6:00 How QUIC Helps\n\nThis work is not associated with or endorsed by VMware.\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\n\n\n\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "4Z3MAsdrEi8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "hqV6TLHgmrBJkks_y6f7ogXP5Io",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-05-01T18:27:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Apache Kafka Crash Course",
+                "description": "Apache Kafka is a distributed stream processing software developed by LinkedIn and written in Scala and Java.  \n\nChapters \n0:00 Intro \n2:32 Kafka Broker\n5:39 Kafka Producer\n7:11 Kafka Consumer\n8:34 Kafka Partitions\n12:50 Queue vs Pub-Sub\n16:47 Consumer Group\n23:06 ZooKeeper\n29:45 Coding Example\n1:02:48 Kafka Pros-Cons\n1:17:00 Summary\n\n\n\nIn this video I want to focus on the basics on Kafka, talk about how it works give finally spin up a kafka cluster and write a producer and a consumer. \n\nKafka Components\n_ producer\n_consumer\n_topic \n_partition\nHow Kafka works\nExample ( Ride sharing ) \nSpin Kafka cluster \nWrite a producer \nWrite a consumer\nKafka Applications\nPros and Cons \n\n\n\nSource Code \nhttps://github.com/hnasr/javascript_playground/tree/master/kafka\n\nDocker commands spin up kafka\n//if you ever mess up or you want to start fresh just stop and remove the containers and rerun the command \n\ndocker stop zookeeper kafka\ndocker rm zookeeper kafka\n\ndocker run --name zookeeper  -p 2181:2181 -d zookeeper\n\n\ndocker run -p 9092:9092 --name kafka  -e KAFKA_ZOOKEEPER_CONNECT=husseinmac:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://husseinmac:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 -d confluentinc/cp-kafka \n\n\n\nResources\n\n KIP 500 (Remove Zookeeper)\nhttps://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "R873BlNVUB4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ozeQATxh0dvGLaabAPnasqbvFhg",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-05-01T18:27:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "RabbitMQ Crash Course",
+                "description": "RabbitMQ is an open source distributed message queue written in Erlang and supports many communication protocols.  It was trying to solve the spaghetti 🍝 mesh architecture where every client is communicating with other client in System  by introducing an extra layer in the middle. \n \nIn this video we will explain basic components of RabbitMQ Such as AMQP, channel, queue, publisher, consumer and some stuff, we will also learn how to spin up a RabbitMQ server and we will finally write some code to develop a publisher client that post messages to RabbitMQ. We will also write the consumer piece which will be the code that reads rabbitMQ. Finally I will talk about my personal thoughts on this tech. \n\n- RabbitMQ Components(slide) \n- *Publisher\n- *Consumer\n- *Connection\n- *Channel\n- *Queue\n- Spin RabbitMQ server with Docker\n- Write a Publisher client NodeJs\n- Write a Consumer client Nodejs\n- My Thoughts about this tech\n- Summary\n\n\ntimecodes\n0:00 Intro\n2:00 RabbitMQ Components\n8:30 Spin up RabbitMQ Docker Container\n11:00 Write a Publisher client NodeJs\n20:30 Write a consumer client NodeJs\n33:50 My thoughts on RabbitMQ \n\n\nSource Code: https://github.com/hnasr/javascript_playground/tree/master/rabbitmq\n\nDocker commands here \nhttps://github.com/hnasr/javascript_playground/blob/master/rabbitmq/scripts.md\n\nExample\n\nSchedule async job\n\n￼\n\nExchange \nQueues\nPublisher\nConsumer\nAMQP\nChannel\nConnection \n\n\nHTTP \nAMQP\nUses Channels and Queues\nMultiples channels into one connections\n\n\nhttps://www.squaremobius.net/amqp.node/channel_api.html#channel_bindExchange\n\nhttps://www.rabbitmq.com/tutorials/tutorial-three-javascript.html\nThis work is not associated with or endorsed by VMware.\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Cie5v59mrTg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "S0puJBHolkDvXkh39RVLvXSIZF4",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-05-01T18:27:34Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Publish-Subscribe Architecture (Explained by Example)",
+                "description": "In this video, I want to discuss the Pub sub architecture or publish subsribe architecture and talk about the pros and cons and differences over Request Response. \n\n\nOne of you guys asked me which is better REST or Message queue. I struggled to answer for a while but After thinking about it I discovered that both REST and Message queue does boil down to basic elements. REST being HTTP which is Request-Response and Message Queue being Publish subscribe. \n\nTimecodes\n0:00 Intro\n3:00 Where does request response pattern breaks\n7:00 Response request pros & cons\n11:12 Pub/sub pattern\n17:50 Pub/sub pros/cons \n\n\n- [ ] Request/ Response \n- [ ] Pros and Cons\n- [ ] Publish-Subscribe Definition\n- [ ] Pros and Cons\n\nReq/res\n\nBrowsing\nFetch or XMLHttpRequest \nSQL query\n\nPros\n- Simple to implement (REST)\n- Stateless (HTTP)\n- Sync or Async (service and client) \n\nUploading a youtube video\n- Compress video\n- format video\n- Notify subscribers\n\nUpload breaks down the video into small chunks and uploads each one\n\nOnce all successfully uploaded send a whole video to the compress service \n\nOne video compressed, the compress service sends to the format service and notifications service  \n\nIf you are only using pure request-response, The client will be waiting until all of that stuff is done and if the connection is broken or any failure happens you lose. \n\nPlus let's assume You want to also add a feature where the video will need to be checked for copyrighted material.. so the compress service now need to make a request to the copyright service and make sure all of that requests return successfully \n\nCons\n- Doesn’t scale with multiple receivers\n- Creates extreme coupling between multiple services\n- The client and servers have to be running to communicate. \n- chaining, retries, circuit breaking \n- Chain effect and circuit breaking (microservices)\n\n\nMeet the publish-subscribe model \n\nOk, this is starting to sound like a commercial. \n\nPublish subscribe or pubsub for short is an architecture model where a publisher posts. a message to a topic (usually in the form of a queue) and clients optionally can subscribe to the topic and get notified when a new message is posted.\n\nUpload breaks down the video into small chunks and uploads each one\n\nOnce all successfully uploaded send a whole video to message queue or topic \n\nThe compress service subscribes to the topic. The new video will get received by the compress service, compresses the video and publish it back to the topic or queue as a compressed.\n\nThe notification and copyright service subscribes to the topic.\n\nRedis/kafka/RabbitMQ \n\nPub sub\nPros\n- Scales with many receivers\n- Loose coupling(publishers don’t know the subs, subs don't know the pubs)\n- Caching\n- Work while publishers or subscribers are offline \n- Great with microservices avoid chaining, retries, circuit breaking \n- Pairs with event-driven architecture \n\n\nIs the pub/sub perfect though? \n\nDecoupling side effect is a serious problem. You just decoupled the sub from the publisher, how do you guarantee to deliver a message?\n\nCons\n- Message delivery issues (exactly once delivery ar least once) https://youtu.be/IP-rGJKSZ3s\n- Network saturation- (depends on Pubsubs system) in push model clients might get overwhelmed, in pull model false attempts \n- scaling is still an issue \n\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "O1PgqUqZKTA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "o8N6Aoy3m_cPv3OmLtV5RPkYzro",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-05-01T18:27:57Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Asynchronous vs Multithreading and Multiprocessing Programming (The Main Difference)",
+                "description": "In this video, I explain the main difference between asynchronous execution, multithreading and multiprocessing programming. There are advantages and disadvantages of each approach. \n\n* Synchronous 0:30 \n* Multithreading a process have many threads shared resources 3:20\n* Async io single thread 6:00\n* Multiprocessing   11:00\n\n\nThreads are evil\nhttps://web.stanford.edu/~ouster/cgi-bin/papers/threads.pdf\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0vFgKr5bjWI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0vFgKr5bjWI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0vFgKr5bjWI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/0vFgKr5bjWI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "0vFgKr5bjWI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "BD-Bz2DEDjWxnFcZIx5aIw_8s8M",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-05-21T22:00:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is Kafka and How does it work?",
+                "description": "In this video I will explain what is Apache Kafka, how does it work and the main components of Kafka such as The broker, connection, Producer,  Consumer, Topics, Partitions and Consumer group. \n\nChapters\n0:00 Intro\n0:10 Broker\n1:10 Connection\n2:00 Topics\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LN_HcJVbySw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LN_HcJVbySw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LN_HcJVbySw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/LN_HcJVbySw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "LN_HcJVbySw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "8p7XxybagU1lDwLKH3e8YPipyF8",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-05-22T22:10:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "When to use a Publish-Subscribe System Like Kafka?",
+                "description": "In this video, I explain when to use a pub-sub messaging system such as Kafka or redis , rabbitMQ. I compare this to request response system \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/posIZrz-m7s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/posIZrz-m7s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/posIZrz-m7s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/posIZrz-m7s/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "posIZrz-m7s"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DrUliuBFZ1p19E-qFAQrQpsBvf4",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-07-05T03:44:36Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ZeroMQ (ØMQ) Crash Course",
+                "description": "ZeroMQ (ØMQ) is an Open Source Messaging Library designed for a high-performance asynchronous messaging library. In this video, I discuss this tech and build a simple queue with this tech\n\n0:00 Intro\n1:48 What is ZeroMQ?\n4:48 Messaging Patterns\n6:42 Socket Types\n8:55 Simple Queue\n11:00 Code\n23:20 ZeroMQ Pros & Cons\n29:30 Summary\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/zeromq-simplequeue\n\n\nResources\nhttps://github.com/booksbyus/zguide/tree/master/examples/Node.js\nhttps://en.wikipedia.org/wiki/ZeroMQ\nhttps://blog.scottlogic.com/2015/03/20/ZeroMQ-Quick-Intro.html\nhttp://zguide.zeromq.org/page:chapter3#advanced-request-reply\n\n \nOutline\n* What is ZeroMQ? \n    * Message library\n    * Message Patterns\n    * Broker less \n    * Simple you build the components that you need \n* Sockets Types\n    * REQ\n    * REP\n    * PUSH\n    * PULL\n    * ROUTER\n    * DEALER\n* Message PatternS\n    * Synchronous Request/Response \n    * Asynchronous Request/Response\n    * Publish/Subscribe\n    * Push/Pull\n    * Exclusive Pair\n* Example! (Simple Queue (Push Pull))\n* Pros & Cons\n    * Pros\n        * Simple (meh)\n        * Efficient lightweight\n        * Great for small use cases\n    * Cons\n        * You have to write customize\n        * If you are building a large distributed message queue then you need to implement all features \n        * Feels over-engineered Could be simpler.\n\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UrwtQfSbrOs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UrwtQfSbrOs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UrwtQfSbrOs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/UrwtQfSbrOs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "UrwtQfSbrOs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "3KVvvImV5CfkAeDcuIXOVtAF0do",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-07-05T19:41:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning a lightweight RabbitMQ instance and Consume it with NodeJS",
+                "description": "In this video, we work with RabbitMQ, spin up service, and connect to it through NodeJS build a publisher and a consumer.\n\n0:00 Intro\n1:00 Create a Lightweight RabbitMQ Instance\n2:30 NodeJS Publisher Code\n5:10 NodeJS Consumer Code\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/rabbitmq\n\nRabbitMQ as a service\nhttps://www.cloudamqp.com/\n\nRabbitMQ Crash Course\nhttps://www.youtube.com/watch?v=Cie5v59mrTg\n\nThis work is not associated with or endorsed by VMware.\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eWiqa5SgxeA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eWiqa5SgxeA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eWiqa5SgxeA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/eWiqa5SgxeA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "eWiqa5SgxeA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "-0bNIQbB3xofhS9NUwHU_S7luc8",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2020-08-01T00:26:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is a Message Queue and When should you use Messaging Queue Systems Like RabbitMQ and Kafka",
+                "description": "Message Queues system like RabbitMQ and Kafka are amazing technologies but when should you actually use a message queue? I discuss this in this video.\n\nKafka Course https://youtu.be/R873BlNVUB4\nRabbitMQ Course https://youtu.be/Cie5v59mrTg\nPub/Sub Video https://youtu.be/O1PgqUqZKTA\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/W4_aGb_MOls/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/W4_aGb_MOls/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/W4_aGb_MOls/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/W4_aGb_MOls/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "W4_aGb_MOls"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "nL-omXFq535zPApZMwbDyhMJ2RY",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2020-09-05T23:52:48Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Doordash moves their Backend to Apache Kafka from RabbitMQ, VERY interesting! Let us discuss it!",
+                "description": "Doordash the food delivery service has built an asynchronous task processing backend with Celery and RabbitMQ. They are having lots of outages and problems. Let us discuss how they solved their problem by moving to Apache Kafka. \n\nVery well written article. \n\nResource \nhttps://doordash.engineering/2020/09/03/eliminating-task-processing-outages-with-kafka/\nhttps://www.rabbitmq.com/connections.html#high-connection-churn\n\nThis work is not associated with or endorsed by VMware.\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sXjWTLMGmVY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sXjWTLMGmVY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sXjWTLMGmVY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/sXjWTLMGmVY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "sXjWTLMGmVY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "nK6n_fj6EUSyIj8i_JHnFBHSHfU",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2020-09-08T18:22:43Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Kafka Consumer Group is a Brilliant Design Choice and We should Discuss it",
+                "description": "Apache Kafka is an interesting software, every design decision the team make perfect sense. I decided to dive deep into discussion of the consumer group concept which is underrated and talk more about it. \n\n0:00 Intro\n1:24 Messaging Systems Explained\n3:30 Partitioning \n4:30 Pub/Sub vs Queue\n6:55 Consumer Group\n10:00 Parallelism in Consumer Group\n10:30 Partition awareness in Consumer Group\n11:30 Achieving Pub/Sub with Consumer Group\n14:00 Head of Line blocking in Kafka\n \n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/e5uAhoT1hhU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/e5uAhoT1hhU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/e5uAhoT1hhU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/e5uAhoT1hhU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "e5uAhoT1hhU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zSNTMm3wfpzYLxeJvDRBM1w2WgU",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2020-09-09T21:23:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Microservices Pros & Cons (Explained by Example)",
+                "description": "Microservices technology is a new pattern of software engineering that has been popularized recently. In this video, we will explain what microservices are, their pros and cons by example. \n\nA lot of companies have moved in early 2010 such as  Twitter and Netflix to the microservices architecture.   In order to explain what microservices are, we need to explain how a traditional classical application looks like\n\nMicroservices Pros:\nPolyglot architecture \nEasy scaling for microservices that needs scaling. \nBetter Team management, each microservice is a team\nEasier to innovate certain areas.\nEach microservice can pick their own database \nScale busy services instead of the entire system \n\nMicroservices Cons:\nVery complicated to implement, network call, service discovery \nVery Difficult to debug\nHard to find where the fault is \nNetwork calls fail adds complexity.\n\n \n\n## Table of Content\n0:00 Intro\n01:30 Traditional Services Explained: \n04:00 Microservices Example\n08:00 Microservices Pros\n12:20 Microservices Cons\n\n\nMicroservices technology is a new pattern of software engineering that has been popularized recently. In this video, we will explain what microservices are, their pros and cons by example. \n\n\nMicroservices Pros:\n- Polyglot architecture \n- Easy scaling for microservices that needs scaling. \n- Better Team management, each microservice is a team\n- Easier to innovate certain areas.\n- Each microservice can pick their own database \n- Scale busy services instead of the entire system \n\n\nMicroservices Cons:\n- Very complicated to implement, network call, service discovery \n- Very Difficult to debug\n- Hard to find where the fault is \n- Network calls fail adds complexity.\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T-m7ZFxeg1A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T-m7ZFxeg1A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T-m7ZFxeg1A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/T-m7ZFxeg1A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "T-m7ZFxeg1A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ccvhuAs9icWe4y1clbLl_cE6di0",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2020-10-15T21:54:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "2 Hours RabbitMQ Course with NodeJS, Pros & Cons, Cloud RMQ, RMQ vs Kafka, RMQ in Wireshark & MORE!",
+                "description": "In this RabbiTMQ video course I will discuss The difference between a message queue and Pub/Sub system, I will implement a queue in RabbitMQ with NodeJS, spin up RMQ instance on the cloud, discuss why you would choose RQM over Kafka and finally show how RMQ look under the hood using WireShark! Enjoy\n\n\n0:00 Intro\n1:26 What is a Message Queue?\n14:39 What is a Pub/Sub System?\n44:50 What is RabbitMQ?\n1:28:00 RabbitMQ on the Cloud\n1:37:00 RabbitMQ & QUIC\n1:46:00 Wiresharking RabbitMQ\n2:03:00 RabbitMQ vs Kafka\n\n\nLink to the Doordash article https://doordash.engineering/2020/09/03/eliminating-task-processing-outages-with-kafka/\n\nThis work is not associated with or endorsed by VMware.\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/e03c3CIGtYU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/e03c3CIGtYU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/e03c3CIGtYU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/e03c3CIGtYU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "e03c3CIGtYU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "HzoYW8kbpejkMJK0NldjVVcyzQo",
+            "id": "UExRbmxqT0ZUc3BRVmN1bVlSV0UydzlrVnh4SVh5X0FNby41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2020-10-22T19:52:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Uber’s new Backend Architecture for Processing Payments",
+                "description": "In this video, I discuss the new Uber Backend Architecture that they deployed to process payments and jobs and orders. \n\nRevolutionizing Money Movements at Scale with Strong Data Consistency\nhttps://eng.uber.com/money-scale-strong-data/\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mL0fzj7e6WU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mL0fzj7e6WU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mL0fzj7e6WU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mL0fzj7e6WU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mL0fzj7e6WU"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 15,
+        "resultsPerPage": 50
+    }
+}

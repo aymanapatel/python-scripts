@@ -1,0 +1,325 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "GItnLi4eQY_QYPSBiZ4ffeCaQsw",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "OeUuSA4_v0VF7lmQHvQUdl623ls",
+            "id": "UExRbmxqT0ZUc3BRVmlDVTlqZ3ExdHpBZm51WWJ6M2U4Ui41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2018-02-25T10:24:43Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Reverse engineering Instagram in flight mode",
+                "description": "This is a new series that I started where I use a popular app try to reverse engineer the user experience. Making guesses on how it was written and what technologies might have been used. \n\nIn this episode I am on a flight back to los Angeles, I turn on flight mode and open Instagram and start working with the app and commenting on its behavior. Very interesting video I enjoyed making it. The app didn’t crash at all, the user experience remain solid. We discuss the trade offs the developer makes to make sure the user experience is optimal and performance is met. \n\nEnjoy guys let me know what you think about this thanks. \n\nSorry about vertical first video screening from phone. Will do better next time. \n\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQViCU9jgq1tzAfnuYbz3e8R",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "dVsDBUYA3_Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "IXT8tDdgE-GUXtn05rD-ifq-8NE",
+            "id": "UExRbmxqT0ZUc3BRVmlDVTlqZ3ExdHpBZm51WWJ6M2U4Ui4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2018-03-04T17:21:08Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Reverse engineering Instagram (UX)",
+                "description": "This is a new series that I started where I use a popular app try to reverse engineer the user experience. Making guesses on how it was written and what technologies might have been used. \n\nWhat requests do the application make? inspect the results and try to guess why the devs made the choice to return certain attributes. As we go through this you will notice why the user experience of Instagram is good.\n\nEnjoy guys let me know what you think about this and do suggest another app! \n\nWant to watch more Software Engineering Reacts videos? https://www.youtube.com/playlist?list=PLQnljOFTspQViCU9jgq1tzAfnuYbz3e8R\n\nSoftware Engineering Content on IGeometry\n——————————————————————\n\n- [x] Stateful vs Stateless Applications  https://goo.gl/Fubfi6\n- [x] Database ACID - Atomicity https://goo.gl/ER9PPj \n- [x] Database ACID - Consistency  https://goo.gl/VpLAeN \n- [x] Database ACID - Dirty read https://goo.gl/88wf6y \n- [x] Database ACID - Phantom read https://goo.gl/rnyzuA \n- [x] Database ACID - Non repeatable read https://goo.gl/8kgEjN \n- [x] Database ACID - Read uncommitted https://goo.gl/4igWUq \n- [x] Database ACID - Read committed https://goo.gl/twgAKL \n- [x] Database ACID - Repeatable read https://goo.gl/vDcP6M\n- [x] Virtual Machines vs Containers  https://goo.gl/fiECVb\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fyl6jHkfaec/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fyl6jHkfaec/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fyl6jHkfaec/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fyl6jHkfaec/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/fyl6jHkfaec/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQViCU9jgq1tzAfnuYbz3e8R",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "fyl6jHkfaec"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "r2A--JJI2_IJAaDAay388JE1Qrk",
+            "id": "UExRbmxqT0ZUc3BRVmlDVTlqZ3ExdHpBZm51WWJ6M2U4Ui4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2018-08-26T19:15:23Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "YouTube User Experience (Reversed engineered)",
+                "description": "This is our reverse engineering series where we pick up a main stream app and try to understand how it works, how the APIs are built on the backend and how the user experience is designed for performance, efficiency and user experience. \n\n\nToday’s app is YouTube and the API is videos list and how youtube is doing paging and caching the thumbnails to avoid unbounded requests. We find out the page size of youtube API (spoiler alert its 30)\n\n Enjoy! \n\n-Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SOBuWS3g7ns/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SOBuWS3g7ns/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SOBuWS3g7ns/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SOBuWS3g7ns/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/SOBuWS3g7ns/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQViCU9jgq1tzAfnuYbz3e8R",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SOBuWS3g7ns"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "5AnxvFC9ARGaf696ilZe3RGJG6Y",
+            "id": "UExRbmxqT0ZUc3BRVmlDVTlqZ3ExdHpBZm51WWJ6M2U4Ui41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2018-09-03T02:35:03Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Reverse Engineering YouTube Watch Page",
+                "description": "This is our reverse engineering series where we pick a main stream app and try to understand how the developers built it, how the APIs are designed on the backend and how the front-end user experience is designed for performance, efficiency and business decisions. We can become better software engineers by learning how the likes of Google, Facebook and Twitter are building APIs and user experiences. Obviously I might make a mistake here and there but that is part of the fun!\n\nIn this episode we try to reverse engineer the YouTube watch page in particular. Featured in this video is #robertoblake one of my favorite entrepreneur in the youtube space. \n\nEnjoy guys! \n-Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uqY0RGGXAKk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uqY0RGGXAKk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uqY0RGGXAKk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/uqY0RGGXAKk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/uqY0RGGXAKk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQViCU9jgq1tzAfnuYbz3e8R",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "uqY0RGGXAKk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "6FX5mlYT1j1PNQ1-_iTuV9UPYt0",
+            "id": "UExRbmxqT0ZUc3BRVmlDVTlqZ3ExdHpBZm51WWJ6M2U4Ui4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2018-09-03T03:07:24Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Reverse Engineering Instagram feed",
+                "description": "This is our reverse engineering series where we pick a main stream app and try to understand how the developers built it, how the APIs are designed on the backend and how the front-end user experience is designed for performance, efficiency and business decisions. We can become better software engineers by learning how the likes of Google, Facebook and Twitter are building APIs and user experiences. Obviously I might make a mistake here and there but that is part of the fun!\n\nIn this episode we try to reverse engineer Instagram feed in particular. Featured in this video is #garyvaynerchuk one of my favorite entrepreneurs. \n\nEnjoy guys! \n-Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Bfj6HiTXY4I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Bfj6HiTXY4I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Bfj6HiTXY4I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Bfj6HiTXY4I/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Bfj6HiTXY4I/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQViCU9jgq1tzAfnuYbz3e8R",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Bfj6HiTXY4I"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "sMLZFmDuUlYuFCvj5CZO28lhCOk",
+            "id": "UExRbmxqT0ZUc3BRVmlDVTlqZ3ExdHpBZm51WWJ6M2U4Ui4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2018-09-28T03:31:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Reverse Engineering YouTube - Video Streaming",
+                "description": "This is our #reverseengineering series where we pick a mainstream app and try to understand how the developers built it, how the APIs are designed on the backend and how the front-end user experience is designed for performance, efficiency and business decisions. We can become better software engineers by learning how the likes of Google, Facebook, and Twitter are building APIs and user experiences. Obviously, I might make a mistake here and there but that is part of the fun!\n\nIn this episode, we try to reverse engineer the YouTube watch page and its the video streaming API in particular. We discuss how the IOS YouTube App is doing efficient thumbnail and video caching. Featured in this video is #EvanCarmichael one of my favorite YouTubers.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hkP4_lbJtbY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hkP4_lbJtbY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hkP4_lbJtbY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hkP4_lbJtbY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/hkP4_lbJtbY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQViCU9jgq1tzAfnuYbz3e8R",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hkP4_lbJtbY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "-WhJQT_hflj1HNk8d2TLM0hDfEo",
+            "id": "UExRbmxqT0ZUc3BRVmlDVTlqZ3ExdHpBZm51WWJ6M2U4Ui41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2018-10-04T02:38:47Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Reverse Engineering Twitter",
+                "description": "This is our #reverseengineering series where we pick a mainstream app and try to understand how the developers built it, how the APIs are designed on the backend and how the front-end user experience is designed for performance, efficiency and business decisions. We can become better software engineers by learning how the likes of Google, Facebook, and Twitter are building APIs and user experiences. Obviously, I might make a mistake here and there but that is part of the fun!\n\nIn this episode, we try to reverse engineer the Twitter feed. We discuss how the IOS Twitter App is doing efficient thumbnail caching and insane client queuing of tweets, likes and retweets actions. Enjoy!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/igwG2_su-C0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/igwG2_su-C0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/igwG2_su-C0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/igwG2_su-C0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/igwG2_su-C0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQViCU9jgq1tzAfnuYbz3e8R",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "igwG2_su-C0"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 7,
+        "resultsPerPage": 50
+    }
+}

@@ -1,0 +1,330 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "cAd_Wfb9jsObEVcPskWH1vS_SA8",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "sF9QDstAqtk3Z35y_sHckVPatp4",
+            "id": "UExRbmxqT0ZUc3BRVVZEc1FjUG5tZGJ0TFVocU9EU1YxRi41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-05-31T20:23:12Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "The Barebones of Distributed Systems",
+                "description": "In this video I explain the two types of distributed systems, atomic small requests and big requests and how to distribute those in a distributed system. \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uR4YjsrBj14/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uR4YjsrBj14/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uR4YjsrBj14/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "uR4YjsrBj14"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DInOj7qlk_9gR_Z61NyctKD84y4",
+            "id": "UExRbmxqT0ZUc3BRVVZEc1FjUG5tZGJ0TFVocU9EU1YxRi4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-05-31T20:23:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Is MultiProcessing over a Single TCP Connection a Good Idea?",
+                "description": "Sharing a Single TCP Connection whether this is HTTP, WebSockets or just RAW TCP protocol between multi-threading or multi-processes application is bound to cause bad undesirable effects. I explain this in this video and give example of how QUIC & HTTP/2 have solved this problem. \n\nPooling 5:00\nQUICK Database 6:30\nHTTP/2 Playlist 7:00\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NqpM2GYbovo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NqpM2GYbovo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NqpM2GYbovo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/NqpM2GYbovo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/NqpM2GYbovo/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "NqpM2GYbovo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MBSoO3323EZWJDhX7YvHmP1PkqU",
+            "id": "UExRbmxqT0ZUc3BRVVZEc1FjUG5tZGJ0TFVocU9EU1YxRi4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-05-31T20:23:34Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Concurrent Requests and Unique  Keys on Web Applications",
+                "description": "In this video I explain how primary key cannot be duplicated even if concurrent transactions are executed in the same time. \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/w6GzQa9R7-4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/w6GzQa9R7-4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/w6GzQa9R7-4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/w6GzQa9R7-4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "w6GzQa9R7-4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "IpZUdCiw8JjImETivDZCqxuir5c",
+            "id": "UExRbmxqT0ZUc3BRVVZEc1FjUG5tZGJ0TFVocU9EU1YxRi41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-05-31T20:24:43Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is a Distributed Transaction in Microservices?",
+                "description": "In this video I explore what is a distributed transaction but first I explain what is a transaction, then why we invented distributed transactions and finally discuss proposed solutions to implement distributed transactions\n\n\nCards\n2:40 ACID https://www.youtube.com/watch?v=pomxJOFVcQs\n7:30 Microservices https://www.youtube.com/watch?v=T-m7ZFxeg1A\n\n \nTransactions 2:30\nCompensating Edits 6:40\nAtomic Clocks 11:50\nEvent Sourcing 13:30\nMini-Monolith 15:20\n\n\nResources\n\nhttps://www.youtube.com/watch?v=YPbGW3Fnmbc\n\nhttps://www.youtube.com/watch?v=S4FnmSeRpAY\n\nhttps://www.youtube.com/watch?v=epOLEdaPSLQ\n\nhttps://softwareengineeringdaily.com/2018/12/19/linkerd-service-mesh-with-william-morgan/\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H6F4BorD49g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H6F4BorD49g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H6F4BorD49g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/H6F4BorD49g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "H6F4BorD49g"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "H7SWgnn6DvkwN8kc4ZbhrJ2ktnk",
+            "id": "UExRbmxqT0ZUc3BRVVZEc1FjUG5tZGJ0TFVocU9EU1YxRi4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-05-31T20:24:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How to Avoid Double Booking and Race Conditions in Online Web Applications",
+                "description": "In this video, I demonstrate how is it possible to get double booking in database-backed web applications and how to prevent double booking and race conditions with row-level locks. \n\n0:00 Explain the Booking system\n4:30 Double Booking\n7:30 Fixing Double Booking\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/booking-system\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_95dCYv2Xv4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_95dCYv2Xv4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_95dCYv2Xv4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/_95dCYv2Xv4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "_95dCYv2Xv4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "FpyUeo_vx6eIqMojx_9sUqY6GO8",
+            "id": "UExRbmxqT0ZUc3BRVVZEc1FjUG5tZGJ0TFVocU9EU1YxRi4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-05-31T20:24:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Publish-Subscribe Architecture (Explained by Example)",
+                "description": "In this video, I want to discuss the Pub sub architecture or publish subsribe architecture and talk about the pros and cons and differences over Request Response. \n\n\nOne of you guys asked me which is better REST or Message queue. I struggled to answer for a while but After thinking about it I discovered that both REST and Message queue does boil down to basic elements. REST being HTTP which is Request-Response and Message Queue being Publish subscribe. \n\nTimecodes\n0:00 Intro\n3:00 Where does request response pattern breaks\n7:00 Response request pros & cons\n11:12 Pub/sub pattern\n17:50 Pub/sub pros/cons \n\n\n- [ ] Request/ Response \n- [ ] Pros and Cons\n- [ ] Publish-Subscribe Definition\n- [ ] Pros and Cons\n\nReq/res\n\nBrowsing\nFetch or XMLHttpRequest \nSQL query\n\nPros\n- Simple to implement (REST)\n- Stateless (HTTP)\n- Sync or Async (service and client) \n\nUploading a youtube video\n- Compress video\n- format video\n- Notify subscribers\n\nUpload breaks down the video into small chunks and uploads each one\n\nOnce all successfully uploaded send a whole video to the compress service \n\nOne video compressed, the compress service sends to the format service and notifications service  \n\nIf you are only using pure request-response, The client will be waiting until all of that stuff is done and if the connection is broken or any failure happens you lose. \n\nPlus let's assume You want to also add a feature where the video will need to be checked for copyrighted material.. so the compress service now need to make a request to the copyright service and make sure all of that requests return successfully \n\nCons\n- Doesn’t scale with multiple receivers\n- Creates extreme coupling between multiple services\n- The client and servers have to be running to communicate. \n- chaining, retries, circuit breaking \n- Chain effect and circuit breaking (microservices)\n\n\nMeet the publish-subscribe model \n\nOk, this is starting to sound like a commercial. \n\nPublish subscribe or pubsub for short is an architecture model where a publisher posts. a message to a topic (usually in the form of a queue) and clients optionally can subscribe to the topic and get notified when a new message is posted.\n\nUpload breaks down the video into small chunks and uploads each one\n\nOnce all successfully uploaded send a whole video to message queue or topic \n\nThe compress service subscribes to the topic. The new video will get received by the compress service, compresses the video and publish it back to the topic or queue as a compressed.\n\nThe notification and copyright service subscribes to the topic.\n\nRedis/kafka/RabbitMQ \n\nPub sub\nPros\n- Scales with many receivers\n- Loose coupling(publishers don’t know the subs, subs don't know the pubs)\n- Caching\n- Work while publishers or subscribers are offline \n- Great with microservices avoid chaining, retries, circuit breaking \n- Pairs with event-driven architecture \n\n\nIs the pub/sub perfect though? \n\nDecoupling side effect is a serious problem. You just decoupled the sub from the publisher, how do you guarantee to deliver a message?\n\nCons\n- Message delivery issues (exactly once delivery ar least once) https://youtu.be/IP-rGJKSZ3s\n- Network saturation- (depends on Pubsubs system) in push model clients might get overwhelmed, in pull model false attempts \n- scaling is still an issue \n\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/O1PgqUqZKTA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "O1PgqUqZKTA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "fc0btl0MS2vU3FTtrzRkwcrKMIs",
+            "id": "UExRbmxqT0ZUc3BRVVZEc1FjUG5tZGJ0TFVocU9EU1YxRi41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-05-31T20:25:09Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "When should you shard your database?",
+                "description": "Database Application level sharding is the process of splitting a table into multiple database instances in order to distribute the load. However, Sharding a database is an expensive operation (maintainability and overhead) and I suggest you do that only when you absolutely need to. That means when your single instance database can no longer serve queries with minimum latency. So I suggest you monitor that and only shard if necessary.. I rather do replication make master / backup and make requests read from replica than Sharding just because it is easier.. good question... nice idea for a video  \n\nTime codes\n0:00 Intro\n5:00 Partition horizontally \n7:45 Replication (Master/backup) Scale reads\n11:00 Scale writes by region \n12:30 Sharding \n16:40 Sharding in YouTube\n\n\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iHNovZUZM3A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ibNgB5B-PFoDEL5QU87AUZ4V_8k",
+            "id": "UExRbmxqT0ZUc3BRVVZEc1FjUG5tZGJ0TFVocU9EU1YxRi5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-05-31T20:25:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Apache Kafka Crash Course",
+                "description": "Apache Kafka is a distributed stream processing software developed by LinkedIn and written in Scala and Java.  \n\nChapters \n0:00 Intro \n2:32 Kafka Broker\n5:39 Kafka Producer\n7:11 Kafka Consumer\n8:34 Kafka Partitions\n12:50 Queue vs Pub-Sub\n16:47 Consumer Group\n23:06 ZooKeeper\n29:45 Coding Example\n1:02:48 Kafka Pros-Cons\n1:17:00 Summary\n\n\n\nIn this video I want to focus on the basics on Kafka, talk about how it works give finally spin up a kafka cluster and write a producer and a consumer. \n\nKafka Components\n_ producer\n_consumer\n_topic \n_partition\nHow Kafka works\nExample ( Ride sharing ) \nSpin Kafka cluster \nWrite a producer \nWrite a consumer\nKafka Applications\nPros and Cons \n\n\n\nSource Code \nhttps://github.com/hnasr/javascript_playground/tree/master/kafka\n\nDocker commands spin up kafka\n//if you ever mess up or you want to start fresh just stop and remove the containers and rerun the command \n\ndocker stop zookeeper kafka\ndocker rm zookeeper kafka\n\ndocker run --name zookeeper  -p 2181:2181 -d zookeeper\n\n\ndocker run -p 9092:9092 --name kafka  -e KAFKA_ZOOKEEPER_CONNECT=husseinmac:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://husseinmac:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 -d confluentinc/cp-kafka \n\n\n\nResources\n\n KIP 500 (Remove Zookeeper)\nhttps://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "R873BlNVUB4"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 8,
+        "resultsPerPage": 50
+    }
+}

@@ -1,0 +1,1010 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "xrLXCPJbf1qaRqWTdWWS4bJ8Tlw",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KmXnO9ZqM1_zN594WYDyFgkssgo",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:07:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Transport Layer Security, TLS 1.2 and 1.3 (Explained by Example)",
+                "description": "TLS which stands for transport layer security is a protocol for securing communication between client and server. Specifically for HTTPS. Thats what the S is stands for. \n\nIn this video, we will learnq how insecure vanilla HTTP works, HTTPS, then we will learn how HTTPS is possible via the transport layer security and finally we will talk about the improvements in 1.3 that was published August 2018. \n\n\nChapters\n0:00 Intro \n1:30 Vanilla HTTP\n5:00 HTTPS\n8:35 TLS 1.2\n14:30 Diffie–Hellman\n17:55 TLS 1.3\n\n\nVanilla HTTP\nHTTPS \nTLS 1.2 handshake\nTLS 1.3 enhancements\n \n\nVanilla HTTP \nBefore we discuss TLS, HTTPS or anything else lets go through how HTTP request work. You can type in the browser www.husseinnasser.com , the OSI magic kicks in, client figures out the IP address of husseinnasser.com by calling the DNS which uses UDP. Then HTTP application layer makes a GET / request passes in the IP address and port 80 (default for insecure http). This creates an underlying TCP connection. GET / string among other stuff into the packet and send it over. TCP does its thing server receives GET / calls the appropriate process at the backend which could be just return index.html sets content type text/html and sends back big response for client. All of this obviously is plain text no encryption any kind and if you watched the OSI video we made you can tell that people can sniff/snoop packets and get packets they aren’t supposed to get\n\n\nHTTPS\nWorks by negotiating a symmetric key so they can both secure messages. Watch the video we did on encryption. Before we jump to GET request there must be a handshake 🤝 that must occur between the client and server. The tricky part is exchanging that key. Same thing as above except port is 443 instead of 80. Remember once we lose the TCP connection we will have to renegotiate the key. But beauty of this is HTTP is stateless so it remains working just fine. \n\n\nTls handshake 🤝 \nThe original TLS handshake involves 4 roundtrips. A client hello which the client includes which encryption algorithms it supports (Both symmteric and asymmetric). The server receives the request then replies back with the server certificate which includes the server public key and also the encryptions that they will change to. The client receives the server hello, generates the premaster key, encrypts it with the server’s public key then send it over. The Server decrypts the message, gets the premaster generates the symmetric key finally tells the client that we are good to go. \n\n\nTls 1.3 \nTLS 1.3 involves much shorter and much secure communication using only deffie hellman as key exchange and just two round trips. \n\n\nMore Resources\nhttps://www.cloudflare.com/learning-resources/tls-1-3/\nhttps://blog.cloudflare.com/rfc-8446-aka-tls-1-3/\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AlE5X1NlHgg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AlE5X1NlHgg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AlE5X1NlHgg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/AlE5X1NlHgg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "AlE5X1NlHgg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "lNjP1rppQY7lD-QLW2jaQ4BDmAI",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:07:26Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Transport Layer Security 1.3 Explained - TLS Handshake, Key Exchange, TLS Extensions and MITM",
+                "description": "In this video I want to describe in details the TLS 1.3 protocol. Transport Layer Security is a protocol that allows two party to communicate securely. I talk about how TLS 1.3 handshake, I discuss the math behind Diffie hellman , I discuss TLS extensions such as OCSP stapling, SNI, ESNI, ALPN and more and finally I talk about how TLS Man in the middle works. \n\nChapters\n0:00 Intro\n2:30  TLS 1.3 overview\n11:10 TLS 1.3 Extensions\n16:00 TLS 1.3 MITM\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ntytZy3i-Jo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ntytZy3i-Jo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ntytZy3i-Jo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ntytZy3i-Jo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ntytZy3i-Jo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "kJWmaNU5bSWdKMgdvFyDoLdE7PM",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:07:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "HTTP Strict Transport Security (HSTS) and TLS Stripping Explained",
+                "description": "HSTS or HTTP Strict Transport Security is a mechanism to force clients to communicate in HTTPS with a web server if both support this protocol. \n\nIn this video, I want to go through why this policy was created \n\n* SSL Stripping 1:00 (researched by Moxie Marlinspike)\n* HSTS 4:50\n* How HSTS prevents SSL Stripping 7:50\n* HSTS Limitation 11:00\n\nResources\n\nhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security\n\nhttps://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security\n\nReason Im making this video is to make a video on this\nhttps://github.com/alex/what-happens-when \n\nSSL Stripping\nhttps://en.m.wikipedia.org/wiki/Moxie_Marlinspike#SSL_stripping\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kYhMnw4aJTw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kYhMnw4aJTw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kYhMnw4aJTw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/kYhMnw4aJTw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "kYhMnw4aJTw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "N7qxhu_hHg5TV9f8I5btaORWa_s",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:07:15Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Perfect Forward Secrecy in TLS Explained",
+                "description": "Perfect Forward Secrecy is a property of an encryption system that prevents an attacker that from decrypting past recorded sessions even after the private key of the server is leaked. \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zSQtyW_ywZc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zSQtyW_ywZc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zSQtyW_ywZc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/zSQtyW_ywZc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "zSQtyW_ywZc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "V3n23kXBwXNtcMI7-ZyYb18KtN8",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:07:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "SSL/TLS Termination, TLS Forward Proxy Pros and Cons",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nIs a proxy that terminates the TLS session and send unencrypted traffic to the main server. This offloads complex crypto TLS from the main server to this proxy so the main server can do what it does best. Serve.. \n\nIn this video we will discuss the pros and cons of TLS Termination proxies  \n\n- TLS 1.2 \n- TLS Termination Proxy\n- TLS Forward Proxy \n-  Pros and Cons\n    - Pros\n- Off load crypto to proxy instead of main servers (no longer a problem)\n- Have TLS session close to the client  \n- Decrypt data so HTTP accelerators like Varnish can function correctly. \n- Allow intrusion detection system to analyse traffic\n- Load balancers can make better decisions on the data (Layer 7)\n- Service Mesh in microservices architecture \n    - Cons\n- If proxy got compromised attacker can gains access to all data. \n- Limited by the maximum number of connections on the proxy. \n\n\n\n\njump codes\n2:00 TLS 1.2\n4:00 TLS Termination Proxy\n6:00 TLS Forward Proxy \n9:00 Pros and Cons\n\ncards\n2:20 TLS  https://www.youtube.com/watch?v=AlE5X1NlHgg\n3:49 Encryption https://www.youtube.com/watch?v=Z3FwixsBE94\n12:50 Denial of Service https://www.youtube.com/watch?v=4I7tPW8of2g\n15:20 Layer 4 vs Layer 7 Load Balancing https://www.youtube.com/watch?v=aKMLgFVxZYk\n\n\n\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome a patron https://www.patreon.com/join/hnasr? \n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "H0bkLsUe3no"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "7qkXjWM1O71f2OzMCZq0bDBYFtU",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:07:53Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is On Demand TLS?",
+                "description": "On-Demand TLS is a new feature developed by Caddy Web Server that allows TLS certificate to be generated on the first request, I explain this tech and their pros and cons in this video.\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JwQTBq3oivw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JwQTBq3oivw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JwQTBq3oivw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JwQTBq3oivw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JwQTBq3oivw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ks_m_Yn21Jh-m0S5I3JVthLkuYk",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:08:03Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How Diffie Hellman can be Man In the Middled in TLS 1.3",
+                "description": "In this video I explain How Diffie Hellman can be Man In the Middle'd in TLS 1.3. \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rKVCTVAHK7k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rKVCTVAHK7k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rKVCTVAHK7k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/rKVCTVAHK7k/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "rKVCTVAHK7k"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "I99mvt-yQq84T8fGh0CVXEmt0Lg",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:08:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TLS 1.3 Handshake Explained In Details (with Math)",
+                "description": "In this video, I want to explain the TLS handshake by reveling the math behind the Diffie Hellman. The main component of TLS 1.3 is the Diffie Hellman Key Exchange algorithm. The goal of the TLS handshake is to establish a shared symmetric key between the client and the server. This video shows how that math works.\n\n\nGiven g and g^x it is very hard to determine x https://en.m.wikipedia.org/wiki/Diffie–Hellman_problem\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IE0QLCcOr0I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IE0QLCcOr0I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IE0QLCcOr0I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/IE0QLCcOr0I/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "IE0QLCcOr0I"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "QMW-VKV78XPFDLDcsim0Y_-MgnU",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:08:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How HTTPS Work?",
+                "description": "HTTPS and TLS 1.2 \n\nEncryption Symmetrical vs Asymmetrical \nhttps://youtu.be/Z3FwixsBE94\n\n\n\nFrom the TLS Video here https://www.youtube.com/watch?v=AlE5X1NlHgg&t=947s\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/clK8Wf4-F5k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/clK8Wf4-F5k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/clK8Wf4-F5k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/clK8Wf4-F5k/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "clK8Wf4-F5k"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "XYBP-RqQNwb6RQA_2gqMM9CtS_w",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:08:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "SNI Limitation and Invention of ESNI",
+                "description": "SNI is TLS Extension that allows the client to specify which host it wants to connect during TLS handshake. This allows multiple domains to be hosted on a single public IP address. \n\nDoesn't come without its cons though so we will talk about how the new encrypted SNI will solve the problem\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NMePCdDfUIA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NMePCdDfUIA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NMePCdDfUIA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/NMePCdDfUIA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "NMePCdDfUIA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "jKK_7W4E5m0oVUAV6jF3pkkz3Oo",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:09:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is SSL Stripping?",
+                "description": "SSL stripping, a man-in-the-middle attack in which a network attacker could prevent a web browser from upgrading to an SSL connection in a subtle way that would likely go unnoticed by a user.🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/99YNg8UAesI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/99YNg8UAesI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/99YNg8UAesI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/99YNg8UAesI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "99YNg8UAesI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "7PgJnjPPSxJ1ykmD_yNyB5rWb68",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:10:08Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Firefox deprecates support for TLS 1.0 and 1.1 ( THIS IS GREAT! BUT .... )",
+                "description": "We are one step closer to a more secure web. Firefox disabled TLS 1.0 1.1 It’s a big change that I am very happy about but not everyone is. Let's discuss this.\n\nResources\nhttps://hacks.mozilla.org/2020/02/its-the-boot-for-tls-1-0-and-tls-1-1/\n\nhttps://www.openssl.org/~bodo/ssl-poodle.pdf\n\n\nFirefox disabled TLS 1.0 1.1 It’s a big change that I am very happy about but not everyone is. Lets discuss  \n\n\nResources\nhttps://hacks.mozilla.org/2020/02/its-the-boot-for-tls-1-0-and-tls-1-1/\n\nhttps://www.openssl.org/~bodo/ssl-poodle.pdf\nWelcome to #softwarenews\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/grVVuGnN9IE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/grVVuGnN9IE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/grVVuGnN9IE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/grVVuGnN9IE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "grVVuGnN9IE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "OSrddHca69XyHzrsbiUvSpuwwkA",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2020-06-20T00:22:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Server Name Indication TLS Extension Explained",
+                "description": "Server Name Indication or SNI is a technology that allows shared hosting through TLS handshake. I explain \n\n0:00 Intro\n0:30 HTTP Shared Hosting\n4:50 HTTPS Shared hosting\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/manTiXESYG0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/manTiXESYG0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/manTiXESYG0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/manTiXESYG0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "manTiXESYG0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "QATthHrimk_v7t1s3HdNDnv8PmM",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2020-06-25T22:51:40Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What are SSL/TLS Certificates? Why do we Need them? and How do they Work?",
+                "description": "In this video I explain the purpose of TLS/SSL Certificates, why did we invent them and what are their limitations. This is what gives you the green padlock on your browser which indicates you have a secure website. \n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\n\n\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/r1nJT63BFQ0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/r1nJT63BFQ0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/r1nJT63BFQ0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/r1nJT63BFQ0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "r1nJT63BFQ0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pX6FUnz5wpugIXWbpfnQqNO2NhI",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2020-07-01T22:29:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Google Chrome and Firefox to Join Apple’s Safari in One Year Certificate Validity (My opinion)",
+                "description": "In Sept 1st 2020 all browsers will start blocking certificates issued after that date with 398 days or more validity. \n\n0:00 Intro\n0:30 What is the Change?\n3:30 Pros for This Change\n6:20 Cons for This Change\n10:30 Certificate Revocation \n\nThere are pros and cons of this so I want to discuss both\n\nPros\n* CA signature algorithm can be improved to the latest\n* CA rules can change (force public key to be 4096 instead of 2048) \n* If server private key of server is leaked/stolen .. \n\nCons\n* Automation, big companies feel that this is a push for automation\n* Hype up let’sencrypt - certbot doesn’t work for everyone\n* If server private key is stolen, hacker still have a year worth of work (we still need cert revocation through OCSP\n\nArticle : https://www.thesslstore.com/blog/google-chrome-to-join-apple-safari-in-one-year-certificate-validity/\n\n\nResources and reasoning behind this change\n\nhttps://cabforum.org/2019/09/10/ballot-sc22-reduce-certificate-lifetimes-v2/\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rIw6CSnjJsY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rIw6CSnjJsY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rIw6CSnjJsY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/rIw6CSnjJsY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "rIw6CSnjJsY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "QeFJILiv9y4XVE6lbnHtY6BQOTo",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2020-07-15T16:17:27Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TLS/SSL Certificate Pinning Explained",
+                "description": "A lot of mobile applications employs this technique of SSL and TLS Pinning where they fix the hash of the certificate or the public key in the app it self for more security. What is TLS or SSL Certificate Pinning? What do we need it ? We discuss in this video\n\n0:00 Intro\n1:30 How Certificate Validation Work?\n3:30 Problems with Certificate Validation\n5:50 TLS/SSL Certificate Pinning\n10:00 Pros & Cons\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3coPpYJgFro/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3coPpYJgFro/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3coPpYJgFro/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/3coPpYJgFro/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "3coPpYJgFro"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "OUIh5YwOtJrO8EVq50xzZsTKpyI",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2020-07-21T20:55:57Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TLS 1.1 is Dead … Well Almost! thanks to Chrome 84 - (Deep Dive Analysis)",
+                "description": "In this video I go through why TLS 1.0 and TLS 1.1 should go away. Chrome 84 starting showing error NET::ERR_SSL_OBSOLETE_VERSION\n\nResources\nhttps://threatpost.com/riskrecon-the-tls-1-2-deadline-is-looming-do-you-have-your-act-together/157296/\nhttps://www.zdnet.com/article/chrome-84-released-for-blocking-notification-popups-on-spammy-sites/\n‪https://www.theregister.com/2020/07/20/microsoft_roundup/‬\n\n\n0:00 Intro\n1:10 Weak Ciphers in TLS 1.1\n7:50 Live TLS Test with SSLLabs\n12:00 Chrome 84 Test\n13:30 Microsoft Updates Office to TLS 1.2\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VhTOJedHzHY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VhTOJedHzHY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VhTOJedHzHY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/VhTOJedHzHY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "VhTOJedHzHY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "s2f-evzZMJWhBHlnd5zAKsMuGrg",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS5ENDU4Q0M4RDExNzM1Mjcy",
+            "snippet": {
+                "publishedAt": "2020-07-31T20:23:48Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Symmetrical vs asymmetrical Encryption Pros and Cons by Example",
+                "description": "Encryption is the process of scrambling data to protect personal files, secure communication, hide identities and much more. \n\nIn this video we will learn about the different type of encryptions we will talk about symmetric encryption, asymmetrical encryption, where they are used for and the pros and cons of each one. \n\nChapters\n0:00 Intro\n1:50 Symmetric Encryption \n9:40 Asymmetric Encryption \n14:40 Symmetric Encryption Pros and Cons\n17:05 Asymmetric Encryption Pros and Cons\n20:20 Summary\n\n1. Symmetric encryption\n2. Asymmetrical encrypt \n3. Pros and cons of Symmetric vs Asymmetric\n\nSymmetric encryption \nMight as well just call it classic encryption I would argue and i think this is the first encryption known to us. I have something I dont want anyone to see I use a lock key to lock it. Only I can open it unless I have a lock. \n\nThe same key you use to encrypt is the same key to Decrypt. \n\nExamples\nExamples of popular symmetric-key algorithms include \nAES\nTwofish\nSerpent \nDES\n\nTwofish, Serpent, AES (Rijndael), Blowfish \n\nCAST5, Kuznyechik, RC4, DES, 3DES, Skipjack, Safer+/++ (Bluetooth), and IDEA \n\nAsymmetrical encryptions \nWe had symmetric encryptions for a long time, then internet came and networking and we needed to encrypt messages going back and forth. We said cool lets use AES. Then we said wait a second.. the other computer doesn't really have my key so we need to encrypt it.. \n\nAlso called Public key encryption \n\n1977 \nRivest–Shamir–Adleman (RSA) \n\n* Diffie–Hellman key exchange protocol\n* DSS (Digital Signature Standard), which incorporates the Digital Signature Algorithm\n* ElGamal\n* Various elliptic curve techniques\n* Various password-authenticated key agreement techniques\n* Paillier cryptosystem\n* RSA encryption algorithm (PKCS#1)\n* Cramer–Shoup cryptosystem\n* YAK authenticated key agreement protocol\n\n\nSo TLS for example first transfer the symmetric key using asymmetrical encryption then communicate all the way using sym encryption \n\n\nSymmetric encryption \n\npros\nfaster\nCan be used to encrypt large data scales \n\ncons\nVery hard to transport the key 🔑 \n\nASymmetric encryption\nPros\nKeys can be shared across a network \nPerfect for encryption small data such as ssh\n\ncons\nSlow\nRsa slower then aes \nCannot be used to \n\n(1,2) \nNumber to power 1 mod 2\n\n\nSummary \n\nSym. Encryption is used to encrypt large files, same key to encrypt is the same key to deycrpt they are very fast and efficient but keys need to exist on both machines to communicate. \n\nAsym encryption can one key encrypt another key decrypts public key is  \n\n\n \n\n \n\n\n\n\n \n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Z3FwixsBE94/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Z3FwixsBE94/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Z3FwixsBE94/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Z3FwixsBE94/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Z3FwixsBE94"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "-ajxfyljre8p03ESbqHrrSzlLPA",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS4yMDhBMkNBNjRDMjQxQTg1",
+            "snippet": {
+                "publishedAt": "2020-08-02T22:50:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How Homomorphic Encryption will revolutionize Software Engineering (Encrypted Database Search)",
+                "description": "Homomorphic encryption is a form of encryption allowing one to perform calculations on encrypted data without decrypting it first. The result of the computation is on an encrypted form, when decrypted the output is the same as if the operations had been performed on the unencrypted data.\n\nIn this video, I go through what homomorphic encryption is and how it will change software engineering forever.\n\n0:00 Intro\n2:25 What is Encryption?\n3:55 Why we can’t always encrypt?\n- TLS terminator proxies to looks \n- Search and Analyse data \n- Database indexing, functions \n8:30 Meet Homomorphic encryption \n-Perform operations on encrypted data\n-We decrypt the data to process it.. \n-Imagine no more TLS termination!  In proxies \n13:20 IBM FHE toolkit code demo\nCountry csv database, encrypted and then search  \n21:00 Pros & Cons of Homomorphic Encryption \n\n\nResources\nhttps://github.com/IBM/fhe-toolkit-linux/blob/master/GettingStarted.md\nhttps://www.youtube.com/playlist?list=PL0VD16H1q5IOEQuRdgRVt1M8uQSbpVzTb\nhttps://arstechnica.com/gadgets/2020/07/ibm-completes-successful-field-trials-on-fully-homomorphic-encryption/?comments=1&start=80\nhttps://github.com/IBM/fhe-toolkit-linux/blob/master/GettingStarted.md\n\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LXIwIIJUU3Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LXIwIIJUU3Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LXIwIIJUU3Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/LXIwIIJUU3Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "LXIwIIJUU3Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "T0IfQVXWdz2E_t7Ri8dcI3FrtIE",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2020-08-07T23:44:27Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Enabling TLS/SSL on PostgreSQL with Docker",
+                "description": "Postgres is encrypted by default (SSL off), in this video, I show how to enable TLS/SSL on Postgres instance and connect to it from pgadmin\n\n\n\n0:00 Intro\n1:50 Start a Postgres Docker Container\n2:40 Start a pgAdmin Docker Container\n4:00 Connect to Postgres from pgAdmin (unsecure)\n5:30 Enable SSL/TLS on Postgres\n7:30 Generate Self signed Certificate and private key\n10:00 Setting Permissions\n10:45 Connect to Postgres with TLS (secure)\n\n\n\nscripts\napt-get update && apt-get install vim\nenable ssl \n\n//self signed\nopenssl req -x509 -newkey rsa:4096 -nodes -sha256 -subj '/CN=localhost' -keyout private.pem -out cert.pem\n\n//permissions\nchmod 600 key.pem\nchown postgres key.pem\n\n//pgadmin\ndocker run -e PGADMIN_DEFAULT_EMAIL=“hussein” -e PGADMIN_DEFAULT_PASSWORD=“password” -p 5555:80 —name pgadmin dpage/pgadmin4 \n\n\n\ncards\n0;40 TLS playlist https://www.youtube.com/playlist?list=PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-\n1;17 servers close https://www.youtube.com/watch?v=wNSZLOabpK4\n7;50 lets encrypt https://www.youtube.com/watch?v=b35Dcz91ItE\n\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mSuTmVhQ2fc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mSuTmVhQ2fc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mSuTmVhQ2fc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mSuTmVhQ2fc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mSuTmVhQ2fc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "fBEKPCQ28OkwOctg_RxyJ6_jjE0",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2020-08-09T15:32:08Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "WOW! China Blocks TLS 1.3 with ESNI - Let us discuss",
+                "description": "SNI or server name indication is a TLS Extention that indicate which server/host/domain the client want to communicate with. This is to allow for hosting of multiple websites on the same public static ip address. For the longest time all ISPs used SNI to block hosts and websites, China is now blocking the encrypted version SNI. \n\n0:00 Intro\n2:00 DNS and DOH\n3:30 SNI \n6:30 ESNI\n11:00 The Block\n\n\n\nThe ESNI and DOH stops this but China want \n\nhttps://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/\nhttps://tools.ietf.org/html/draft-ietf-tls-esni-07#section-3.2\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Q8BL2uXVZZY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Q8BL2uXVZZY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Q8BL2uXVZZY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Q8BL2uXVZZY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 20,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Q8BL2uXVZZY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "w1UR6fqGuTZKBns75rLGjswlUN0",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS45NzUwQkI1M0UxNThBMkU0",
+            "snippet": {
+                "publishedAt": "2020-08-10T02:03:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Traefik Crash Course - Architecture, L7 & L4 Proxying, Weighted Round Robin, Enabling TLS 1.2/1.3",
+                "description": "Traefik is an open-source reverse proxy written in GO and marketed as an Edge Router. It supports automatic TLS and HTTP/2 by default and other cloud native features. In this video I want to discuss Traefik as a reverse proxy and load balancer. \n\n\n0:00 Intro\n2:00 Problem\n4:00 Traefik Architecture\n11:00 TCP vs HTTP Proxying\n12:00 Demo\n15:30 Install Treafik Docker \n16:40 Treafik as a Layer 7 Proxy\n18:00 Static Configuration\n20:00 Proxy to all 4 backend NodeJS services \n27:00 Split load to multiple backends (app1/app2)  \n32:00 Block certain requests (/admin)\n34:20 Weighted RR\n38:30 Treafik as a Layer 4 Proxy (tcp router)\n43:30 Create DNS record\n44:40 Enable HTTPS on Treafik (lets encrypt) \n50:00 Disable 1.1/1.0 Enable TLS 1.2 and TLS 1.3  \n53:50 Summary \n\nResources\nhttps://docs.traefik.io/providers/file/\n\nConfig\nhttps://github.com/hnasr/javascript_playground/tree/master/traefik\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/C6IL8tjwC5E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/C6IL8tjwC5E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/C6IL8tjwC5E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/C6IL8tjwC5E/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 21,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "C6IL8tjwC5E"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "8to9USD9uEJG0S-jmgIoNXQLHFs",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS5DNzE1RjZEMUZCMjA0RDBB",
+            "snippet": {
+                "publishedAt": "2020-08-23T17:46:15Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TLS Passthrough Explained",
+                "description": "In this video, I explain what is TLS Passthrough specifically to Layer 4 Proxying.\n\n\n0:50 Proxy playlist \n3:15 L4 vs l7 \n4:45 TCP Handhsake\n6:45 TLS Hanshake\n12:43 Diffi helman\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iLHhL-vAPqo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iLHhL-vAPqo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iLHhL-vAPqo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iLHhL-vAPqo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 22,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iLHhL-vAPqo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "RYzpNpaau1oyVwNONqwxjXBJIIc",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS43MTI1NDIwOTMwQjIxMzNG",
+            "snippet": {
+                "publishedAt": "2020-09-22T22:42:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Russia Follows in China’s footsteps and attempts to block TLS 1.3, ESNI, DoH & DoT, let us discuss",
+                "description": "It looks like Russia is submitting a proposal to block TLS 1.3, ESNI, DoH , DoT, let us discuss\n\nResources \nhttps://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/\n\nhttps://en.wikipedia.org/wiki/SORM\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sakebksjnGo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sakebksjnGo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sakebksjnGo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/sakebksjnGo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 23,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "sakebksjnGo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KOM5I2nKj3OZ79IQ00Bm3JZTBhw",
+            "id": "UExRbmxqT0ZUc3BRVzR5SHVxcF9PcHY4NTMtR193QWlILS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+            "snippet": {
+                "publishedAt": "2020-09-30T18:41:32Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "HTTPS and HTTP/3 negotiations are now Faster thanks to Cloudflare, RIP HSTS, Let us Discuss",
+                "description": "Alessandro Ghedini wrote an interesting article discussing how DNS queries can help speed up HTTPS and HTTP/3 negotiations let us discuss this article\n\nhttps://blog.cloudflare.com/speeding-up-https-and-http-3-negotiation-with-dns/\n\n3:30 TLS video https://www.youtube.com/watch?v=AlE5X1NlHgg\n4:57 HSTS https://www.youtube.com/watch?v=kYhMnw4aJTw\n8:15 http/2 c smuggling https://www.youtube.com/watch?v=B2VEQ3jFq6Q\n15:30 ESNI https://www.youtube.com/watch?v=t0zlO5-NWFU\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/76sgBHUl7iI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/76sgBHUl7iI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/76sgBHUl7iI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/76sgBHUl7iI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+                "position": 24,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "76sgBHUl7iI"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 25,
+        "resultsPerPage": 50
+    }
+}

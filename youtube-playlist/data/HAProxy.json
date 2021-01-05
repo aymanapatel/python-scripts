@@ -1,0 +1,365 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "YQHCALgNjsER9R0_HHrkXUu0Kmo",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "LOe45r_UJ0iIlAffJPjazc738u4",
+            "id": "UExRbmxqT0ZUc3BRVWhnZnZwZ2Z4Yy11RmxXRWxLSUJyLS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:42:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "HAProxy Crash Course (TLS 1.3, HTTPS, HTTP/2 and more)",
+                "description": "HAProxy is free, open source software written in C that provides a high availability layer 4 and layer 7 load balancing and proxying. It has a reputation for being fast and efficient in terms of processor and memory usage.\n\nChapters\n0:00 Intro\n2:30 Current and Desired Architecture\n5:50 HAProxy Architecture\n17:00 HAProxy as TCP Proxy, HTTP Proxy\n19:20 ACL Access Control Lists\n20:40 TLS Termination vs TLS Pass Through\n24:23 Example\n25:51 Spin up the services\n28:00 Install HAProxy\n29:11 HAProxy configuration\n39:00 ACL Conditional\n48:00 ACL Reject URL\n53:00 Enable HTTPS HAProxy\n1:05:30 Enable HTTP2 on HAProxy\n\nSource Code for Application\n\nHAProxy config\nhttps://github.com/hnasr/javascript_playground/tree/master/proxy\n\nDocker application \nhttps://github.com/hnasr/javascript_playground/tree/master/docker\n\n\nresources \n\nhttps://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/\nhttps://www.haproxy.com/documentation/aloha/10-0/traffic-management/lb-layer7/acls/#predefined-acls\nhttps://certbot.eff.org/lets-encrypt/osx-nginx\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qYnA2DFEELw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "rONbMy5Ms-Tjxl9uZp_7p3Bl-7M",
+            "id": "UExRbmxqT0ZUc3BRVWhnZnZwZ2Z4Yy11RmxXRWxLSUJyLS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:43:08Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load balancing in Layer 4 vs Layer 7 with HAPROXY Examples",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nLoad balancing is process of balancing incoming requests to multiple machines, processes or services. In this video we will explain two types of load balancers, layer 4 and layer 7. \n\nChapters\n0:00 Intro \n6:00 L4 Load balancer\n9:10 L4 Load Balancer Pros and Cons \n16:18 Example L4 Load Balancer with HAPROXY\n22:30 L7 Load Balancer\n27:00 L7 Pros and Cons\n31:00 Example L7 Load Balancer with HAPROXY\n37:00 Summary\n\n\n\nLayer 4 (4/3)\nTake content forwards it based on basic rules, it knows ip and port and perhaps latency of the target service. \n\nLayer 4 - haproxy, NLB\nPros\n- great for simple packet-level load balancing\n- Fast and efficient doesn’t look at the data\n- More secure as it cant really look at your packets. So if it was compromised no one can look\n- Uses NAT \n- One connection between client and server NATed\nCons\n- Cant do smart load balancing based on the content, such as switch request based on requested media type\n- Cant do microservices with this type\n- Has to be sticky as it is a stateful protocol (all segments)\n\n\n\nLayer 7 (Nginx , haproxy) \n\nThis type of proxy actually looks at the content and have more context, it knows you are visiting the /users resources so it may forward it to a different server. Essential and Great for microservices , it knows the content is video:image etc.. \n\n\nit can also cache.. we cant really do caching on layer 4 because we have no clue whats in the packets. \n\nBut expensive because it has to decrypt and look and compute \n\n\nLayer 4 - haproxy, nlb \n- great for simple packet-level load balancing \n- fast and efficient doesn’t look at the data \n- More secure as it cant really look at your packets. So id it was compromised no one can look\n- Uses NAT \n- One connection between client and server NATed \nLayer 7 - examples nginx \n- Smart routing based on the url (microservices) flexible \n- Provide caching \n- Expensive need to decrypt\n- Secuirty, you have to share your certificate with the load balancers. Id compromised attacker has access to all your data. \n- Proxy creates multiple connection (client to proxy/proxy to server) \n\n\n\n\nImage thumbnails https://www.haproxy.com\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "aKMLgFVxZYk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "EgMi1yaEVtNIUXbNEBTuYFJ6FRo",
+            "id": "UExRbmxqT0ZUc3BRVWhnZnZwZ2Z4Yy11RmxXRWxLSUJyLS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:43:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Scaling and Securing WebSockets with HAProxy",
+                "description": "WebSockets technology is a bidirectional, full duplex protocol for communication between client and server over the web. It has been standardized in 2011 and its fully compatible with HTTP. This protocol enables realtime applications such as chatting, notifications, live feed , multiplayer gaming and otheruse cases. \n\nIn this Video I want to discuss websocket secure protocol wss:// which is done over TLS on port 443\n\n\nSource Code WebSocket\nhttps://github.com/hnasr/javascript_playground/tree/master/websocket-demo\n\n\nCards \n6:21 nginx/ haproxy\n\n\n15:13 how i secured https://www.youtube.com/watch?v=CxamHNc3U4A \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Rf6AfhqJKxg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zPgGMcyBpgxZeStMG7fV4TA6BIE",
+            "id": "UExRbmxqT0ZUc3BRVWhnZnZwZ2Z4Yy11RmxXRWxLSUJyLS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:43:24Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How HAProxy acts as TCP Proxy & HTTP Proxy Layer 4 vs Layer 7",
+                "description": "HAProxy is free, open source software written in C that provides a high availability layer 4 and layer 7 load balancing and proxying. It has a reputation for being fast and efficient (in terms of processor and memory usage). \n\nWe explain the difference of layer 4 vs layer 7 proxying in haproxy (tcp vs http)\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ibnUI-amsj8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ibnUI-amsj8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ibnUI-amsj8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ibnUI-amsj8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ibnUI-amsj8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "q6xLznOcVo0QCQMzyCRm_iZdQIk",
+            "id": "UExRbmxqT0ZUc3BRVWhnZnZwZ2Z4Yy11RmxXRWxLSUJyLS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:43:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Hosting 3 WebSites on one IP Address with SNI and HAProxy",
+                "description": "Using the power of SNI and a little bit of port forwarding I demonstrate how to I hosted 3 websites publicly and secured them with Lets encrypt. I didn’t spend any money on hosting, domains. All for free\n\nTools used\nNoIp.com - for free domain hosting\nLets-encrypt - for generating 3 certificates  \nHAProxy - Reverse proxy and SNI host\nNodeJS - Where the websites actually running\nSNI - For shared hosting\nHTTP2 - For good measures\nTLS 1.3 - For great security and a single round trip.\n\n\nOriginal video https://www.youtube.com/watch?v=t0zlO5-NWFU\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CxamHNc3U4A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CxamHNc3U4A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CxamHNc3U4A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/CxamHNc3U4A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "CxamHNc3U4A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MkZRT84_VRlvY9ZkR6KDprZntM0",
+            "id": "UExRbmxqT0ZUc3BRVWhnZnZwZ2Z4Yy11RmxXRWxLSUJyLS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:43:34Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Setup Active-Passive Cluster with Keepalived & HAProxy (Two raspberry pis)",
+                "description": "Keepalived is a routing software written in C that provides simple and robust facilities for loadbalancing and high-availability to Linux systems. In this video we will talk about this technology and implement it along side HAProxy as a high availability (failover) \n\n\nChapters\n0:00 Intro\n2:10 What is failover?\n4:30 What are we building\n7:20 KeepAlived Example\n\n* What is Keepalived?\n* Setup Keepalived with HAProxy\n    * VRRP/VIP\n    * Two rapsberrypis with keepalived and haproxy\n\nsudo apt-get install keepalived\n\nsudo vim /etc/keepalived/keepalived.conf\n\n\n\n \nvrrp_instance pi1 {\n    state MASTER\n    interface eth0\n    virtual_router_id 101\n    priority 100\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100 \n    }\n}\n\nvrrp_instance pi2 {\n    state BACKUP\n    interface wlan0\n    virtual_router_id 102\n    priority 200\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100\n    }\n}\n\n \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "NizRDkTvxZo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "bswplA-LiAwl8QIwd_Wh_oR8iC0",
+            "id": "UExRbmxqT0ZUc3BRVWhnZnZwZ2Z4Yy11RmxXRWxLSUJyLS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:43:50Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Scaling Websockets to Multiple Servers with HAProxy, Redis and Node JS - Group Chat Application",
+                "description": "In this video I want to demonstrate how to scale websockets connection to multiple servers using a load balancer such as HAProxy.\n\n0:00 Intro\n1:00 What are WebSockets?\n2:40 WebSockets Scaling\n7:44 Chat WebSocket App Code\n\n\n\n* WebSockets\n* WebSockets Scaling \n* Live chat application (microservices)\n* Demo\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/ws-live-chat-system\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gzIcGhJC8hA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4H-WdQNvH2OgXdmjxhubUkqg6d8",
+            "id": "UExRbmxqT0ZUc3BRVWhnZnZwZ2Z4Yy11RmxXRWxLSUJyLS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:44:09Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Server Name Indication (SNI) (Explained by Example)",
+                "description": "SNI is TLS Extension that allows the client to specify which host it wants to connect during TLS handshake. This allows multiple domains to be hosted on a single public IP address. \n\njump codes\n0:00 Intro\n2:30 SNI\n10:20 Demo\n20:00 ESNI\n\nhttps://github.com/hnasr/javascript_playground/tree/master/sni\n\nResources\n\nhttps://tools.ietf.org/html/draft-ietf-tls-esni-05\n\n\ninstall lets encrypt\n\nsudo certbot certonly --standalone\n\nsudo cat /etc/letsencrypt/live/husseintest.ddns.net/fullchain.pem \\\n   /etc/letsencrypt/live/husseintest.ddns.net/privkey.pem \\\n    | sudo tee /Users/HusseinNasser/tls/husseintest.ddns.net/husseintest.ddns.net.pem\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/t0zlO5-NWFU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/t0zlO5-NWFU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/t0zlO5-NWFU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "t0zlO5-NWFU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KkW_mtNk3WMCWWTZ7y14TNXxhdg",
+            "id": "UExRbmxqT0ZUc3BRVWhnZnZwZ2Z4Yy11RmxXRWxLSUJyLS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-07-27T04:32:32Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Basic Microservices System (3 NodeJS + 1 Load Balancer containers) with Docker",
+                "description": "In this video, you will learn how to build a small microservices system that has four services. We will spin up a load balancer container that will balance requests through and 3 identical node js containers.\n\nSource Code https://github.com/hnasr/javascript_playground/tree/master/microservices-example \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "9sAg7RooEDc"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 9,
+        "resultsPerPage": 50
+    }
+}

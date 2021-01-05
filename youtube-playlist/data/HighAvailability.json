@@ -1,0 +1,210 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "QFsYmnAzwAB_BqBJ2bb1mllKOtE",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vLzrshKLWRS1khNXKL7v47BnP9M",
+            "id": "UExRbmxqT0ZUc3BRVlBPdDJHckdwcTJfTlJaamNkeHpmdS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-07-14T17:00:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Fail-over and High-Availability (Explained by Example)",
+                "description": "Failover is the technique of switching to a redundant backup machine when a certain node goes down. This is a very common implementation for achieving high availability and it is often mixed with different load balancing techniques such as layer 4 and layer 7 balancing.\n\nIn this video i want to go through following\n\nChapters\n0:00 Intro\n1:47 What is Failover?\n3:00 ARP - Address Resolution Protocol\n5:40 VIP & VRRP\n12:12 High-availability Example\n\n\n#KeepAlived \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVPOt2GrGpq2_NRZjcdxzfu",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Zgy1miPsTNs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0qHznSMNqzF2zJosBmtWeEFUkf8",
+            "id": "UExRbmxqT0ZUc3BRVlBPdDJHckdwcTJfTlJaamNkeHpmdS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-07-14T17:00:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Active-Active vs Active-Passive Cluster to Achieve High Availability in Scaling Systems",
+                "description": "In this video I want to talk over the active active active vs active passive cluster failover configuration for high availability. We will also explain the pros & cons of using an active-active cluster vs using an active-passive cluster.  \n\n\n2:25 Fail-over https://www.youtube.com/watch?v=Zgy1miPsTNs\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVPOt2GrGpq2_NRZjcdxzfu",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "d-Bfi5qywFo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "uSVtHyugdCo4J3pxJZsQVFDm11s",
+            "id": "UExRbmxqT0ZUc3BRVlBPdDJHckdwcTJfTlJaamNkeHpmdS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-07-14T17:00:05Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Setup Active-Passive Cluster with Keepalived & HAProxy (Two raspberry pis)",
+                "description": "Keepalived is a routing software written in C that provides simple and robust facilities for loadbalancing and high-availability to Linux systems. In this video we will talk about this technology and implement it along side HAProxy as a high availability (failover) \n\n\nChapters\n0:00 Intro\n2:10 What is failover?\n4:30 What are we building\n7:20 KeepAlived Example\n\n* What is Keepalived?\n* Setup Keepalived with HAProxy\n    * VRRP/VIP\n    * Two rapsberrypis with keepalived and haproxy\n\nsudo apt-get install keepalived\n\nsudo vim /etc/keepalived/keepalived.conf\n\n\n\n \nvrrp_instance pi1 {\n    state MASTER\n    interface eth0\n    virtual_router_id 101\n    priority 100\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100 \n    }\n}\n\nvrrp_instance pi2 {\n    state BACKUP\n    interface wlan0\n    virtual_router_id 102\n    priority 200\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100\n    }\n}\n\n \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVPOt2GrGpq2_NRZjcdxzfu",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "NizRDkTvxZo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "o7CvMKHiu2puRswiA6q16pIbon4",
+            "id": "UExRbmxqT0ZUc3BRVlBPdDJHckdwcTJfTlJaamNkeHpmdS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-07-14T17:00:28Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load Balancer vs Reverse Proxy (Explained by Example)",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nIn this video we will discuss the difference between Reverse proxy and load balancer. Some of you guys asked this question and I thought its appropriate to make a video. \n\nSo Personally id like to think of a Load balancer as one of the applications of a reverse proxy. It is a special case of a reverse proxy. Lets us define what a reverse proxy is first. To define load balancer we need to first define what a reverse proxy is. And to define reverse proxy, we need to know what a proxy is! So lets start with a proxy \n\nA proxy is a piece of software that makes request to a server in place of the client. Servers don’t know who are the client. \n\nReverse proxy is the reverse! The client doesn’t know which server it is connected to. I recommend checking out the video of proxy vs reverse proxy to learn more. \n\nA Load balancer is a special case of a reverse proxy. Reverse proxy doesn’t have to be a load balancer. Load balancers must have two or more servers on the backend to balance the load, reverse proxy doesn’t have to. Reverse proxy can be optimized to perform the following: \n\n1. Caching web acceleration \n2. Canary deployment \n3. Security against servers \n4. Anonymous \n5. Single entry URL\n6. Load balancing\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVPOt2GrGpq2_NRZjcdxzfu",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "S8J2fkN2FeI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "40LoDn_FCZAzQb5NiUQKLCJuM74",
+            "id": "UExRbmxqT0ZUc3BRVlBPdDJHckdwcTJfTlJaamNkeHpmdS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-07-14T17:00:22Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load balancing in Layer 4 vs Layer 7 with HAPROXY Examples",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nLoad balancing is process of balancing incoming requests to multiple machines, processes or services. In this video we will explain two types of load balancers, layer 4 and layer 7. \n\nChapters\n0:00 Intro \n6:00 L4 Load balancer\n9:10 L4 Load Balancer Pros and Cons \n16:18 Example L4 Load Balancer with HAPROXY\n22:30 L7 Load Balancer\n27:00 L7 Pros and Cons\n31:00 Example L7 Load Balancer with HAPROXY\n37:00 Summary\n\n\n\nLayer 4 (4/3)\nTake content forwards it based on basic rules, it knows ip and port and perhaps latency of the target service. \n\nLayer 4 - haproxy, NLB\nPros\n- great for simple packet-level load balancing\n- Fast and efficient doesn’t look at the data\n- More secure as it cant really look at your packets. So if it was compromised no one can look\n- Uses NAT \n- One connection between client and server NATed\nCons\n- Cant do smart load balancing based on the content, such as switch request based on requested media type\n- Cant do microservices with this type\n- Has to be sticky as it is a stateful protocol (all segments)\n\n\n\nLayer 7 (Nginx , haproxy) \n\nThis type of proxy actually looks at the content and have more context, it knows you are visiting the /users resources so it may forward it to a different server. Essential and Great for microservices , it knows the content is video:image etc.. \n\n\nit can also cache.. we cant really do caching on layer 4 because we have no clue whats in the packets. \n\nBut expensive because it has to decrypt and look and compute \n\n\nLayer 4 - haproxy, nlb \n- great for simple packet-level load balancing \n- fast and efficient doesn’t look at the data \n- More secure as it cant really look at your packets. So id it was compromised no one can look\n- Uses NAT \n- One connection between client and server NATed \nLayer 7 - examples nginx \n- Smart routing based on the url (microservices) flexible \n- Provide caching \n- Expensive need to decrypt\n- Secuirty, you have to share your certificate with the load balancers. Id compromised attacker has access to all your data. \n- Proxy creates multiple connection (client to proxy/proxy to server) \n\n\n\n\nImage thumbnails https://www.haproxy.com\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVPOt2GrGpq2_NRZjcdxzfu",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "aKMLgFVxZYk"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 5,
+        "resultsPerPage": 50
+    }
+}

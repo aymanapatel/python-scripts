@@ -1,0 +1,290 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "87xrgM2uj-G4JFfNFkqyoSIHDkY",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "q_kGayavYZiE_gzjS_Lijoxfyd0",
+            "id": "UExRbmxqT0ZUc3BRV2RnWWNHWENUa2pkYTh2ZDJqV0pZdC41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-05-18T01:09:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load balancing in Layer 4 vs Layer 7 with HAPROXY Examples",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nLoad balancing is process of balancing incoming requests to multiple machines, processes or services. In this video we will explain two types of load balancers, layer 4 and layer 7. \n\nChapters\n0:00 Intro \n6:00 L4 Load balancer\n9:10 L4 Load Balancer Pros and Cons \n16:18 Example L4 Load Balancer with HAPROXY\n22:30 L7 Load Balancer\n27:00 L7 Pros and Cons\n31:00 Example L7 Load Balancer with HAPROXY\n37:00 Summary\n\n\n\nLayer 4 (4/3)\nTake content forwards it based on basic rules, it knows ip and port and perhaps latency of the target service. \n\nLayer 4 - haproxy, NLB\nPros\n- great for simple packet-level load balancing\n- Fast and efficient doesn’t look at the data\n- More secure as it cant really look at your packets. So if it was compromised no one can look\n- Uses NAT \n- One connection between client and server NATed\nCons\n- Cant do smart load balancing based on the content, such as switch request based on requested media type\n- Cant do microservices with this type\n- Has to be sticky as it is a stateful protocol (all segments)\n\n\n\nLayer 7 (Nginx , haproxy) \n\nThis type of proxy actually looks at the content and have more context, it knows you are visiting the /users resources so it may forward it to a different server. Essential and Great for microservices , it knows the content is video:image etc.. \n\n\nit can also cache.. we cant really do caching on layer 4 because we have no clue whats in the packets. \n\nBut expensive because it has to decrypt and look and compute \n\n\nLayer 4 - haproxy, nlb \n- great for simple packet-level load balancing \n- fast and efficient doesn’t look at the data \n- More secure as it cant really look at your packets. So id it was compromised no one can look\n- Uses NAT \n- One connection between client and server NATed \nLayer 7 - examples nginx \n- Smart routing based on the url (microservices) flexible \n- Provide caching \n- Expensive need to decrypt\n- Secuirty, you have to share your certificate with the load balancers. Id compromised attacker has access to all your data. \n- Proxy creates multiple connection (client to proxy/proxy to server) \n\n\n\n\nImage thumbnails https://www.haproxy.com\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWdgYcGXCTkjda8vd2jWJYt",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "aKMLgFVxZYk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "gzc_2Ugvkjp-4Gu7aehmjb5QOls",
+            "id": "UExRbmxqT0ZUc3BRV2RnWWNHWENUa2pkYTh2ZDJqV0pZdC41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-10-16T23:05:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "2 Hours NginX Crash Course + Bonus Content (Audio Fixed)",
+                "description": "NginX is an open source web server written in C and can also be used as a reverse proxy and a load balancer. This is a reupload of my original NginX video plus some more bonus content discussing the timeouts. \n\nIn this video, I want to go through the following topics in NginX. \n\nThis is a reupload of an existing NginX video where I fixed the Audio (sorry), I also added bonus content.. \n\nChapters\n0:00 Intro\n2:25 What is NginX?\n4:58 Current & Desired Architecture\n8:40 Layer 4 and Layer 7 Proxying in Nginx\n10:25 Example\n13:30 Install Nginx (mac)\n15:00 Nginx as a Web Server (webserver.conf)\n20:00 Static context location root\n27:00 Regular expression\n30:30 proxy pass\n33:30 Nginx as a Layer 7 Proxy\n37:00 Proxy to 4 backend NodeJS services (docker)\n43:00 IP_Hash load balancing\n46:00 Split load to multiple backends (app1/app2)\n49:00 Block certain requests (/admin)\n51:30 NGINX as a Layer 4 Proxy\n1:01:08 Create DNS record\n1:05:08 Enable HTTPS on Nginx (lets encrypt)\n1:14:00 Enable TLS 1.3 on NginX\n1:17:10 Enable HTTP/2 on NginX\n1:20:10 Summary\n1:25:34 NginX FrontEnd Timeouts\n1:26:49 client_header_timeout \n1:30:30 client_body_timeout \n1:33:00 send_timeout\n1:35:00 keepalive_timeout\n1:36:15 lingering_timeout\n1:40:00 resolver_timeout \n1:41:36 NginX BackEnd Timeouts\n1:42:17 proxy_connect_timeout \n1:43:53 proxy_send_timeout\n1:46:30 proxy_read_timeout \n1:48:55 keepalive_timeout \n1:50:00 proxy_next_upstream_timeout \n1:53:30 Nginx On Docker\n\n\nAll the nginx Configuration can be found here \nhttps://github.com/hnasr/javascript_playground/tree/master/nginx\n\n\n\n\nResources\nhttp://nginx.org/en/docs/http/ngx_http_upstream_module.html\nhttp://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWdgYcGXCTkjda8vd2jWJYt",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hcw-NjOh8r0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zwSC_nO65pxXVOswtQ5BdqOAB00",
+            "id": "UExRbmxqT0ZUc3BRV2RnWWNHWENUa2pkYTh2ZDJqV0pZdC4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-05-18T01:10:15Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load Balancing Tutorial with Python and Nginx",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\n\nIn this video we will discuss how to implement load balancing. So lets start with defining load balancing with some graphics, then we will spin up few python services with different ports. We will finally install and configure a load balancer (nginx). \n\nload balancer, python load balancer, nginx, load balancer configuration, how to configure nginx, how to configure load balancer, \n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWdgYcGXCTkjda8vd2jWJYt",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "4xGQS8Pv4io"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "rMQiIW5l9Frp0LR52szbT5ZvKLQ",
+            "id": "UExRbmxqT0ZUc3BRV2RnWWNHWENUa2pkYTh2ZDJqV0pZdC4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-05-18T01:11:06Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Basic Microservices System (3 NodeJS + 1 Load Balancer containers) with Docker",
+                "description": "In this video, you will learn how to build a small microservices system that has four services. We will spin up a load balancer container that will balance requests through and 3 identical node js containers.\n\nSource Code https://github.com/hnasr/javascript_playground/tree/master/microservices-example \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWdgYcGXCTkjda8vd2jWJYt",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "9sAg7RooEDc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "j9BBnHDzYLP_Q_f9wzUrpwAsOvc",
+            "id": "UExRbmxqT0ZUc3BRV2RnWWNHWENUa2pkYTh2ZDJqV0pZdC41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-05-18T01:11:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spin up an Nginx Docker Container as a Load Balancer",
+                "description": "In this video we explain how to spin up a docker container that is running nginx load balancer. We will use an nginx.conf file to configure and load balance two services right from our container. We will then build a dockerfile inherit from the base nginx docker image and overwrite the default nginx.conf with ours. \n\nConfiguration\nhttps://github.com/hnasr/javascript_playground/tree/master/nginx-container\n\nCards\n0:40 Nginx Crash Course\n1:30 Node Js Docker lightweight\n\n\nTimecode\nnginx.conf 2:44\nDockerfile 4:44\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWdgYcGXCTkjda8vd2jWJYt",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BRPvjNQsqis"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zmWD8X2Vu9I6E4ymftDYoOeYTDE",
+            "id": "UExRbmxqT0ZUc3BRV2RnWWNHWENUa2pkYTh2ZDJqV0pZdC4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-05-18T01:11:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load Balancing in HTTP/2 Explained",
+                "description": "In this video I explain how Load Balancing is done in the HTTP/2 protocol. There is the front end HTTP/2 and there is also a backend and load balancing HTTP/2 is really a parameter of both.\n\nChapters\n0:00 Intro\n1:00 Load Balancing HTTP/2 when Frontend is H2\n9:00 Load Balancing HTTP/2 when both Frontend and Backend is H2\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0avOYByiTRQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0avOYByiTRQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0avOYByiTRQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/0avOYByiTRQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWdgYcGXCTkjda8vd2jWJYt",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "0avOYByiTRQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "q0oTKefQwhwvRIt7eo-s0cyDcFY",
+            "id": "UExRbmxqT0ZUc3BRV2RnWWNHWENUa2pkYTh2ZDJqV0pZdC4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-09-12T00:06:47Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Unimog - The Cloudflare Kernel Layer 4 Load Balancer is an interesting Tech. let us discuss!",
+                "description": "Unimog is a layer 4 load balancer built for Cloudflare scale. Cloudflare written a great blog about it so let us discuss this technology.\n\nResources\nhttps://blog.cloudflare.com/unimog-cloudflares-edge-load-balancer/\n\n0:00 Intro\n3:33 Layer 4 vs Layer 7 Load Balancers\n7:00 Anycast\n13:45 Packet Forwarding \n23:30 XDP and Network stack\n26:45 Maintaining established connection\n31:00 Edge Computing \n32:00 UDP Routing\n33:00 Unimog Summary\n34:00 Open Source Software\n36:00 K8 Rant\n40:00 Conclusion\n\ncards\n6;30 L4 vs L7 proxying https://www.youtube.com/watch?v=aKMLgFVxZYk\n12;30 vip https://www.youtube.com/watch?v=85XY7H2JPbs\n13;30 tcp handshake https://www.youtube.com/watch?v=bW_BILl7n0Y&t=5s\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Q0irm6xzNNk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Q0irm6xzNNk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Q0irm6xzNNk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Q0irm6xzNNk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWdgYcGXCTkjda8vd2jWJYt",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Q0irm6xzNNk"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 7,
+        "resultsPerPage": 50
+    }
+}

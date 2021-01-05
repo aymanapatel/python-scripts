@@ -1,0 +1,345 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "KmZ4GegvKqlhGGBa1c0ksRshlCc",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Jy52FDa88to4KrDkfD0Yw3MUDNc",
+            "id": "UExRbmxqT0ZUc3BRV215eWpGaGdITUlMX2FPZ2VNSm9Edy41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2018-09-16T17:10:24Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Is Coding Easy? #softwaretalk",
+                "description": "Have you ever became part of a team trying to solve a problem that sounds easy but once you dove into it turns out its not so? This is what we discuss in this episode of #softwaretalk \n\n#softwareTalk series episode 1, this series we pick a topic and casually talk about it. In this episode we try to answer the question “Is Coding Easy?” While doing so explain how being a good software developer require you to look at the entire stack. \n\nA problem might look simple from the outside but it is never easy. \n\nWelcome to the first episode of software engineering talk. In this series, we pick a topic and casually talk about it. In today’s episode, we try to answer the question is Coding easy?\n\n\nIntro: 0:00\nEasy vs. Simple 3:20\nBuilding a profile page example: 3:55\nDatabase Level challenges: 6:00\nDatabase Indexes: 8:00\nSELECT * FROM: 8:55\nBe Empathic of all software actors: 10:20\n\n#softwaretalk\n\nCheers!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWmyyjFhgHMIL_aOgeMJoDw",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iuynM_7vrd8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "xS9nSKz9VnZXgu7xqcDGvYREjBw",
+            "id": "UExRbmxqT0ZUc3BRV215eWpGaGdITUlMX2FPZ2VNSm9Edy4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2018-09-23T01:42:05Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How to become a Better Software Engineer?",
+                "description": "There is no secret, no magic potion, no pill or book or a “new” programming language that will make you a better software engineer. To be a better software engineer you have to write more software. Write silly software, write fart software, write stupid software, write  bad performant software. Write enough software to give the edge to be better than other software engineers and software developers. \n\nEnjoy this episode of #softwaretalk\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1T2xcarK5TU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1T2xcarK5TU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1T2xcarK5TU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1T2xcarK5TU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWmyyjFhgHMIL_aOgeMJoDw",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "1T2xcarK5TU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9ndN0jjGjyJnOhDP6r22NjaVBfU",
+            "id": "UExRbmxqT0ZUc3BRV215eWpGaGdITUlMX2FPZ2VNSm9Edy4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2018-09-23T02:43:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "User Experience vs API - What Comes First? #softwaretalk",
+                "description": "Any modern software or application that we build must have a backend API (Application Programming Interface) whether design in C++ IMPL Interfaces Or HTTP REST Architecture, and a Front End User Experience to consume this API which could range from a mobile app to a voice device. This is an open discussion, when you as a software engineer want to design a new application, what do you start first? Front-End User Experience? Or the Back-end API? We discuss the pros and cons of both. I enjoyed making this episode of #softwaretalk\n\nEnjoy guys\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cpHPOkqyAk0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cpHPOkqyAk0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cpHPOkqyAk0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/cpHPOkqyAk0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWmyyjFhgHMIL_aOgeMJoDw",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "cpHPOkqyAk0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "jmJwBlpaeT9wlFUhODRoGkwBnQg",
+            "id": "UExRbmxqT0ZUc3BRV215eWpGaGdITUlMX2FPZ2VNSm9Edy41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2018-10-06T02:50:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Product Architect vs Solutions Architect #softwaretalk",
+                "description": "In this episode of #softwaretalk, we discuss the differences between the software product architect and a solutions architect. We start by defining the difference between a software product and a solution. Then we discuss the responsibilities of product architect vs solution architect. \n\nIf you are interested to be a solution or product architect or engineer you came to the right place. \n\nCheers\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IViXt1mpYX4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IViXt1mpYX4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IViXt1mpYX4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/IViXt1mpYX4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/IViXt1mpYX4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWmyyjFhgHMIL_aOgeMJoDw",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "IViXt1mpYX4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "D85Btlb2PG4Zh0aI4A8NeVwob9g",
+            "id": "UExRbmxqT0ZUc3BRV215eWpGaGdITUlMX2FPZ2VNSm9Edy4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2018-10-06T03:40:35Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Software Troubleshooting is an Art, here is why",
+                "description": "In this episode of #softwaretalk we discuss the art of software troubleshooting. We can become better software engineers by aiming to excel at our craft. Not just find a bug, but track its cause. Not just find a bad performing workflow in the app but find out what causes the performance bottleneck. Do the due diligence. \n\nEnjoy this episode guys\nHussein\n\nwww.husseinnasser.com",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hw3jHk5uOs4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hw3jHk5uOs4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hw3jHk5uOs4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hw3jHk5uOs4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWmyyjFhgHMIL_aOgeMJoDw",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hw3jHk5uOs4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "AQzIChbeXSaMst528RHi8qo8lM0",
+            "id": "UExRbmxqT0ZUc3BRV215eWpGaGdITUlMX2FPZ2VNSm9Edy4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2018-11-29T00:51:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "There is no such thing as Top or Best Programming Language (Rant)",
+                "description": "I don’t usually do rants. But I am tired of the \"top programming languages in 2020, 2019, 2018\" videos every year. If you are a new software developer, pick a language and write software. There is no best programming language. Each programming language has its own pros and cons.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IjOjiF4_cQc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IjOjiF4_cQc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IjOjiF4_cQc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/IjOjiF4_cQc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWmyyjFhgHMIL_aOgeMJoDw",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "IjOjiF4_cQc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "sKZon9alEYyZUq1Mj7kJUp9zZ_Y",
+            "id": "UExRbmxqT0ZUc3BRV215eWpGaGdITUlMX2FPZ2VNSm9Edy41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2018-12-09T23:34:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Vlog - Database Locks #softwaretalk",
+                "description": "In this episode of #softwaretalk I'm in beautiful San Francisco for the weekend. Our topic today is database locks. \n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dTNzcmTZC18/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dTNzcmTZC18/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dTNzcmTZC18/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dTNzcmTZC18/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/dTNzcmTZC18/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWmyyjFhgHMIL_aOgeMJoDw",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "dTNzcmTZC18"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pIv_6Y65dK8teqVyWCLpSPMfxrY",
+            "id": "UExRbmxqT0ZUc3BRV215eWpGaGdITUlMX2FPZ2VNSm9Edy5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-10-23T02:40:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Should you become a Full Stack Engineer?",
+                "description": "In this video, I discuss Full Stack Engineering and whether you should pick that field or not. \n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UuAY6Lxkppw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UuAY6Lxkppw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UuAY6Lxkppw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/UuAY6Lxkppw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWmyyjFhgHMIL_aOgeMJoDw",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "UuAY6Lxkppw"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 8,
+        "resultsPerPage": 50
+    }
+}

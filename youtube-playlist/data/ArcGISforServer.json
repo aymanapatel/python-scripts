@@ -1,0 +1,325 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "fkL96_KJQOezu6Ol4O8_QZSlO3s",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "HiXdZmkcvXfLx-9uGBrfbrjy5y4",
+            "id": "UExRbmxqT0ZUc3BRVWIySXNKNnFQUWNROGY3TmtxTmN4ci41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2017-04-11T03:41:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS for Server - Installation [Windows]",
+                "description": "Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nArcGIS for Server, a great technology, want to learn it? stick with us here. This part covers only the installation part of arcgis for server. We will talk about hopefully every piece in this technology\n\n(Apologies for the noise at 7:00, that was my Mac processor spinning really hard I was running lots of background processing)\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUb2IsJ6qPQcQ8f7NkqNcxr",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "j8pF8imok3Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "WBNBGZBpuDEnQNT8b2dpzoupMSY",
+            "id": "UExRbmxqT0ZUc3BRVWIySXNKNnFQUWNROGY3TmtxTmN4ci41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2017-04-16T19:23:15Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS for Server - Touring the Manager - Pooling",
+                "description": "Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nIn our series of touring the manager, we start off with Pooling, explaining what is pooling? how it works and all the different configurations \n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7l4PJkpwGcI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7l4PJkpwGcI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7l4PJkpwGcI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/7l4PJkpwGcI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/7l4PJkpwGcI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUb2IsJ6qPQcQ8f7NkqNcxr",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "7l4PJkpwGcI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zKUymmu0eXLAZ-uPuydY-b2bi4g",
+            "id": "UExRbmxqT0ZUc3BRVWIySXNKNnFQUWNROGY3TmtxTmN4ci4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2017-04-30T20:23:17Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS for Server - Publishing by Value",
+                "description": "Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nWe briefly discuss types of publishing to ArcGIS Server (by value and by reference), we focus on publishing by value in this episode. \n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SCIfSBqeFIw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SCIfSBqeFIw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SCIfSBqeFIw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SCIfSBqeFIw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/SCIfSBqeFIw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUb2IsJ6qPQcQ8f7NkqNcxr",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SCIfSBqeFIw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "xuGuK-FEsKNo0TK4Zn1hTgTXpMI",
+            "id": "UExRbmxqT0ZUc3BRVWIySXNKNnFQUWNROGY3TmtxTmN4ci4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2017-05-13T22:29:15Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS for Server - Touring the Manager - Processes",
+                "description": "Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nWe continue touring the manager, where to talk about processes, SOCs, Isolation, Recycling, repairing connections\n\n\np.s. process Isolation have been removed in 10.5\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eoNFF5nKKhg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eoNFF5nKKhg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eoNFF5nKKhg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/eoNFF5nKKhg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/eoNFF5nKKhg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUb2IsJ6qPQcQ8f7NkqNcxr",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "eoNFF5nKKhg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "f-29V1Lazok-p3P4SW4XwIt1lDU",
+            "id": "UExRbmxqT0ZUc3BRVWIySXNKNnFQUWNROGY3TmtxTmN4ci5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2017-06-24T05:06:27Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server - Installing and Configuring WebAdaptor (IIS)",
+                "description": "Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nIn this episode we discuss what is the web adaptor, its benefits and how we configure it.\n \nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RxspH3ZV9-g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RxspH3ZV9-g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RxspH3ZV9-g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/RxspH3ZV9-g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/RxspH3ZV9-g/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUb2IsJ6qPQcQ8f7NkqNcxr",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "RxspH3ZV9-g"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "c058mXQUU5e8JRz6ic7_roOsqUw",
+            "id": "UExRbmxqT0ZUc3BRVWIySXNKNnFQUWNROGY3TmtxTmN4ci45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2017-07-23T03:08:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server - Publishing Feature Service (by Reference)",
+                "description": "Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nThis episode we discuss how to publish a set of layers pointing to an Enterprise geodatabase to arcgis server and expose it as a feature service.\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5SjwNJFJb8A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5SjwNJFJb8A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5SjwNJFJb8A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5SjwNJFJb8A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/5SjwNJFJb8A/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUb2IsJ6qPQcQ8f7NkqNcxr",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5SjwNJFJb8A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "rVFDIg_WGcf5lfdyIbuWH_OupdI",
+            "id": "UExRbmxqT0ZUc3BRVWIySXNKNnFQUWNROGY3TmtxTmN4ci5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2017-11-27T02:51:41Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS for Server Architecture Explained",
+                "description": "Skip to 4:10 to jump to the ArcGIS Server Architecture piece. The first 4 minutes we discuss how to integrate ArcGIS server with Docker.\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nNo docker in this episode because we need to explain the ArcGIS Server architecture in order to move forward. We talk about web servers (web adaptors) GIS Servers, config stores and how each component play a role in the ArcGIS server architecture\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DhvUJLwOBsE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DhvUJLwOBsE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DhvUJLwOBsE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DhvUJLwOBsE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/DhvUJLwOBsE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUb2IsJ6qPQcQ8f7NkqNcxr",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DhvUJLwOBsE"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 7,
+        "resultsPerPage": 50
+    }
+}

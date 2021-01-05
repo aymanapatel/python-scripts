@@ -1,0 +1,1608 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "gWC1_Ww5pWwsaruJzhS5Vo6yIJs",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "OC0Y9NFtlH0nDKKczIFO-Vq3gqE",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2018-03-03T20:13:36Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "My Story",
+                "description": "My Name is Hussein Nasser, I'm from Bahrain, I'm an author and a software engineer who authored many books in software engineering and GIS technology. I moved with my family to California in 2015 for a new software engineering job on an H1-B visa, this is my story. I'm really happy that I did. \n\n\nA lot of people were asking me where I'm originally from? what did I study? what jobs did I have? Why did I start my blog and Youtube Channel? How did I write my books? How did I move to the United States? and much more. \n\n\nThank you guys for the support! Love you\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "_EZ1tQ0yDo4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YJfAgKuliuJw_uMBDedphIEqBeQ",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2020-01-02T00:37:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Horizontal vs Vertical Database Partitioning",
+                "description": "In this video I explain what database partitioning is and illustrate the difference between Horizontal vs Vertical Partitioning, benefits and much more. \n\n0:00 Intro\n1:00 Why Partitioning? \n3:00 Horizontal Partitioning?\n5:50 Vertical Partitioning?\n\nBenefits of Partitioning \nIndexes are smaller (quick index scans)\nAllows DB optimizer to sequence scan the partition instead of index\nSplit table by columns (vertically) and put the columns with the entire slice into another table (blobs) Example fields that are blobs can be put in another table in another tablespace that is stored in hard disc vs the rest of the data goes to your SSD\n\n\n\nTypes\nRange partitioning\nRange queries within a key .. \n\nList partitioning \nDiscrete values- countries \n\nHash partitioning \nConsistent hashing based on a value, hard to add to new partition\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QA25cMWp9Tk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QA25cMWp9Tk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QA25cMWp9Tk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/QA25cMWp9Tk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "QA25cMWp9Tk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "r13tCicc8F9-0WuhT8pmzzf0XKI",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2019-12-26T15:27:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is Collateral Knowledge?",
+                "description": "Quick video updating you on progress - Collateral Knowledge\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6YKbVpWmeLM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6YKbVpWmeLM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6YKbVpWmeLM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/6YKbVpWmeLM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "6YKbVpWmeLM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "OIvi--yn-mjYnztpBSbfUbyi0AE",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4yMDhBMkNBNjRDMjQxQTg1",
+            "snippet": {
+                "publishedAt": "2020-01-06T14:44:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "The ! Empathetic Engineer: A short story portraying the software engineer archetype",
+                "description": "Engineers are incredibly smart people. This could be a product of the complex problems they usually work on and the abundance of solutions a given problem can have. This is especially true for software engineering problems. With so many roads leading to Rome, it becomes attractive for engineers to favor the idea they came up with over others.\n\nEngineers are arrogant. I say that as an engineer myself. I have been guilty of assuming I know more than most people in the room. Or that my way is the right way. Or that whatever other people might say is irrelevant. Or that I can rarely be wrong.\n\nI wanted to shed light on this problem and highlight it and I’m using short stories as a medium. I did think about other mediums to portray this problem such as paintings, sculptures, poems, photos, music, and writing. However, I can’t paint or sculpture. I take atrocious photos (ask my wife). I never wrote any music so let's not go there. I do write poems but they are mostly in Arabic so that won’t reach the audience I want. Plus I think poems are immutable and can’t be translated without bleeding them in the process So the best route is to write. I know I'm not a good writer, as you will clearly see from this book, but I think I will be able to get my point across.\n\n\nAmazon kindle\n\nhttps://www.amazon.com/dp/B083H3N7C9/ref=cm_sw_r_cp_api_i_jKPeEbKJHK6VR\n\n\nPayhip\n\nhttps://payhip.com/b/2MCl\n\n\nMobi (google drive)\n\nhttps://drive.google.com/file/d/1al-G18prhf2xwfn3zPeV0I06rJrl_-vk/view?usp=drivesdk\n\nEpub (google drive)\n\nhttps://drive.google.com/file/d/1BFlcQUt-vzrlPJDSsOyirfcNn_tXULNz/view?usp=drivesdk",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lk228q9mwrY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lk228q9mwrY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lk228q9mwrY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/lk228q9mwrY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "lk228q9mwrY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ny8EpPmmkmbItgFHvL5FKSWoVWw",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2017-12-24T17:44:06Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Persistent Connections (Pros and Cons)",
+                "description": "HAPPY HOLIDAYS! Today’s vlog topic is about persisted connections, advantages, disadvantages specially while writing applications that hit the database. Should you keep those tcp database connections alive? or should you close them as soon as you are done with your requests.  We also discuss how persisted connections can actually lead to DDOS (distributed denial of service) attacks if managed incorrectly. \n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XxM8BZuaKi4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XxM8BZuaKi4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XxM8BZuaKi4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/XxM8BZuaKi4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/XxM8BZuaKi4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "XxM8BZuaKi4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Vsn_F2L-_K88ugXgJsmATxM8Q3M",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2017-12-05T02:45:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Vlog - Client/Server Programming Languages",
+                "description": "In this vlog we talk about programming languages focusing on programming languages on the client side and the server side. \n\nWe also talk about programming languages in the 90s. \n\nInterested in Learning programming ? we have done tutorials on javascript and vb.net check them out\n\nVB.NET by Example tutorial https://goo.gl/ty9QTS \n\nJavascript by Example tutorial https://goo.gl/EhNmYV",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/O4N81weRolg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/O4N81weRolg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/O4N81weRolg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/O4N81weRolg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/O4N81weRolg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "O4N81weRolg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "EeAPaQhNA3dxLKBdpVawH7JULKE",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2017-12-17T02:03:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Vlog - Keep your servers close and your database closer",
+                "description": "Vlog on one of the important software architecture discussions. How close should the database be to its client. We talk about 3-tier (citrix), services and microservices. If you have a chatty database client, keep it close to its database.\n\n*Apologies for the shaky video, was walking across rocks will make sure to stand still next time. \n\nEnjoy\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ubcwo-e6zRM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ubcwo-e6zRM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ubcwo-e6zRM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Ubcwo-e6zRM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Ubcwo-e6zRM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Ubcwo-e6zRM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "FJFrYTwW7Kucoh67HXxiaMFEV5k",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2018-01-07T01:54:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Fastest Way to Learn Programming Language or Technology",
+                "description": "New Technologies are emerging exponentially in this age. How can we as Software Engineers keep up and stay updated and learn these technologies? Want to learn a new Operating System? There is a new Bleeding Edge NOSQL Database and you want to try it out? A new Load Balancer that everybody is talking about it? We discuss one of the best way to learn this in this vlog in beautiful San Diego! \n\nStay Awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZsXuwIzDczY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZsXuwIzDczY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZsXuwIzDczY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ZsXuwIzDczY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ZsXuwIzDczY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ZsXuwIzDczY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "40xn7NG-wyTKFJzv77FWNMtCyX4",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2018-01-09T03:52:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Vlog - Horizontal vs Vertical Scaling",
+                "description": "Talking a walk in Redlands while discussing different kind of scaling in software. Horizontal vs Vertical vs Data Scaling. \n\nWhat other scaling are you familiar with in Software Engineering?\n\nLight topic.\n\nStay Awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EnnWxq5nQqQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EnnWxq5nQqQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EnnWxq5nQqQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/EnnWxq5nQqQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/EnnWxq5nQqQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "EnnWxq5nQqQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "8VQmC89TZcnmi8wByxqw-jzDOag",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2018-01-25T04:55:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Can you build software that alters its behavior?",
+                "description": "This morning I did something I never did before. I changed my behavior I used to do something consistently for a month and today I changed it. The challenge is I do not know what triggered my behavior but made me ask a question. \n\nCan we teach a machine to be self improve itself? What do you guys think?\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pMGDuIPDSgU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pMGDuIPDSgU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pMGDuIPDSgU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pMGDuIPDSgU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/pMGDuIPDSgU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "pMGDuIPDSgU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "uwS9kNBT0ZJJfpnJHl__yFyKpvY",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2018-02-03T19:22:00Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Channel Update and a new announcement",
+                "description": "Channel update! From beautiful San Diego! New podcast, more social! And another special announcement :) \n\nStay awesome",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IkAsfNuRnkM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IkAsfNuRnkM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IkAsfNuRnkM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/IkAsfNuRnkM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/IkAsfNuRnkM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "IkAsfNuRnkM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "36OuUf9fd4mdh0Emax7JPzavol0",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2018-02-04T20:33:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Private video",
+                "description": "This video is private.",
+                "thumbnails": {},
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "CL3YlsygLnI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "VuTf3JkItzmtaWYjjZaRD7OLf78",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2018-02-05T15:56:05Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Vlog - Cash in on Your Passion (Crush it)",
+                "description": "Today’s vlog. Just finished reading Gary’s book Crush it and preordering Crushing it. It inspired me to make this video and post it today.\n\n\nCrush it by Gary Vaynerchuk (affiliate)\nhttps://goo.gl/cy6NDM\n\nCrushing it by Gary Vaynerchuk (affiliate)\nhttps://goo.gl/vTc4EQ",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BJZtHmrYY6g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BJZtHmrYY6g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BJZtHmrYY6g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BJZtHmrYY6g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/BJZtHmrYY6g/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BJZtHmrYY6g"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Tx9JbEBw018-MWP6kkOrEuNwkgE",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2018-02-09T02:14:41Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "My Book VLog - The Outline",
+                "description": "The outline draft is done. We discuss it in this episode and go through the details of what I’m planning to write. Hope you guys enjoy it. \n\nLet the Journey Begin.\n\n-Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JR7PlB8R7ZU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JR7PlB8R7ZU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JR7PlB8R7ZU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JR7PlB8R7ZU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/JR7PlB8R7ZU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JR7PlB8R7ZU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "kBpNbQ05jB3PuiVe2onTlUB1oGM",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2018-02-12T03:45:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Vlog (Istanbul) - Datacenter Proximity",
+                "description": "While in beautiful Istanbul I noticed Instagram slowed down drastically despite my good internet connection. It was not until I logged off and logged back in It was back to normal. I explain why I hit that performance hit in while walking in beautiful Istanbul.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9XMHHUgYK2g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9XMHHUgYK2g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9XMHHUgYK2g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/9XMHHUgYK2g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/9XMHHUgYK2g/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "9XMHHUgYK2g"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "JRPD-SW3A4_hT3EVAKHfhajrfG0",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2018-02-19T07:19:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Vlog - disk",
+                "description": "Vlog on Persisted storage in the disk while taking a walk in Bahrain 🇧🇭 . \n\nStay awesome guys\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OuCmMoPst0Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OuCmMoPst0Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OuCmMoPst0Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/OuCmMoPst0Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/OuCmMoPst0Y/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "OuCmMoPst0Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "XlPZF9QgNPQ4tkyQLS71JZREB1A",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2018-02-24T09:23:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Private video",
+                "description": "This video is private.",
+                "thumbnails": {},
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "QyrRvDu14oo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vDY8sw4RPbvsNQ6g23fGX1wjpFo",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2018-03-03T15:39:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "See you in the Esri Dev Summit 2018! (Mar-6 till Mar-9)",
+                "description": "I will be in the dev summit in beautiful palm springs. Hit me up guys if you have any questions or just come say hi ! \n\nA lot of cool stuff in the conference! \n\nHere is the agenda\nhttp://www.esri.com/events/devsummit/agenda\n\n\nCheers\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CedNJFB9WGU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CedNJFB9WGU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CedNJFB9WGU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/CedNJFB9WGU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/CedNJFB9WGU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "CedNJFB9WGU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Igw6JN3dd8j2BFsvGY85XVwEYpc",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2018-12-01T18:47:36Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Vlog - Upcoming Tutorials (Javascript/Python/C#)",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nIn beautiful Venice CA, planning to do new tutorials. What do you want to learn next? I will be doing all of them I just want to know what you guys prefer to learn first. \n\nCheers! and love\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S7jRP2eSmk0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S7jRP2eSmk0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S7jRP2eSmk0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/S7jRP2eSmk0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/S7jRP2eSmk0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "S7jRP2eSmk0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pXdxyS4VyLdSc9x6Gw5ifr5TzKk",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:19:15Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "3K Subscribers!! Happy Holidays",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\n\nThank you so MUCH guys for your support, happy holidays\nfind my contact here, here is to another good year! \n\nwww.husseinnasser.com\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iocs7ls8r-k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iocs7ls8r-k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iocs7ls8r-k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iocs7ls8r-k/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/iocs7ls8r-k/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iocs7ls8r-k"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Sk92qO4rrc0XmN47_scp-V0FB1k",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5ENDU4Q0M4RDExNzM1Mjcy",
+            "snippet": {
+                "publishedAt": "2020-01-06T14:44:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "The ! Empathetic Engineer: A short story portraying the software engineer archetype",
+                "description": "Engineers are incredibly smart people. This could be a product of the complex problems they usually work on and the abundance of solutions a given problem can have. This is especially true for software engineering problems. With so many roads leading to Rome, it becomes attractive for engineers to favor the idea they came up with over others.\n\nEngineers are arrogant. I say that as an engineer myself. I have been guilty of assuming I know more than most people in the room. Or that my way is the right way. Or that whatever other people might say is irrelevant. Or that I can rarely be wrong.\n\nI wanted to shed light on this problem and highlight it and I’m using short stories as a medium. I did think about other mediums to portray this problem such as paintings, sculptures, poems, photos, music, and writing. However, I can’t paint or sculpture. I take atrocious photos (ask my wife). I never wrote any music so let's not go there. I do write poems but they are mostly in Arabic so that won’t reach the audience I want. Plus I think poems are immutable and can’t be translated without bleeding them in the process So the best route is to write. I know I'm not a good writer, as you will clearly see from this book, but I think I will be able to get my point across.\n\n\nAmazon kindle\n\nhttps://www.amazon.com/dp/B083H3N7C9/ref=cm_sw_r_cp_api_i_jKPeEbKJHK6VR\n\n\nPayhip\n\nhttps://payhip.com/b/2MCl\n\n\nMobi (google drive)\n\nhttps://drive.google.com/file/d/1al-G18prhf2xwfn3zPeV0I06rJrl_-vk/view?usp=drivesdk\n\nEpub (google drive)\n\nhttps://drive.google.com/file/d/1BFlcQUt-vzrlPJDSsOyirfcNn_tXULNz/view?usp=drivesdk",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lk228q9mwrY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lk228q9mwrY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lk228q9mwrY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/lk228q9mwrY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 20,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "lk228q9mwrY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "E6jp7cTI08RQGO54IhC6O-ycjas",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2020-06-25T17:24:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "inspiration dies, stop procrastinating and do the work right now!",
+                "description": "In this video, I explain my process of recording youtube videos, building software, writing poetry and much more. Creative work is challenging you to need to get to it right away. Inspired by people like Elizabeth Gilbert, Jordan Peterson,  Gary Vaynerchuk, Naval Ravikant and Steven Pressfield\n\n\nNaval’s podcast https://youtu.be/OwHeBvU6oEg\n\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 21,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Sz7vnUNoBDw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YNDY3P2IbfxOFBlmkZ1LSKphr0E",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2020-06-28T00:41:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is a Request?",
+                "description": "‪What is a Request?\n\nThis is a question that could be answered differently based on what engineer you ask. To a NOC Network Engineer it is MAC frame with a successful CRC. To a Network Engineer it is TCP Packet being acknowledged at layer 4. To Software Engineer it is an HTTP request at layer 7 that received a response and to a UX Engineer it is when the control returns to the user interface which could be a collection of HTTP requests which translates to hundreds of TCP packets being ACKed which also translates to almost thousands of layer 2 frames. \n\n\n\nhttps://bit.ly/2VrwI0L ‬\n\n\nWhat is a Request to You?\n\nHTTP Smuggling https://www.youtube.com/watch?v=h1TZpWbucj0\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HwhIz-pnyg4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HwhIz-pnyg4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HwhIz-pnyg4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/HwhIz-pnyg4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/HwhIz-pnyg4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 22,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "HwhIz-pnyg4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YYqTYqfBTarVUbp21rChhclUc5w",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi45NzUwQkI1M0UxNThBMkU0",
+            "snippet": {
+                "publishedAt": "2020-07-28T19:54:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "I started Researching WebRTC and…..",
+                "description": "This an update on my WebRTC research journey, it is a great tech but very complicated to learn. Stay tuned for the actual video once I understand this tech.. \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/btKd-VLzNR0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/btKd-VLzNR0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/btKd-VLzNR0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/btKd-VLzNR0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 23,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "btKd-VLzNR0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "7TkComMNKKlA1oFpk9mZWuwBkAc",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5DNzE1RjZEMUZCMjA0RDBB",
+            "snippet": {
+                "publishedAt": "2020-08-06T01:19:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Traefik is too complex and hard to understand... let us discuss",
+                "description": "I discuss my journey learning Traefik in order to make a video about the topic. Every time I go back to docs I end up starting over again because I don’t know where to start and because of how many abstractions there are it makes the learning curve steep.\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hEoV_FjtWhE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hEoV_FjtWhE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hEoV_FjtWhE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hEoV_FjtWhE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 24,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hEoV_FjtWhE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0bj9MEqUIC6qb8h9nPzBmZaP3-Y",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi43MTI1NDIwOTMwQjIxMzNG",
+            "snippet": {
+                "publishedAt": "2020-08-17T19:08:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "My Struggle with the English Language in the US as an Arab Native Speaker and a Software Engineer",
+                "description": "Some of you asked me to talk about how I learned to speak good English on my YouTube videos. I wanted to make a video on the fact that It wasn't always that easy and I struggled a lot and still struggling with English. \n\nI have immigrated to the United State in 2015 In this video, I want to explain my struggle with the English language as an Arabic native speaker and how I got better but still, I need lots of work.\n\nSpeaking Tech English is definitely easier than Social.\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8z6G9flQevs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8z6G9flQevs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8z6G9flQevs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 25,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8z6G9flQevs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "lyt21ceMiHQyghkMS6e-7QSZMNs",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5DQ0MyQ0Y4Mzg0M0VGOEYw",
+            "snippet": {
+                "publishedAt": "2020-08-20T16:31:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Pessimistic concurrency control vs Optimistic concurrency control in Database Systems Explained",
+                "description": "In this video, I discuss the different concurrency control at database transactions, specifically the pessimistic vs optimistic concurrency control. and the pros and cons of each.  \n\n0:00 Intro\n3:00 concurrency Control\n5:30 Pessimistic concurrency Control\n9:20 Optimistic concurrency Control\n\nResources \nhttps://en.wikipedia.org/wiki/Optimistic_concurrency_control\nhttps://www.baeldung.com/java-jpa-transaction-locks\nhttps://docs.oracle.com/javaee/7/api/javax/persistence/OptimisticLockException.html\nhttps://en.wikipedia.org/wiki/Time-of-check_to_time-of-use\nhttps://www.2ndquadrant.com/en/blog/postgresql-anti-patterns-read-modify-write-cycles/\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/I8IlO0hCSgY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/I8IlO0hCSgY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/I8IlO0hCSgY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/I8IlO0hCSgY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 26,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "I8IlO0hCSgY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "X9H1KECOw6eYlQcwE_fqGJY7bGI",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4yQUE2Q0JEMTk4NTM3RTZC",
+            "snippet": {
+                "publishedAt": "2020-08-29T17:22:44Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "I finished Researching Envoy Proxy here is what I think, Let us Discuss",
+                "description": "Envoy Proxy is an L3/L4 Proxy that is designed to be service mesh, In this video, I discuss my initial thoughts about the product, design choices, and much more. The actual full video on Envoy will be coming soon stay tuned.\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/J9AYpmw8E7A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/J9AYpmw8E7A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/J9AYpmw8E7A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/J9AYpmw8E7A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 27,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "J9AYpmw8E7A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MDIP4dVup2-jY23TTUkKjyxHJQg",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5DMkU4NTY1QUFGQTYwMDE3",
+            "snippet": {
+                "publishedAt": "2020-09-09T01:41:40Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Backend Engineering Playlists (Beginner, Intermediate and Advanced)",
+                "description": "Hey guys, the Backend Engineering playlist is getting very large. So I decided to break it into 3 playlists. Beginner, Intermediate and Advanced. I think this will help you consume the content at your pace. The levels are assigned based on my personal assessment. You might disagree which playlist a video should be placed in.\n\n\n👨‍💻Backend Engineering (Beginner) https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n👩‍💻Backend Engineering (Intermediate) https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs \n\n👨🏻‍💻Backend Engineering (Advanced) https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/emRw8Lg3vys/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/emRw8Lg3vys/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/emRw8Lg3vys/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/emRw8Lg3vys/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 28,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "emRw8Lg3vys"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "EPV_x2qWDnCPFxucLH3ley-HRY4",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi44Mjc5REFBRUE2MTdFRDU0",
+            "snippet": {
+                "publishedAt": "2020-09-13T02:51:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How I deal with Stress and being Overwhelmed as a Software Engineer",
+                "description": "Some of you asked me how to deal with stress at my work and my content creation here on YouTube especially during the pendamic I share my thoughts with you\n\nIntro 0:00\nStress from Work  2:40\nFeeling down with no clear reason 7:13\nFeeling anxious overwhelmed with stuff to learn 14:55\nPandemic 21:14 \n\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cALteOt_tvU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cALteOt_tvU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cALteOt_tvU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/cALteOt_tvU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 29,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "cALteOt_tvU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "VKDLW0VMg8b72BstoKcicLQWZoE",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi41QUZGQTY5OTE4QTREQUU4",
+            "snippet": {
+                "publishedAt": "2020-09-14T15:54:00Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "New Udemy Course Alert - Envoy - Edge and Service Proxy Course",
+                "description": "Thank you so much guys for checking out this course and supporting me everywhere! on YouTube by watching, channel membership and patreon, Paypal and purchasing the courses on udemy. \n\nEnvoy - Edge and Service Proxy Course + All udemy courses\nhttps://husseinnasser.com/courses\n \n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aHSkNJ4UM2A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aHSkNJ4UM2A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aHSkNJ4UM2A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aHSkNJ4UM2A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 30,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "aHSkNJ4UM2A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "R7TSwQG8XEwBN-oadllajFn3GWs",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4zRDBDOEZDOUM0MDY5NEEz",
+            "snippet": {
+                "publishedAt": "2020-09-16T20:22:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How I Got \"Slightly\" Better at Communicating my Ideas Effectively as a Software Engineer",
+                "description": "In this video, I explain how I got better at communicating my thoughts, opinions and ideas and how making content on YouTube Channel actually helped. I still have a long way but I found that making content and continuously trying to get better at delivering the core point helps. \n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JI0lCQZLV2U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JI0lCQZLV2U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JI0lCQZLV2U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JI0lCQZLV2U/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 31,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JI0lCQZLV2U"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DQS5d16ehRTfNMtxPE4fC3B_Adk",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5CMEQ2Mjk5NTc3NDZFRUNB",
+            "snippet": {
+                "publishedAt": "2020-09-21T23:53:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "New Udemy Course Alert - Traefik - Edge Router Course",
+                "description": "Thank you so much guys for checking out this course and supporting me everywhere! on YouTube by watching, channel membership and patreon, Paypal and purchasing the courses on udemy. \n\nTraefik Course + All udemy courses\nhttps://husseinnasser.com/courses\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BFLZmWq_-P0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BFLZmWq_-P0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BFLZmWq_-P0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BFLZmWq_-P0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 32,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BFLZmWq_-P0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DjAg6DVjS78iZahiK4B6JLmqQ8o",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi42MTI4Njc2QjM1RjU1MjlG",
+            "snippet": {
+                "publishedAt": "2020-09-30T15:08:01Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "New Udemy Course Alert - Introduction to Database Engineering (7 Hours Course)",
+                "description": "Thank you so much guys for checking out this course and supporting me everywhere! on YouTube by watching, channel membership and patreon, Paypal and purchasing the courses on udemy. \n\nIntroduction to Database Engineering Course + All udemy courses\nhttps://husseinnasser.com/courses\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eiNo9y84bxo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eiNo9y84bxo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eiNo9y84bxo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/eiNo9y84bxo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 33,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "eiNo9y84bxo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0JrFM9zYa_iaYdSk_ncZII8M4lg",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi45RjNFMDhGQ0Q2RkFCQTc1",
+            "snippet": {
+                "publishedAt": "2020-09-30T19:15:51Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "I got served an Instagram Ad after browsing this website? Let us discuss how that’s possible",
+                "description": "In this video I explain how I was browsing a website (displate) and was served the exact same thing on my Instagram feed\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zGvazErsoH0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zGvazErsoH0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zGvazErsoH0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/zGvazErsoH0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 34,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "zGvazErsoH0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "IVELWtf84Kyq8qlanBXy0Z2JrjQ",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi40QTA3NTU2RkM1QzlCMzYx",
+            "snippet": {
+                "publishedAt": "2020-10-16T19:49:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Software Engineering is Overwhelming",
+                "description": "Software Engineering is overwhelming and hard, I discuss how to ease up that burden and make it fun here.\n\n\n0:00 Intro\n2:20 Learning Software Engineering  \n17:55 Bugs \n23:30 Design Activities \n28:50 Summary\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MbDjrztWtX4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MbDjrztWtX4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MbDjrztWtX4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/MbDjrztWtX4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 35,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "MbDjrztWtX4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "cIkw4iM2dRULbw75hqHUMTyFdY0",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5BRjJDODk5REM0NjkzMUIy",
+            "snippet": {
+                "publishedAt": "2020-10-23T02:39:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Should you become a Full Stack Engineer?",
+                "description": "In this video, I discuss Full Stack Engineering and whether you should pick that field or not. \n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UuAY6Lxkppw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UuAY6Lxkppw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UuAY6Lxkppw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/UuAY6Lxkppw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 36,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "UuAY6Lxkppw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "3Y3ZEReQ1l0NQU4PgaoLtlK5tFA",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi4xOTEzQzhBQzU3MDNDNjcz",
+            "snippet": {
+                "publishedAt": "2020-10-26T02:18:53Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "The Backend Engineering Podcast by Hussein Nasser",
+                "description": "Love my content? Check out my Backend Engineering Podcast available \n\nApple podcasts\nhttps://itunes.apple.com/us/podcast/igeometry-podcast/id1330350799?mt=2\n\n\nGoogle podcasts\nhttps://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xZWI2ZDE0L3BvZGNhc3QvcnNz\n\n\nSpotify\nhttps://open.spotify.com/show/55pPBm0l75K28dIqoHIQIc\n\n\nBreaker\nhttps://www.breaker.audio/igeometry-podcast\n\n\nCastbox\nhttps://castbox.fm/channel/id1162406\n\n\nGoogle Play Music\nhttps://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Iqiym43r3psdpmo4m6attczny5u?t%3DIGeometry_Pod\n\n\nOvercast\nhttps://overcast.fm/itunes1330350799\n\n\nPocketcasts\nhttp://pca.st/AUbZ\n\n\nRadioPublic\nhttps://play.radiopublic.com/igeometry-podcast-Wa2QLb",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4Wo2jiWXH2o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4Wo2jiWXH2o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4Wo2jiWXH2o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4Wo2jiWXH2o/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 37,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "4Wo2jiWXH2o"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "i-us-I-_o0AmdjtJjjfbHC6tsFI",
+            "id": "UExRbmxqT0ZUc3BRVWxFTmFtdUlEUnNTRFNtdlNZaTVLbi5GNDg1Njc1QzZERjlFRjE5",
+            "snippet": {
+                "publishedAt": "2020-10-29T01:00:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Update on the WebRTC content",
+                "description": "The webRTC content is coming along but its going to be a long video",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BmIpf0zLfIc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BmIpf0zLfIc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BmIpf0zLfIc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BmIpf0zLfIc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/BmIpf0zLfIc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+                "position": 38,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BmIpf0zLfIc"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 39,
+        "resultsPerPage": 50
+    }
+}

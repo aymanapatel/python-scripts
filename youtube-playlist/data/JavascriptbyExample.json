@@ -1,0 +1,930 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "KKcOfbsx4TlVGNjWuru9aZ0AJRY",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Zs4HIYE1kEBQlvUbdXQ7Vlrxlzc",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2019-12-12T13:34:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Mysql 8.x and Javascript Tutorial  (with mysql2 NodeJs)",
+                "description": "MySQL is a popular open source relational database management system. As part of the LAMP stack, mySQL became a critical part of the web platform.  In this video, I want to show how we can build Javascript applications to work MySQL database.  Here is what we will do: \n\n- [ ] Spin up mysql 8.x database with docker 2:00\n- [ ] Connect to mySQL from Javascript(mysql2) 9:30 \n- [ ] Queries SELECT 13:00\n- [ ] DML (insert/update/delete) 19:10\n- [ ] Transactions 26:15\n\n\nCards\n27:30 ACID \n \n\nFirst we will spin up a mySQL database instance, connect to the database from Javascript, execute some queries and then do some DML auch as Insert, update and delete and finally we will go through how we do transactions in mySQL.  \n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/mysql-javascript\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8nKyNzXAjP8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "RUW60qhmG3dA9lxBrAmdGDtNXqU",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2019-12-11T02:32:36Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spin up a lightweight Nodejs docker container running your application",
+                "description": "In this video we will write a Dockerfile that will allow you to build your NodeJS application in a docker container\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/docker\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vmSMrQ8Ev9w"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "NBN0OLd60vcPQxAZBlmOWXP4jFM",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS4yMDhBMkNBNjRDMjQxQTg1",
+            "snippet": {
+                "publishedAt": "2019-10-20T23:48:33Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Build a Calculator and Learn Javascript by Example in the process",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nThis is a practical Javascript course by example, we will build a calculator from scratch in this course enjoy. \n\nChapter 1\nTitle: Getting Started\nTime Code: 5:00\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode01\n\n\nChapter 2\nTitle: Building User Interface\nTime Code: 21:12\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode02\n\n\nChapter 3\nTitle: DOM, Events & Functions\nTime Code: 50:30\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode03\n\n\nChapter 4\nTitle: Arrow Functions\nTime Code: 1:28:05\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode04\n\n\nChapter 5\nTitle: Evaluate Expressions (eval)\nTime Code: 1:44:44\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode05\n\n\nChapter 6\nTitle: Conditions\nTime Code: 1:56:16\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode06\n\n\nChapter 7\nTitle: Running on Mobile\nTime Code: 2:07:39\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode07\n\n\nChapter 8\nTitle: CSS, Arrays & Loops\nTime Code: 2:20:55\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode08\n\n\nChapter 9\nTitle: Debugging \nTime Code: 2:42:31 \nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode09\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qlhqcyB5Spo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "qoVY7hvljcNe0ok0PfOi6U6-9rc",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS5ENDU4Q0M4RDExNzM1Mjcy",
+            "snippet": {
+                "publishedAt": "2019-10-20T23:48:28Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Build a Calculator and Learn Javascript by Example in the process",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nThis is a practical Javascript course by example, we will build a calculator from scratch in this course enjoy. \n\nChapter 1\nTitle: Getting Started\nTime Code: 5:00\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode01\n\n\nChapter 2\nTitle: Building User Interface\nTime Code: 21:12\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode02\n\n\nChapter 3\nTitle: DOM, Events & Functions\nTime Code: 50:30\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode03\n\n\nChapter 4\nTitle: Arrow Functions\nTime Code: 1:28:05\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode04\n\n\nChapter 5\nTitle: Evaluate Expressions (eval)\nTime Code: 1:44:44\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode05\n\n\nChapter 6\nTitle: Conditions\nTime Code: 1:56:16\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode06\n\n\nChapter 7\nTitle: Running on Mobile\nTime Code: 2:07:39\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode07\n\n\nChapter 8\nTitle: CSS, Arrays & Loops\nTime Code: 2:20:55\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode08\n\n\nChapter 9\nTitle: Debugging \nTime Code: 2:42:31 \nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode09\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qlhqcyB5Spo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9-i0KGPLCa2OTHzVt-5UZInzKZs",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2019-10-20T23:48:22Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Build a Calculator and Learn Javascript by Example in the process",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nThis is a practical Javascript course by example, we will build a calculator from scratch in this course enjoy. \n\nChapter 1\nTitle: Getting Started\nTime Code: 5:00\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode01\n\n\nChapter 2\nTitle: Building User Interface\nTime Code: 21:12\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode02\n\n\nChapter 3\nTitle: DOM, Events & Functions\nTime Code: 50:30\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode03\n\n\nChapter 4\nTitle: Arrow Functions\nTime Code: 1:28:05\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode04\n\n\nChapter 5\nTitle: Evaluate Expressions (eval)\nTime Code: 1:44:44\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode05\n\n\nChapter 6\nTitle: Conditions\nTime Code: 1:56:16\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode06\n\n\nChapter 7\nTitle: Running on Mobile\nTime Code: 2:07:39\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode07\n\n\nChapter 8\nTitle: CSS, Arrays & Loops\nTime Code: 2:20:55\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode08\n\n\nChapter 9\nTitle: Debugging \nTime Code: 2:42:31 \nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode09\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qlhqcyB5Spo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qlhqcyB5Spo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "QdeKP_h52g1Vo3qtRqQhjTOAMv4",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:22:27Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Popup Modal Dialog with Javascript and HTML",
+                "description": "A popup is a dialog that allow users to interact with it and perform several tasks or show a message. HTML/CSS don’t have modal popups dialogs by default (Javascript does have alerts and prompts but they are not pretty in my opinion :) ). So we are building a modal popup dialog from scratch. To build a popup we need to trick the user by adding two DIV elements, a container div and a content div representing the popup. We hide and show them giving the illusion of a popup while preserving our website.\n\nSource code: https://github.com/hnasr/playground/blob/master/popup.html \n\nStay Awesome!\nLearn Javascript from scratch here by example https://www.youtube.com/playlist?list=PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WT7Kc-tSS4s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WT7Kc-tSS4s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WT7Kc-tSS4s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/WT7Kc-tSS4s/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "WT7Kc-tSS4s"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "LfNg1Xm8oSFOQPQ3pL7C73F8P8s",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:54:00Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building a Command Line Utility with Javascript",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\n\n\nCommand line interface is one of the preferred ways for nerds like us to get stuff done. People who are better in using keyboard then mouse. In this video we will learn how to build a Javascript command line interface using NodeJS that run from anywhere in your command terminal. Our example will be building a command line utility called touch5 which is a knock off thr touch command that creates an HTML5 file instead.  We will learn how to create the code, create a shortcut command for our code, and link it with the OS so we can run it from anywhere. Lets get to it guys. \n\n\n\nSource Code: \nhttps://github.com/hnasr/javascript_playground/tree/master/touch5\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/e1KJ47tyCso/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/e1KJ47tyCso/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/e1KJ47tyCso/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/e1KJ47tyCso/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "e1KJ47tyCso"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4EV44e0RI2-C98JrQM-QuRLWKjc",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:47:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript and Mongodb Tutorial with Mongodb NodeJS Driver",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nMongodb is a document-oriented database that fits into the family of NOSQL databases. In this video we will learn how to establish a connection from Javascript through NodeJS to a MongoDB database through the new mongodb nodejs driver. We will do the basic CRUD operations, create update delete and read. \n\n\nSpinning a mongodb db\n\ndocker run  -p 27017:27017 --name mdb mongo\n\n\nCreate a connection\n\nFind\n\nInsert\ndb.Employee.insert()\nRemove\ndb.Employee.remove({Employeeid:22})\nUpdate \ndb.Employee.update(\n{\"Employeeid\" : 1},\n{$set: { \"EmployeeName\" : \"NewMartin\"}});\nQuery \ndb.Employee.find().limit(2).forEach(printjson);\nCount\ndb.Employee.count()\n\n\n\ntimecodes\n2:46 : Spin docker \n4:45 : Connect to mongo\n14:45 : Find Document\n24:25 : Insert Document\n27:20 : Update Document\n30:20 : Delete Document\n\ncards \n\n1:45 Mongodb docker\n\n\nMongodb doc\nhttps://mongodb.github.io/node-mongodb-native/3.3/quick-start/quick-start/\n\n\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/mongodb-js\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/M9Fs-CCe0Jo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/M9Fs-CCe0Jo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/M9Fs-CCe0Jo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/M9Fs-CCe0Jo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "M9Fs-CCe0Jo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9chGxv6rzHrWEROC1EeON4BR3Ss",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2019-10-07T01:44:47Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript Essentials Crash Course for Absolute Beginners (All you need is a browser nothing else)",
+                "description": "Javascript is one of the most popular programming languages out there. It started as a scripting language for the web but now you can write and run Javascript code virtually anywhere. You can run javascript on your browser, on your backend server or on your desktop. Examples of some applications that are written in Javascript are Slack, Skype and Visual Studio Code. Netflix and Paypal also uses Javascript for some of their backend infrastructures. \n\nIn this video I want to go through what I believe are the essentials tools of Javascript. This video is targeted towards programmers who never wrote Javascript before or have basic understanding of the language. I will use the latest and the greatest syntax of Javascript as of 2019. This video is very practical and there is not much history or fluff involved. \n\n\nCourse Timecodes: \n\n07:46 - Variables, Data Types and More\n25:37 - Conditions \n32:49 - Arrays\n39:16 - JSON Objects\n44:30 - Functions\n55:10  - Arrow Functions\n59:49 - Loops\n1:09:50 - Dates\n1:13:40 - Excerise\n1:30:00 - Array Maps\n1:35:10 - Array Find\n1:36:12 - Sync vs Async\n1:42:00 - Promises\n1:51:00 - Async/await \n1:54:00 - Fetch API\n\nJupyter Notebook (formerly IPython Notebooks) is a web-based interactive computational environment for creating Jupyter notebook documents. This allows clients to execute code on a backend from a thin web layer. \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZM7gXus7BH8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZM7gXus7BH8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZM7gXus7BH8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ZM7gXus7BH8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ZM7gXus7BH8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "SoTf3IH_JsmJcfpVP9aQf_qEqvg",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2019-10-06T00:52:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Aborting Fetch API Request",
+                "description": "How to force fetch to timeout or abort? \nDownloading  or uploading a video and you want to cancel the fetch request\n\nCode\nhttps://github.com/hnasr/javascript_playground/blob/master/isprime-blocking/abortablefetch.js\n\n\nisPrime\nhttps://github.com/hnasr/javascript_playground/tree/master/isprime-blocking\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oPZjrhf6UlQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oPZjrhf6UlQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oPZjrhf6UlQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/oPZjrhf6UlQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "oPZjrhf6UlQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "84ZLkVDkiUCJWHrrYkiQTEtLPJA",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2019-05-26T00:26:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building a Web API with Express and PostgreSQL to Consume from Browser",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\n\nWe have made a video about how to connect to #postgres from javascript. we have used #nodejs as the javascript runtime which can create executable that run,  query the database and display your results. However, a lot of you asked how can I connect to postgres from my browser? The answer is no! The reason is browser only know how to make web calls which are HTTP calls while database is a low level tcp protocol. So we need some layer that can serve HTTP calls, serve web calls, almost like a web server. \n\nIn this video use express which sets on top of node js to spin up a web server and serves an API which will allow us to communicate from our browser to our postgres database this is coming up.\n \n\n- [ ] Setup Postgres database\n\n- [ ] Setup NodeJS and Express \n\n- [ ] Write TODO list API \n    - [ ] Implement GET (return all todos)\n    - [ ] implement POST (create new todo)\n    - [ ] implement DELETE (delete a todo)\n\n- [ ] Build the HTML web page that consumes the API\n- [ ] \n\n\ngithub repo -\nhttps://github.com/hnasr/javascript_playground/tree/master/express-postgres\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "0JNq46eFuOM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "VuddpVzaACs5VV24bj8gWqkoP4M",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2019-04-21T13:07:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Why Programmers use const when declaring variables in Javascript?",
+                "description": "In this video we will learn the benefits of using \"const\" over \"let\" and for sure over \"var\". \n\nconst\nCannot reassign it, js engine can make performance discussions based on that \n\nScoped in blocks\n\nIf objects or arrays, const can be modified \n\n\nSummary\nAlways use const \n\nif your variable need to be reassigned use let\n\navoid using var as it attaches itself to the window variable\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MknF8Oxdug0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MknF8Oxdug0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MknF8Oxdug0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/MknF8Oxdug0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "MknF8Oxdug0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "roFFGSo7jM09-L0Q4fNChWgdy74",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:50:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript Destructuring assignment",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nThe destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.\n\nYou might have seen this syntax in some code and you wonder what does it do.\n\n\n1. Classically here is what we used to, we have an object called movie \n2. you can do the same thing by using the unpack syntax \n3.  you can also unpack multiple ones at once.. \n4. arrays can be unpacked.. \n\n[a, b, c] = [1,2,3] \n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hwN9TogY2TU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hwN9TogY2TU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hwN9TogY2TU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hwN9TogY2TU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hwN9TogY2TU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "iGPXXjwdnGSOQCuInNrSYWMGHw4",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:51:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript Promises and async/await Tutorial",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nPromises are Javascript constructs which allow us to perform asynchronous calls without blocking the UX, they are designed for operations that include a lot of waitings such as network requests or timers. \n\nIn this video we will learn about promise and how we use them coming up \n\nin order to discuss promise and why we cme up with them we need to explain how we used to do asynchronous stuff…  if you want to learn more about difference between asynchronous and synchronous click this video..  This video explains the async implementation. \n\n\n0:00 Intro\n4:30 callback\n8:20 reference http-server\n10:45 promises then catch\n18:00 finally \n18:50 postgres javascript\n19:40 async await\n25:50 async vs sync \n\nSource code \n\nhttps://github.com/hnasr/javascript_playground/tree/master/promisedemo\n\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/yTh6q-k2bEA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/yTh6q-k2bEA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/yTh6q-k2bEA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/yTh6q-k2bEA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "yTh6q-k2bEA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "mk05cpTEnNlecVnumX1KC7HTOeM",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:51:17Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "github REST API v3 Crash Course with Vanilla Javascript (No dependencies)",
+                "description": "Git hub is a social platform for developers where they can put their code, version it and collaborate. In this tutorial we will learn about the github APi, how can we use it from Javascript, we will do both public operations and private with authentication. Ill be using vanilla javascript only no libraries \n\n\nHere are the jump codes so you can conveniently jump to the section your excited about.\n\nIntro\n00:00 Intro\n00:50 Table of contents\n03:47 section1 - Search repos\n04:30 Code starts \n06:18 nodejs server \n08:50 github api code starts\n13:00 query string video\n23:19 section 2 - Search issues\n30:48 section 3 - Search commits\n41:40 lazy fetch \n42:00 section 4 - Pagination\n55:10 Section 5 - Authorization\n01:07:00 section 6 - Creating Issues \n\n\nIntroduction \nGit hub is a social platform for developers where they can put their code, version it and collaborate. In this tutorial we will learn about the github APi, how can we use it from Javascript, we will do both public operations and private with authentication. Ill be using vanilla javascript only no libraries \n\n\nThis video is divided into 6 parts \n\nsection 1 we will learn how to do a public api search on repositories \nsection 2 we will learn how to search issues on a public repos \nsection 3 we will learn how we search commits on a public api \nsection 4 we will learn about pagination \nsection 5 we will learn about authorization by searching through private issues\nsection 6 we will learn how to create an issue \n\nSource code \n\nhttps://github.com/hnasr/javascript_playground/tree/master/githubtutorial\n \n\n\nSearch Repos\nFilter repos  #stars 5000\nhttps://help.github.com/en/articles/searching-for-repositories\n\n\nSearch Issues\nIssues with author\nhttps://help.github.com/en/articles/searching-issues-and-pull-requests\n \nhttps://api.github.com/search/issues?q=repo:freecodecamp/freecodecamp author:thecodingaviator \n\n\nSearch Commits\nCommits between two dates\nhttps://developer.github.com/v3/search/#search-commits\n\n\nPagination \n\nAuthorization\n- [ ] Basic\n- [ ] Token\n\nView private issues \n\n\nCreate an Issue\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5QlE6o-iYcE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5QlE6o-iYcE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5QlE6o-iYcE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5QlE6o-iYcE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5QlE6o-iYcE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "u8YpeV7bWUgthYOFkBZ_JKvI8UE",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:51:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "CreateObjectURL and RevokeObjectURL (Explained by Example)",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\n\nIn this video we will learn how to use CreateObjectURL and RevokeObjectURL to cache resources locally after loading them with the fetch url and using them locally, then finally releasing them after we are done by calling revoke. \n\n\nAs usual we will use Javascript since this code runs in the browser and we will load an image over the air using fetch api then we will cache the image locally using CreateObjectURL then set this image as resource. Finally, we will revoke the resource. \n\nSource Code: https://github.com/hnasr/javascript_playground/tree/master/createrevoke\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/18q6-QR_XXY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/18q6-QR_XXY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/18q6-QR_XXY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/18q6-QR_XXY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "18q6-QR_XXY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "tKF8_nAmwyF5R0vlpkEsoiyvUYE",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:51:44Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Lazy load Images with Javascript",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nIn this video we will learn how to lazy load an image or a file using the fetch API, store it and use it locally using URL.createObjectURL. This video uses javascript, html and the fetch api web standard.  \n\nSource Code: https://github.com/hnasr/javascript_playground/tree/master/fetchlazy \n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KKy5Os2JPgs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KKy5Os2JPgs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KKy5Os2JPgs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/KKy5Os2JPgs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "KKy5Os2JPgs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "VEEOZKc-4dtkrMbgKZztSCUcc5I",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:51:48Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Javascript Classes Tutorial  - PART 2👾☠️🤖",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nThis is a continuation of the JS Classes video and this time we introduce the javascript modules to our classes.  Check out the source code here. \n\nhttps://github.com/hnasr/jsclasses/tree/jsclasses-modules\n\n\nDownload Visual studio code\nhttps://code.visualstudio.com/\n\nSpin a web server \nhttps://www.youtube.com/watch?v=nHU2NC4vXDs\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/tWQuOgRViaI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/tWQuOgRViaI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/tWQuOgRViaI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/tWQuOgRViaI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "tWQuOgRViaI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "eHWxqy1PrrlFlaWVyTMFk3fv0d4",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:51:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Fetch API, XMLHTTPRequest replacement",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nFetch API is a new web standard by WHATWG designed to pull resources from the web. It was designed to replace the XMLHTTPRequest method. In this video we will learn about the basics of Fetch API and how to use it to fetch HTML, JSON and Binary files. \n\nEnjoy the video\n\n\nHere are some resources  on fetch\nhttps://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Vj7W8pI-L6w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Vj7W8pI-L6w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Vj7W8pI-L6w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Vj7W8pI-L6w/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Vj7W8pI-L6w"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "CEFg_cIIxJnGTmzQ5mzHpvDvUcw",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:52:06Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step JavaScript modules (.mjs) Tutorial",
+                "description": "In this video we will learn about Javascript Modules from scratch.  We will learn about their benefits, how we do we create them and use them in browser and what kind of code is required to fall back in case a browser does not support modules. The javascript es6 module file extension is .mjs and you need to make sure your web server can render this as a javascript file.\n\nHere is the code\nhttps://github.com/hnasr/jsmodules\n\nDownload Visual studio code\nhttps://code.visualstudio.com/\n\nSpin a web server  3:00 \nhttps://www.youtube.com/watch?v=nHU2NC4vXDs\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6rTgsFJFv5Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6rTgsFJFv5Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6rTgsFJFv5Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/6rTgsFJFv5Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "6rTgsFJFv5Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "wJkKkMqTYBdbN6hfEq9jeMsrxG8",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:52:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Javascript Classes Tutorial 👾☠️🤖",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nIn this video we will learn about es6 JavaScript classes. We will do this by example where we are building a battle arena of different characters introducing the class character then introduce constructor, learn about subclasses using the \"extends\" and \"super\" javascript keyword and finally polymorphism. We will also learn how to extendEnjoy the tutorial guys. \n\nClass Character \n\nID 🤖\nHP ❤️\nATK 🗡 \n\ngetHP\nReturns the number of hearts \n\ngetATK\nReturn the number\n\n🤖\nHP ♥️♥️♥️\nATK 🗡🗡\n\nClass Robot extends Character\n\nDownload Visual studio code\nhttps://code.visualstudio.com/\n\nSpin a web server \nhttps://www.youtube.com/watch?v=nHU2NC4vXDs\n\n\nSource code \nhttps://github.com/hnasr/jsclasses\n\n\nStay Awesome\nHussein\n\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PXn6jrSHf9k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PXn6jrSHf9k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PXn6jrSHf9k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/PXn6jrSHf9k/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 20,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "PXn6jrSHf9k"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "XF3OAd69QDRaLnidsTjus-1Gar4",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:52:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "IndexedDB Crash Course with Javascript",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nI found out recently about indexedDB that exists in the browser! and wanted to make a video tutorial about it. I got say the API is clunky but that did not stop me from making the video. I first explain the eventing that get triggered when you open the database, onupgradeneeded, onsuccess, onerror and when each are triggered. Then we dive into creating objectstore, then transactions both writing and reading. Pretty cool technology. We are using Javascript on the browser and visual studio code. Enjoy the tutorial guys \n\nThe tutorial is long so here are some jump codes for your convenience \n\n0:00 Introduction to IndexedDB\n02:17 IndexedDB open database events Flow chart \n06:40 Tutorial start\n08:20 indexedDB.open \n10:00 onupgradeneeded, onsuccess, onerror \n20:00 The database object\n24:20 Creating object store \n29:30 Adding new object to the object store\n37:00 Unique key constraint \n38:35 View objects \n40:00 cursors\n\n\ngit hub repo\nhttps://github.com/hnasr/indexedDB\n\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vb7fkBeblcw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vb7fkBeblcw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vb7fkBeblcw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vb7fkBeblcw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 21,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vb7fkBeblcw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ghXhpBqMJu6UNfPLGxeFSrRAc64",
+            "id": "UExRbmxqT0ZUc3BRV2FiMGczVzZaYURNNl9CdWgyMEVXTS40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:52:34Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Javascript and Postgres Tutorial using node-postgres",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nIn this video, we will learn how to connect to a Postgres database from Javascript. We will learn how to perform queries on a table. We will go through an Insert example and learn how to do transactions. You can through jump codes table of content to jump to areas of the code of interest to you. \n\nRequirements \n    1. NodeJS 10 or later, https://www.youtube.com/watch?v=nHU2NC4vXDs\n    2. PostgresSQL database https://www.youtube.com/watch?v=5QNL7_i-ay8\n    3. Visual Studio Code https://code.visualstudio.com/\n    4. Using #node-postgres npm library https://node-postgres.com/\n\nReference Videos\nAtomic Transactions \n\nJump Codes Table of Content \n0:00 Intro \n02:50 Creating new NodeJS Project \n06:40 The node-postgres npm library\n10:40 Connecting to the postgres database (promises)\n13:30 Executing queries (promises)\n18:10 Executing queries with parameters (promises)\n22:00 Executing Insert statement (DML) (Promises)\n26:22 Connecting to postgres (Async/await) \n37:00 The Results object of the query \n39:40 Executing Transactions in Javascript  (Begin, Commit/Rollback) \n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/javascript_postgres\n\nEnjoy 😉\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+                "position": 22,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ufdHsFClAk0"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 23,
+        "resultsPerPage": 50
+    }
+}

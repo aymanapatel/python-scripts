@@ -1,0 +1,460 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "pz6wMlNtQfIAR0dki9lLW9bMh-A",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "nRO5kmXebP3iv_hYHXKT0x5Azxg",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2017-12-05T03:42:44Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript By Example L1E01 - Getting Started",
+                "description": "Full Javascript By Example Series Playlist https://goo.gl/7ZF5TR\n\nWant to learn a programming language? You don't need to have any programming skills, All you need is a laptop. Learn javascript by building an application in the process. Proven method of learning by doing,  Enjoy Javascript by Example series..  \n\n3 words, just get started, and that is what we did. \n\nIn this series we will build a fully functioning calculator using javascript. By actually attempting to build the application you will learn native javascript, html, and how to actually run your calculator on your mobile phone as a web application.  We work with native javascript and no complex framework and overheads just pure javascript. This is the best way to learn javascript for beginners and by the end of the series you will learn the sufficient tools and be ready to actually start building your own apps! \n\nHere is the source code for the first episode. I suggest you write it your self but in case you need it its here. \n\nhttps://github.com/hnasr/javascript-by-example/tree/L1-Episode01\n\nCheers,\nStay Awesome",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gG1TR5Pktno"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "X5gb1djOeN1d8MSvQSiMP-dVeVg",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2017-12-11T03:16:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript By Example L1E02 - Building the Calculator Interface",
+                "description": "Full Javascript By Example Series Playlist https://goo.gl/7ZF5TR\n\nEpisode 2 we start building out the interface of our calculator web application using native HTML. We learn HTML tables in the process.\n\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode02\n\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DsRfWivBswI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DsRfWivBswI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DsRfWivBswI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DsRfWivBswI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/DsRfWivBswI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DsRfWivBswI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "SLMnkjXtMtPbjl4QCt0rWyWaqBE",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2017-12-11T04:39:53Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript By Example L1E03 - Displaying the Digits on Calculator Screen",
+                "description": "Full Javascript By Example Series Playlist https://goo.gl/7ZF5TR\n\nEpisode 3 Now that we build the user interface, its time to actually write some code to display the digits on the calculator screen so we can interact with them.\n\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode03\n\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZmyotTE8VDg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZmyotTE8VDg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZmyotTE8VDg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ZmyotTE8VDg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ZmyotTE8VDg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ZmyotTE8VDg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "5v8VdiluwEnkrfv-J647LQkYvyw",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2017-12-19T04:46:51Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript By Example L1E04 - Operators, All Clear with Arrow Functions",
+                "description": "Full Javascript By Example Series Playlist https://goo.gl/7ZF5TR\n\nEpisode 4 we will continue plugging in more code for the operators and the AC button (All Clear), and introduce the arrow functions in the process. \n\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode04\n\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kPy5Flzzw3s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kPy5Flzzw3s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kPy5Flzzw3s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/kPy5Flzzw3s/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/kPy5Flzzw3s/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "kPy5Flzzw3s"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "xM24ppNMKHdbYIktvmkQNm0Q64Y",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2017-12-25T23:05:50Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript By Example L1E05 -  Evaluate the Calculator Expressions with eval",
+                "description": "Full Javascript By Example Series Playlist https://goo.gl/7ZF5TR\n\nIn this episode we make our calculator work! Stay tuned until the end for today’s quiz.\n\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode05\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SVKjja_Mwl0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SVKjja_Mwl0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SVKjja_Mwl0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SVKjja_Mwl0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/SVKjja_Mwl0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SVKjja_Mwl0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "h704jrtRoM1ux7-WDlLDfNVomQo",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2018-01-02T01:18:05Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript By Example L1E06 -  Fix Leading Zero Bug with Conditions",
+                "description": "Full Javascript By Example Series Playlist https://goo.gl/7ZF5TR\n\nIn this episode we fix one of the annoying bugs, we had to introduce if statements and conditions. Stay tuned until the end for today’s quiz ..\n\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode06\n\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wBkJv3_wK8I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wBkJv3_wK8I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wBkJv3_wK8I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/wBkJv3_wK8I/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/wBkJv3_wK8I/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "wBkJv3_wK8I"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "_hNPYghz6OxFLpm_xZv4JLDBkRk",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2018-01-03T19:31:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript By Example L1E07 - Running our Calculator on the Mobile Phone",
+                "description": "Full Javascript By Example Series Playlist https://goo.gl/7ZF5TR\n\nPossibly final episode for level 1 so we get ready for level 2. We introduce a new control that allow us to actually write stuff and evaluate expressions. We also finally run the application from my mobile phone.\n\nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode07\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/M7AwXyOxrOc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/M7AwXyOxrOc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/M7AwXyOxrOc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/M7AwXyOxrOc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/M7AwXyOxrOc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "M7AwXyOxrOc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "WDX23XqYHAfcHgS6-gRgrdyswg0",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2018-11-25T00:24:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript By Example L1E08 - CSS, Arrays and Loops",
+                "description": "Full Javascript By Example Series Playlist https://goo.gl/7ZF5TR\n\nIn this episode, we will clean up our code to start using arrays, CSS and loops. Enjoy guys. \n\n \nSource Code: https://github.com/hnasr/javascript-by-example/tree/L1-Episode08\n\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/W5yfZ6R_Ayk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/W5yfZ6R_Ayk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/W5yfZ6R_Ayk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/W5yfZ6R_Ayk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/W5yfZ6R_Ayk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "W5yfZ6R_Ayk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "eleuKmiyH1uVWMWAWXxaXY05-KM",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2019-01-27T03:10:51Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript By Example L1E09 - Code simplification and debugging",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\n\nFull Javascript By Example Series Playlist https://goo.gl/7ZF5TR\n\nIn this episode we will learn how to use a new javascript function to simplify our code and will learn more about debugging. In the previous episode we learned about CSS and arrays and loops. This episode will be short make sure to rewatch again and ask questions. \n\nSource Code https://github.com/hnasr/javascript-by-example/tree/L1-Episode09\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/d0of_5-RdzQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/d0of_5-RdzQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/d0of_5-RdzQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/d0of_5-RdzQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/d0of_5-RdzQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "d0of_5-RdzQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YH8koULapq-Aj5sf3qsXqSoL-9M",
+            "id": "UExRbmxqT0ZUc3BRVzl0WTNlcUJybWJZN0NxeE5yVy1nMy41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2017-12-05T02:41:33Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript by Example - The Vook",
+                "description": "The Introduction to the Javascript By Example series. Vook or the Video Book.\n\nWhat do you need to start building cool web applications? Just a computer.\n\n\nJavascript by Example Series https://goo.gl/v9aaSP\n\nStay awesome\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fN8Qu5Xu6zM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fN8Qu5Xu6zM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fN8Qu5Xu6zM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fN8Qu5Xu6zM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/fN8Qu5Xu6zM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "fN8Qu5Xu6zM"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 10,
+        "resultsPerPage": 50
+    }
+}

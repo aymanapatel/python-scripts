@@ -1,0 +1,365 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "Ya6aaqBXcOGrbHTqCKhiKLBjfTI",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4fvKdJedgsE5L_V0sHS1HP2ozz0",
+            "id": "UExRbmxqT0ZUc3BRWDhoa2FxWWllaThPMm1xUklmeEJtLS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:36:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "NginX Crash Course (Layer 4 & Layer 7 Proxy, HTTPS, TLS 1.3, HTTP/2 & More)",
+                "description": "Audio Fixed + Bonus Content NGINX Crash Course here https://youtu.be/hcw-NjOh8r0\n\nNginX is an open source web server written in C and can also be used as a reverse proxy and a load balancer.\n\nIn this video, I want to go through the following topics in NginX\n\nChapters\n0:00 Intro\n2:25 What is NginX?\n4:58 Current & Desired Architecture\n8:40 Layer 4 and Layer 7 Proxying in Nginx\n10:25 Example\n13:30 Install Nginx (mac)\n15:00 Nginx as a Web Server (webserver.conf)\n20:00 Static context location root\n27:00 Regular expression\n30:30 proxy pass\n33:30 Nginx as a Layer 7 Proxy\n37:00 Proxy to 4 backend NodeJS services (docker)\n43:00 IP_Hash load balancing\n46:00 Split load to multiple backends (app1/app2)\n49:00 Block certain requests (/admin)\n51:30 NGINX as a Layer 4 Proxy\n1:01:08 Create DNS record\n1:05:08 Enable HTTPS on Nginx (lets encrypt)\n1:14:00 Enable TLS 1.3 on NginX\n1:17:10 Enable HTTP/2 on NginX\n1:20:10 Summary\n \n\n\nAll the nginx Configuration can be found here \nhttps://github.com/hnasr/javascript_playground/tree/master/nginx\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WC2-hNNBWII/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WC2-hNNBWII/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WC2-hNNBWII/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "WC2-hNNBWII"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "jgn53tPbWPF-B90CTbSWzjiJamg",
+            "id": "UExRbmxqT0ZUc3BRWDhoa2FxWWllaThPMm1xUklmeEJtLS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:37:05Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is NginX and What are its use cases?",
+                "description": "NginX is an open source web server written in C and can also be used as a reverse proxy and a load balancer.\n\n0:00 What is NginX?\n2:30 Use Cases NginX Address\n3:53 How can NginX Help\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WHv_t_yK-QM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WHv_t_yK-QM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WHv_t_yK-QM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/WHv_t_yK-QM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "WHv_t_yK-QM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "cxNpPJNJlpdTdmhHgU0EuZWo-TI",
+            "id": "UExRbmxqT0ZUc3BRWDhoa2FxWWllaThPMm1xUklmeEJtLS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:37:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load Balancing Tutorial with Python and Nginx",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\n\nIn this video we will discuss how to implement load balancing. So lets start with defining load balancing with some graphics, then we will spin up few python services with different ports. We will finally install and configure a load balancer (nginx). \n\nload balancer, python load balancer, nginx, load balancer configuration, how to configure nginx, how to configure load balancer, \n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4xGQS8Pv4io/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "4xGQS8Pv4io"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "yxPgd26wxkG7UP4xolHnYCpPzY4",
+            "id": "UExRbmxqT0ZUc3BRWDhoa2FxWWllaThPMm1xUklmeEJtLS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:37:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "NginX as a Layer 7 Proxy",
+                "description": "NginX is an open source web server written in C and can also be used as a reverse proxy and a load balancer. In this video I explain how NginX can play at the layer 7 and what things you can do with it in that context.\n\nLayer 4 vs Layer 7 Proxy \nhttps://www.youtube.com/watch?v=aKMLgFVxZYk&t=1013s\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rYqmshzB8rc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rYqmshzB8rc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rYqmshzB8rc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/rYqmshzB8rc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "rYqmshzB8rc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "nH5bx-1v7FM0m1Zz3Wnu8SWiuHc",
+            "id": "UExRbmxqT0ZUc3BRWDhoa2FxWWllaThPMm1xUklmeEJtLS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:38:06Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Layer 4 Proxying in NginX",
+                "description": "NginX is an open source web server written in C and can also be used as a reverse proxy and a load balancer. In this video, I'll talk about how to do Layer 4 proxying in NginX \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/K2kVi8m38OY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/K2kVi8m38OY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/K2kVi8m38OY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/K2kVi8m38OY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "K2kVi8m38OY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "oRAOZx-8WfdklV7nQLbWcVjlMbs",
+            "id": "UExRbmxqT0ZUc3BRWDhoa2FxWWllaThPMm1xUklmeEJtLS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:38:12Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spin up an Nginx Docker Container as a Load Balancer",
+                "description": "In this video we explain how to spin up a docker container that is running nginx load balancer. We will use an nginx.conf file to configure and load balance two services right from our container. We will then build a dockerfile inherit from the base nginx docker image and overwrite the default nginx.conf with ours. \n\nConfiguration\nhttps://github.com/hnasr/javascript_playground/tree/master/nginx-container\n\nCards\n0:40 Nginx Crash Course\n1:30 Node Js Docker lightweight\n\n\nTimecode\nnginx.conf 2:44\nDockerfile 4:44\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BRPvjNQsqis"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "j4CXoYGl-q6GdO70mEDPfSUkFfY",
+            "id": "UExRbmxqT0ZUc3BRWDhoa2FxWWllaThPMm1xUklmeEJtLS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-06-12T02:29:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "6 NginX FrontEnd Timeouts Explained in Details",
+                "description": "In this video I will explain all 6 FrontEnd NginX timeouts what are they and what each means and when to configure them. \n\nChatapers\n0:00 Intro\n1:15 client_header_timeout \n5:00 client_body_timeout \n7:30 send_timeout\n9:34 keepalive_timeout\n10:40 lingering_timeout\n14:24 resolver_timeout \n\n\nFrom NginX Doc \n\nSyntax: client_header_timeout time;\nDefault: client_header_timeout 60s;\nContext: http, server\nDefines a timeout for reading client request header. If a client does not transmit the entire header within this time, the request is terminated with the 408 (Request Time-out) error.\n\n\n\n\nSyntax: client_body_timeout time;\nDefault: client_body_timeout 60s;\nContext: http, server, location\nDefines a timeout for reading client request body. The timeout is set only for a period between two successive read operations, not for the transmission of the whole request body. If a client does not transmit anything within this time, the request is terminated with the 408 (Request Time-out) error.\n\n\n\n\nSyntax: send_timeout time;\nDefault: send_timeout 60s;\nContext: http, server, location\nSets a timeout for transmitting a response to the client. The timeout is set only between two successive write operations, not for the transmission of the whole response. If the client does not receive anything within this time, the connection is closed.\n\n\n\n\nSyntax: keepalive_timeout timeout [header_timeout];\nDefault: keepalive_timeout 75s;\nContext: http, server, location\nThe first parameter sets a timeout during which a keep-alive client connection will stay open on the server side. The zero value disables keep-alive client connections. The optional second parameter sets a value in the “Keep-Alive: timeout=time” response header field. Two parameters may differ.\nThe “Keep-Alive: timeout=time” header field is recognized by Mozilla and Konqueror. MSIE closes keep-alive connections by itself in about 60 seconds.\n\n\n\n\nSyntax: lingering_timeout time;\nDefault: lingering_timeout 5s;\nContext: http, server, location\nWhen lingering_close is in effect, this directive specifies the maximum waiting time for more client data to arrive. If data are not received during this time, the connection is closed. Otherwise, the data are read and ignored, and nginx starts waiting for more data again. The “wait-read-ignore” cycle is repeated, but no longer than specified by the lingering_time directive.\n\n\nSyntax: resolver_timeout time;\nDefault: resolver_timeout 30s;\nContext: http, server, location\nSets a timeout for name resolution, for example:\nresolver_timeout 5s;\n\n\n\nResources \nClosing connections break things\n4.7. The Mysteries of Connection Close - HTTP: The Definitive Guide [Book]\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BQY1l0rgDSQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BQY1l0rgDSQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BQY1l0rgDSQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BQY1l0rgDSQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BQY1l0rgDSQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "urF_EzLhnNIreZd3JD-HcXF3wjA",
+            "id": "UExRbmxqT0ZUc3BRWDhoa2FxWWllaThPMm1xUklmeEJtLS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-06-21T21:35:48Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Nginx backend upstream timeouts Explained",
+                "description": "In this video, I explain some NGINX backend timeouts between NginX and upstream servers. \n\n0:00 Intro\n0:40 proxy_connect_timeout \n2:17 proxy_send_timeout\n4:55 proxy_read_timeout \n7:19 keepalive_timeout \n8:46 proxy_next_upstream_timeout \n\n\n\nResources\nModule ngx_http_proxy_module\n\nhttp://nginx.org/en/docs/http/ngx_http_upstream_module.html\n\nhttp://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass\n\n\nSyntax: proxy_connect_timeout time;\nDefault: proxy_connect_timeout 60s;\nContext: http, server, location\nDefines a timeout for establishing a connection with a proxied server. It should be noted that this timeout cannot usually exceed 75 seconds.\n\n\nSyntax: proxy_send_timeout time;\nDefault: proxy_send_timeout 60s;\nContext: http, server, location\nSets a timeout for transmitting a request to the proxied server. The timeout is set only between two successive write operations, not for the transmission of the whole request. If the proxied server does not receive anything within this time, the connection is closed.\n\n\n\nSyntax: proxy_read_timeout time;\nDefault: proxy_read_timeout 60s;\nContext: http, server, location\nDefines a timeout for reading a response from the proxied server. The timeout is set only between two successive read operations, not for the transmission of the whole response. If the proxied server does not transmit anything within this time, the connection is closed.\n\n\nSyntax: proxy_next_upstream_timeout time;\nDefault: proxy_next_upstream_timeout 0;\nContext: http, server, location\nThis directive appeared in version 1.7.5.\nLimits the time during which a request can be passed to the next server. The 0 value turns off this limitation.\n\nafter read timeout we will try the next upstream and that connect will kick in .. if that times out we move to the next upstreamm.. how long you want me to do that? \n\n\nSyntax: keepalive_timeout timeout;\nDefault: keepalive_timeout 60s;\nContext: upstream\nThis directive appeared in version 1.15.3.\nSets a timeout during which an idle keepalive connection to an upstream server will stay open.\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QbmOyr0HwnM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QbmOyr0HwnM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QbmOyr0HwnM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/QbmOyr0HwnM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "QbmOyr0HwnM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KyHcDsYdBZEERa4xteT0-heMcuE",
+            "id": "UExRbmxqT0ZUc3BRWDhoa2FxWWllaThPMm1xUklmeEJtLS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-07-10T22:48:35Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "2 Hours NginX Crash Course + Bonus Content (Audio Fixed)",
+                "description": "NginX is an open source web server written in C and can also be used as a reverse proxy and a load balancer. This is a reupload of my original NginX video plus some more bonus content discussing the timeouts. \n\nIn this video, I want to go through the following topics in NginX. \n\nThis is a reupload of an existing NginX video where I fixed the Audio (sorry), I also added bonus content.. \n\nChapters\n0:00 Intro\n2:25 What is NginX?\n4:58 Current & Desired Architecture\n8:40 Layer 4 and Layer 7 Proxying in Nginx\n10:25 Example\n13:30 Install Nginx (mac)\n15:00 Nginx as a Web Server (webserver.conf)\n20:00 Static context location root\n27:00 Regular expression\n30:30 proxy pass\n33:30 Nginx as a Layer 7 Proxy\n37:00 Proxy to 4 backend NodeJS services (docker)\n43:00 IP_Hash load balancing\n46:00 Split load to multiple backends (app1/app2)\n49:00 Block certain requests (/admin)\n51:30 NGINX as a Layer 4 Proxy\n1:01:08 Create DNS record\n1:05:08 Enable HTTPS on Nginx (lets encrypt)\n1:14:00 Enable TLS 1.3 on NginX\n1:17:10 Enable HTTP/2 on NginX\n1:20:10 Summary\n1:25:34 NginX FrontEnd Timeouts\n1:26:49 client_header_timeout \n1:30:30 client_body_timeout \n1:33:00 send_timeout\n1:35:00 keepalive_timeout\n1:36:15 lingering_timeout\n1:40:00 resolver_timeout \n1:41:36 NginX BackEnd Timeouts\n1:42:17 proxy_connect_timeout \n1:43:53 proxy_send_timeout\n1:46:30 proxy_read_timeout \n1:48:55 keepalive_timeout \n1:50:00 proxy_next_upstream_timeout \n1:53:30 Nginx On Docker\n\n\nAll the nginx Configuration can be found here \nhttps://github.com/hnasr/javascript_playground/tree/master/nginx\n\n\n\n\nResources\nhttp://nginx.org/en/docs/http/ngx_http_upstream_module.html\nhttp://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hcw-NjOh8r0"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 9,
+        "resultsPerPage": 50
+    }
+}

@@ -1,0 +1,1971 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "dKx-35yHDrZSpD0mD-6y4iPmiXE",
+    "nextPageToken": "CDIQAA",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MRt0GpZkQG--c-VpE2nKtSp9TYU",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:51:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Relational Database ACID Transactions (Explained by Example)",
+                "description": "ACID are four properties of relational database, they Atomocity, consistency, isolation and durability, and I think any one working with a relational database like postgres, mysql, sqlserver oracle, should understand these properties. In this video we will go through the four properties and explain why each is critical to make a relational database we will also talk about why some people are moving to   NOSQL database\n\n\nChapters\n0:00 Intro\n2:00 What is a Transaction?\n4:30 Atomicity \n7:00 Isolation *\n9:30 Isolation - Read phenomena *\n11:40 Dirty Reads\n14:40 Non-repeatable Read\n17:00  Phantom read\n18:53 Isolation Levels*2\n19:20 Read uncommitted\n19:55 Read committed\n21:05 Non-repeatable Read\n23:40 Serializability \n25:00 Isolation Levels vs Read phenomena Table\n27:45 Consistency \n28:30 Consistency in Data\n33:50 Consistency in Reads\n35:00 Eventual Consistency \n40:30 Durability \n\n\nAtomicity \nAll or none. if a failure happened during transaction, db failure, or one of the queries failed. \nExample\n\n\nIsolation\nConcurrency, is transaction isolated from other inflight transactions?  if a transaction is in flight does it see changes from other inflight transactions? Does is it see any changes? Does it only see committed changes. Does leading to inconsistent results.   \n \n\nProblems arising from isolation (read phenomenons) \n- dirty reads\n- Non repeatable reads\n- Phantom reads \n\nIsolation levels\n- Read uncommitted\n- Read committed \n- Repeatable read \n- Serializable \n\n\n\nDurability\nWhen I commit a transaction does my changes stay durable after the database restarts/crashes etc. \n\nSee if your data still there. \n\nConsistency\nConsistency from referential integrity keys \nDoes the number of likes on a picture = the number of rows that the picture got on another table? If a delete a picture does all the likes of that pictures go away on the other table.\n\nConsistency in reads \nIf I committed something does everybody see it immediately or are they going to get an old value?\n\nConsistency in concurrency\nIs the view of a transaction in flight consistent? Are other inflight transactions making changes to the database affects that transaction view?\n\n\nSlides and resources for this course and all my other courses are available for members of the channel consider joining by clicking the join button 😊 You also get access to my udemy courses for free\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pomxJOFVcQs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pomxJOFVcQs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pomxJOFVcQs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pomxJOFVcQs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "pomxJOFVcQs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KQFJ5XJp_G_FJl2vjrmH1Jnx5Gg",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4yMDhBMkNBNjRDMjQxQTg1",
+            "snippet": {
+                "publishedAt": "2019-10-17T21:12:57Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Can you get Eventual Consistency in Relational Databases?",
+                "description": "Consistency is the property of having expected result in view of the data or during reads while working with a database system. It is one of the ACID properties in relational databases. Eventual consistency is another term that was born recently specifically as NOSQL databases got emerged. In this video, we will talk discuss the difference different kind of consistencies and we will explain what Eventual consistency and how both relational databases and NO SQL databases have this kind of consistency with some examples. \n\n\nCache\nLeader Following\n\nConsistency in Data\nYour data broken into multiple normalized tables/collections is consistent. \n\nConsistency in Reads\nIf you write a value new transactions will pick up that new value.\n\nIf you do not have consistency in data you do not have eventual consistency, your data will not magically correct itself. If you have do not have consistency in reads you might have eventual consistency, you reads might eventually become consistent. \n\n\n\nEventual Consistency means that your reads will become consistent as time pass time. This is true for both NOSQL and relational database system especially if you have leader/follower module. In this video we will talk about an example of eventual consistency and this is tolerable when it’s not.\n\n\nEventually Consistency Benefits \n\nTwitter timeline (Eventual Consistency is good)\nLet’s say you tweeted something and you have a follower in Spain and a follower on New Zealand 🇳🇿 furthest two countries on Earth. Your Spain follower might see your tweet before your New Zealand one does. This depends on which datacenter your write goes to first. That eventual consistency is tolerable and its ok if New Zealand don’t see your tweets. \n\nBenefits\nWrite scales much better, you can write to different locations and have them synced.  \nAdd more machine to scale to more and more users. \n\nTwitter privacy example  (Eventual Consistency is bad)\nHowever take this scenario, you are Taylor Swift (Taylor swift wishes) a celebrity with 85 million followers. You tweeted something that you regretted later and decided to delete that tweet! That tweet better be deleted instantly to all your 85 million follows. Eventual consistency is not tolerable here otherwise people lose faith of the system. Well, you can always say well I’m gonna take a screenshot of Taylor Swift tweet. To which I would say I’ll give you another example, let’s say you changed your privacy setting to private and you tweeted something right after, that change should be immediately take effect and NO public user should see that tweet unless they are obviously in  your followers.\n\nProblems:\nUsers lose faith in the system.\n\n\nCards\n4:30 ACID https://www.youtube.com/watch?v=pomxJOFVcQs \n\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ryD9IA9i-c8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ryD9IA9i-c8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ryD9IA9i-c8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ryD9IA9i-c8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ryD9IA9i-c8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "_n-Wqj7I20drD0h2FbUD1J4aOWM",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4yQUE2Q0JEMTk4NTM3RTZC",
+            "snippet": {
+                "publishedAt": "2020-01-02T00:37:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Horizontal vs Vertical Database Partitioning",
+                "description": "In this video I explain what database partitioning is and illustrate the difference between Horizontal vs Vertical Partitioning, benefits and much more. \n\n0:00 Intro\n1:00 Why Partitioning? \n3:00 Horizontal Partitioning?\n5:50 Vertical Partitioning?\n\nBenefits of Partitioning \nIndexes are smaller (quick index scans)\nAllows DB optimizer to sequence scan the partition instead of index\nSplit table by columns (vertically) and put the columns with the entire slice into another table (blobs) Example fields that are blobs can be put in another table in another tablespace that is stored in hard disc vs the rest of the data goes to your SSD\n\n\n\nTypes\nRange partitioning\nRange queries within a key .. \n\nList partitioning \nDiscrete values- countries \n\nHash partitioning \nConsistent hashing based on a value, hard to add to new partition\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QA25cMWp9Tk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QA25cMWp9Tk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QA25cMWp9Tk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/QA25cMWp9Tk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "QA25cMWp9Tk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "VF2KS8ejMCVFiL74wVxIN4xl45w",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:49:51Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning MongoDB, MongoShell and Mongo GUI with Docker",
+                "description": "Mongodb is a document-oriented database that fits into the family of NOSQL databases. In this video we will spin up mongodb database using docker, we will learn how to use mongo shell to create a  collections and write few rows. And we will also learn use mongo GUI web interface . \n\n\n//Install Docker from https://www.docker.com/ (Windows/Mac or Linux)\n\n//Run mongo db container \ndocker run  -p 27017:27017 --name mdb mongo\n\n//bash into the container and run mongo shell \ndocker exec -it mdb mongo\n\n//create db and collection \n\nuse husseindb\ndb.employees.insertMany([\n{\n \"name\": \"Hussein\",\n \"eId\": 1335, \n \"title\" : \"Engineer\"\n},\n{\n \"name\": \"Ali\",\n \"eId\": 1334, \n \"title\" : \"Engineer\"\n},\n{\n \"name\": \"Sam\",\n \"eId\": 1331, \n \"title\" : \"Developer\"\n},\n{\n \"name\": \"Nasser\",\n \"eId\": 1340, \n \"title\" : \"Manager\"\n}\n]\n)\n\n\n//optionally use a GUI mongo client\ndocker run -p 3000:3000 --name mclient mongoclient/mongoclient\n\n\n\nJump codes\n0:00 Intro\n2:00 Run mongo db container \n5:50 Mongo shell \n8:20 Create Database\n9:10 Create Collections \n11:00 InsertMany\n12:40 Find \n14:30 Mongo GUI \n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DzyC8lqbjC8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "JvYNHVSuveu4EXi0Q5Yjl-GUE-I",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:58:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Relational Database Atomicity Explained By Example",
+                "description": "ACID stands for the four properties in relational database 4 Atomcity , Consistency, Isolation and Durability. These are key attributes in transaction managements in any RDBMS.\n\nIn this video we explain consistency, the first property of a relational database. We illustrate this using instagram as example.\n\n \nSoftware Engineering Content on IGeometry\n——————————————————————\n\n- [x] Stateful vs Stateless Applications  https://goo.gl/Fubfi6\n- [x] Database ACID - Atomicity https://goo.gl/ER9PPj \n- [x] Database ACID - Consistency  https://goo.gl/VpLAeN \n- [x] Database ACID - Dirty read https://goo.gl/88wf6y \n- [x] Database ACID - Phantom read https://goo.gl/rnyzuA \n- [x] Database ACID - Non repeatable read https://goo.gl/8kgEjN \n- [x] Database ACID - Read uncommitted https://goo.gl/4igWUq \n- [x] Database ACID - Read committed https://goo.gl/twgAKL \n- [x] Database ACID - Repeatable read https://goo.gl/vDcP6M\n- [x] Virtual Machines vs Containers  https://goo.gl/fiECVb\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\n-Hussein Nasser\nwww.husseinnasser.com",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6vqzOjfZDco/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6vqzOjfZDco/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6vqzOjfZDco/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/6vqzOjfZDco/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "6vqzOjfZDco"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "v3sRO58nmRjpjCECfGW16gC6bLM",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:59:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Read Committed DBMS Isolation Level - (Explained by Example)",
+                "description": "In IGeometry we discuss interesting software engineering topics by example. In this video we explain the second method of isolation to tackle the problems we explained in the previous videos. Read committed is an isolation approach which offer minimum isolation against dirty read. We illustrate this using instagram as example.\n\nSoftware Engineering Content on IGeometry\n——————————————————————\n\n- [x] Stateful vs Stateless Applications  https://goo.gl/Fubfi6\n- [x] Database ACID - Atomicity https://goo.gl/ER9PPj \n- [x] Database ACID - Consistency  https://goo.gl/VpLAeN \n- [x] Database ACID - Dirty read https://goo.gl/88wf6y \n- [x] Database ACID - Phantom read https://goo.gl/rnyzuA \n- [x] Database ACID - Non repeatable read https://goo.gl/8kgEjN \n- [x] Database ACID - Read uncommitted https://goo.gl/4igWUq \n- [x] Database ACID - Read committed https://goo.gl/twgAKL \n- [x] Database ACID - Repeatable read https://goo.gl/vDcP6M\n- [x] Virtual Machines vs Containers  https://goo.gl/fiECVb\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7cvU1Q0AJOU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7cvU1Q0AJOU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7cvU1Q0AJOU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/7cvU1Q0AJOU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "7cvU1Q0AJOU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "-603nHpNSOGwB1bDS95QfaSgGik",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:48:48Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Redis Crash Course",
+                "description": "Redis is a noSQL key-value store, in memory database first that exploded in popularity in the past few years. In this video slash course, we will explain what Redis is, talk about the in-memory model, the optional durability, replication, clustering publish subscribe and the protocol and finally we will go through examples. During the video I will add time codes to each topic so you guys can jump to the topic that interests you the most.\n \n\nTable of Content and TimeCodes\n\n0:00 Intro\n3:49 Redis as a NoSQL In Memory Key-Value store\n10:00 Optional Durability\n15:10 Transport Protocol\n18:24 Pub/Sub\n20:40 Replication and Clustering\n23:41 Examples\n26:10 Spin Docker\n28:50 Command CLI\n30:30 Set key\n31:00 get key\n31:10 Set key with expiry\n32:00 exists key\n32:30 del key\n32:50 append key\n33:30 publish subscribe\n\nCommands \nDocker run --name redis -p 6379:6379 redis\ndocker exec -it rdb redis-cli\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "sVCZo5B8ghE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "OFDjB2ezf1somlDtozM1b0fFjrE",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:59:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Dirty Read Problem - (Explained by Example)",
+                "description": "In this video we explain database isolation, the third ACID property of a relational database. Some read problems and phenomenas arise from isolation, and we discuss the first one which is Dirty read. Dirty read occurs when a transaction reads another transaction’s data which has not been committed yet. We illustrate this using instagram as example. \n\n\nSoftware Engineering Content on IGeometry\n——————————————————————\n\n- [x] Stateful vs Stateless Applications  https://goo.gl/Fubfi6\n- [x] Database ACID - Atomicity https://goo.gl/ER9PPj \n- [x] Database ACID - Consistency  https://goo.gl/VpLAeN \n- [x] Database ACID - Dirty read https://goo.gl/88wf6y \n- [x] Database ACID - Phantom read https://goo.gl/rnyzuA \n- [x] Database ACID - Non repeatable read https://goo.gl/8kgEjN \n- [x] Database ACID - Read uncommitted https://goo.gl/4igWUq \n- [x] Database ACID - Read committed https://goo.gl/twgAKL \n- [x] Database ACID - Repeatable read https://goo.gl/vDcP6M\n- [x] Virtual Machines vs Containers  https://goo.gl/fiECVb",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RxIDTbgdcpM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RxIDTbgdcpM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RxIDTbgdcpM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/RxIDTbgdcpM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "RxIDTbgdcpM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "sXmNYRimrmw9cE5A3OOGw6d_EqQ",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:59:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Non-Repeatable Read (Fuzzy read) Phenomena - (Explained by Example)",
+                "description": "ACID stands for the four properties in relational database 4 Atomcity , Consistency, Isolation and Durability. These are key attributes in transaction managements in any RDBMS.\n \nIn this video we explain isolation, the third property of a relational database. Problems arise from isolation are many, and we discuss another one which is Non-Repeatable. We illustrate this using instagram as example .\n\n\nSoftware Engineering Content on IGeometry\n——————————————————————\n\n- [x] Stateful vs Stateless Applications  https://goo.gl/Fubfi6\n- [x] Database ACID - Atomicity https://goo.gl/ER9PPj \n- [x] Database ACID - Consistency  https://goo.gl/VpLAeN \n- [x] Database ACID - Dirty read https://goo.gl/88wf6y \n- [x] Database ACID - Phantom read https://goo.gl/rnyzuA \n- [x] Database ACID - Non repeatable read https://goo.gl/8kgEjN \n- [x] Database ACID - Read uncommitted https://goo.gl/4igWUq \n- [x] Database ACID - Read committed https://goo.gl/twgAKL \n- [x] Database ACID - Repeatable read https://goo.gl/vDcP6M\n- [x] Virtual Machines vs Containers  https://goo.gl/fiECVb\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uTvQPSi_q1c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uTvQPSi_q1c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uTvQPSi_q1c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/uTvQPSi_q1c/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "uTvQPSi_q1c"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "cDZDpprcSzzc6sH7H8vyTpHJDUk",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:59:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Phantom Read Phenomena - (Explained by Example)",
+                "description": "In IGeometry we discuss interesting software engineering topics by example. In this video we explain isolation, the third property of a relational database. Problems arise from isolation are many, and we discuss the last read phenomena which is Phantom read. We illustrate this using instagram as example .",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EA1sjQb_qpQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EA1sjQb_qpQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EA1sjQb_qpQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/EA1sjQb_qpQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "EA1sjQb_qpQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "WBr87sty1xqGIGfXaDenXQzIn5M",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:59:26Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Read Uncommitted DBMS Isolation Level - (Explained By Example)",
+                "description": "In this video, we explain the first method of database isolation to tackle the read problems encountered as a result of transaction concurrency. Read uncommitted, despite offering no isolation at all, is considered one of an isolation levels databases implement. We illustrate this isolating level using instagram as example.\n\n\n\n- [x] Database ACID - Atomicity https://goo.gl/ER9PPj \n- [x] Database ACID - Consistency  https://goo.gl/VpLAeN \n- [x] Database ACID - Dirty read https://goo.gl/88wf6y \n- [x] Database ACID - Phantom read https://goo.gl/rnyzuA \n- [x] Database ACID - Non repeatable read https://goo.gl/8kgEjN \n- [x] Database ACID - Read uncommitted https://goo.gl/4igWUq \n- [x] Database ACID - Read committed https://goo.gl/twgAKL \n- [x] Database ACID - Repeatable read https://goo.gl/vDcP6M",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/s-UfV8vk-Fw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/s-UfV8vk-Fw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/s-UfV8vk-Fw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/s-UfV8vk-Fw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "s-UfV8vk-Fw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ZB2GJNU0y-Tfq0ukaPYlX8NtJ1s",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:59:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database Exclusive lock vs Shared Lock (Explained by Example)",
+                "description": "In this episode we discuss the differences between exclusive lock and shared lock (also known as two phase locking) with an example. We define the both and list their advantages and disadvantages. Exclusive and shared lock are very important artifacts in DBMS systems.\n\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n⇨ [x] Proxy vs Reverse Proxy  https://goo.gl/ZYFQAi \n⇨ [x] Stateful vs Stateless Applications  https://goo.gl/Fubfi6\n⇨ [x] Virtual Machines vs Containers  https://goo.gl/fiECVb\n⇨ [x] Database ACID - Atomicity https://goo.gl/ER9PPj \n⇨ [x] Database ACID - Consistency  https://goo.gl/VpLAeN \n⇨ [x] Database ACID - Dirty read  https://goo.gl/pkB528 \n⇨ [x] Database ACID - Phantom read https://goo.gl/rnyzuA \n⇨ [x] Database ACID - Non repeatable read https://goo.gl/8kgEjN \n⇨ [x] Database ACID - Read uncommitted https://goo.gl/4igWUq \n⇨ [x] Database ACID - Read committed https://goo.gl/twgAKL \n⇨ [x] Database ACID - Repeatable read https://goo.gl/vDcP6M\n⇨ [x] HOW I GREW MY YOUTUBE SUBS TO 2000 WITH A $25 MIC https://goo.gl/cM5VFx \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/b7razfltSFM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/b7razfltSFM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/b7razfltSFM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/b7razfltSFM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "b7razfltSFM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "m2B5DfwtXI60lcePoPDJltbX3VI",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:12:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Connection Pooling with PostgresSQL and NodeJS",
+                "description": "Connection pooling is a pattern of create a pool of available connections (usually tcp) and allow multiple clients to share the same pool of connections. This pattern is usually used when connection establishment and tearing down is particularly expensive and the server has a limited number of connections. \n\nIn this video we will learn how to use connection pooling in NodeJs when working with a Postgres Database, we will learn how to spin up a pool of database connections and use stateless pool queries and transactional queries begin/end, and finally, we will \n \n\n0:00 Intro\n3:00 stateless close/open\n4:30 Pooling approach\n8:20 Performance tests\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/postgresnode-pool\n\n\n  \nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "GTeCtIoV2Tw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YBMN9BS3wWJ3DE22Gni2D2-BkeM",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:13:44Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building a Web API with Express and PostgreSQL to Consume from Browser",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\n\nWe have made a video about how to connect to #postgres from javascript. we have used #nodejs as the javascript runtime which can create executable that run,  query the database and display your results. However, a lot of you asked how can I connect to postgres from my browser? The answer is no! The reason is browser only know how to make web calls which are HTTP calls while database is a low level tcp protocol. So we need some layer that can serve HTTP calls, serve web calls, almost like a web server. \n\nIn this video use express which sets on top of node js to spin up a web server and serves an API which will allow us to communicate from our browser to our postgres database this is coming up.\n \n\n- [ ] Setup Postgres database\n\n- [ ] Setup NodeJS and Express \n\n- [ ] Write TODO list API \n    - [ ] Implement GET (return all todos)\n    - [ ] implement POST (create new todo)\n    - [ ] implement DELETE (delete a todo)\n\n- [ ] Build the HTML web page that consumes the API\n- [ ] \n\n\ngithub repo -\nhttps://github.com/hnasr/javascript_playground/tree/master/express-postgres\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "0JNq46eFuOM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "H_G0TBnk2RFy82qo804PFM9q9fw",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi45NzUwQkI1M0UxNThBMkU0",
+            "snippet": {
+                "publishedAt": "2019-12-02T00:03:25Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database Sharding Crash Course (with Postgres examples)",
+                "description": "Database sharding is the process of segmenting the data into partitions that are spread on multiple database instances to speed up queries and scale the system. \n\n\nWhat is sharding? \nConsistent Hashing \nHorizontal partitioning vs Sharding\nExample\nPros and cons \n\n\n0:00 Intro\n1:30 What is Sharding?\n4:50 Consistent Hashing\n7:36 Horizontal partitioning vs Sharding\n8:45 Example\n10:00 Spin up Docker Postgres Shards\n17:25 Writing to the shard\n39:20 Read from the Shard\n51:10 Pros & Cons of Sharding\n\n\n\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/sharding\n\nDocker commands (including pgadmin)\nhttps://github.com/hnasr/javascript_playground/blob/master/sharding/shards/commands.txt\n\nDockerfile & init.sql\nhttps://github.com/hnasr/javascript_playground/tree/master/sharding/shards\n\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "d1fXBLqnFvc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "O9hBnnJkkts-v9mlQe5OqXeXVQA",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:16:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "IndexedDB Crash Course with Javascript",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nI found out recently about indexedDB that exists in the browser! and wanted to make a video tutorial about it. I got say the API is clunky but that did not stop me from making the video. I first explain the eventing that get triggered when you open the database, onupgradeneeded, onsuccess, onerror and when each are triggered. Then we dive into creating objectstore, then transactions both writing and reading. Pretty cool technology. We are using Javascript on the browser and visual studio code. Enjoy the tutorial guys \n\nThe tutorial is long so here are some jump codes for your convenience \n\n0:00 Introduction to IndexedDB\n02:17 IndexedDB open database events Flow chart \n06:40 Tutorial start\n08:20 indexedDB.open \n10:00 onupgradeneeded, onsuccess, onerror \n20:00 The database object\n24:20 Creating object store \n29:30 Adding new object to the object store\n37:00 Unique key constraint \n38:35 View objects \n40:00 cursors\n\n\ngit hub repo\nhttps://github.com/hnasr/indexedDB\n\n\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vb7fkBeblcw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vb7fkBeblcw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vb7fkBeblcw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vb7fkBeblcw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vb7fkBeblcw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MPwi1K9DetaXLF7oAwexxEb7yuo",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:16:44Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Postgres Database Cursors in Python with psycopg2",
+                "description": "In this video, we will learn the difference between a server-side cursor and a client side cursor. We will see the performance of both cursors by inserting 1 million rows, then reading the rows with a server side cursor vs a client side cursor. We are using psycopg2 in this tutorial with python.\n\nCheck out the videos we made in previous episodes\n\nSpinning PostgresSQL and PGAdmin with Docker on Mac\nhttps://www.youtube.com/watch?v=5QNL7_i-ay8\n\n\nStep-by-Step Python and Postgres Tutorial with psycopg2\nhttps://www.youtube.com/watch?v=2PDkXviEMD0\n \nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "dLKZWbTHfgA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "OTlsFQ4gKM5CIhKj-R9abykQvGs",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:17:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Javascript and Postgres Tutorial using node-postgres",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nIn this video, we will learn how to connect to a Postgres database from Javascript. We will learn how to perform queries on a table. We will go through an Insert example and learn how to do transactions. You can through jump codes table of content to jump to areas of the code of interest to you. \n\nRequirements \n    1. NodeJS 10 or later, https://www.youtube.com/watch?v=nHU2NC4vXDs\n    2. PostgresSQL database https://www.youtube.com/watch?v=5QNL7_i-ay8\n    3. Visual Studio Code https://code.visualstudio.com/\n    4. Using #node-postgres npm library https://node-postgres.com/\n\nReference Videos\nAtomic Transactions \n\nJump Codes Table of Content \n0:00 Intro \n02:50 Creating new NodeJS Project \n06:40 The node-postgres npm library\n10:40 Connecting to the postgres database (promises)\n13:30 Executing queries (promises)\n18:10 Executing queries with parameters (promises)\n22:00 Executing Insert statement (DML) (Promises)\n26:22 Connecting to postgres (Async/await) \n37:00 The Results object of the query \n39:40 Executing Transactions in Javascript  (Begin, Commit/Rollback) \n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/javascript_postgres\n\nEnjoy 😉\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ufdHsFClAk0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "STxsUJ9VeFBKW3idBQnoeMShUxE",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:18:09Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step-by-Step Python and Postgres Tutorial with psycopg2",
+                "description": "In this tutorial, we will go through the basic steps on how to write a python script to read and write data on a Postgres database. We will start by describing what we have setup. I have a postgres instance running on a docker container which I will be using for this tutorial. You can watch this video that I made to learn how to spin up a postgres docker container https://www.youtube.com/watch?v=5QNL7_i-ay8  obviously you don’t have to use docker you can still instal postgres phsyically on your machine or if you have a server running postgres that should do the trick. We will then start from scratch as usual using visual studio code and python3. We will talk about the #psycopg2 library and how to install it. we will start by establishing a connection to postgres, we will talk about cursors, client-side cursors, server-side cursors the differences. Then we will execute a cursor to retrieve all rows in the table and display them. we will then insert a row to the database and commit the changes \n\nOur Source Code\nhttps://github.com/hnasr/psycopg2/blob/master/db.py\n\nMore details on the official site here \nhttp://initd.org/psycopg/docs/usage.html\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n\nEnjoy guys!\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2PDkXviEMD0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "mqJ3YgzgCsOuaz0w2eWCz2qI51w",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:18:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning multiple Postgres instances and PGAdmin with Docker",
+                "description": "In this video we will learn how to spin up a PostgreSQL database and pgadmin using docker.  \n\nDocker is the best and easiest way to practice, develop and learn. Instead of worrying about downloading, installing and configuring database. You can quickly spin a container do your testing and development then just spin it down. \n\nInstall docker from here https://www.docker.com/products/docker-desktop\n\nWe will use this video as a reference for our coding series where we can write python code or Javascript code that hits this postgres database. \n\nLets do this! \n\n#POSTGRES\ndocker run -p 5432:5432 --name pg postgres\n\n#PGADMIN\ndocker run -e PGADMIN_DEFAULT_EMAIL=\"hussein” -e PGADMIN_DEFAULT_PASSWORD=“password” -p 5555:80 —name pgadmin dpage/pgadmin4 \n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5QNL7_i-ay8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Me8ESMcZJNS2YCQM6mHWQ_wKdpw",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:21:28Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Atomic Transactions (Explained by Example)",
+                "description": "Atomicity is one property of an ACID database. It is the ability for a database to execute a set of queries as one unit of work so that if one fails all of them fail. In this video, we explain what is an atomic transaction and how to achieve atomicity in a relational database. We have picked an atomic transaction example here from a real-life scenario.  \n\n0:24 Atomic transactions definition\n1:15 Consistent state definition\n1:45 (Successful) atomic transaction example\n2:55 What is a consistent State?\n5:39 (Unsuccessful) atomic transaction example\n\n\nIllustrated software: Gliffy.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mbF2KC8TDOE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mbF2KC8TDOE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mbF2KC8TDOE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mbF2KC8TDOE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 20,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mbF2KC8TDOE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Omb7h33PgABpaOvncXw3jRh217Y",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5ENDU4Q0M4RDExNzM1Mjcy",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:27:12Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Repeatable Read DBMS Isolation Level - (Explained by Example)",
+                "description": "In IGeometry we discuss interesting software engineering topics by example. In this video we explain another method of isolation to tackle the problems we explained in the previous videos. Repeatable Read is an isolation approach which offer solutions to non-repeatable read and dirty reads. We illustrate this using instagram as example.\n\n\n\nSoftware Engineering Content on IGeometry\n——————————————————————\n\n- [x] Stateful vs Stateless Applications  https://goo.gl/Fubfi6\n- [x] Database ACID - Atomicity https://goo.gl/ER9PPj \n- [x] Database ACID - Consistency  https://goo.gl/VpLAeN \n- [x] Database ACID - Dirty read https://goo.gl/88wf6y \n- [x] Database ACID - Phantom read https://goo.gl/rnyzuA \n- [x] Database ACID - Non repeatable read https://goo.gl/8kgEjN \n- [x] Database ACID - Read uncommitted https://goo.gl/4igWUq \n- [x] Database ACID - Read committed https://goo.gl/twgAKL \n- [x] Database ACID - Repeatable read https://goo.gl/vDcP6M\n- [x] Virtual Machines vs Containers  https://goo.gl/fiECVb\n\n\nBoost your GIS knowledge by grabbing my books\n ———————————————————————\n\n- [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n- [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n- [x] ArcGIS By Example  https://goo.gl/yJKSqB\n- [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n————————————\n\n- [x] Support IGeometry on paypal:  https://goo.gl/wZ8hSh\n- [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n- [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n- [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n- [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n- [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2FTkEhEqzIg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2FTkEhEqzIg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2FTkEhEqzIg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2FTkEhEqzIg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 21,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2FTkEhEqzIg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "JtgXrzcpgMgzd1eUx4Q47EByAR0",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2019-11-24T22:27:06Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Apache Kafka Crash Course",
+                "description": "Apache Kafka is a distributed stream processing software developed by LinkedIn and written in Scala and Java.  \n\nChapters \n0:00 Intro \n2:32 Kafka Broker\n5:39 Kafka Producer\n7:11 Kafka Consumer\n8:34 Kafka Partitions\n12:50 Queue vs Pub-Sub\n16:47 Consumer Group\n23:06 ZooKeeper\n29:45 Coding Example\n1:02:48 Kafka Pros-Cons\n1:17:00 Summary\n\n\n\nIn this video I want to focus on the basics on Kafka, talk about how it works give finally spin up a kafka cluster and write a producer and a consumer. \n\nKafka Components\n_ producer\n_consumer\n_topic \n_partition\nHow Kafka works\nExample ( Ride sharing ) \nSpin Kafka cluster \nWrite a producer \nWrite a consumer\nKafka Applications\nPros and Cons \n\n\n\nSource Code \nhttps://github.com/hnasr/javascript_playground/tree/master/kafka\n\nDocker commands spin up kafka\n//if you ever mess up or you want to start fresh just stop and remove the containers and rerun the command \n\ndocker stop zookeeper kafka\ndocker rm zookeeper kafka\n\ndocker run --name zookeeper  -p 2181:2181 -d zookeeper\n\n\ndocker run -p 9092:9092 --name kafka  -e KAFKA_ZOOKEEPER_CONNECT=husseinmac:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://husseinmac:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 -d confluentinc/cp-kafka \n\n\n\nResources\n\n KIP 500 (Remove Zookeeper)\nhttps://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 22,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "R873BlNVUB4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Z2vE0NFDeM9Z5hVbJ7_D9kFABUM",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2019-11-30T20:41:17Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Blockchain proof of work Explained & my opinion on this tech",
+                "description": "Blockchain is a tech that allows a piece of data called (block) to be linked to a previous piece of data creating a chain of blocks that are very hard to break and can be distributed and decentralized. In this video i want to go through the following and explain my personal opinion about this tech\n\n\nTimecodes\n0:00 Intro\n1:12 Blockchain\n3:15 Why blockchain hard to break\n14:15 Adding a block\n16:10 Pros & Cons\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/k2caqvBkYv8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/k2caqvBkYv8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/k2caqvBkYv8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/k2caqvBkYv8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 23,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "k2caqvBkYv8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "hAHTUX8qOtkYGtByQrMx9-GqTsk",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5DNzE1RjZEMUZCMjA0RDBB",
+            "snippet": {
+                "publishedAt": "2019-12-12T13:34:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Mysql 8.x and Javascript Tutorial  (with mysql2 NodeJs)",
+                "description": "MySQL is a popular open source relational database management system. As part of the LAMP stack, mySQL became a critical part of the web platform.  In this video, I want to show how we can build Javascript applications to work MySQL database.  Here is what we will do: \n\n- [ ] Spin up mysql 8.x database with docker 2:00\n- [ ] Connect to mySQL from Javascript(mysql2) 9:30 \n- [ ] Queries SELECT 13:00\n- [ ] DML (insert/update/delete) 19:10\n- [ ] Transactions 26:15\n\n\nCards\n27:30 ACID \n \n\nFirst we will spin up a mySQL database instance, connect to the database from Javascript, execute some queries and then do some DML auch as Insert, update and delete and finally we will go through how we do transactions in mySQL.  \n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/mysql-javascript\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 24,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8nKyNzXAjP8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vZRsWX1wnBL53EyWv5IZFmmR5LI",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi43MTI1NDIwOTMwQjIxMzNG",
+            "snippet": {
+                "publishedAt": "2019-12-15T22:05:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database Engines Crash Course (MyISAM, Aria, InnoDB, XtraDB, LevelDB & RocksDB)",
+                "description": "Database engines or storage engines or sometimes even called embedded databases is software library that a database management software uses to store data on disk and do CRUD (create update delete)\n\nEmbedded means move everything in one software no network client-server. \n\nIn this video I want to go through the few popular database engines,  explain the differences between them and finally I want to spin up a database and change its engine and show the different features on each engine\n\n\n0:00 Intro\n3:00 What is a database Engine\n9:43 myISAM\n16:30 Aria\n19:00 InnoDB\n25:30 XtraDB\n27:40 LevelDB\n34:00 RocksDB\n38:11 SQLite\n42:00 BerkelyDB\n47:11 Demo!\n\n\n\nResources\n\nhttps://youtu.be/V_C-T5S-w8g\n\nhttps://mariadb.com/kb/en/library/changes-improvements-in-mariadb-102/\n\nhttps://mariadb.com/kb/en/library/why-does-mariadb-102-use-innodb-instead-of-xtradb/\n\nhttps://github.com/facebook/rocksdb/wiki/Features-Not-in-LevelDB\n\nhttps://mariadb.com/kb/en/library/aria-storage-engine/\n\nhttps://dev.mysql.com/doc/refman/8.0/en/innodb-index-types.html\n\nhttps://eng.uber.com/mysql-migration/  \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/K9Qd3UMHUQ4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/K9Qd3UMHUQ4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/K9Qd3UMHUQ4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/K9Qd3UMHUQ4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 25,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "K9Qd3UMHUQ4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "2kz9q9KFQMuZGogZ2ojr3gJR0wU",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5DMkU4NTY1QUFGQTYwMDE3",
+            "snippet": {
+                "publishedAt": "2020-03-28T22:07:06Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is a Distributed Transaction in Microservices?",
+                "description": "In this video I explore what is a distributed transaction but first I explain what is a transaction, then why we invented distributed transactions and finally discuss proposed solutions to implement distributed transactions\n\n\nCards\n2:40 ACID https://www.youtube.com/watch?v=pomxJOFVcQs\n7:30 Microservices https://www.youtube.com/watch?v=T-m7ZFxeg1A\n\n \nTransactions 2:30\nCompensating Edits 6:40\nAtomic Clocks 11:50\nEvent Sourcing 13:30\nMini-Monolith 15:20\n\n\nResources\n\nhttps://www.youtube.com/watch?v=YPbGW3Fnmbc\n\nhttps://www.youtube.com/watch?v=S4FnmSeRpAY\n\nhttps://www.youtube.com/watch?v=epOLEdaPSLQ\n\nhttps://softwareengineeringdaily.com/2018/12/19/linkerd-service-mesh-with-william-morgan/\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H6F4BorD49g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H6F4BorD49g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H6F4BorD49g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/H6F4BorD49g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 26,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "H6F4BorD49g"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "3APkKf9iISbxOXoVG3wCel_iZLg",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi44Mjc5REFBRUE2MTdFRDU0",
+            "snippet": {
+                "publishedAt": "2020-04-02T02:19:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Bloom Filters Explained by Example",
+                "description": "In this video I explain why we invented bloom filters and where you can use it to make your queries more efficent.\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gBygn3cVP80/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gBygn3cVP80/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gBygn3cVP80/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gBygn3cVP80/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 27,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gBygn3cVP80"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "BpYizjUmA8a1wNhYlhJZ9X8aM24",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi41QUZGQTY5OTE4QTREQUU4",
+            "snippet": {
+                "publishedAt": "2020-04-03T15:22:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How to Avoid Double Booking and Race Conditions in Online Web Applications",
+                "description": "In this video, I demonstrate how is it possible to get double booking in database-backed web applications and how to prevent double booking and race conditions with row-level locks. \n\n0:00 Explain the Booking system\n4:30 Double Booking\n7:30 Fixing Double Booking\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/booking-system\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_95dCYv2Xv4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_95dCYv2Xv4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_95dCYv2Xv4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/_95dCYv2Xv4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 28,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "_95dCYv2Xv4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "v8PP8WsaspuLc_b9IRUkzDN--Us",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4zRDBDOEZDOUM0MDY5NEEz",
+            "snippet": {
+                "publishedAt": "2020-04-05T20:29:27Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Multi-player System Game Design - Pros & Cons of Proposed Designs & System Design Interviews Advice",
+                "description": "In this video we will explain how to build a multiplayer system game design, will go through multiple designs and explain the pros and cons of each of them. Finally I want to discuss system design Interview Advice\n\n\nChapters\n0:00 Intro\n2:20 Game Requirements\n4:15 Features\n6:30 Design Overview\n10:00 Design 1 Stateful\n16:00 Design 2 Stateless\n21:50 Pros & Cons\n27:50 System Design Interview Advice\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vJ5cOfiJRgM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 29,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vJ5cOfiJRgM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ZpSQ5J_esBjj-wd12JJhMzoljSE",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5CMEQ2Mjk5NTc3NDZFRUNB",
+            "snippet": {
+                "publishedAt": "2020-04-26T21:21:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "When should you shard your database?",
+                "description": "Database Application level sharding is the process of splitting a table into multiple database instances in order to distribute the load. However, Sharding a database is an expensive operation (maintainability and overhead) and I suggest you do that only when you absolutely need to. That means when your single instance database can no longer serve queries with minimum latency. So I suggest you monitor that and only shard if necessary.. I rather do replication make master / backup and make requests read from replica than Sharding just because it is easier.. good question... nice idea for a video  \n\nTime codes\n0:00 Intro\n5:00 Partition horizontally \n7:45 Replication (Master/backup) Scale reads\n11:00 Scale writes by region \n12:30 Sharding \n16:40 Sharding in YouTube\n\n\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iHNovZUZM3A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 30,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iHNovZUZM3A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "jRC1Qdq1G-PDJZbDLITHOBnPQsA",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi42MTI4Njc2QjM1RjU1MjlG",
+            "snippet": {
+                "publishedAt": "2020-04-27T20:05:03Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Can the QUIC Protocol improve Database Performance within Web Applications?",
+                "description": "In this video, I discuss why QUIC will make a great communication protocol for databases and how it solves a critical problem with stateless web applications. Web applications use database connection pooling to establish database connections on the backend. But that creates other sorts of problems. \n\n\nTimecodes\n0:00 Intro\n0:20 Database Communication Protocols\n2:00 Problem with Sharing Database Connections\n6:50 How QUIC streams can help Databases\n\n\n \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1yeGkoN514k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1yeGkoN514k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1yeGkoN514k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1yeGkoN514k/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 31,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "1yeGkoN514k"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DDqYMutX7AbCHaPwCvj7kmnekzo",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi45RjNFMDhGQ0Q2RkFCQTc1",
+            "snippet": {
+                "publishedAt": "2020-05-03T20:31:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "URL Shortener System Design (Explained with Two proposed Designs with Pro and Cons of each)",
+                "description": "Building a URL Shortener System Design such as TinyURL & Bitly, every system design has pros & cons. Your design will shine regardless, take pride of what you build and have an open mind of improving. \n\n\nChapters\n0:00 You Are an Artist \n2:00 Design #1\n13:30 Design #2\n28:00 Scaling\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 32,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5uX3rDRaHXw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "AGpAsvobfoYhcAdv6w_J_H3JNNM",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi40QTA3NTU2RkM1QzlCMzYx",
+            "snippet": {
+                "publishedAt": "2020-05-27T01:41:13Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How Do Databases Store Tables on Disk? Explained both SSD & HDD",
+                "description": "in this video I explain how database systems store their data on Disk both f from SSD (solid-state drives) and HDD (HarD disk drive). \n\nThere are many factors that go into that discussion so I tried to cover the high level here. \n\nReseources\nhttps://www.extremetech.com/extreme/210492-extremetech-explains-how-do-ssds-work\nhttps://www.percona.com/blog/2019/12/18/give-love-to-your-ssds-reduce-innodb_io_capacity_max/\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DbxddGtHl70/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DbxddGtHl70/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DbxddGtHl70/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DbxddGtHl70/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 33,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DbxddGtHl70"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "CqqVCeF6Ie317-hZBpTaxeGP4FM",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5BRjJDODk5REM0NjkzMUIy",
+            "snippet": {
+                "publishedAt": "2020-05-30T02:13:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Concurrent Requests and Unique  Keys on Web Applications",
+                "description": "In this video I explain how primary key cannot be duplicated even if concurrent transactions are executed in the same time. \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/w6GzQa9R7-4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/w6GzQa9R7-4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/w6GzQa9R7-4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/w6GzQa9R7-4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 34,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "w6GzQa9R7-4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "hcL7WF98isOz4APzkGcR1MC4j8M",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4xOTEzQzhBQzU3MDNDNjcz",
+            "snippet": {
+                "publishedAt": "2020-06-01T18:32:53Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Carnegie Mellon University Advanced Database Course Is a GREAT resource for Backend Engineers!",
+                "description": "Carnegie Mellon University Advanced Database Course Is AMAZING ! We need more \n\nThank you Carnegie Mellon for the generous contribution of these amazing free lectures. You are helping countless students. The engineering community on YouTube thanks to you. Great content. \n\nNeed more generous acts like this from big professors.\n\n\nCMU Course Playlist here  \n\nIntro: https://www.youtube.com/watch?v=oeYBdghaIjc&list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi\n\nAdvanced: https://www.youtube.com/watch?v=SdW5RKUboKc&list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O\n\n\nMixed https://www.youtube.com/watch?v=SdW5RKUboKc&list=RDCMUCHnBsf2rH-K7pn09rb3qvkA&index=1\n\nMore database resource from my channel \nDatabase Engineering https://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\nDistributed Systems https://www.youtube.com/playlist?list=PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Vy_9luYaPRM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Vy_9luYaPRM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Vy_9luYaPRM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Vy_9luYaPRM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Vy_9luYaPRM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 35,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Vy_9luYaPRM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "fZbdQANMy4kvUvIwc0YM4jtDiqQ",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5GNDg1Njc1QzZERjlFRjE5",
+            "snippet": {
+                "publishedAt": "2020-06-07T20:56:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database DeadLock Explained by Example",
+                "description": "In this video I explain one way a Deadlock an happen between two transactions in a relational database and I use Postgres as an example. Deadlocks can also happen in Two phase-locking here is a dead locking example. \n\n\nChapters\n0:00 Intro\n1:18 Dead Lock\n3:50 Transaction 1 Wins\n4:40 Transaction 2 Wins\n\n \n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n \n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QzvVQ8vRDuM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QzvVQ8vRDuM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QzvVQ8vRDuM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/QzvVQ8vRDuM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 36,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "QzvVQ8vRDuM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "2U7Ire0CWqQOs_vptBTlsJlb4tM",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4zQzFBN0RGNzNFREFCMjBE",
+            "snippet": {
+                "publishedAt": "2020-06-09T02:14:26Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Two Phase Locking Explained (2PL)",
+                "description": "n this video I explain two phase locking with an example on a postgres database. \n\n===\n0:00 Intro\n2:00 Without 2PL\n4:00 With 2PL \n===\n\nFrom wikipedia: \nIn databases and transaction processing, two-phase locking (2PL) is a concurrency control method that guarantees serializability.[1][2] It is also the name of the resulting set of database transaction schedules (histories). The protocol utilizes locks, applied by a transaction to data, which may block (interpreted as signals to stop) other transactions from accessing the same data during the transaction's life.\nBy the 2PL protocol, locks are applied and removed in two phases:\n1. Expanding phase: locks are acquired and no locks are released.\n2. Shrinking phase: locks are released and no locks are acquired.\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gv62vmvyy6s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gv62vmvyy6s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gv62vmvyy6s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gv62vmvyy6s/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 37,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gv62vmvyy6s"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "rggX5hDLTKSu3aWPfYGS7NnDB58",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi45NkVENTkxRDdCQUFBMDY4",
+            "snippet": {
+                "publishedAt": "2020-06-20T22:50:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Keep your Servers Close and Your Database Closer",
+                "description": "Having the client close to the server in geographical proximity is important. However, this is not as important of having the database closer to the server.\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wNSZLOabpK4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wNSZLOabpK4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wNSZLOabpK4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 38,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "wNSZLOabpK4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "wocSgUvM53CHgt1ma00PFpVF7yo",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5DNkMwRUI2MkI4QkI4NDFG",
+            "snippet": {
+                "publishedAt": "2020-07-11T22:50:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is the Largest SQL Query We can Send Before The Database Process Crashes?",
+                "description": "I am sending a large SQL to a free Postgres Instance and slowly increasing the size until the process crashes. Lets see what will happen.\n\n0:00 Intro\n1:40 1 KB Query\n3:00 10 KB Query\n4:30 125 KB Query\n5:20 1.35 MB Query\n6:20 14.54 MB Query\n8:20 Node Crash \n\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7Y_Sh0FKAGo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7Y_Sh0FKAGo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7Y_Sh0FKAGo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/7Y_Sh0FKAGo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 39,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "7Y_Sh0FKAGo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vjCcr9lPVFpSBj4QoNfE3zXHkQc",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5DRUQwODMxQzUyRTlGRkY3",
+            "snippet": {
+                "publishedAt": "2020-07-30T21:09:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "MariaDB vs MySQL SSD NVMe vs SATA Performance - Discussions on the Percona Benchmark",
+                "description": "This is an analysis of the #percona benchmark article comparing MySQL & mariaDB performance with regards to SSD disks with NVMe vs SATA controllers. Pretty neat\n\n0:00 Intro\n1:00 MariaDB vs MySQL\n2:15 SATA vs NVMe\n4:30 SATA Benchmark\n7:30 NVMe Benchmark\n10:00 SSD & B-Trees\n11:20 Best Practices mySQL for SSDs\n \n\nResources\nhttps://www.percona.com/blog/2020/07/29/checkpointing-in-mysql-and-mariadb/\nhttps://www.percona.com/blog/2020/07/30/how-mysql-and-mariadb-perform-on-nvme-storage/?utm_campaign=2020%20Blog%20Q3&utm_content=135945936&utm_medium=social&utm_source=twitter&hss_channel=tw-35373186\nhttps://www.samsung.com/semiconductor/global.semi.static/best-practices-for-mysql-with-ssds-0.pdf\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T5nqr5-zIJE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T5nqr5-zIJE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T5nqr5-zIJE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/T5nqr5-zIJE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 40,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "T5nqr5-zIJE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "IF8BwSe5dUtbgqpqNZmtT14ov04",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4yQUJFNUVCMzVDNjcxRTlF",
+            "snippet": {
+                "publishedAt": "2020-08-19T17:59:35Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "We Might Know what causes the initial performance “dip” in MariaDB .. Let us discuss",
+                "description": "MariaDB experiencing a performance dip when it first starts according to an article written by Percona. We might know what caused it.. \n\nhttps://www.percona.com/blog/2020/08/14/evaluating-performance-improvements-in-mariadb-10-5-5/\n\n0;30 Mariadb \n2;35 ACID video\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xw4HjtRo1Ik/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xw4HjtRo1Ik/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xw4HjtRo1Ik/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/xw4HjtRo1Ik/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 41,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "xw4HjtRo1Ik"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "1TJ79parbK9ddM7MWzI75YX6dXk",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi40QzRDOEU0QUYwNUIxN0M1",
+            "snippet": {
+                "publishedAt": "2020-08-20T16:31:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Pessimistic concurrency control vs Optimistic concurrency control in Database Systems Explained",
+                "description": "In this video, I discuss the different concurrency control at database transactions, specifically the pessimistic vs optimistic concurrency control. and the pros and cons of each.  \n\n0:00 Intro\n3:00 concurrency Control\n5:30 Pessimistic concurrency Control\n9:20 Optimistic concurrency Control\n\nResources \nhttps://en.wikipedia.org/wiki/Optimistic_concurrency_control\nhttps://www.baeldung.com/java-jpa-transaction-locks\nhttps://docs.oracle.com/javaee/7/api/javax/persistence/OptimisticLockException.html\nhttps://en.wikipedia.org/wiki/Time-of-check_to_time-of-use\nhttps://www.2ndquadrant.com/en/blog/postgresql-anti-patterns-read-modify-write-cycles/\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/I8IlO0hCSgY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/I8IlO0hCSgY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/I8IlO0hCSgY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/I8IlO0hCSgY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 42,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "I8IlO0hCSgY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "jSvwD7NWSyi09zvgKBqFTIAtRaI",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi41RTNBREYwMkI5QzU3RkY2",
+            "snippet": {
+                "publishedAt": "2020-09-14T19:33:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Best Practices Working with Billion-row Tables in Databases",
+                "description": "In this video, I discuss 3 methods to work with tables of billion rows. This discussion is inspired by a comment on my YouTube video on Twitter System Design right here https://www.youtube.com/watch?v=gfq-LG9ZJQA&lc=UgyYbm5889dW0XtKhsV4AaABAg\n\nChapters\nIntro 0:00 \n1. Brute Force Distributed Processing 2:30 \n2. Working with a Subset of table 3:35\n    2.1 Indexing 3:55 \n    2.2 Partitioning 5:30 \n    2.3 Sharding 7:30\n3. Avoid it all together (reshuffle the whole design)  9:10 \nSummary 11:30 \n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wj7KEMEkMUE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wj7KEMEkMUE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wj7KEMEkMUE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/wj7KEMEkMUE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 43,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "wj7KEMEkMUE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "j3PX3IbJNwbBzuFTOZz7BpFsEMQ",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi5ENjI1QUI0MDI5NEQzODFE",
+            "snippet": {
+                "publishedAt": "2020-09-29T23:24:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database Indexing Explained (with PostgreSQL)",
+                "description": "This is a practical video on Database Indexing where I explain what is an index, why do we need it and how it can improve the performance of the queries. Also how (if used incorrectly) it can slow down your queries\n\n\nintro 0:00 \nWhat is an index 0:30 \nDescribe Table 2:15 \nSELECT [ID] WHERE ID 4:00 \nSELECT [NAME] WHERE ID 6:30\nSELECT [ID] WHERE [NAME] (No index) 9:20\nSELECT [ID] WHERE NAME LIKE 11:12 \nCREATE INDEX ON [NAME] 12:00\nSELECT [ID] WHERE NAME (Indexed) 12:50\nSELECT [1D] WHERE NAME LIKE (Indexed) 14:30 \nSummary 16:00 \n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-qNSXK7s7_w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-qNSXK7s7_w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-qNSXK7s7_w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/-qNSXK7s7_w/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 44,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "-qNSXK7s7_w"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "eqN2limdMvhA1j3ntmF_kPTcB4I",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi44QzVGQUU2QjE2NDgxM0M4",
+            "snippet": {
+                "publishedAt": "2020-10-06T21:12:12Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database Partitioning Crash Course (with Postgres)",
+                "description": "In this video, I will go through Database Partitioning and explain it in detail, pros and cons with a demo using PostgreSQL. \n\n0:00 Intro\n1:30 What is Partitioning?\n5:00 Vertical vs Horizontal partitioning\n7:00 Partitioning Types\n8:40 Partitioning vs Sharding\n11:30 Demo \n31:30 Pros & Cons\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sitUYx2EfhY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sitUYx2EfhY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sitUYx2EfhY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/sitUYx2EfhY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 45,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "sitUYx2EfhY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "uk5wMOoKC0KbwXaBSlp4kqiGNHI",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4xMzgwMzBERjQ4NjEzNUE5",
+            "snippet": {
+                "publishedAt": "2020-10-08T00:36:13Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Explaining Key vs Non-Key Column Database Indexing and How it can Improve Performance",
+                "description": "In this video, I will explain the difference between Key vs Non-Key Column indexing and how adding a non-key column to your index can improve the performance. \n\n0:00 Intro\n3:00 No Index\n5:30 Index with only key column\n10:50 Index with key and non-key columns\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9v3GqKtbqzQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9v3GqKtbqzQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9v3GqKtbqzQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/9v3GqKtbqzQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 46,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "9v3GqKtbqzQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "m0UQitpqFjolzMGHAaE_2TEfWhI",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi4zMEQ1MEIyRTFGNzhDQzFB",
+            "snippet": {
+                "publishedAt": "2020-10-08T00:55:01Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Index Scan vs Index Only Scan on Database Systems (with Postgres)",
+                "description": "In this video, I explain the difference between sequential scan, Index Scan and Index Only Scan.\n\n0:00 Intro\n1:00 Sequential Scan\n2:00 Index Scan\n3:50 Index Only Scan\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xsPBT5gIQac/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xsPBT5gIQac/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xsPBT5gIQac/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/xsPBT5gIQac/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 47,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "xsPBT5gIQac"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "XkgTrJU2faM3KGM5P61a8E_dfJg",
+            "id": "UExRbmxqT0ZUc3BRWGpEMEhPek43UDJ0Z3p1N3NjV3BsMi41NTZEOThBNThFOUVGQkVB",
+            "snippet": {
+                "publishedAt": "2020-10-09T19:29:22Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Why Discord Moved from MongoDB to Apache Cassandra, Let us Discuss",
+                "description": "In this Article Stanislav Vishnevskiy elegantly discusses why Discord moved from MongoDB to Apache Cassandra, the challenges they faced, limitations of both Mongo & Cassandra. Well written article let us discuss\n\nhttps://blog.discord.com/how-discord-stores-billions-of-messages-7fa6ec7ee4c7\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/86olupkuLlU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/86olupkuLlU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/86olupkuLlU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/86olupkuLlU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+                "position": 49,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "86olupkuLlU"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 55,
+        "resultsPerPage": 50
+    }
+}

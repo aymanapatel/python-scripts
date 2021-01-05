@@ -1,0 +1,1585 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "149VzNlV3P4bud2j154w9QQdqr8",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "GHQdH0dXls_iKTVIhxc67Y3af4E",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2017-07-30T05:51:24Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 01 - Getting Started",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n \nWe are finally here, we made it, the first episode of the Javascript API, y’all have been waiting for it and its here. Before you start you will need to setup a web server. \n\nSet install http-server for node js first download and install Nodejs \n\nhttps://nodejs.org/en/\n\nThen run this command to install http-server globally\n\n npm install http-server -g\n\nthen you are set.\n\ngo to command prompt then navigate to the folder having your HTML and javascript then type \n\nhttp-server . \n\n\n\nWe start out with the basics, as usual building stuff from scratch, we build our first map and learn about Map and Mapview.\n\nSource code for Episode 1\n\nhttps://github.com/hnasr/jsapi4x/tree/episode1\n\n\n\nBoost your GIS knowledge by grabbing my books\n\nHussein's GIS Books https://www.husseinnasser.com/books\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "rft4ZecPQcI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ykksIkWX08kX6Sp3VfUnPi0MofQ",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2017-07-30T06:12:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 02 - Working with the Map View and Scene View",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist https://www.youtube.com/playlist?list=PLQnljOFTspQUppK8iiIuoQJTAj436IWQz \n\n{\nTopic : \"Fun with scene view.\"\ngiturl : \"https://github.com/hnasr/jsapi4x/tree/episode11\"\ndescription: \n\"Episode 2 we continue doing some more fun stuff, introducing the SceneView and how do we swizzle maps into views. Enjoy! We tried to be fancy using arrow functions but it didn’t work for some reason.\"\n}",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pnx5gzBjAyY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pnx5gzBjAyY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pnx5gzBjAyY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pnx5gzBjAyY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/pnx5gzBjAyY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "pnx5gzBjAyY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "E9lJ9aiVQEVQ_RnY_jHtQhv9PKU",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2017-08-06T18:40:40Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 03 - Populating map services in a drop down",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist https://www.youtube.com/playlist?list=PLQnljOFTspQUppK8iiIuoQJTAj436IWQz \n\nWe play with map scale and request object, querying the list of services from ArcGIS Server and populating a drop down list..\n\nSupport IGeometry: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=E6LW23B4WNQQA&lc=US&item_name=IGeometry&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/u1BmUL48dE4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/u1BmUL48dE4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/u1BmUL48dE4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/u1BmUL48dE4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/u1BmUL48dE4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "u1BmUL48dE4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "PE0QfuaK1DrtBHbN2C1u8IcJRSM",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2017-08-24T13:58:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 04 - Adding a Map Image Layer to the map",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist https://www.youtube.com/playlist?list=PLQnljOFTspQUppK8iiIuoQJTAj436IWQz \n\n\n\nToday we discuss the MapService and how to add a MapImageLayer to our map.\n\nhitting the public instance of arcgisonline https://server.arcgisonline.com/arcgis/rest/\n\n\n \n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Amn5M1ov1nU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Amn5M1ov1nU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Amn5M1ov1nU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Amn5M1ov1nU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Amn5M1ov1nU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Amn5M1ov1nU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "qALomHbHmxFMntFGmvJ84d22H6k",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2017-08-20T20:25:01Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 05 - Working with Legends",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist https://www.youtube.com/playlist?list=PLQnljOFTspQUppK8iiIuoQJTAj436IWQz \n\n\nLegend talk.\n\nCreate legend of our mapview using the widget.\n \nSupport IGeometry:  http://bit.ly/2Bgt4vc\n\n\n \n\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jsufTg2kGOI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jsufTg2kGOI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jsufTg2kGOI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/jsufTg2kGOI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/jsufTg2kGOI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "jsufTg2kGOI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "bzg7F9M3aQbq5e2fT-yrqrQJyB8",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2017-09-21T04:33:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 06 - One Map view, multiple maps",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\n\nWorking with multiple maps in javascript\n\nIn this episode we fix the map swizzling bug where when we switch the map we retain the coordinates and zoom level. Miley Cyrus spotted too on our map!  16:30\n\n\nEpisode Code \nhttps://github.com/hnasr/jsapi4x/tree/episode6\n\n\nSupport IGeometry:  http://bit.ly/2Bgt4vc\n\n \n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/o4-pzB0tHic/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/o4-pzB0tHic/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/o4-pzB0tHic/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/o4-pzB0tHic/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/o4-pzB0tHic/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "o4-pzB0tHic"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "W9QiaPdjN9ipm37LS0pw0sJWjKc",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2017-09-25T04:58:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 07 - Building basemaps gallery",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\n\nDynamically generate buttons for each basemap and change the basemap when you click on each of the buttons. Cool stuff\n\n\n\nStay Awesome!\nHussein Nasser\nSupport IGeometry: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=E6LW23B4WNQQA&lc=US&item_name=IGeometry&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xhTyoPmY7O0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xhTyoPmY7O0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xhTyoPmY7O0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/xhTyoPmY7O0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/xhTyoPmY7O0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "xhTyoPmY7O0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "HIWLJwQOuoisA5B9fL_6zkAxPiQ",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2017-09-30T22:59:44Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 08 - Building layers table of content from scratch",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\n\nTOC TOC TOC -- Building our own table of content from scratch!\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qsBnbO4nZf8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qsBnbO4nZf8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qsBnbO4nZf8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qsBnbO4nZf8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/qsBnbO4nZf8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qsBnbO4nZf8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "NEh0EGoZPvjT3wU_XEP-OC0QFPU",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2017-10-03T04:17:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 09 - Code cleanup and refactoring",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\n\n\nRefactoring our code and pushing to github\n\nhttps://github.com/hnasr/jsapi4x/tree/episode9\n\n\n\nStay Awesome!\nHussein Nasser\nSupport IGeometry: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=E6LW23B4WNQQA&lc=US&item_name=IGeometry&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2vKxsw6DiSs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2vKxsw6DiSs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2vKxsw6DiSs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2vKxsw6DiSs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/2vKxsw6DiSs/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2vKxsw6DiSs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0k2qwAgPhzJ-3gguRwZ6OG_Xi3Q",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2017-10-15T02:30:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 10 - Building table of content with nested layers recursively",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nMore Table of Content work, the recursive call to get sublayers and building the full table of content\n\nhttps://github.com/hnasr/jsapi4x/tree/episode10\n\nSupport IGeometry: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=E6LW23B4WNQQA&lc=US&item_name=IGeometry&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/K0H7EVx1PF0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/K0H7EVx1PF0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/K0H7EVx1PF0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/K0H7EVx1PF0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/K0H7EVx1PF0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "K0H7EVx1PF0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DhRVpRUtODr_9ooc17prBYVNYqs",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2017-10-28T15:36:40Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 11 - Querying features in a layer",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nQuerying for features in javascript.\n\nhttps://github.com/hnasr/jsapi4x/tree/episode11 \n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GxVkS0nwxqY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GxVkS0nwxqY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GxVkS0nwxqY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/GxVkS0nwxqY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/GxVkS0nwxqY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "GxVkS0nwxqY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "1khjLJXNRfX_bbz4G1SzkcY1ZKA",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2017-10-15T02:33:07Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 12 - Query REST end point",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\n\nBonus episode  - fun with feature count\n\nhttps://github.com/hnasr/jsapi4x/tree/episode12\n\n\n\nStay Awesome!\nHussein Nasser\nSupport IGeometry: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=E6LW23B4WNQQA&lc=US&item_name=IGeometry&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BoTge-pSQ_w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BoTge-pSQ_w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BoTge-pSQ_w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BoTge-pSQ_w/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/BoTge-pSQ_w/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BoTge-pSQ_w"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YqFMiKv0bsqKoK78lfUICAvH5qE",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2017-10-29T18:10:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 13 - Populate basemaps in a list",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\n{\nTopic : \"Basemaps as Drop down list \"\ngiturl : \"https://github.com/hnasr/jsapi4x/tree/episode13\"\n}\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8A-859IdYwQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8A-859IdYwQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8A-859IdYwQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8A-859IdYwQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/8A-859IdYwQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8A-859IdYwQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "SqUT1n5pn0oNcadklZE0sZW8Udw",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2017-10-30T00:23:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 14 - Working with the search widget",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nAdding the Search widget \n\nhttps://github.com/hnasr/jsapi4x/tree/episode14\n\nStay Awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5BwuWz5pYIc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5BwuWz5pYIc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5BwuWz5pYIc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5BwuWz5pYIc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/5BwuWz5pYIc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5BwuWz5pYIc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "qcgwQVCyPmu0WPI3DSbgafrO0ik",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2017-10-30T00:24:17Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 15 - Building an attributes viewer table ( like ArcMap and Pro)",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nThe moment where we finally built the attributes viewer successfully 34:10\n\n\nBuilding the Attribute Table that views the list of features in a given layer. Just like the standard attribute viewer/editor in ArcMap and Pro.\n\nhttps://github.com/hnasr/jsapi4x/tree/episode15\n\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bHVJphm0fAg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bHVJphm0fAg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bHVJphm0fAg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/bHVJphm0fAg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/bHVJphm0fAg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "bHVJphm0fAg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ukQVGs4VKGdwzKaQ1ORQSSyUBgs",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2017-11-15T04:34:36Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 16 -  Load Map service on start of application",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nWe will learn how to load our favorite map service when our application starts. Today we usually have to do that manually, no more!\n\n \ngit hub\nhttps://github.com/hnasr/jsapi4x/tree/episode16\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3btRZRBmJqM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3btRZRBmJqM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3btRZRBmJqM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/3btRZRBmJqM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/3btRZRBmJqM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "3btRZRBmJqM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "qMalvjBvvpXXtyHrUf-96grMaKY",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4yMDhBMkNBNjRDMjQxQTg1",
+            "snippet": {
+                "publishedAt": "2017-11-26T17:53:36Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 17 - EPOCH to Date",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\n\nWe will learn how to load our favorite map service when our application starts. Today we usually have to do that manually, no more!\n\n \ngit hub\nhttps://github.com/hnasr/jsapi4x/tree/episode17\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser\n\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/w2i0g2Nup0c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/w2i0g2Nup0c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/w2i0g2Nup0c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/w2i0g2Nup0c/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/w2i0g2Nup0c/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "w2i0g2Nup0c"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "sNl3hZP929l81kqjYLyjxHz_UCE",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2017-12-04T02:59:32Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x- 18 - Offline",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nWe learn how to download and configure the arcgis javascript api offline so you guys can work on an intranet connection.\n \nDownload ArcGIS Javascript API: https://goo.gl/KkiMmB\n\nCode: https://github.com/hnasr/jsapi4x/tree/episode-18\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\nS\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G3sB1I8CB80/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G3sB1I8CB80/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G3sB1I8CB80/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/G3sB1I8CB80/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/G3sB1I8CB80/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "G3sB1I8CB80"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "osmMv79gIA6DqkJh898v6pWm2-o",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2017-12-17T23:01:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 19 - Code Cleanup",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nWe clean up our code in preparation of solving an interesting problem. Code clean up\n\nCode: https://github.com/hnasr/jsapi4x/tree/episode19\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mov7RmFhSPw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mov7RmFhSPw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mov7RmFhSPw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mov7RmFhSPw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/mov7RmFhSPw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mov7RmFhSPw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "yABvYe0BtV43Gz0xP-7qn731EBI",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei45NzUwQkI1M0UxNThBMkU0",
+            "snippet": {
+                "publishedAt": "2017-12-17T23:56:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 20 - Paging",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nWhen you have a layer with hundreds of rows, you probably will need to break the results into multiple \"pages\" so you can browse through them easily. In this episode we discuss how can we start this work. We look through how google does its paging and we try to mimic something similar.\n\nCode: https://github.com/hnasr/jsapi4x/tree/episode20\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/X9tQmjKJ_mg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/X9tQmjKJ_mg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/X9tQmjKJ_mg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/X9tQmjKJ_mg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/X9tQmjKJ_mg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "X9tQmjKJ_mg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9QXkjUY3JqPFyY2-pYsqcCkLwCM",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei5DNzE1RjZEMUZCMjA0RDBB",
+            "snippet": {
+                "publishedAt": "2017-12-25T22:43:01Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 21 - Paging (Cont)",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nWe continue the paging work. \n\nSource code: https://github.com/hnasr/jsapi4x/tree/episode21\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mxBF9sNMu2g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mxBF9sNMu2g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mxBF9sNMu2g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mxBF9sNMu2g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/mxBF9sNMu2g/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 20,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mxBF9sNMu2g"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pvYt81jqrK_HyutyF0greyCvPcM",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei43MTI1NDIwOTMwQjIxMzNG",
+            "snippet": {
+                "publishedAt": "2018-01-21T05:54:27Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 22 - Moving to Node Js, Express, npm, git",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nIn this episode we move our simple .html file to an entire application using Express, NodeJs npm and git. We clone the repo and cover it with sprinkles then push it back! \n\nhttps://github.com/hnasr/jsapi4x/tree/episode22\n\n\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pOmAn__77uk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pOmAn__77uk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pOmAn__77uk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pOmAn__77uk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/pOmAn__77uk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 21,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "pOmAn__77uk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "XboDn-ouROWLJyNFPb9k_xbFGtc",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei5DMkU4NTY1QUFGQTYwMDE3",
+            "snippet": {
+                "publishedAt": "2018-02-25T21:22:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x- 23 - The Point Geometry",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nDiscussion on geometries in Javascript for ArcGIS API. We discuss how we build a point geometry, and how we draw it on the map using a marker symbol. \n\nCode \nhttps://github.com/hnasr/jsapi4x/tree/episode23\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZTFSmG7YknY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZTFSmG7YknY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZTFSmG7YknY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ZTFSmG7YknY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ZTFSmG7YknY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 22,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ZTFSmG7YknY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "FOhG0CFiuiLiCAabMSof-d7rCTw",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei5DQ0MyQ0Y4Mzg0M0VGOEYw",
+            "snippet": {
+                "publishedAt": "2018-02-25T21:14:13Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 24 - The Polyline Geometry",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nGeometries in Javascript for ArcGIS API. We discuss how we build a polyline geometry, and how we draw it on the map using a simple line symbol. We explore the api for more ways to draw the line symbol.\n\n\nCode \nhttps://github.com/hnasr/jsapi4x/tree/episode24\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aQ2IjQJVhzE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aQ2IjQJVhzE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aQ2IjQJVhzE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aQ2IjQJVhzE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/aQ2IjQJVhzE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 23,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "aQ2IjQJVhzE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "oXqEdeEI9U-1cwlN0VsDe30Fxzs",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4yQUE2Q0JEMTk4NTM3RTZC",
+            "snippet": {
+                "publishedAt": "2018-02-25T21:21:39Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x- 25 - The Polygon Geometry",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nGeometries in Javascript for ArcGIS API. We discuss how we build a polygon geometry, and how we draw it on the map using a simple fill symbol. We also explore the api for more ways to draw the polygon symbol.\n\nhttps://github.com/hnasr/jsapi4x/tree/episode25\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XF0zJgOaUJU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XF0zJgOaUJU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XF0zJgOaUJU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/XF0zJgOaUJU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/XF0zJgOaUJU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 24,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "XF0zJgOaUJU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "5i7yESs9MQPwg59Q2z6j0YkVMUg",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei44Mjc5REFBRUE2MTdFRDU0",
+            "snippet": {
+                "publishedAt": "2018-03-10T19:29:00Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x- 26 - Refactor html js code into .js classes",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nLong episode, where we clean our code and refactor our embedded js code in the html to nice classes in .js files. We don't add any new functionalities we just make the code work. \n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nCheers\nHusein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_VSwzUMXu4E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_VSwzUMXu4E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_VSwzUMXu4E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/_VSwzUMXu4E/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/_VSwzUMXu4E/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 25,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "_VSwzUMXu4E"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "CwiiTCzFiZtL5XSLoFybM9a8qDI",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei43NDhFRTgwOTRERTU4Rjg3",
+            "snippet": {
+                "publishedAt": "2018-05-06T05:40:27Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x- 27 - List services in any ArcGIS Server instance",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nIn this episode we do some more clean up and make the code more generic to list all services in any arcgis service instead of hard coding it to sampleserver6. We also filter out mapservice only and do some other cool stuff. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nCheers\nHusein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/j06ZmKq0SL4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/j06ZmKq0SL4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/j06ZmKq0SL4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/j06ZmKq0SL4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/j06ZmKq0SL4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 26,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "j06ZmKq0SL4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "IeBU5fnpmx8HrXkv-kCWZHheZNw",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei41QUZGQTY5OTE4QTREQUU4",
+            "snippet": {
+                "publishedAt": "2018-05-09T04:56:23Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x- 28 - Projecting Spatial Reference with Geometry Service",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nEach service that is published to arcgis service must have a spatial reference. When loading a service to the base map geometries must be projected to match the spatial reference of the basemap. In this video we fix a major bug in our map viewer to auto-zoom to the full extent of the service by projecting the service spatial reference to the base map\n\nenjoy!\n\nBackground Music: Credit to Abbas AlAnzoor\n\nSource Code\nhttps://github.com/hnasr/jsapi4x/tree/episode28\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HKiomfTd1W8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HKiomfTd1W8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HKiomfTd1W8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/HKiomfTd1W8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/HKiomfTd1W8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 27,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "HKiomfTd1W8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "hAYp7O6X3opiX4YohjYn4PiqchU",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4zRDBDOEZDOUM0MDY5NEEz",
+            "snippet": {
+                "publishedAt": "2018-05-12T02:37:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x- 29 - Software Testing",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nToday I will wear the software tester hat and start critiquing the application and use github to create issues for bugs and enhancements that I found. Please feel free to do the same! Write down in the comments what you feel we can improve in this application!\n\nIssues List: https://github.com/hnasr/jsapi4x/issues\n\n\nCheers guys\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YjvpzLrS5aA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YjvpzLrS5aA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YjvpzLrS5aA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/YjvpzLrS5aA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/YjvpzLrS5aA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 28,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "YjvpzLrS5aA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "P5-qL1vHNom3L3Wcry_3b8bNr9Q",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei5CMEQ2Mjk5NTc3NDZFRUNB",
+            "snippet": {
+                "publishedAt": "2018-06-02T02:42:09Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 30 - Zoom to Feature",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nA long show today! We tackle our first issue number 7 https://github.com/hnasr/jsapi4x/issues/7 where we add a zoom in button to the attribute table. There are lot of things to take care of, code to write, concepts to understand.\n\nFirst we add the button to each row in the table, then wire the event, and then query to get the geometry of the feature. We make sure to bring back the geometry projected in the basemap spatial reference. Finally based on that geometry, we create an appropriate graphic and zoom to that graphic on the map. \n\nI enjoyed making this episode hope you guys enjoy it to.\n\nSource code\nhttps://github.com/hnasr/jsapi4x/tree/episode30\n\nBoost your GIS \n\nknowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Qa7m1DP05ns/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Qa7m1DP05ns/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Qa7m1DP05ns/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Qa7m1DP05ns/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Qa7m1DP05ns/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 29,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Qa7m1DP05ns"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Ba3lF_KokEiRd0jvqcvy8hyMbrg",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei42MTI4Njc2QjM1RjU1MjlG",
+            "snippet": {
+                "publishedAt": "2018-06-11T04:55:41Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 31 - Default page selection",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nIn this episode we fix bug 5 here https://github.com/hnasr/jsapi4x/issues/5 where the first page need to be highlighted when populating the page. This way we know which page is currently active. \n\nEnjoy! \n\nSource Code https://github.com/hnasr/jsapi4x/tree/episode31\n\n\n\nBoost your GIS \n\nknowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Fq7r4nLgUag/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Fq7r4nLgUag/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Fq7r4nLgUag/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Fq7r4nLgUag/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Fq7r4nLgUag/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 30,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Fq7r4nLgUag"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4VaXYi6UNzFbtNpIlButQ8PRWzI",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei45RjNFMDhGQ0Q2RkFCQTc1",
+            "snippet": {
+                "publishedAt": "2018-06-15T05:25:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 32 - Filter results based on the current map extent",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nIn this episode we add a new enhancement here  https://github.com/hnasr/jsapi4x/issues/10 where the attribute table become based on the current map extent. We also end up fixing another bug in the backlog  https://github.com/hnasr/jsapi4x/issues/3 \n\nEnjoy! \n\nhttps://github.com/hnasr/jsapi4x/tree/episode32 \n\n\n\nBoost your GIS \n\nknowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/m2L2GEcuSOw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/m2L2GEcuSOw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/m2L2GEcuSOw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/m2L2GEcuSOw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/m2L2GEcuSOw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 31,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "m2L2GEcuSOw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YAuXrZvTUsl5eBbukPCBxPCM1LM",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei40QTA3NTU2RkM1QzlCMzYx",
+            "snippet": {
+                "publishedAt": "2018-08-11T06:13:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 33 - Listing the first “n” pages in the attribute table viewer",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nIn this episode we add a new enhancement here   https://github.com/hnasr/jsapi4x/issues/4  where we only list the first n pages in the attribute table viewer. Today we list all pages which makes the UX look crammed. \n\nEnjoy! \n\nhttps://github.com/hnasr/jsapi4x/tree/episode33\n\n\nBoost your GIS knowledge by grabbing my books\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⇨ [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n⇨ [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n⇨ [x] ArcGIS By Example  https://goo.gl/yJKSqB\n⇨ [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⇨ [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n⇨ [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n⇨ [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n⇨ [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n⇨ [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5ZaAGkc7RGE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5ZaAGkc7RGE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5ZaAGkc7RGE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5ZaAGkc7RGE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/5ZaAGkc7RGE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 32,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5ZaAGkc7RGE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "R0-nEa7LxeBBICGbO10HcaF7cjY",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei5BRjJDODk5REM0NjkzMUIy",
+            "snippet": {
+                "publishedAt": "2018-10-07T22:33:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API #esrijs 4.x - 34 - Upgrading to version 4.9!",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nIn this episode we upgrade to the latest Javascript API which is 4.9, we are currently at 4.5. Learn more about the 4.9 version here. \n\nhttps://developers.arcgis.com/javascript/latest/guide/release-notes/\n\n\nArcGIS Javascript API can be used to build cool 2D and 3D web apps on top of Esri ecosystem. If you are interested to learn this technology and build apps that solve and streamline your business workflows, check out this series.\n\nWatch me build a full-fledged web maps using this API from scratch/nothing/empty slate. No copy-paste of code *I promise*. Any line I write, I explain. Episode by episode we add new features to our little application, fix bugs and answer questions. \n\nThis video tutorial series are a little different. Here the audience (you) actually request features to be added to the web mapping app, log them into the [github repo] and I look into it and pick up issue one and work on it.\n\nEnjoy! \n\nhttps://github.com/hnasr/jsapi4x/tree/episode34\n\n\nBoost your GIS knowledge by grabbing my books\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⇨ [x] Learning ArcGIS Geodatabase https://goo.gl/csQdCX\n⇨ [x] Administering ArcGIS for Server https://goo.gl/zvYCRg\n⇨ [x] ArcGIS By Example  https://goo.gl/yJKSqB\n⇨ [x] Building Web Applications with ArcGIS https://goo.gl/brgKUJ\n\n\nWatch my top GIS videos\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⇨ [x] Full ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n⇨ [x] Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n⇨ [x] Full ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n⇨ [x] Full ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n⇨ [x] Full ArcGIS Server Playlist https://goo.gl/nkfM6Q",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TFMWDjjzfS8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TFMWDjjzfS8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TFMWDjjzfS8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/TFMWDjjzfS8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/TFMWDjjzfS8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 33,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "TFMWDjjzfS8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9-QmV2reJsFzBbzXfXsFeRRBM9s",
+            "id": "UExRbmxqT0ZUc3BRVXBwSzhpaUl1b1FKVEFqNDM2SVdRei4xOTEzQzhBQzU3MDNDNjcz",
+            "snippet": {
+                "publishedAt": "2018-11-18T19:45:33Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "My New GIS Book 2018 Just published on Kindle - Learn GIS Programming",
+                "description": "Buy The Book here : https://www.amazon.com/dp/B07KNHQ8NZ/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1542568174&sr=1-1\n\nThe link to the data of the book can be found in Chapter 2, Publishing to ArcGIS Online section, page 33 \nI also will put it here \nhttps://drive.google.com/file/d/1H5Pz28jAtq2CfNUOqpx_U9wxEUUrd7mk/view\n\nLet me know if you have access guys, here is the story of this book.\n\n\nIn late 2012 I got an email from a book publisher author with a proposal to author a book. They have found me through my blog and linked a blog post I wrote back in 2009 on ArcGIS Server technology. I accepted their offer and wrote the book and 3 others that followed.\n\nThis makes me question, why did I write that original blog post? I didn’t know that one day a publisher will google that technology and find my post and make me an offer to write a book. I can’t remember why exactly I wrote that post but I knew that I was having fun doing it. Sharing my experience with the world through this writing always felt good to me.\n\nIn August 2017 I started a new series called Getting Started with ArcGIS Javascript API 4.x on YouTube. That series became really popular. The interaction on that series inspired me to write this book to discuss things I might have missed in that video series and to distill all my findings, knowledge into a book. So if you are new to the YouTube channel consider subscribing to check out more content over there https://www.youtube.com/igeometry\n\nToday, I decided to re-live the experience of writing a book. However, no publisher is backing up this book. This book is written from the heart, full of joy, from me to you. It is a brain dump of what I think will be a very beneficial work for you guys.\n\nAs of the time of writing this preface, I did not pick a title of this book. And I’m feeling good about this. I know the topic and I can imagine how the book will look like. However, I feel that picking a title will force my thoughts through a narrow path and thus limit the potential of what this book could be. Obviously, if you are reading this that means I have already picked a title.\n\nThis book is about building web maps using Javascript technology. I picked Javascript because it is a resilient light-weight technology that can run on both the server and the client, mobile, IOT and supercomputer machines. \n\nTraditional technology books discuss tools. “This is how to load a web map in a browser”. “This is how to query the rest endpoint”. “This is how to render a 3d map”. You get a catalog of tools and what they do. There is nothing wrong with this format. In fact, it is a good reference. However, you don’t get any context when reading such books to take action and build something. It is like learning what is a hammer, nail and screwdriver does but these tools are useless if no one shows you how to build a table using these tools.\n\nI like to write my books by example, where I build an app and in the process explain the various tools I’m planning to use to build this app. Personally, I feel this is a better way of learning as it gives context.\n\nI hope you enjoy this book.\n\nWhat are we building in this book ?\nWe will be building a web mapping application from scratch. For tourists, we are building an app that helps users locate landmarks. The app shows the landmarks in a map such as libraries, cafes, restaurants schools and much more. It has a search capability to search for landmarks where they will be highlighted on the map. It also shows the nearby landmarks within specific miles from current location. So you can answer interesting questions such as show me all libraries within 100 feet of this coffee shop or are there any liquor stores within a mile from this school? I will be providing you with the sample data which I created myself, this data is not real it is just sample. All we need is to write the application. The app will run on both mobile and desktop.\n\nDon’t worry if this seems like a lot. We will break down those functionalities into different chapters and slowly walk through each.\n\nWho this book is written for?\nAnyone interested in learning how to build a web mapping application. Basic programming knowledge is recommended but not required. I will explain all that is required as we go through the book.\n\nSystem Requirements\nI designed this book in a way so you don’t require a special or license to get started. I will be using a mac in this book but will include instructions for Windows and Linux. We will use ArcGIS Online free account to host our landmark data and ArcGIS Javascript API 4.x to write the web application. I will provide that data in GeoJSON format so we can upload it to ArcGIS Online.\n\nSoftware Requirements\nAll you need on your machine is a text editor to write code and a web server to serve the static files. I will be using Node JS as a web server and Visual Studio Code as the text editor. We will take care of the download and installation of those two in chapter 1.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/q38IHVcBBFQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/q38IHVcBBFQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/q38IHVcBBFQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/q38IHVcBBFQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/q38IHVcBBFQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+                "position": 34,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "q38IHVcBBFQ"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 35,
+        "resultsPerPage": 50
+    }
+}

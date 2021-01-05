@@ -1,0 +1,805 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "SLN3vqDxy-HYkYffuBwH5VkzmGA",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "G6Um5ui6EOLmHelMIjotMq7niBI",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy4yMDhBMkNBNjRDMjQxQTg1",
+            "snippet": {
+                "publishedAt": "2020-04-09T18:56:07Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Proxy vs Reverse Proxy Server Explained",
+                "description": "In this video, I explain the difference between a proxy and a reverse proxy server. How Reserver Proxy can act as a load balancer but much more. This is a refreshed version of the proxy video I made. \n\nChapters\n0:00 Intro\n0:25 What is a Proxy?\n5:00 What is a Reverse Proxy?\n9:50 Questions \n\n\nWhat is a Proxy ? \nProxy use cases\n- Logging\n- Anonymity\n- Geofencing \n- Caching\n- Block sites (office) \n- Enable Polyglot \n\n\nWhat is Reverse Proxy? \nReverse Proxy Example\nReverse Proxy Use Cases \n- Caching (Varnish) \n- Load Balancing\n- Ingress (/pics) \n- Canary Deployment\n\n\nMany types of proxy check it here\n\nQ and A\n* can we use proxy and reverse proxy together? \n* Can I use Proxy to hide my identity instead of a VPN? \n* Can I use proxy just for HTTP? \n\n\n\ntags: proxy vs reverse proxy, reverse proxy benefits, what is a reverse proxy, what is a proxy, what is the difference between proxy and reverse proxy \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SqqrOspasag"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "6ZdIVH1fyFacx5AoU5MvV-viMRw",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:25:09Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Proxy vs. Reverse Proxy (Explained by Example)",
+                "description": "In this episode we explain the difference between a Proxy (Forward proxy) and Reverse Proxy by example, and list all the benefits of each server. \n \nChapters\n0:00 Intro\n00:20 Proxy Explained\n02:25 Proxy Benefits\n04:54 Reverse Proxy Explained\n06:49 Reverse Proxy Benefits\n \n\nOnline diagram tool used in this video: Http://www.gliffy.com \n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\nStay Awesome\n-Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ozhe__GdWC8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ozhe__GdWC8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ozhe__GdWC8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ozhe__GdWC8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ozhe__GdWC8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "y6_di_5cX57c6FqrmISvMYFqejM",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2019-12-08T19:39:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "VPN vs Proxy Explained Pros and Cons",
+                "description": "A VPN (virtual private network) and Proxy are two pieces of tech that each has their applications, differences and pros and cons.  Both make requests on behave on the client but they are implemented very differently. In this video I want to go through the following: \n\n- What is a VPN? \n- How a VPN works?\n- VPN Pros and Cons\n- What is a Proxy? \n- How a Proxy works? \n- Proxy Pros and Cons\n\n\nTime Codes\n0:00 Intro\n1:10 What is a VPN\n9:56 Pros & Cons\n19:55 What is a Proxy?\n24:28 Proxy PRos & Cons\n\nCards\nNAT 3:15\nOSI 5:10 \nTCP Tunneling 5:40\nTLS 14:45\nDo you need a VPN 17:08\nTOR 27:54\n\n\nIn a VPN, the client becomes part of a completely different network . So if a client makes a request to a server, the new network makes the request. \n\nA VPN makes a machine part of a nother network at the lowest level of the network (layer 2) you can a brand ip address a brand mac address. \n\nIn A Proxy, the client makes the request to the proxy asking it to go to a destination server, and proxy makes the request to the server.\n\nVPN Pros\n- Encrypts traffic \n- Redirect all traffic at the lowest level (layer 2) \n- Access restricted content \n- Access Private networks (work) \n\n\nVPN Cons\n- Anonymity (uhmm) \n- Slow extra hops \n- Double Encryption \n- VPN can log your data (DNS)\n\n\nProxy Pros\n- Caching Layer 7\n- Anonymity (double meh) \n- Blocking Websites (transparent proxy) \n- Control and many applications (load balancing, service mesh, firewall proxy security) \n- Work on Layer 7 and Layer 4\n\nProxy Cons \n- Applications can bypass proxy \n- Not all traffic is routed. HTTP proxy, HTTPS proxy SOCKS proxy \n- No encryption by default \n\n\nResources\n\nResources\n\n\nKazakhstan Government \nhttps://www.zdnet.com/article/kazakhstan-government-is-now-intercepting-all-https-traffic/\n\n\nhttps://networkengineering.stackexchange.com/questions/50805/how-do-protocols-like-pptp-l2tp-work-below-ip-level/50808#50808\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/npnqyRT77Zc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/npnqyRT77Zc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/npnqyRT77Zc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/npnqyRT77Zc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "npnqyRT77Zc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9cLbWjiZGCzgsdaRIJKBwZoe3Gc",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:55:43Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is an HTTP Proxy? (Transparent, HTTP and Service Mesh Proxy examples)",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nA proxy is a software that intercepts traffic and forward it to the destination on behave of the client. This extra layer provide several advantages such as caching, load balancing, content filtering and much more.. We made a video about proxy vs reverse proxy check it out if you want to learn more about the difference. In this video we will explain the different types of HTTP proxies and the benefits and use cases of using each coming up. \n\nTransparent proxy (gateway) \nHTTP insecure proxy\nService Mesh Proxy\n\nTransparent proxy\nIt is mostly used by the ISPs, clients don’t know they are connected to transparent proxy. The way it works is it looks at TCP/IP layer 4/3 and forward it to the destination, it might do some content filtering based on the IP address or the port so it blocks certain sites. But thats pretty much it.  transparent proxy cannot know which pages are you viewing or your what youtube videos are you watching. It can block you from watching youtube all together but it cannot block you from watching lets say a specific youtube channel that is critical of the government ISP is located at. \n\nTransparent proxy doesn’t change the content. \n\n\nHTTP Proxy (insecure) \nThis kind of proxy is used alot, especially in service meshes like linkerd. This kind of proxy have to be configured in the client to use it. Each request will always be targeted to the proxy IP address / port. So when want to make a GET request to husseinnasser.com, and you have a proxy configured, when you look at the TCP packet for that request the destination IP and port is those of the proxy. The proxy looks at the GET request and specifically the HOST header and establishes another TCP connection to the actual destination on husseinnasser.com. So this kind of proxy maintains two tcp connections. Client to proxy and proxy to destination. The proxy have access to the content, it can block the website. It can know what exact page you are viewing. It knows everything because HTTP is insecure. Assuming youtube uses just HTTP, if you have a proxy setup it can block a specific channel or even video from being viewed.\n\n 1:05 proxy vs reverse proxy https://www.youtube.com/watch?v=ozhe__GdWC8\n2:50 TLS https://www.youtube.com/watch?v=AlE5X1NlHgg\n\nThis country is now intercepting all HTTPS traffic\nhttps://www.zdnet.com/article/kazakhstan-government-is-now-intercepting-all-https-traffic/\n\n \n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/x4E4mbobGEc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/x4E4mbobGEc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/x4E4mbobGEc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/x4E4mbobGEc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "x4E4mbobGEc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ZOd0jtAXsxdYpmb4yQiNvi3I8c4",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:19:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load Balancer vs Reverse Proxy (Explained by Example)",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nIn this video we will discuss the difference between Reverse proxy and load balancer. Some of you guys asked this question and I thought its appropriate to make a video. \n\nSo Personally id like to think of a Load balancer as one of the applications of a reverse proxy. It is a special case of a reverse proxy. Lets us define what a reverse proxy is first. To define load balancer we need to first define what a reverse proxy is. And to define reverse proxy, we need to know what a proxy is! So lets start with a proxy \n\nA proxy is a piece of software that makes request to a server in place of the client. Servers don’t know who are the client. \n\nReverse proxy is the reverse! The client doesn’t know which server it is connected to. I recommend checking out the video of proxy vs reverse proxy to learn more. \n\nA Load balancer is a special case of a reverse proxy. Reverse proxy doesn’t have to be a load balancer. Load balancers must have two or more servers on the backend to balance the load, reverse proxy doesn’t have to. Reverse proxy can be optimized to perform the following: \n\n1. Caching web acceleration \n2. Canary deployment \n3. Security against servers \n4. Anonymous \n5. Single entry URL\n6. Load balancing\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "S8J2fkN2FeI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "cnczwDrP0a05Rbr8b9wXiiRHVxQ",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2020-05-18T01:02:53Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Layer 4 vs Layer 7 Proxying In Details Explained with Examples",
+                "description": "In this video I will explain the difference between layer 4 and layer 7 proxying in details. HAProxy & NGinx support this and I want to go behind the scenes of what exactly is going on in layer 7 proxying and layer 4 proxying. \n\n\nChapters\n0:00 Intro\n1:00 Layer 7 Proxying\n12:55 Layer 4 Proxying \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ylkAc9wmKhc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ylkAc9wmKhc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ylkAc9wmKhc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ylkAc9wmKhc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ylkAc9wmKhc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "yuRKgm7a_9vFOrMS5rCfAUNDVi4",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:51:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "SSL/TLS Termination, TLS Forward Proxy Pros and Cons",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nIs a proxy that terminates the TLS session and send unencrypted traffic to the main server. This offloads complex crypto TLS from the main server to this proxy so the main server can do what it does best. Serve.. \n\nIn this video we will discuss the pros and cons of TLS Termination proxies  \n\n- TLS 1.2 \n- TLS Termination Proxy\n- TLS Forward Proxy \n-  Pros and Cons\n    - Pros\n- Off load crypto to proxy instead of main servers (no longer a problem)\n- Have TLS session close to the client  \n- Decrypt data so HTTP accelerators like Varnish can function correctly. \n- Allow intrusion detection system to analyse traffic\n- Load balancers can make better decisions on the data (Layer 7)\n- Service Mesh in microservices architecture \n    - Cons\n- If proxy got compromised attacker can gains access to all data. \n- Limited by the maximum number of connections on the proxy. \n\n\n\n\njump codes\n2:00 TLS 1.2\n4:00 TLS Termination Proxy\n6:00 TLS Forward Proxy \n9:00 Pros and Cons\n\ncards\n2:20 TLS  https://www.youtube.com/watch?v=AlE5X1NlHgg\n3:49 Encryption https://www.youtube.com/watch?v=Z3FwixsBE94\n12:50 Denial of Service https://www.youtube.com/watch?v=4I7tPW8of2g\n15:20 Layer 4 vs Layer 7 Load Balancing https://www.youtube.com/watch?v=aKMLgFVxZYk\n\n\n\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome a patron https://www.patreon.com/join/hnasr? \n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "H0bkLsUe3no"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "8Vc30hVsOUJVfyLcRZnglElPZJM",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2019-11-17T22:05:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Varnish - HTTP Accelerator Crash Course",
+                "description": "Varnish is a reverse proxy web accelerator   Written in C designed to improve HTTP performance by using server side caching. \n\nIn this video I’m going to go through how Varnish works, we will spin up a Varnish docker container and finally talk about the pros and cons of this tech. \n\n\nChapters\n0:00 Intro\n1:53 Classic HTTP Architecture\n3:50 How Varnish Works\n7:50 Demo HTTP\n18:23 Demo HTTPS\n28:43 Varnish Pros\n39:26 Varnish Cons\n\n\nAgenda\n\n* Classic HTTP Architecture\n* How Varnish Works?\n* HTTP Setup - Varnish\n* HTTPS Setup - Varnish with Caddy as TLS Terminator.\n* Varnish Pros & Cons\n* Summary\n\nPros\n* Cache & prefetching documents\n* Resolve DNS hostnames in documents \n* Rewrite scripts to optimize code\n* Load Balancing \n* Backend Connection Pooling\n* Varnish Modules (VMODS, e.g. rewrite headers) \n* Edge side includes (personalized dynamic page)\n\n\nCons\n* Cache Invalidation\n* Only works on unencrypted HTTP\n* For HTTPS frontend, terminate TLS\n* For HTTPS backend, no solution in Varnish open source\n* Can’t cache POST requests (e.g. GraphQL queries)\n* HTTP/2 backends won’t benefit\n\n\ndocker commands\n\ndocker run --name varnish -p 8080:80 varnish\n\ndocker cp default.vcl varnish:/etc/varnish\n\n\ndefault.vcl\n\nvcl 4.0;\n\nbackend default {\n  .host = \"husseinmac\";\n  .port = \"2015\";\n}\n\n\n\n\n\nCards:\nConnection Pooling 2:15 https://www.youtube.com/watch?v=GTeCtIoV2Tw\nLayer 4 vs Layer 7 Load balancing  6:25 https://www.youtube.com/watch?v=aKMLgFVxZYk\nGET vs POST 6:48  https://www.youtube.com/watch?v=K8HJ6DN23zI\nPostgres NodeJS Chrome 8:23 https://www.youtube.com/watch?v=0JNq46eFuOM\nRedis 46:13 https://www.youtube.com/watch?v=sVCZo5B8ghE\nTLS Termination 49:35 https://www.youtube.com/watch?v=H0bkLsUe3no\n \n\nResources \nedge side includes\nhttps://www.fastly.com/blog/using-esi-part-1-simple-edge-side-include\nCache invalidation varnish\nhttps://www.smashingmagazine.com/2014/04/cache-invalidation-strategies-with-varnish-cache/\nVarnish Doc\nhttps://varnish-cache.org/docs/\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-cWs6eoyaLg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-cWs6eoyaLg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-cWs6eoyaLg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/-cWs6eoyaLg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "-cWs6eoyaLg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "kDIyVeve85OYZjjQwHs5lCCHgAA",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2019-12-23T13:38:35Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "HAProxy Crash Course (TLS 1.3, HTTPS, HTTP/2 and more)",
+                "description": "HAProxy is free, open source software written in C that provides a high availability layer 4 and layer 7 load balancing and proxying. It has a reputation for being fast and efficient in terms of processor and memory usage.\n\nChapters\n0:00 Intro\n2:30 Current and Desired Architecture\n5:50 HAProxy Architecture\n17:00 HAProxy as TCP Proxy, HTTP Proxy\n19:20 ACL Access Control Lists\n20:40 TLS Termination vs TLS Pass Through\n24:23 Example\n25:51 Spin up the services\n28:00 Install HAProxy\n29:11 HAProxy configuration\n39:00 ACL Conditional\n48:00 ACL Reject URL\n53:00 Enable HTTPS HAProxy\n1:05:30 Enable HTTP2 on HAProxy\n\nSource Code for Application\n\nHAProxy config\nhttps://github.com/hnasr/javascript_playground/tree/master/proxy\n\nDocker application \nhttps://github.com/hnasr/javascript_playground/tree/master/docker\n\n\nresources \n\nhttps://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/\nhttps://www.haproxy.com/documentation/aloha/10-0/traffic-management/lb-layer7/acls/#predefined-acls\nhttps://certbot.eff.org/lets-encrypt/osx-nginx\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qYnA2DFEELw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "rpdj1qopwBl48m2JVslgHWqEQks",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2020-01-20T02:42:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "NginX Crash Course (Layer 4 & Layer 7 Proxy, HTTPS, TLS 1.3, HTTP/2 & More)",
+                "description": "Audio Fixed + Bonus Content NGINX Crash Course here https://youtu.be/hcw-NjOh8r0\n\nNginX is an open source web server written in C and can also be used as a reverse proxy and a load balancer.\n\nIn this video, I want to go through the following topics in NginX\n\nChapters\n0:00 Intro\n2:25 What is NginX?\n4:58 Current & Desired Architecture\n8:40 Layer 4 and Layer 7 Proxying in Nginx\n10:25 Example\n13:30 Install Nginx (mac)\n15:00 Nginx as a Web Server (webserver.conf)\n20:00 Static context location root\n27:00 Regular expression\n30:30 proxy pass\n33:30 Nginx as a Layer 7 Proxy\n37:00 Proxy to 4 backend NodeJS services (docker)\n43:00 IP_Hash load balancing\n46:00 Split load to multiple backends (app1/app2)\n49:00 Block certain requests (/admin)\n51:30 NGINX as a Layer 4 Proxy\n1:01:08 Create DNS record\n1:05:08 Enable HTTPS on Nginx (lets encrypt)\n1:14:00 Enable TLS 1.3 on NginX\n1:17:10 Enable HTTP/2 on NginX\n1:20:10 Summary\n \n\n\nAll the nginx Configuration can be found here \nhttps://github.com/hnasr/javascript_playground/tree/master/nginx\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WC2-hNNBWII/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WC2-hNNBWII/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WC2-hNNBWII/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "WC2-hNNBWII"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "I-_fbaxn3ebxEZYVN_tCkMliRpw",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2019-12-28T21:13:32Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Fail-over and High-Availability (Explained by Example)",
+                "description": "Failover is the technique of switching to a redundant backup machine when a certain node goes down. This is a very common implementation for achieving high availability and it is often mixed with different load balancing techniques such as layer 4 and layer 7 balancing.\n\nIn this video i want to go through following\n\nChapters\n0:00 Intro\n1:47 What is Failover?\n3:00 ARP - Address Resolution Protocol\n5:40 VIP & VRRP\n12:12 High-availability Example\n\n\n#KeepAlived \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Zgy1miPsTNs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "V-WONr22miVO6LiCrRxQfRkT24A",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2020-01-08T14:49:03Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "The Bare-Bones of a Service Mesh Proxy",
+                "description": "The Service Mesh is a Proxy that manages communications between multiple services and it is becoming crucial in microservices architecture. Well, it is also a reverse proxy as well but we will get to that in another video. In This video I want to explain the bare-bones basics of how service mesh works. The Service Mesh utilizes the Host header to implement services. \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cp3Ku1XeOn8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cp3Ku1XeOn8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cp3Ku1XeOn8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/cp3Ku1XeOn8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "cp3Ku1XeOn8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YhI9QMOPOiF7ndyTu4a2lgDHopQ",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2020-01-25T17:31:35Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Scaling and Securing WebSockets with HAProxy",
+                "description": "WebSockets technology is a bidirectional, full duplex protocol for communication between client and server over the web. It has been standardized in 2011 and its fully compatible with HTTP. This protocol enables realtime applications such as chatting, notifications, live feed , multiplayer gaming and otheruse cases. \n\nIn this Video I want to discuss websocket secure protocol wss:// which is done over TLS on port 443\n\n\nSource Code WebSocket\nhttps://github.com/hnasr/javascript_playground/tree/master/websocket-demo\n\n\nCards \n6:21 nginx/ haproxy\n\n\n15:13 how i secured https://www.youtube.com/watch?v=CxamHNc3U4A \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Rf6AfhqJKxg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "juMhm2BWmesWG5IeWMsp6GStZNk",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2020-03-08T03:53:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Sidecar Proxy Pros & Cons (Explained by Example)",
+                "description": "A sidecar proxy is an application design pattern which abstracts certain networking features, such as inter-service communications, monitoring and security, timeouts, retries, communication protocols, away from the main architecture to ease the maintenance of the application as a whole.\n\nIn this video I’d like to talk about how we classically do things: \n\n* Library Pattern\n    * getComments HTTP1:1/JSON\n    * Add features retries/timeout /hardcode the server name what it changed/add new server to load balance between them/credentials \n* Sidecar pattern \n    * getComments HTTP/2\n* Sidecar proxy/container\nExamples\n- Microservices (Linkerd, Envoy, Istio) \nPros\n- Language agnostic (polyglot)\n- Protocol upgrade\n- Security\n- Tracing and Monitoring\n- Service Discovery\n- Caching\nCons\n- Complexity\n- Latency\n- SideCar Proxy must be layer 7\n\nLibrary 2:25\nSidecar: 7:40\nExample: 13:00 (https://www.youtube.com/watch?v=cp3Ku1XeOn8)\nPros & Cons : 16:15\n\nCards\n6:22 HTTP/2\n10:50 Reverse Proxy / proxy\nexample 13:00 (https://www.youtube.com/watch?v=cp3Ku1XeOn8)\n16:00 Layer 4 vs Layer 7 load balancer\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/g7WeY0DZNJ0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/g7WeY0DZNJ0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/g7WeY0DZNJ0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/g7WeY0DZNJ0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "g7WeY0DZNJ0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "JwUDrRZWxiTiZ-QFCgDwdfyjXxE",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2020-03-09T00:27:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Setup Active-Passive Cluster with Keepalived & HAProxy (Two raspberry pis)",
+                "description": "Keepalived is a routing software written in C that provides simple and robust facilities for loadbalancing and high-availability to Linux systems. In this video we will talk about this technology and implement it along side HAProxy as a high availability (failover) \n\n\nChapters\n0:00 Intro\n2:10 What is failover?\n4:30 What are we building\n7:20 KeepAlived Example\n\n* What is Keepalived?\n* Setup Keepalived with HAProxy\n    * VRRP/VIP\n    * Two rapsberrypis with keepalived and haproxy\n\nsudo apt-get install keepalived\n\nsudo vim /etc/keepalived/keepalived.conf\n\n\n\n \nvrrp_instance pi1 {\n    state MASTER\n    interface eth0\n    virtual_router_id 101\n    priority 100\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100 \n    }\n}\n\nvrrp_instance pi2 {\n    state BACKUP\n    interface wlan0\n    virtual_router_id 102\n    priority 200\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100\n    }\n}\n\n \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "NizRDkTvxZo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "VaDYsXcE9xw3MZjYR5pgsDTq6mI",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2020-03-15T19:40:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Active-Active vs Active-Passive Cluster to Achieve High Availability in Scaling Systems",
+                "description": "In this video I want to talk over the active active active vs active passive cluster failover configuration for high availability. We will also explain the pros & cons of using an active-active cluster vs using an active-passive cluster.  \n\n\n2:25 Fail-over https://www.youtube.com/watch?v=Zgy1miPsTNs\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "d-Bfi5qywFo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "NRTlwTwyRfUzjxaugWAAZnlP614",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2020-08-06T04:23:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is a DDOS Mitigating Reverse Proxy and is it Worth It? (Commenting on a Security Now Video)",
+                "description": "Link to Security Now Video https://www.youtube.com/watch?v=__sAhRfiFqY&t=6330s\n\nThis is an interesting video by Steve Gibson that I really enjoyed watching and implore everyone to do so. I discuss layer 7 reverse proxying aspects of it that prevent DDOS attacks. \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UKvK76Rnqus/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UKvK76Rnqus/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UKvK76Rnqus/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/UKvK76Rnqus/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "UKvK76Rnqus"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "afvb6O0B1xPD4D7hSUqZ_3SM0pw",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy45NzUwQkI1M0UxNThBMkU0",
+            "snippet": {
+                "publishedAt": "2020-08-10T02:03:19Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Traefik Crash Course - Architecture, L7 & L4 Proxying, Weighted Round Robin, Enabling TLS 1.2/1.3",
+                "description": "Traefik is an open-source reverse proxy written in GO and marketed as an Edge Router. It supports automatic TLS and HTTP/2 by default and other cloud native features. In this video I want to discuss Traefik as a reverse proxy and load balancer. \n\n\n0:00 Intro\n2:00 Problem\n4:00 Traefik Architecture\n11:00 TCP vs HTTP Proxying\n12:00 Demo\n15:30 Install Treafik Docker \n16:40 Treafik as a Layer 7 Proxy\n18:00 Static Configuration\n20:00 Proxy to all 4 backend NodeJS services \n27:00 Split load to multiple backends (app1/app2)  \n32:00 Block certain requests (/admin)\n34:20 Weighted RR\n38:30 Treafik as a Layer 4 Proxy (tcp router)\n43:30 Create DNS record\n44:40 Enable HTTPS on Treafik (lets encrypt) \n50:00 Disable 1.1/1.0 Enable TLS 1.2 and TLS 1.3  \n53:50 Summary \n\nResources\nhttps://docs.traefik.io/providers/file/\n\nConfig\nhttps://github.com/hnasr/javascript_playground/tree/master/traefik\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/C6IL8tjwC5E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/C6IL8tjwC5E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/C6IL8tjwC5E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/C6IL8tjwC5E/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "C6IL8tjwC5E"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0qF7FQeFCJ2kUIFCOmRmhsUHOyY",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy5DNzE1RjZEMUZCMjA0RDBB",
+            "snippet": {
+                "publishedAt": "2020-08-29T17:41:08Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "2 Hours NginX Crash Course + Bonus Content (Audio Fixed)",
+                "description": "NginX is an open source web server written in C and can also be used as a reverse proxy and a load balancer. This is a reupload of my original NginX video plus some more bonus content discussing the timeouts. \n\nIn this video, I want to go through the following topics in NginX. \n\nThis is a reupload of an existing NginX video where I fixed the Audio (sorry), I also added bonus content.. \n\nChapters\n0:00 Intro\n2:25 What is NginX?\n4:58 Current & Desired Architecture\n8:40 Layer 4 and Layer 7 Proxying in Nginx\n10:25 Example\n13:30 Install Nginx (mac)\n15:00 Nginx as a Web Server (webserver.conf)\n20:00 Static context location root\n27:00 Regular expression\n30:30 proxy pass\n33:30 Nginx as a Layer 7 Proxy\n37:00 Proxy to 4 backend NodeJS services (docker)\n43:00 IP_Hash load balancing\n46:00 Split load to multiple backends (app1/app2)\n49:00 Block certain requests (/admin)\n51:30 NGINX as a Layer 4 Proxy\n1:01:08 Create DNS record\n1:05:08 Enable HTTPS on Nginx (lets encrypt)\n1:14:00 Enable TLS 1.3 on NginX\n1:17:10 Enable HTTP/2 on NginX\n1:20:10 Summary\n1:25:34 NginX FrontEnd Timeouts\n1:26:49 client_header_timeout \n1:30:30 client_body_timeout \n1:33:00 send_timeout\n1:35:00 keepalive_timeout\n1:36:15 lingering_timeout\n1:40:00 resolver_timeout \n1:41:36 NginX BackEnd Timeouts\n1:42:17 proxy_connect_timeout \n1:43:53 proxy_send_timeout\n1:46:30 proxy_read_timeout \n1:48:55 keepalive_timeout \n1:50:00 proxy_next_upstream_timeout \n1:53:30 Nginx On Docker\n\n\nAll the nginx Configuration can be found here \nhttps://github.com/hnasr/javascript_playground/tree/master/nginx\n\n\n\n\nResources\nhttp://nginx.org/en/docs/http/ngx_http_upstream_module.html\nhttp://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hcw-NjOh8r0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hcw-NjOh8r0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "onAicdg9QbykSDXPut_TwH9-bok",
+            "id": "UExRbmxqT0ZUc3BRVk1lQm1XSTJBaHhVTFdFZW83QWFNQy43MTI1NDIwOTMwQjIxMzNG",
+            "snippet": {
+                "publishedAt": "2020-08-31T01:36:28Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Envoy Proxy Crash Course, Architecture, L7 & L4 Proxying, HTTP/2, Enabling TLS 1.2/1.3 and more",
+                "description": "Envoy is an open-source L7 proxy and communication bus Originally built at Lyft to move their architecture away from a monolith. \n\nIn this video, I want to go through the following\n\n* What is Envoy? 0:00\n* Current & Desired Architecture  0:48\n* Envoy Architeture  3:00\n    * DownStream/Upstream  7:30\n    * Clusters 9:19\n    * Listeners 10:50\n    * Network Filters 11:50\n    * Connection Pools 13:45\n    * Threading Model 18:34\n\n* Example  21:25\n    * Show the 4 apps 24:30\n    * Install Envoy Brew 26:00\n        *   https://www.getenvoy.io/install/envoy/macos/\n    * Envoy as a Layer 7 Proxy 27:30 \n        * Proxy to all 4 backend NodeJS services 28:00\n        * Split load to multiple backends (app1/app2)  40:00\n        * Block certain requests (/admin) 45:30\n    * Envoy as a Layer 4 Proxy (tcp router) 47:50\n    * Create DNS record 54:00\n    * Enable HTTPS on Envoy (lets encrypt)  55:30 \n    * Enable HTTP/2 on Envoy 1:03:00\n    * Disable 1.1/1.0 Enable TLS 1.2 and TLS 1.3  ONLY on Envoy 1:04:30\n    * SSL Labs test 1:06:40\n* Summary 1:07:24\n\n\nConfig\nhttps://github.com/hnasr/javascript_playground/tree/master/envoy\n\nResources\n https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/intro/terminology\nhttps://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/connection_pooling#arch-overview-conn-pool\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/40gKzHQWgP0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/40gKzHQWgP0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/40gKzHQWgP0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/40gKzHQWgP0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "40gKzHQWgP0"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 20,
+        "resultsPerPage": 50
+    }
+}

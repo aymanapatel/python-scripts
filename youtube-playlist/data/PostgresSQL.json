@@ -1,0 +1,530 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "kyvoQaa1z2V61Iy4kzgrnpht-7A",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "_GFfhPNBniDRkgYQm8m1gJNxAfI",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:12:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Connection Pooling with PostgresSQL and NodeJS",
+                "description": "Connection pooling is a pattern of create a pool of available connections (usually tcp) and allow multiple clients to share the same pool of connections. This pattern is usually used when connection establishment and tearing down is particularly expensive and the server has a limited number of connections. \n\nIn this video we will learn how to use connection pooling in NodeJs when working with a Postgres Database, we will learn how to spin up a pool of database connections and use stateless pool queries and transactional queries begin/end, and finally, we will \n \n\n0:00 Intro\n3:00 stateless close/open\n4:30 Pooling approach\n8:20 Performance tests\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/postgresnode-pool\n\n\n  \nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "GTeCtIoV2Tw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "mB6M4y4480d_5ZqkIDV2Nn2KVgc",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:13:44Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building a Web API with Express and PostgreSQL to Consume from Browser",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\n\nWe have made a video about how to connect to #postgres from javascript. we have used #nodejs as the javascript runtime which can create executable that run,  query the database and display your results. However, a lot of you asked how can I connect to postgres from my browser? The answer is no! The reason is browser only know how to make web calls which are HTTP calls while database is a low level tcp protocol. So we need some layer that can serve HTTP calls, serve web calls, almost like a web server. \n\nIn this video use express which sets on top of node js to spin up a web server and serves an API which will allow us to communicate from our browser to our postgres database this is coming up.\n \n\n- [ ] Setup Postgres database\n\n- [ ] Setup NodeJS and Express \n\n- [ ] Write TODO list API \n    - [ ] Implement GET (return all todos)\n    - [ ] implement POST (create new todo)\n    - [ ] implement DELETE (delete a todo)\n\n- [ ] Build the HTML web page that consumes the API\n- [ ] \n\n\ngithub repo -\nhttps://github.com/hnasr/javascript_playground/tree/master/express-postgres\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/0JNq46eFuOM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "0JNq46eFuOM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "F6HhbUUIRvLb18SukEKjjh1IVzk",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:16:44Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Postgres Database Cursors in Python with psycopg2",
+                "description": "In this video, we will learn the difference between a server-side cursor and a client side cursor. We will see the performance of both cursors by inserting 1 million rows, then reading the rows with a server side cursor vs a client side cursor. We are using psycopg2 in this tutorial with python.\n\nCheck out the videos we made in previous episodes\n\nSpinning PostgresSQL and PGAdmin with Docker on Mac\nhttps://www.youtube.com/watch?v=5QNL7_i-ay8\n\n\nStep-by-Step Python and Postgres Tutorial with psycopg2\nhttps://www.youtube.com/watch?v=2PDkXviEMD0\n \nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dLKZWbTHfgA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "dLKZWbTHfgA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "EFcaUUYmKnK4RlVFdhX5Jl0HDhE",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:17:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Javascript and Postgres Tutorial using node-postgres",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nIn this video, we will learn how to connect to a Postgres database from Javascript. We will learn how to perform queries on a table. We will go through an Insert example and learn how to do transactions. You can through jump codes table of content to jump to areas of the code of interest to you. \n\nRequirements \n    1. NodeJS 10 or later, https://www.youtube.com/watch?v=nHU2NC4vXDs\n    2. PostgresSQL database https://www.youtube.com/watch?v=5QNL7_i-ay8\n    3. Visual Studio Code https://code.visualstudio.com/\n    4. Using #node-postgres npm library https://node-postgres.com/\n\nReference Videos\nAtomic Transactions \n\nJump Codes Table of Content \n0:00 Intro \n02:50 Creating new NodeJS Project \n06:40 The node-postgres npm library\n10:40 Connecting to the postgres database (promises)\n13:30 Executing queries (promises)\n18:10 Executing queries with parameters (promises)\n22:00 Executing Insert statement (DML) (Promises)\n26:22 Connecting to postgres (Async/await) \n37:00 The Results object of the query \n39:40 Executing Transactions in Javascript  (Begin, Commit/Rollback) \n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/javascript_postgres\n\nEnjoy 😉\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ufdHsFClAk0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ufdHsFClAk0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4cI0L9xVaNGvqebq4zZEDJdtYAY",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:18:09Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step-by-Step Python and Postgres Tutorial with psycopg2",
+                "description": "In this tutorial, we will go through the basic steps on how to write a python script to read and write data on a Postgres database. We will start by describing what we have setup. I have a postgres instance running on a docker container which I will be using for this tutorial. You can watch this video that I made to learn how to spin up a postgres docker container https://www.youtube.com/watch?v=5QNL7_i-ay8  obviously you don’t have to use docker you can still instal postgres phsyically on your machine or if you have a server running postgres that should do the trick. We will then start from scratch as usual using visual studio code and python3. We will talk about the #psycopg2 library and how to install it. we will start by establishing a connection to postgres, we will talk about cursors, client-side cursors, server-side cursors the differences. Then we will execute a cursor to retrieve all rows in the table and display them. we will then insert a row to the database and commit the changes \n\nOur Source Code\nhttps://github.com/hnasr/psycopg2/blob/master/db.py\n\nMore details on the official site here \nhttp://initd.org/psycopg/docs/usage.html\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n\nEnjoy guys!\nStay awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2PDkXviEMD0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2PDkXviEMD0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "qtr19v9L53QZ3XmwffRctuCFIVs",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:18:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning multiple Postgres instances and PGAdmin with Docker",
+                "description": "In this video we will learn how to spin up a PostgreSQL database and pgadmin using docker.  \n\nDocker is the best and easiest way to practice, develop and learn. Instead of worrying about downloading, installing and configuring database. You can quickly spin a container do your testing and development then just spin it down. \n\nInstall docker from here https://www.docker.com/products/docker-desktop\n\nWe will use this video as a reference for our coding series where we can write python code or Javascript code that hits this postgres database. \n\nLets do this! \n\n#POSTGRES\ndocker run -p 5432:5432 --name pg postgres\n\n#PGADMIN\ndocker run -e PGADMIN_DEFAULT_EMAIL=\"hussein” -e PGADMIN_DEFAULT_PASSWORD=“password” -p 5555:80 —name pgadmin dpage/pgadmin4 \n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5QNL7_i-ay8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "nNpbRqkEIcAtFMF-69UzEIkJBNI",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2019-12-02T00:03:25Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database Sharding Crash Course (with Postgres examples)",
+                "description": "Database sharding is the process of segmenting the data into partitions that are spread on multiple database instances to speed up queries and scale the system. \n\n\nWhat is sharding? \nConsistent Hashing \nHorizontal partitioning vs Sharding\nExample\nPros and cons \n\n\n0:00 Intro\n1:30 What is Sharding?\n4:50 Consistent Hashing\n7:36 Horizontal partitioning vs Sharding\n8:45 Example\n10:00 Spin up Docker Postgres Shards\n17:25 Writing to the shard\n39:20 Read from the Shard\n51:10 Pros & Cons of Sharding\n\n\n\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/sharding\n\nDocker commands (including pgadmin)\nhttps://github.com/hnasr/javascript_playground/blob/master/sharding/shards/commands.txt\n\nDockerfile & init.sql\nhttps://github.com/hnasr/javascript_playground/tree/master/sharding/shards\n\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "d1fXBLqnFvc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "2FNLRfoeu2qOr1iYY8ScfcqT_hw",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-07-06T15:25:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning a lightweight Postgres instance and Consume it with NodeJS",
+                "description": "In this video we work with Postgres, spin up an instance, and connect to it through NodeJS issue some queries.\n\n0:00 Intro\n0:50 Create a Lightweight Postgres Instance\n2:30 NodeJS Postgres Code\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/blob/master/nodepg/query.js\n\nCloud Provider\nelephantsql.com\n\nkeep your server close and database closer https://www.youtube.com/watch?v=wNSZLOabpK4\n\nNodeJS Postgres Video https://www.youtube.com/watch?v=ufdHsFClAk0\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fD0DgrnFuCo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fD0DgrnFuCo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fD0DgrnFuCo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fD0DgrnFuCo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "fD0DgrnFuCo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MsEmAG0gtMIsFnSawYuMtB9xUWk",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-08-07T23:44:34Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Enabling TLS/SSL on PostgreSQL with Docker",
+                "description": "Postgres is encrypted by default (SSL off), in this video, I show how to enable TLS/SSL on Postgres instance and connect to it from pgadmin\n\n\n\n0:00 Intro\n1:50 Start a Postgres Docker Container\n2:40 Start a pgAdmin Docker Container\n4:00 Connect to Postgres from pgAdmin (unsecure)\n5:30 Enable SSL/TLS on Postgres\n7:30 Generate Self signed Certificate and private key\n10:00 Setting Permissions\n10:45 Connect to Postgres with TLS (secure)\n\n\n\nscripts\napt-get update && apt-get install vim\nenable ssl \n\n//self signed\nopenssl req -x509 -newkey rsa:4096 -nodes -sha256 -subj '/CN=localhost' -keyout private.pem -out cert.pem\n\n//permissions\nchmod 600 key.pem\nchown postgres key.pem\n\n//pgadmin\ndocker run -e PGADMIN_DEFAULT_EMAIL=“hussein” -e PGADMIN_DEFAULT_PASSWORD=“password” -p 5555:80 —name pgadmin dpage/pgadmin4 \n\n\n\ncards\n0;40 TLS playlist https://www.youtube.com/playlist?list=PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-\n1;17 servers close https://www.youtube.com/watch?v=wNSZLOabpK4\n7;50 lets encrypt https://www.youtube.com/watch?v=b35Dcz91ItE\n\n\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mSuTmVhQ2fc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mSuTmVhQ2fc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mSuTmVhQ2fc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mSuTmVhQ2fc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mSuTmVhQ2fc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "JQmodBUnuPjFaNk6Q_eSzNim3UU",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2020-08-28T01:26:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Postgres Vacuum Explained",
+                "description": "In this video, I explain Postgres Vacuum while I walk my dog.\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rsRgFhZHGLo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rsRgFhZHGLo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rsRgFhZHGLo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/rsRgFhZHGLo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "rsRgFhZHGLo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0q3JjVE5XgnVRSgmhOyzSL69ZqI",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2020-10-06T21:12:23Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database Partitioning Crash Course (with Postgres)",
+                "description": "In this video, I will go through Database Partitioning and explain it in detail, pros and cons with a demo using PostgreSQL. \n\n0:00 Intro\n1:30 What is Partitioning?\n5:00 Vertical vs Horizontal partitioning\n7:00 Partitioning Types\n8:40 Partitioning vs Sharding\n11:30 Demo \n31:30 Pros & Cons\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sitUYx2EfhY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sitUYx2EfhY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sitUYx2EfhY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/sitUYx2EfhY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "sitUYx2EfhY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "a4XGv6XVzUlVw7KDzawkyM2A3D4",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2020-10-11T00:53:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "PostgreSQL 13 Has Some Performance Boosts! Let us discuss it!",
+                "description": "Postgres 13 has been released and it has some interesting features. How about we discuss it! \n\nResources\nPress-release https://www.postgresql.org/about/featurematrix/detail/341/\nFeature Matrix https://www.postgresql.org/about/featurematrix/\n\n“The PostgreSQL Global Development Group today announced the release of PostgreSQL 13, the latest version of the world’s most advanced open source database.\nPostgreSQL 13 includes significant improvements to its indexing and lookup system that benefit large databases, including space savings and performance gains for indexes, faster response times for queries that use aggregates or partitions, better query planning when using enhanced statistics, and more.\nAlong with highly requested features like parallelized vacuuming and incremental sorting, PostgreSQL 13 provides a better data management experience for workloads big and small, with optimizations for daily administration, more conveniences for application developers, and security enhancements.\n\"PostgreSQL 13 showcases the collaboration and dedication of our global community in furthering the abilities of the world's most advanced open source relational database,\" said Peter Eisentraut, a PostgreSQL Core Team member. \"The innovations that each release brings along with its reputation for reliability and stability is the reason why more people choose to use PostgreSQL for their applications.\"\nPostgreSQL, an innovative data management system known for its reliability and robustness, benefits from over 25 years of open source development from a global developer community and has become the preferred open source relational database for organizations of all sizes.”\n\n\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wMbTHFXImzI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wMbTHFXImzI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wMbTHFXImzI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/wMbTHFXImzI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "wMbTHFXImzI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "wQ9uSJFddzsgV_NveKjxxxyXbr8",
+            "id": "UExRbmxqT0ZUc3BRV0dyT3FzbG5pRmxSY3d4eVk5NGNqai45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2020-10-13T02:30:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Indexing in PostgreSQL vs MySQL",
+                "description": "In this video, I explain how both Postgres and MySQL store their indexes and their effect on reads vs writes. Let us discuss\n\n0:00 Intro\n1:00 Tables\n2:00 Indexes\n3:20 Indexing in Postgres\n5:00 Indexing in MySQL \n6:35 What Happens on Update on Postgres\n7:20 What Happens on Update on MySQL\n9:00 Reads on Postgres\n9:40 Reads on MySQL \n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T9n_-_oLrbM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T9n_-_oLrbM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T9n_-_oLrbM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/T9n_-_oLrbM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "T9n_-_oLrbM"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 13,
+        "resultsPerPage": 50
+    }
+}

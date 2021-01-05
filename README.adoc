@@ -1,0 +1,13 @@
+= Python Scripts
+Ayman
+:toc:
+
+== Youtube playlist
+
+> Python script to add videos in Excel from 
+
+== Finance related Scripts
+
+
+== Web-scraping scripts
+

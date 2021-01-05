@@ -1,0 +1,290 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "_ciALKmGT1_QFPdwPHlK0mkoGRc",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ioXkI1UTsV0o7Dycb8bF4Sxc5bM",
+            "id": "UExRbmxqT0ZUc3BRVUdqZkdkZzhVdkwzRF9LOUFDTDZRaC4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-05-13T00:55:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "WebSockets Crash Course - Handshake, Use-cases, Pros & Cons and more",
+                "description": "WebSockets technology is a bidirectional, full-duplex protocol for communication between client and server over the web. It has been standardized in 2011 and its fully compatible with HTTP. This protocol enables realtime applications such as chatting, notifications, live feed , multiplayer gaming and otheruse cases.\n\nIn this video we will explain what WebSockets are and why it was invented. we will then build a server and client using WebSockets. We will also talk about the pros and cons of WebSockets, and discuss some alternatives to this technology \n\nChapters\n0:00 Intro\n2:00 HTTP\n5:40 WebSockets\n8:00 WebSockets Handshake\n11:20 WebSockets Usecases\n14:30 WebSockets Example Code\n36:40 WebSockets Pros and Cons \n42:10 Do you have to use webSockets?\n\nSource Code in the video for WebSockets \nhttps://github.com/hnasr/javascript_playground/tree/master/websocket-demo\n\n\nHTTP\n  * talk about request-response show a slide. Client initiate request all the time. Imagine building a chatting app? \n\nWebSockets \n- Slide showing bidrectional full duplex  standard web \n- \nHow WebSockets Work?\n- WebSockets handshake \n- Initial request is always HTTP which we all know creates a tcp connection, that request then http upgrade tells the server to use it as bidirectional.  \n- Once done switches to binary protocol. \n- Ws:// wss:// protocol \n\nWebSocket use cases\n- Chatting\n- Live feeds\n- Multiplayer gaming\n- Progress bar/ logging/ uploading..\n\n- WebSockets example (Server/Client) \n- WebServers Pros and Cons  \n\nPros\n1. Full-duplex no need for constant polling  \n2. compatible with HTTP, so proxies know to deal with it\n3. Firewalls won’t block it doesn’t use a special port\nCons\n1. Proxying is tricky, lots of proxies and transparent proxies don’t support it yet\n2. Layer 7 load balancing is tricky, timeouts on the load balancer. \n3. More complicated to implement (simple telnet use HTTP)\n4. Not ideal for all use cases - (microservices)\n\n\n- Do you have to use Web Sockets ? ( alternatives  ) \nIt is important to note that WebSockets is not the only HTTP realtime based solution, there are other ways to achieve real time such as eventsource, and long polling. \n\n- Load Balancing with WebSockets (bonus) \n- layer 4 \n- Layer 7 (tunnel) \n\nLongpolling\nEventsource\nWebSockets \n\n\n\n \nSources: \n\nhttps://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers\n\nhttps://www.ably.io/concepts/websockets\n\nhttps://link.medium.com/ljsSOsnW6Y\n\nhttps://blog.stanko.io/do-you-really-need-websockets-343aed40aa9b\n\n\n\n\n\nCards\nHTTP Crash Course https://www.youtube.com/watch?v=0OrmKCB0UrQ\nTLS https://www.youtube.com/watch?v=AlE5X1NlHgg\nWhat is a Web Servers https://www.youtube.com/watch?v=JhpUch6lWMw\nLayer 4 vs Layer 7 Load Balancing https://www.youtube.com/watch?v=aKMLgFVxZYk\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2Nt-ZrNP22A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "yvOo6hT0qsZwChgTK7mzWwamqgY",
+            "id": "UExRbmxqT0ZUc3BRVUdqZkdkZzhVdkwzRF9LOUFDTDZRaC4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-05-13T15:24:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Scaling Websockets to Multiple Servers with HAProxy, Redis and Node JS - Group Chat Application",
+                "description": "In this video I want to demonstrate how to scale websockets connection to multiple servers using a load balancer such as HAProxy.\n\n0:00 Intro\n1:00 What are WebSockets?\n2:40 WebSockets Scaling\n7:44 Chat WebSocket App Code\n\n\n\n* WebSockets\n* WebSockets Scaling \n* Live chat application (microservices)\n* Demo\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/ws-live-chat-system\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gzIcGhJC8hA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gzIcGhJC8hA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "E4pxGZm2XN3VYxzyFsae9YsyElU",
+            "id": "UExRbmxqT0ZUc3BRVUdqZkdkZzhVdkwzRF9LOUFDTDZRaC5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-07-22T18:19:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building a Multi-player Game with WebSockets",
+                "description": "In this video I show how we can use websockets to build a browser-based multi-player game that works on any device. I design the multi-player game with the server authoritative model where the game state is stored on the server. I use WebSockets as a communication medium for the game I am building.\n\nChapters\n0:00 Intro\n6:00 Connect to Server\n9:45 Create game\n13:00 Join Game\n16:00 Play Game\n18:00 Broadcast State\n22:15 Example\n31:00 Code\n31:10 Connect Code\n50:00 Create Game Code\n59:10 Join Game Code\n1:25:40 Play Game Code\n1:30:00 Broadcast code\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/websocket-cell-game",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "cXxEiWudIUY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "lLVI4aQelTnzafzKgIV1ggNjvxo",
+            "id": "UExRbmxqT0ZUc3BRVUdqZkdkZzhVdkwzRF9LOUFDTDZRaC41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-07-22T18:19:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Scaling and Securing WebSockets with HAProxy",
+                "description": "WebSockets technology is a bidirectional, full duplex protocol for communication between client and server over the web. It has been standardized in 2011 and its fully compatible with HTTP. This protocol enables realtime applications such as chatting, notifications, live feed , multiplayer gaming and otheruse cases. \n\nIn this Video I want to discuss websocket secure protocol wss:// which is done over TLS on port 443\n\n\nSource Code WebSocket\nhttps://github.com/hnasr/javascript_playground/tree/master/websocket-demo\n\n\nCards \n6:21 nginx/ haproxy\n\n\n15:13 how i secured https://www.youtube.com/watch?v=CxamHNc3U4A \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Rf6AfhqJKxg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "jzltb1ABf77ITZtAFuo8uHYFdE4",
+            "id": "UExRbmxqT0ZUc3BRVUdqZkdkZzhVdkwzRF9LOUFDTDZRaC41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-05-13T14:44:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How WebSockets Work with HTTP/2 (RFC8441 Explained)",
+                "description": "In this video I explain how WebSockets work in the new HTTP/2 protocol. This is explained in the  Bootstrapping WebSockets with HTTP/2 in RFC8441\nhttps://tools.ietf.org/html/rfc8441\nhttps://link.medium.com/v5sB9nbUp6\n\n\n0:00 Intro\n1:00 HTTP2\n5:50 HTTP/2 limitations\n\nReuploaded with Audio fixed\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0TA69aD9onM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0TA69aD9onM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0TA69aD9onM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/0TA69aD9onM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "0TA69aD9onM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "X9iCKx299A1jQKa2AFDQdnC1nHI",
+            "id": "UExRbmxqT0ZUc3BRVUdqZkdkZzhVdkwzRF9LOUFDTDZRaC4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-06-23T22:19:17Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What Really Happens During a WebSockets Connection - Wiresharking WebSockets",
+                "description": "In this episode, I remove the carpet of what happens behind the scene on a WebSocket connection. This includes the TCP handshake, the HTTP connection upgrade header, switching protocol, ping pong, logical close and physical close of the WebSocket connection\n\nEnjoy! \n\n#wireshark_them_all\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5tBmkxpeTyE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5tBmkxpeTyE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5tBmkxpeTyE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5tBmkxpeTyE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5tBmkxpeTyE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "osSewHndfsWcTYPOT8z4fg4BCzo",
+            "id": "UExRbmxqT0ZUc3BRVUdqZkdkZzhVdkwzRF9LOUFDTDZRaC45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-07-28T16:31:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "New Udemy Course Alert - A Complete Guide to WebSockets 2020",
+                "description": "Thank you so much guys for checking out this course and supporting me everywhere! on YouTube by watching, channel membership and patreon and Paypal! \n\n\nA Complete Guide to WebSockets + All udemy courses\nhttps://husseinnasser.com/courses\n \nI'll update the description with a link to the YouTube version soon.\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jlp0Q-iYcJc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jlp0Q-iYcJc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jlp0Q-iYcJc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/jlp0Q-iYcJc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "jlp0Q-iYcJc"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 7,
+        "resultsPerPage": 50
+    }
+}

@@ -1,0 +1,550 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "JuSyfITr19d7boS209xkgcvtqUo",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "lw7WiNhNj8PbrrgVJoXZ22Jj5lY",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:08:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 1 - What is Server?",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. \n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ROxr8K0zDZg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "L3wvjYMwEq4p4pHkDxBjnWkAjFI",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:08:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 2 - Server Site",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. In this episode we discuss server sites.\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "AEFye66eE5Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "WJe6NYkrSTMo4FkL4VVolk41taI",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:08:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 3 - Clusters",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. In this episode we discuss clusters\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SfdXcFlOWGk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "iOAsa4fmTw-u7ri_8ZYf2vvcpl0",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:08:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 4 - ArcSOC.exe Isolation",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. In this episode we discuss process isolation\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "n4R8K_arxE0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "RZuci-v6aqEGt-BFC5GJHOW11f4",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:08:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 5 - Pooling",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. In this episode we discuss pooling\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "McRLYsDG_7o"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ayP1gnXlP3mHe_wp70rXotbD6ng",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2018-09-29T02:38:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 6 - Asynchronous Geoprocessing Service",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. We explain how the asynchronous geoprocessing service works in ArcGIS. We also briefly explain the difference between synchronous vs asynchronous request. Enjoy !\n\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SYzke2gqHCY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SYzke2gqHCY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SYzke2gqHCY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SYzke2gqHCY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/SYzke2gqHCY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SYzke2gqHCY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Um6XWm87pbN8f-1CBwaDEXNx3yk",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2018-10-07T16:52:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 7 - Logging",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/hnasr\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. \n \nIn this episode of ArcGIS Server Talk we discuss logging.\n\n\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pcCXKhE8If4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pcCXKhE8If4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pcCXKhE8If4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pcCXKhE8If4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/pcCXKhE8If4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "pcCXKhE8If4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "mrRRe4J1vI5xvSoIWWZfj8Hf6tA",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2018-10-20T02:39:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 8 - ApplyEdits",
+                "description": "In this episode, we talk about applyEdits method on the feature service REST API. Enjoy\n\nGrab my Administering ArcGIS for Server book and learn more about installing and configuring ArcGIS for Server to publish, optimize, and secure GIS services. \n\nhttp://husseinnasser.com/books",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CQIltlpaSGQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CQIltlpaSGQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CQIltlpaSGQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/CQIltlpaSGQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/CQIltlpaSGQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "CQIltlpaSGQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KKIS5A32CpxWcUylhlwtjgJ2P7U",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2018-11-03T01:57:51Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 9 - Database Schema Lock",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nIn this episode of arcgis server talk we discuss the database schema lock option in manager. Advantages and disadvantages of having your service acquire a lock.\n\n\n#arcgisserver",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/m6B16zb3IZQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/m6B16zb3IZQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/m6B16zb3IZQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/m6B16zb3IZQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/m6B16zb3IZQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "m6B16zb3IZQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0mooC71kiP8QJ0Ks4W0Y-yyp8_0",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2018-11-03T02:02:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 10 - Max SOC Heap Size",
+                "description": "Hussein's ArcGIS Books ⟶ https://www.husseinnasser.com/books\n\nWe discuss the max heap size property on the arcgis server admin. Enjoy",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/p1-na4bOaRs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/p1-na4bOaRs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/p1-na4bOaRs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/p1-na4bOaRs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/p1-na4bOaRs/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "p1-na4bOaRs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ayrOs9RM40Qhikj0Knuhz58_Kls",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2018-12-16T22:38:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "🎧The Evolution of the ArcGIS Feature Service",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\n\nIn this episode I talk about how the feature service came to be. From local shape files through the enterprise geodatabase to the beautiful HTTP protocol services. Https://husseinnasser.com\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rWmhW3wdBH0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rWmhW3wdBH0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rWmhW3wdBH0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/rWmhW3wdBH0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/rWmhW3wdBH0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "rWmhW3wdBH0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "d26LoUgGucisN5ew6gv6FtQ0Pf8",
+            "id": "UExRbmxqT0ZUc3BRVnFuTzIzY3RxUl9vNmlKaFpjbjA0dS5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2019-01-06T19:32:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 13 - SOE v. SOI",
+                "description": "SOE vs SOI\nArcGIS Server is a technology that allows you to pull your heavy work load on the backend and isolate the clients from complexity of the database by exposing HTTP services instead of low level TCP database. You can also extend the server capability by writing your own extensions. \n\nIn this episode ArcGIS Server talk we will talk about two ways you can extend your ArcGIS server, Server Object Extensions and Server Object Interceptors.\n\nServer Object Extension \nExtends the MapServer to allow you to write your own logic that cannot be easily done by built - in Feature Server or Map server.  Or it is more performant to do it.  \n\nUsers create new excavation I want to auto-calculate the price of the excavation based on the soil type, whether there are trees, rocks. \n\nServer Object Interceptors \nYou don’t write new thing you instead intercept existing calls to query and applyEdits to inject your own logic to pre or post processing. Lets say every-time any application tries to write to the service, you want to verify that the edit is permissible. Include water marks to all images that are downloaded.\n\nLearn more about SOE vs SOI here\nhttp://enterprise.arcgis.com/en/server/latest/publish-services/linux/about-extending-services.htm",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Elhcb3G_BRk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Elhcb3G_BRk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Elhcb3G_BRk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Elhcb3G_BRk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Elhcb3G_BRk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Elhcb3G_BRk"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 12,
+        "resultsPerPage": 50
+    }
+}

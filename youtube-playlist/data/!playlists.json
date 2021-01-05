@@ -1,0 +1,1966 @@
+{
+    "kind": "youtube#playlistListResponse",
+    "etag": "sKNFsRK9cKNCzKN7k3AMyJEH_UY",
+    "nextPageToken": "CDIQAA",
+    "pageInfo": {
+        "totalResults": 51,
+        "resultsPerPage": 50
+    },
+    "items": [
+        {
+            "kind": "youtube#playlist",
+            "etag": "UifWw9FpIA4AfEaOkHEcBBdO2cg",
+            "id": "PLQnljOFTspQWRqjpeS6-qgGl4-vA0oaer",
+            "snippet": {
+                "publishedAt": "2020-10-10T16:05:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Live Streams",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/J6G8DdLgdJ4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/J6G8DdLgdJ4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/J6G8DdLgdJ4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/J6G8DdLgdJ4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/J6G8DdLgdJ4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Live Streams",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "8YdQgpluLajlzMy5b22j0q6pXew",
+            "id": "PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ",
+            "snippet": {
+                "publishedAt": "2020-09-08T23:04:50Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Backend Engineering (Advanced)",
+                "description": "This collection of videos covers major system design concepts and fundamentals that every backend engineer needs to understand. This will help you in your design interviews. The videos are ordered in the way they should be consumed. This playlist is designed for advanced viewers\n\n\nList of all Backend Engineering Playlists \n👨‍💻Backend Engineering (Beginner) https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n👩‍💻Backend Engineering (Intermediate) https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs \n\n👨🏻‍💻Backend Engineering (Advanced) https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/P39KP7fpxQE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/P39KP7fpxQE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/P39KP7fpxQE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/P39KP7fpxQE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Backend Engineering (Advanced)",
+                    "description": "This collection of videos covers major system design concepts and fundamentals that every backend engineer needs to understand. This will help you in your design interviews. The videos are ordered in the way they should be consumed. This playlist is designed for advanced viewers\n\n\nList of all Backend Engineering Playlists \n👨‍💻Backend Engineering (Beginner) https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n👩‍💻Backend Engineering (Intermediate) https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs \n\n👨🏻‍💻Backend Engineering (Advanced) https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "GZyqyUNW1zbgJwU8jBxKvFb6Esk",
+            "id": "PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs",
+            "snippet": {
+                "publishedAt": "2020-09-08T23:04:39Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Backend Engineering (Intermediate)",
+                "description": "This collection of videos covers major system design concepts and fundamentals that every backend engineer needs to understand. This will help you in your design interviews. The videos are ordered in the way they should be consumed. This playlist is designed for intermediate viewers\n\n\n\nList of all Backend Engineering Playlists \n👨‍💻Backend Engineering (Beginner) https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n👩‍💻Backend Engineering (Intermediate) https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs \n\n👨🏻‍💻Backend Engineering (Advanced) https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bW_BILl7n0Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bW_BILl7n0Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bW_BILl7n0Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/bW_BILl7n0Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Backend Engineering (Intermediate)",
+                    "description": "This collection of videos covers major system design concepts and fundamentals that every backend engineer needs to understand. This will help you in your design interviews. The videos are ordered in the way they should be consumed. This playlist is designed for intermediate viewers\n\n\n\nList of all Backend Engineering Playlists \n👨‍💻Backend Engineering (Beginner) https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n👩‍💻Backend Engineering (Intermediate) https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs \n\n👨🏻‍💻Backend Engineering (Advanced) https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "UKTuDGhy-HHJ2TDe9E2LyfLGy-w",
+            "id": "PLQnljOFTspQVG32WQY3Sb3f2hYc7jGjsr",
+            "snippet": {
+                "publishedAt": "2020-08-14T18:30:26Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Browser API",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/E0TyFbv7gMw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/E0TyFbv7gMw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/E0TyFbv7gMw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/E0TyFbv7gMw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Browser API",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "4wZI-wg0sFkC1J2imktQk4Nu53Q",
+            "id": "PLQnljOFTspQXFUUIEnnmsQatlXz5duXRb",
+            "snippet": {
+                "publishedAt": "2020-07-15T16:17:38Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TLS Certificates",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3coPpYJgFro/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3coPpYJgFro/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3coPpYJgFro/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/3coPpYJgFro/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "TLS Certificates",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "liof509YIeiMyBsc4JdP15LQoG4",
+            "id": "PLQnljOFTspQVPOt2GrGpq2_NRZjcdxzfu",
+            "snippet": {
+                "publishedAt": "2020-07-14T16:59:41Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "High Availability",
+                "description": "Videos on High Availablity, Active & Active or Active Passive and much more by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "High Availability",
+                    "description": "Videos on High Availablity, Active & Active or Active Passive and much more by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "NL3ywgUk3UJtzthqKiJk24URRQ8",
+            "id": "PLQnljOFTspQX_Zkt_8teMRsdY4sNt4BX6",
+            "snippet": {
+                "publishedAt": "2020-06-30T21:30:13Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TCP",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qqRYkcta6IE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qqRYkcta6IE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qqRYkcta6IE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qqRYkcta6IE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "TCP",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "T9uplleS1_0xDqLhQLzU4mDmjpA",
+            "id": "PLQnljOFTspQXwOF9ZwQYgrhdWj3vMqN7q",
+            "snippet": {
+                "publishedAt": "2020-06-27T13:04:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Motivation",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Sz7vnUNoBDw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Motivation",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "8vBu-63riFJe83ol2dizViQg4Og",
+            "id": "PLQnljOFTspQWSY37fn_xcOS0k1KjX_zsK",
+            "snippet": {
+                "publishedAt": "2020-06-23T22:19:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Wiresharking All Protocols",
+                "description": "I use Wireshark to look at packets in all protocols that I can find out.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gOEiBliwMUA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gOEiBliwMUA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gOEiBliwMUA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gOEiBliwMUA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Wiresharking All Protocols",
+                    "description": "I use Wireshark to look at packets in all protocols that I can find out."
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "uwydMNSYxEZy0e1UGMq08eRSdrU",
+            "id": "PLQnljOFTspQXdUN_hq5_b4g3tn1TKyz6g",
+            "snippet": {
+                "publishedAt": "2020-06-21T18:12:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Members Only",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dwySzO9xbBI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dwySzO9xbBI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dwySzO9xbBI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dwySzO9xbBI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/dwySzO9xbBI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Members Only",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "Y6_lIudTK0MrSMIlClhJRd11tWs",
+            "id": "PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:42:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "HAProxy",
+                "description": "Mix videos on HAProxy technologies by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qYnA2DFEELw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "HAProxy",
+                    "description": "Mix videos on HAProxy technologies by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "YJnZZubD-yV6Wa5_EiECliaO5cM",
+            "id": "PLQnljOFTspQX8hkaqYiei8O2mqRIfxBm-",
+            "snippet": {
+                "publishedAt": "2020-06-10T17:36:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "NginX",
+                "description": "Mix Videos on the NginX technology by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WC2-hNNBWII/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WC2-hNNBWII/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WC2-hNNBWII/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "NginX",
+                    "description": "Mix Videos on the NginX technology by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "cgBGolsKleXaSCjl7D7GMuFD_ug",
+            "id": "PLQnljOFTspQW4yHuqp_Opv853-G_wAiH-",
+            "snippet": {
+                "publishedAt": "2020-06-05T19:07:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TLS",
+                "description": "Everything related to Transport Layer Security (TLS)",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AlE5X1NlHgg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AlE5X1NlHgg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AlE5X1NlHgg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/AlE5X1NlHgg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "TLS",
+                    "description": "Everything related to Transport Layer Security (TLS)"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "uNN491hsPT_AIGrKXq1AE1fsOYo",
+            "id": "PLQnljOFTspQUVDsQcPnmdbtLUhqODSV1F",
+            "snippet": {
+                "publishedAt": "2020-05-31T20:23:12Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Distributed Systems",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uR4YjsrBj14/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uR4YjsrBj14/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uR4YjsrBj14/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Distributed Systems",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "61vzXcLfTCiHRGymEMYX1kqcXX0",
+            "id": "PLQnljOFTspQWdgYcGXCTkjda8vd2jWJYt",
+            "snippet": {
+                "publishedAt": "2020-05-18T01:09:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load Balancing",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aKMLgFVxZYk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Load Balancing",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "q36YcQJi1KPjGeQFGo-tAuHsuj8",
+            "id": "PLQnljOFTspQWXxAYDl_qSPXMcKpyH-LML",
+            "snippet": {
+                "publishedAt": "2020-05-17T17:20:08Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Minute Engineering",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ghA9k9wgOSg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ghA9k9wgOSg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ghA9k9wgOSg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ghA9k9wgOSg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Minute Engineering",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "H5hRIa8BzlVM0VjCpdWZc_lP3bg",
+            "id": "PLQnljOFTspQWbBegaU790WhH7gNKcMAl-",
+            "snippet": {
+                "publishedAt": "2020-05-17T01:58:12Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "HTTP/2",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fVKPrDrEwTI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fVKPrDrEwTI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fVKPrDrEwTI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fVKPrDrEwTI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "HTTP/2",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "qKgRzGeXkx5OSN3YNRXu9pi0X9U",
+            "id": "PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh",
+            "snippet": {
+                "publishedAt": "2020-05-12T23:57:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "WebSockets",
+                "description": "WebSockets Videos from Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2Nt-ZrNP22A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "WebSockets",
+                    "description": "WebSockets Videos from Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "tlzhJwXjhNqKQsKtGvdWtnkTWJ4",
+            "id": "PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+            "snippet": {
+                "publishedAt": "2020-05-08T13:09:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "System Designs",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5uX3rDRaHXw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "System Designs",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "uFQKQc3Yd5FLZUp5mbGDb740NIA",
+            "id": "PLQnljOFTspQXaimjxx6uGLJz6lR25abZn",
+            "snippet": {
+                "publishedAt": "2020-05-04T15:37:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Cookies",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sovAIX4doOE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sovAIX4doOE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sovAIX4doOE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/sovAIX4doOE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Cookies",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "RlB_w1U8T1Dl_MEnM2lMwXwkwrQ",
+            "id": "PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo",
+            "snippet": {
+                "publishedAt": "2020-05-01T18:26:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Message Queues & PubSub Systems",
+                "description": "A play list of popular message queues and public subscribe systems such as RabbitMQ, Kafaka, ZeroMQ and much more",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4Z3MAsdrEi8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Message Queues & PubSub Systems",
+                    "description": "A play list of popular message queues and public subscribe systems such as RabbitMQ, Kafaka, ZeroMQ and much more"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "FAKz5lqvuF67QEZ0MFuyQBOr3Qk",
+            "id": "PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT",
+            "snippet": {
+                "publishedAt": "2020-04-21T13:45:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Backend Engineering (Beginner)",
+                "description": "This collection of videos covers major system design concepts and fundamentals that every backend engineer needs to understand. This will help you in your design interviews. The videos are ordered in the way they should be consumed. This playlist is designed for beginners viewers\n\nList of all Backend Engineering Playlists \n👨‍💻Backend Engineering (Beginner) https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n👩‍💻Backend Engineering (Intermediate) https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs \n\n👨🏻‍💻Backend Engineering (Advanced) https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/V3ZPPPKEipA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/V3ZPPPKEipA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/V3ZPPPKEipA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/V3ZPPPKEipA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Backend Engineering (Beginner)",
+                    "description": "This collection of videos covers major system design concepts and fundamentals that every backend engineer needs to understand. This will help you in your design interviews. The videos are ordered in the way they should be consumed. This playlist is designed for beginners viewers\n\nList of all Backend Engineering Playlists \n👨‍💻Backend Engineering (Beginner) https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n👩‍💻Backend Engineering (Intermediate) https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs \n\n👨🏻‍💻Backend Engineering (Advanced) https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "eaKenvEeBZXbLJw3a6Vc-faM8Pg",
+            "id": "PLQnljOFTspQUZrXQgFalJh6mDA7d9f5b9",
+            "snippet": {
+                "publishedAt": "2020-03-22T23:28:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Software Chat",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6PrR6SW4QGM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6PrR6SW4QGM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6PrR6SW4QGM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/6PrR6SW4QGM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Software Chat",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "uq5eiTpyeEwWoCdvmr5V620zT8Q",
+            "id": "PLQnljOFTspQWTOwc9bH-SRrSlbTxPMHEN",
+            "snippet": {
+                "publishedAt": "2020-02-04T21:55:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Software News",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ULKEr8Bdjlc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ULKEr8Bdjlc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ULKEr8Bdjlc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ULKEr8Bdjlc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Software News",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "7Qt7zC0I6bBjBgDq11Cp0PgG5PM",
+            "id": "PLQnljOFTspQWKPjGnVgA5oVIhNKJ5mDXg",
+            "snippet": {
+                "publishedAt": "2019-12-26T02:30:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Software Engineering Highlights",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3v5VLS-oWKs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3v5VLS-oWKs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3v5VLS-oWKs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Software Engineering Highlights",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "9PPlVioOgAYKYiY2dV4qMPbnqJ0",
+            "id": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:10:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Docker",
+                "description": "Software engineering videos on docker",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Docker",
+                    "description": "Software engineering videos on docker"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "95inXTb2Cl-2LS6s5KFs4LsiFv4",
+            "id": "PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:45:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "PostgresSQL",
+                "description": "PostgresSQL Database Videos by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "PostgresSQL",
+                    "description": "PostgresSQL Database Videos by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "bQ2TObg3kex5b_4N4dfEMYXWzOo",
+            "id": "PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:44:47Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Programming Patterns",
+                "description": "Programming Patterns by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hmTl5Y4ee_Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hmTl5Y4ee_Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hmTl5Y4ee_Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hmTl5Y4ee_Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Programming Patterns",
+                    "description": "Programming Patterns by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "FXOlRoROUlCKEE9pjNTKqYuqzGI",
+            "id": "PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:44:40Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Web Security",
+                "description": "Web Security Videos by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ntytZy3i-Jo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ntytZy3i-Jo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ntytZy3i-Jo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ntytZy3i-Jo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Web Security",
+                    "description": "Web Security Videos by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "hp_mdO_XQrd6klByXt_1Hfs7dn4",
+            "id": "PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:44:23Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "HTTP",
+                "description": "HTTP related videos by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JhpUch6lWMw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JhpUch6lWMw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JhpUch6lWMw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JhpUch6lWMw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "HTTP",
+                    "description": "HTTP related videos by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "_WUJjPt9TA5_71y_-VPNgf0EZXU",
+            "id": "PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:44:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Proxies",
+                "description": "Load Balancing, Proxies and Reverse Proxies by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SqqrOspasag/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Proxies",
+                    "description": "Load Balancing, Proxies and Reverse Proxies by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "8icVExI_D3_iYwzYyL-iB-4_bqo",
+            "id": "PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:43:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Software Architecture",
+                "description": "Software Architecture Videos by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/M3XQ6yEC51Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/M3XQ6yEC51Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/M3XQ6yEC51Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/M3XQ6yEC51Q/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Software Architecture",
+                    "description": "Software Architecture Videos by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "ELSETqTn6zphIPKDV6PZpJcIi98",
+            "id": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:43:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Network Engineering",
+                "description": "Network Engineering by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7IS7gigunyI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7IS7gigunyI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7IS7gigunyI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/7IS7gigunyI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Network Engineering",
+                    "description": "Network Engineering by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "4E0zYB_Yc-LdZRzGFEEVmQQ6Ka4",
+            "id": "PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:43:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database Engineering",
+                "description": "Videos on Database Engineering, ACID, Memory databases and much more by Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pomxJOFVcQs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pomxJOFVcQs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pomxJOFVcQs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pomxJOFVcQs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Database Engineering",
+                    "description": "Videos on Database Engineering, ACID, Memory databases and much more by Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "xOoFGd6eBCq4XeSTXGui4IZsUo8",
+            "id": "PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM",
+            "snippet": {
+                "publishedAt": "2019-04-21T02:47:07Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript by Example",
+                "description": "All about javascript",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8nKyNzXAjP8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Javascript by Example",
+                    "description": "All about javascript"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "llAQAMlv0IACcVvgc4J3kMBg-Sk",
+            "id": "PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX",
+            "snippet": {
+                "publishedAt": "2019-03-10T00:01:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Python by Example",
+                "description": "All about Python",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BnzZ7nrKlF0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BnzZ7nrKlF0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BnzZ7nrKlF0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BnzZ7nrKlF0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Python by Example",
+                    "description": "All about Python"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "GwntHlhlYZAVSAhNVVnjoFMvQs4",
+            "id": "PLQnljOFTspQWmyyjFhgHMIL_aOgeMJoDw",
+            "snippet": {
+                "publishedAt": "2018-09-16T17:09:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Software Talk",
+                "description": "Software engineering casual talk",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/iuynM_7vrd8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Software Talk",
+                    "description": "Software engineering casual talk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "7dJdWYzmfz_mMvjWbgMNhwRE6QA",
+            "id": "PLQnljOFTspQVqnO23ctqR_o6iJhZcn04u",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:08:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk",
+                "description": "Everything about ArcGIS Server in podcast format. Enjoy and subscribe for more!!! :)",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "ArcGIS Server Talk",
+                    "description": "Everything about ArcGIS Server in podcast format. Enjoy and subscribe for more!!! :)"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "SEw7mUusQbbyDi8UUeo0IFAXO_g",
+            "id": "PLQnljOFTspQVciJ4lvfuocOJcrvoaqPWu",
+            "snippet": {
+                "publishedAt": "2018-08-07T04:06:53Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Geodatabase Talk",
+                "description": "The Geodatabase is a technology developed by Esri that abstracts the underlying storage medium into another layer. By doing that, you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc.   \n\nI started this podcast as a freestyle talk show where I talk about the ArcGIS geodatabase model. \n\nYou can either head to my anchor and subscribe using your favorite podcast player https://anchor.fm/hnasr",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/WObQDgaFRno/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Geodatabase Talk",
+                    "description": "The Geodatabase is a technology developed by Esri that abstracts the underlying storage medium into another layer. By doing that, you get interesting functionalities like domains, feature classes, tables, feature datasets across multiple databases from file based to enterprise RDBMS like Oracle, PostgreSQL, SQLServer DB2 etc.   \n\nI started this podcast as a freestyle talk show where I talk about the ArcGIS geodatabase model. \n\nYou can either head to my anchor and subscribe using your favorite podcast player https://anchor.fm/hnasr"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "O3clygxk4Est8hJ74jQZZqIdczk",
+            "id": "PLQnljOFTspQViCU9jgq1tzAfnuYbz3e8R",
+            "snippet": {
+                "publishedAt": "2018-02-25T10:23:32Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Reverse Engineering Series",
+                "description": "To become a better software engineer you stand over the shoulder of giants.  This is our reverse engineering series where we pick up a main stream app and try to understand how it works, how the APIs are built on the backend and how the user experience is designed for performance, efficiency and user experience.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/dVsDBUYA3_Y/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Reverse Engineering Series",
+                    "description": "To become a better software engineer you stand over the shoulder of giants.  This is our reverse engineering series where we pick up a main stream app and try to understand how it works, how the APIs are built on the backend and how the user experience is designed for performance, efficiency and user experience."
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "X68PKxeiXlMEeSJZEp0JDLYmKTA",
+            "id": "PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K",
+            "snippet": {
+                "publishedAt": "2018-01-22T14:47:41Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Software Engineering by Example",
+                "description": "Collection of software engineering topics explained by example.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qWe9YBKSoGQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qWe9YBKSoGQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qWe9YBKSoGQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qWe9YBKSoGQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Software Engineering by Example",
+                    "description": "Collection of software engineering topics explained by example."
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "JCvu-YSnwt7kSbpUbf6YIS5tqJY",
+            "id": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+            "snippet": {
+                "publishedAt": "2017-12-30T03:06:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "IGeometry Podcast",
+                "description": "GIS and Software Engineering Podcast.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "IGeometry Podcast",
+                    "description": "GIS and Software Engineering Podcast."
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "LB4XKSgMWuS0EZXzxgz43Pv8Tc0",
+            "id": "PLQnljOFTspQUlENamuIDRsSDSmvSYi5Kn",
+            "snippet": {
+                "publishedAt": "2017-12-05T02:44:23Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "VLog",
+                "description": "Software talk vlogs",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/_EZ1tQ0yDo4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "VLog",
+                    "description": "Software talk vlogs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "SIk7ZNAKy71rHlDY6jZLazErmyw",
+            "id": "PLQnljOFTspQW9tY3eqBrmbY7CqxNrW-g3",
+            "snippet": {
+                "publishedAt": "2017-12-05T02:39:43Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript by Example - Level 1",
+                "description": "Learn Javascript by example by building a calculator",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/gG1TR5Pktno/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Javascript by Example - Level 1",
+                    "description": "Learn Javascript by example by building a calculator"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "3c1oipN3CgJxi72hpvGVOOztMEs",
+            "id": "PLQnljOFTspQUppK8iiIuoQJTAj436IWQz",
+            "snippet": {
+                "publishedAt": "2017-07-30T05:49:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Javascript API 4.x",
+                "description": "Build cool GIS Web Applications using the new ArcGIS Javascript API 4.x. In this series, we build a complete map viewer from scratch. Learn the new ArcGIS Javascript API 4.9 by building a cool web mapping application from scratch. This tutorial has more than 30 episodes of engaging by example where we build a map viewer that works with any ArcGIS service  Github repo: https://github.com/hnasr/jsapi4x/issues",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/rft4ZecPQcI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "ArcGIS Javascript API 4.x",
+                    "description": "Build cool GIS Web Applications using the new ArcGIS Javascript API 4.x. In this series, we build a complete map viewer from scratch. Learn the new ArcGIS Javascript API 4.9 by building a cool web mapping application from scratch. This tutorial has more than 30 episodes of engaging by example where we build a map viewer that works with any ArcGIS service  Github repo: https://github.com/hnasr/jsapi4x/issues"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "6lYIlWUynOew9hojGmc_NY6vw2I",
+            "id": "PLQnljOFTspQUb2IsJ6qPQcQ8f7NkqNcxr",
+            "snippet": {
+                "publishedAt": "2017-04-11T03:41:32Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS for Server",
+                "description": "Videos about ArcGIS Server technology, from installation to management and administration. Want to learn more about Server? check out my book https://www.amazon.com/dp/1782177361/?tag=hussblo-20",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/j8pF8imok3Y/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "ArcGIS for Server",
+                    "description": "Videos about ArcGIS Server technology, from installation to management and administration. Want to learn more about Server? check out my book https://www.amazon.com/dp/1782177361/?tag=hussblo-20"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "ZVxtxeEF60A4zdAPUYW43kYvOeY",
+            "id": "PLQnljOFTspQXKBv2NwhCD4OnYflYTGqaf",
+            "snippet": {
+                "publishedAt": "2017-02-19T19:59:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects",
+                "description": "Play list of videos on ArcObjects using C# .NET Enjoy",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/wcvwBCF0Gag/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "ArcObjects",
+                    "description": "Play list of videos on ArcObjects using C# .NET Enjoy"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "68FKxsX0QU-8vpxCUeYHzCUWz9s",
+            "id": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+            "snippet": {
+                "publishedAt": "2016-11-27T16:04:54Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Multi-User Geodatabase",
+                "description": "IGeometry is a Youtube channel that I post educational GIS videos regularly. Three weeks ago, I started this new series which I called Multi-User Geodatabase (AKA Esri SDE Geodatabase or Enterprise Geodatabase).\n\nI always wanted to start recording episodes on Enterprise Geodatabase, after all this is what get used in real production shops! I want to explain the challenges, the complexity and the various applications that you can build on top of these geodatabases.\n\nI record 1 episode per week (Sunday's usually). We are explaining different kind of modes in the geodatabase (Non-Versioned Without Archiving/ Non-Versioned Archiving/ Versioned without archiving and Versioned With Archiving and the difference between each one and how they actually work!)\n\nWe tackle, as always, a real-life example of implementation of the multi-user geodatabase. We take a problem and solve it using Esri's Enterprise Geodatabase as the back-end. And we also write ArcObjects code that hit this geodatabase and discuss the best practices. Throw any questions you would like answered in this series\n\nHope you guys enjoy it.\n\n-Hussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qpZM-2JLZTc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qpZM-2JLZTc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qpZM-2JLZTc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qpZM-2JLZTc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Multi-User Geodatabase",
+                    "description": "IGeometry is a Youtube channel that I post educational GIS videos regularly. Three weeks ago, I started this new series which I called Multi-User Geodatabase (AKA Esri SDE Geodatabase or Enterprise Geodatabase).\n\nI always wanted to start recording episodes on Enterprise Geodatabase, after all this is what get used in real production shops! I want to explain the challenges, the complexity and the various applications that you can build on top of these geodatabases.\n\nI record 1 episode per week (Sunday's usually). We are explaining different kind of modes in the geodatabase (Non-Versioned Without Archiving/ Non-Versioned Archiving/ Versioned without archiving and Versioned With Archiving and the difference between each one and how they actually work!)\n\nWe tackle, as always, a real-life example of implementation of the multi-user geodatabase. We take a problem and solve it using Esri's Enterprise Geodatabase as the back-end. And we also write ArcObjects code that hit this geodatabase and discuss the best practices. Throw any questions you would like answered in this series\n\nHope you guys enjoy it.\n\n-Hussein Nasser"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "e-sCHQ44d4W_T7LueG-EcizOq14",
+            "id": "PLQnljOFTspQX-XZChZg-b06MJ27nAJQS9",
+            "snippet": {
+                "publishedAt": "2015-12-21T06:05:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn Programming with VB.NET (PizzaBit App)",
+                "description": "Getting started with programming using .NET. All you need is a computer with a windows to learn programming in a fun way. We learn programming by example here,  our example here is to build a Pizza ordering system. \n\nWe are adding new functionalities to this program episode by episode and learn programming in a fun way as we go! \n\ngithub link https://github.com/hnasr/pizzabit",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/3s-bgPg7IWc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "Learn Programming with VB.NET (PizzaBit App)",
+                    "description": "Getting started with programming using .NET. All you need is a computer with a windows to learn programming in a fun way. We learn programming by example here,  our example here is to build a Pizza ordering system. \n\nWe are adding new functionalities to this program episode by episode and learn programming in a fun way as we go! \n\ngithub link https://github.com/hnasr/pizzabit"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "1Xvkl3kiUHT1VCfxHm8gaGnmb9Y",
+            "id": "PLQnljOFTspQVMRyBp7UOt8pU7wygBmEja",
+            "snippet": {
+                "publishedAt": "2015-11-03T04:14:25Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcObjects by Example C#",
+                "description": "Want to learn ArcObjects? You came to the right place, \n\nRide with me as we fix a broken telecom company called \"Phonetic\" (terrible name I know), they suffer from losing customers, and weak phone reception despite their effort of adding new cell phone towers.. \n\nWe are going to help them use ArcGIS to efficiently place Towers to achieve maximum reception, plus we want to do cool other things!\n\n\n github repo\n\nhttps://github.com/hnasr/phonatech.git",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/nn4mtxdi19A/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "localized": {
+                    "title": "ArcObjects by Example C#",
+                    "description": "Want to learn ArcObjects? You came to the right place, \n\nRide with me as we fix a broken telecom company called \"Phonetic\" (terrible name I know), they suffer from losing customers, and weak phone reception despite their effort of adding new cell phone towers.. \n\nWe are going to help them use ArcGIS to efficiently place Towers to achieve maximum reception, plus we want to do cool other things!\n\n\n github repo\n\nhttps://github.com/hnasr/phonatech.git"
+                }
+            }
+        }
+    ]
+}

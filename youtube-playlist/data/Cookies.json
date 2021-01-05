@@ -1,0 +1,330 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "mf2FdBWQWyCKexE_9lHs7VhINAk",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "X8mPBW7m05NqCScP6k5AEWOIwdc",
+            "id": "UExRbmxqT0ZUc3BRWGFpbWp4eDZ1R0xKejZsUjI1YWJabi41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-05-04T15:37:59Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "HTTP Cookies Crash Course",
+                "description": "HTTP Cookies are small pieces of data that are used as storage medium in the browser and are also sent to the server with each request. \n\nCookies are mainly used for session management, user personalization, and tracking.  \n\nIn this video we will try to demystify cookies and learn everything there is to them by example and with demos as well! \n\n0:00 Intro\n4:15 Section 1 - Creating Cookies\n14:38 Section 2 - Cookie Properties\n44:00 Section 3 - Cookie Types\n1:02:00 Section 4 - Cookie Secuirty\n\n\n\nCreating Cookies\n 1. Document.cookie (client side) \n 2. set-cookie header  (server side)\n\n\nCookies Properties\nSent with each request\nCookies are automatically sent to the server with each request. so becareful not to stuff your app with cookies because it might slow down as network bandwidth become saturated with bloated requests.. \n\n\nPer Domain\nThey are stored per domain think of them as cookie buckets, for instance you visit google.com you will get a specific cookie for google.com, any cookies created while in google.com will go to the google.com bucket and so on. there are exceptions but this the general rule.\n\nby default if you create cookie, it will only be accessable within the domain, it will only be sent to the same domain. You can create a cookie with the domain property which will also include subdomains. example, domain=husseinnasser.com , includes blog.husseinnasser.com, about.husseinnasser.com etc.. \n\n\nExample.com \nwww.example.com\n\n\nPath specific cookies\ncookies for a given path only. /r1 /r2 routes make only cookie for r1 and cookie for r2 client will only send cookies for that path. \nif you know you are going to use the cookies in certain paths why waste precious bandwidth sending it with every path? \n\n\nCookies Types\n 1. Session cookie - no expires or max-age, once browser close they are “deleted” browsers are being smart and keep them though\n 2. permanent cookie - set max-age\n 3. httponly cookie  cannot be accessed with document.cookie \n    4. secure cookie only acceptable with https\n 5. Third party cookie - page references another page, gets its own cookies..\n    6. Zombie Cookies -  recreted even after users delete them, e-tags from the server\n\nCookie Security \n1. Stealing cookies, inject XSS script, \n2. cross site request forgery, more dangerous and easier, I don’t want your cookie I just want to make a request on your behave using your cookie and make myself an advtange as a result.. since you are signed in to your bank I will inject a script that makes a request ot YOUR bank to transfer myself money.. samesite\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sovAIX4doOE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sovAIX4doOE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sovAIX4doOE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/sovAIX4doOE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXaimjxx6uGLJz6lR25abZn",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "sovAIX4doOE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Bkk6kXR8GudNz9kJP6jb7-2crmI",
+            "id": "UExRbmxqT0ZUc3BRWGFpbWp4eDZ1R0xKejZsUjI1YWJabi4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-05-04T15:38:06Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "SameSite Cookie Attribute Explained by Example (Strict, Lax, None & No SameSite)",
+                "description": "The recent version of Chrome has broke some workflows with samesite cookies. So a few weeks ago I made a video discussing the samesite Attribute change in chrome and how it is a great change that will end CSRF. \n\nIt looks like Chrome 80 is officially out now and websites are broken or stuck in infinite loops. This is because Cookies without samesite Attribute are treated as samesite lax which means cookies will not be sent except if it is a GET request and top-level navigation clicking on a link\n\n\n0:00 Intro\n1:10 SameSite=Strict\n6:00 SameSite=Lax\n8:00 SameSite=None\n11:00 No SameSite Attribute \n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/samesite\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aUF2QCEudPo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aUF2QCEudPo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aUF2QCEudPo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aUF2QCEudPo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXaimjxx6uGLJz6lR25abZn",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "aUF2QCEudPo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9ExJUpOTR4pthSIWrYzV3uOCGYU",
+            "id": "UExRbmxqT0ZUc3BRWGFpbWp4eDZ1R0xKejZsUjI1YWJabi4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-05-04T15:38:31Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How Un-deletable Zombie Cookies work (with implementation example)",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nSorry about the Typo on the first slide (saw it after I published the video) \n\nWe are all entitled for privacy and if I asked a website please delete my cookies, I do not wish to be tracked, the website should honor that and stop tracking me. However, some media companies found ways to recreate your cookies even after you delete them so they can keep tracking you and sell you ads. These are called Zombie cookies. \n\nZombie cookies are cookies that are recreated after being deleted, they are like a zombie in that regard can’t be killed. Zombie cookies are specially used by malicious websites who want to always track their users. In this video we will discuss how regular good old cookies work, how zombie cookies are, and we will attempt to implement a zombie cookie with e-tags coming up!\n\nImplementation \n- etags\n- Adobe flash\n- local storage \n- indexedDB \n\nPRIVACY LAWSUIT TARGETS NET GIANTS OVER 'ZOMBIE' COOKIES\nhttps://www.wired.com/2010/07/zombie-cookies-lawsuit/\n\nJudge Allows 'Zombie Cookie' Suit Against Hulu to Proceed\n https://www.hollywoodreporter.com/thr-esq/judge-allows-zombie-cookie-suit-361775\n\n\n\n6:30 etags\n10:30 fetch api\n8:30 indexed db\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lq6ZimHh-j4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lq6ZimHh-j4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lq6ZimHh-j4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/lq6ZimHh-j4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXaimjxx6uGLJz6lR25abZn",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "lq6ZimHh-j4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "-oHgLWVqzxY_RRIXlcV9Nzp3Z8Q",
+            "id": "UExRbmxqT0ZUc3BRWGFpbWp4eDZ1R0xKejZsUjI1YWJabi41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-05-04T15:39:04Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "JSON Web Token with NodeJS & Postgres Crash Course",
+                "description": "JSON Web Token (JWT, sometimes pronounced JOT) an internet standard for creating JSON-based access tokens that assert some number of claims. The tokens are signed either using a private secret or a public/private key. \n\nIn this video I want to discuss the difference between JWT and Session Based Auth, will show examples with Node JS and Postgres. Finally, I’ll discuss the pros and cons of JWT.  \n\nChapters\n0:00 Intro\n2:25 Session Based Auth\n9:00 JWT Based Auth \n16:10 Refresh Tokens\n25:17 Asymmetric JWT \n28:16 Example coding \n42:00 Pros and Cons\n\n\nSameSite https://www.youtube.com/watch?v=aUF2QCEudPo \n\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/jwt-course\n\nResources\nhttps://twitter.com/philippederyck/status/1250448877087600645?s=21\nhttps://pragmaticwebsecurity.com/recordings.html\nhttps://youtu.be/wlSG3pEiQdc\nhttps://youtu.be/DPrhem174Ws\ndraft-ietf-oauth-jwt-bcp-07 - JSON Web Token Best Current Practices\n\n\nFollow Dr Philippe https://twitter.com/PhilippeDeRyck\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T0k-3Ze4NLo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T0k-3Ze4NLo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T0k-3Ze4NLo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/T0k-3Ze4NLo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXaimjxx6uGLJz6lR25abZn",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "T0k-3Ze4NLo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YXlTAwVrw7FiRhdt0c7VIZYD3LM",
+            "id": "UExRbmxqT0ZUc3BRWGFpbWp4eDZ1R0xKejZsUjI1YWJabi4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-08-06T19:22:01Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "FireFox Changes to SameSite Cookie Default Behavior Following Chrome’s footsteps - Great Change",
+                "description": "SameSite Cookie attribute has been introduced to secure the web and only send cookies within a trusted and safe context.\n\nSameSite Cookies Video \nhttps://www.youtube.com/watch?v=aUF2QCEudPo\n\nResource\nhttps://hacks.mozilla.org/2020/08/changes-to-samesite-cookie-behavior/\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/J6LxE-D8GNo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/J6LxE-D8GNo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/J6LxE-D8GNo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/J6LxE-D8GNo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXaimjxx6uGLJz6lR25abZn",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "J6LxE-D8GNo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ZmWh5KzMT8w17VU47kfcgsMWyEY",
+            "id": "UExRbmxqT0ZUc3BRWGFpbWp4eDZ1R0xKejZsUjI1YWJabi4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-08-16T23:27:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What are Third Party Cookies, How do they work?",
+                "description": "In this video I explain in details what are third party cookies and how do they work and explain the same site property that google changed\n\n0;30 SameSite\n6;00 CORS\n6;22 Content Security Policy https://www.youtube.com/watch?v=nHOuakyHX1E\n\nhttps://blog.chromium.org/2020/01/building-more-private-web-path-towards.html\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/m4vatwFryI8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/m4vatwFryI8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/m4vatwFryI8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/m4vatwFryI8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXaimjxx6uGLJz6lR25abZn",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "m4vatwFryI8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "A3qfVfvakN3RpH-mZOcqEkDgy30",
+            "id": "UExRbmxqT0ZUc3BRWGFpbWp4eDZ1R0xKejZsUjI1YWJabi41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-08-27T17:57:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "A SameSite Cookie Exception was made to avoid Redirect Loop in Single Sign-On (SSO) Let us Discuss",
+                "description": "SameSite Cookie Lax is interesting and we are finding new exceptions everyday. Let us discuss this one where lax cookies will be sent on POST request as long as the cookies are fresh (2 minutes)\n\nResources\nhttps://www.chromestatus.com/feature/5088147346030592\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4QiD8cvzCN0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4QiD8cvzCN0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4QiD8cvzCN0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4QiD8cvzCN0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXaimjxx6uGLJz6lR25abZn",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "4QiD8cvzCN0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "D9lB6O9Z_KmaxuyreeB_9yY1Khw",
+            "id": "UExRbmxqT0ZUc3BRWGFpbWp4eDZ1R0xKejZsUjI1YWJabi5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-09-30T19:19:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "I got served an Instagram Ad after browsing this website? Let us discuss how that’s possible",
+                "description": "In this video I explain how I was browsing a website (displate) and was served the exact same thing on my Instagram feed\n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zGvazErsoH0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zGvazErsoH0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zGvazErsoH0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/zGvazErsoH0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQXaimjxx6uGLJz6lR25abZn",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "zGvazErsoH0"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 8,
+        "resultsPerPage": 50
+    }
+}

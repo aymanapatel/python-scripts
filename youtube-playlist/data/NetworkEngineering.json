@@ -1,0 +1,1285 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "U_YWsa4rtA77v_L-AsXEDAkR1Qk",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "nlReKEr-TgjyOvqdLm6yIV_EBnE",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci5DQ0MyQ0Y4Mzg0M0VGOEYw",
+            "snippet": {
+                "publishedAt": "2020-01-21T04:43:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "The OSI Model - Explained by Example",
+                "description": "OSI is a model that standardized the communication in computer system, its what the internet runs on. In this video we will try to learn about the OSI model by example!  Stands for Open Systems Interconnection model. \n\nIn this video we will make a HTTP GET request to a web server and explain how the data flow through the OSI model layers from the application layer, presentation layer, session layer, transport layer, network layer, data link layer and finally physical layer.  we will also explain why people tell you not to connect to public WIFIs. \n\n0:00 Intro\n2:15 public vs private ip address \n4:00 Application Layer\n5:30 Presentation Layer\n6:20 Session Layer\n7:20 Transport Layer\n9:20 Network Layer\n11:20 Data Link\n13:00 ARP protocol\n14:00 Physical Layer\n19:00 Why you shouldn’t connect to public WIFI \n\n\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7IS7gigunyI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7IS7gigunyI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7IS7gigunyI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/7IS7gigunyI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "7IS7gigunyI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "TMy31QA1V44blcGJslltTR7jy8c",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2019-10-14T04:14:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TCP vs UDP Crash Course",
+                "description": "TCP and UDP are communication protocols that allows us to send and receive data in a network. We have both for a reason since each has its advantages and disadvantages. In this video we will talk about two protocols, pros and cons of each one and will write tcp and udp server with nodejs showing you these in ACTION. We also talk about how reliable udp is used in gaming for intermitted network connection. \n\nCode! \nhttps://github.com/hnasr/javascript_playground/tree/master/tcp\n\n\nJump Codes  🏷 \n0:00 Intro\n04:12 TCP pros cons\n19:00 Tcp demo (code)\n24:25 UDP pros cons \n31:25 UDP demo (code)\n35:40 Summary\n\n\nExplain TCP \nPros: \nacknolwedgment, \ngarenteed delivery, \n connection based\ncongestion control\nordered packets \n\nCons\nLarger packets\nMore bandwidth since more headers. \nSlower (because of retransmission) \nstateful once connection is lost its lost, cannot resume it.    \n\n\nTCP Example (Code)\ntelnet 127.0.0.1 8080\n\nExplain UDP\nPros\nStatless, \nLess bandwidth \nsmaller packets\nFaster to transmit \n\nCons\nno ack, \nno garenteed delivery, \nno congestion control\nno ordered packets \n \nUDP client\necho \"foo\" | nc -w1 -u 127.0.0.1 41234\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qqRYkcta6IE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qqRYkcta6IE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qqRYkcta6IE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qqRYkcta6IE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qqRYkcta6IE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ud75YVh6meRFkfZ_K5_Bp2dwrSk",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:56:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Port forwarding with NAT and iptables (transparent proxying) - “Run” your webapp on port 80",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nWe have written countless web apps on this channel, but most of them pretty much always run port 8080 or 3000 or some ugly ports. In this video we will learn how to make our app run on port 80 or at least seem to be running on port 80.  \n\nRunning your web app whether nodejs or python on port 80 require root access which is always a bad idea. So better way is to use a reverse proxy like nginx or do DNAT like what we will do in this video.\n\n*** Forward packet from one port to another\nsudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 192.168.254.47:8080\n\n*** To clean the NAT table\nsudo iptables -t nat -F\n\n*** To Masquerade in case you want to forward to another ip address \nsudo iptables -t nat -A POSTROUTING -p tcp --dport 80 -j MASQUERADE\n\n\n0:00 Intro\n2:00 Port forward routing\n2:20 nginx \n3:00 NAT\n\n \n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uuWzk8U4dJE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uuWzk8U4dJE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uuWzk8U4dJE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/uuWzk8U4dJE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "uuWzk8U4dJE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "UR6wBQbrfLke7HP4XJQvT-Ps0Lo",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:56:24Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Network Address Translation Explained",
+                "description": "NAT network address translation is a process of mapping an IP address or IP port pair to another IP address or IP: port. You might be wondering what a software engineer like me doing making a video on a low level networking concept? I have good reasons for that. NAT was originally designed to solve the ipv4 limited IP addresses, but since been used for port forwarding and layer 4 load balancing through the virtual ip address such as Haproxy thats why I decided to make a video about NAT from a software engineer view. In this video we will explain how NAT works and we will explain its applications. \n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RG97rvw1eUo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RG97rvw1eUo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RG97rvw1eUo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/RG97rvw1eUo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "RG97rvw1eUo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9evsR88h9wbkJWk65sxAcTWwhOk",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:56:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TCP Tunneling Applications Pros and Cons (Explained by Example)",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nTunneling is the process of encapsulating content from a protocol A into another protocol B, usually because protocol A is blocked or unavailable. In this video we will explain how TCP tunneling works, the applications of TCP tunnels and the pros and cons. Coming up! \n\n* TCP Tunneling\n* Applications \n* Pros and Cons\n\nTCP Tunneling\nHere is how TCP Tunneling works. \n\nLets say your goal is to access a website that your ISP proxy blocks www.server2.com this is hosted on server2 on port 80.  Lets say there is another Server1 that you have access to and Server1 have direct access to Server2. So if you can make Server1 make the request on your behave to Server2 and somehow deliver the results back to you, you just created a tunnel between You and Server1. \n\nHere is how it actually works. \n\nYou create a legit tcp connection over a known protocol such as SSH between you and Server1. You then create a tcp packet that is intended for Sever2 so you tag it with Server2:80. Then you package that packet into another TCP packet intended for Server1! Huh ! Server1:22.   You then forward the packet over, your ISP police will see that there is a packet intended to Server1 on port 22. Proxy approves and forwards it over not knowing that you are smuggling content in that packet. Also the proxy cant even look in the content because its encrypted with RSA. Server1 unpacks the package, decrypt and discover that its an other tcp packet. Here is where the shady stuff happen. Server1 now looks and see that the smuggled package is intended for Server2:80, created a connection and delivers the package it, it changes the source ip to its self and keeps track somehow of that. Once it receives the package it knows that this package has to go back to tunnel. The client now have access to the blocked site! What does this look like guys? Yes you guessed it its a VPN. \n\nIt’s literally like smuggling content inside a package 📦 that looks legitimate.\n\n\nServer1 and Server2 can be the same server\n\nThere are many types of tunneling\n\nLocal port forwarding: Remote connection, \nSocks Proxy: forward pretty much anything (VPN)\nReverse Tunneling : Expose local web server publically\n\n\nApplications\nVPN \nSecuring an insecure connection\nAnonymity\nBypass firewall \nSOCKS 4 proxy \nredirect all your traffic regardless of the port to an internal proxy instead which tunnels it. Dynamic port forwarding\n\nPros\nSecure connection \nAccess blocked services\nAnonymity \nExpose internal traffic \n\nCons\nTCP meltdown (TCP over TCP)\nSlow retransmission\nStateful \n\n\n\nLocal port forwarding \nJust one app gets forwarded when the local port is requested\n\nSocks\nAll apps goes through the proxy \n\n\nHttp tunneling\n\n\n\n\nTCP VS UDP 1:00\n11:00 OSI model\n15:40 private vs public ip\n18:35 proxy vs reverse proxy\n24:30 TLS \n\n\n\n\n\n11:20 local \n16:20 reverse\n20:40 socks\n \n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iR4jLbG9KXw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iR4jLbG9KXw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iR4jLbG9KXw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/iR4jLbG9KXw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "iR4jLbG9KXw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "mFngLk6D7TRG-NmuFetH7B6k0_Q",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:57:03Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How much bandwidth do you really need? (Web browsing, streaming and gaming)",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nBandwidth is measured by how many bits a device is allowed to send/receive in a second. It ranges from your internal network starting from network card all the way to your ISP Internet speed. In this video we will discuss the definition of bandwidth upload vs download speed, the different usage patterns for normal web browsing, streaming, gaming, media production and cloud web servers etc and finally we will show an example of the whole thing.\n\nWhen your ISP gives you 80Mbs download/1Mbs upload bandwidth, this means 80 mega bits download which means your router (and all your devices) can receive (download) a total of 80 mega bits in a second at a time, and it can send (upload) 1 mega bit in a second. With your ISP can you pick and choose your plan that fits your usage.\n\nUsage patterns\nWeb Browsing\nMost people download far more than they upload. So the download bandwidth matter more than upload bandwidth. For simple web browsing the download incoming traffic is slightly larger than the outgoing one. You make a GET request to pull index.html, you get back the html content. Yeah there are some images but still not much of incoming. \n\nStreaming\nThink about it when you watch a movie in Netflix you make a small request usually in few hundred bytes. But the data you receive (download) is huge. So streaming is constant large incoming data. While still outgoing traffic is minimum.\n\nGaming\nThe bandwidth for gamers is really interesting specially who play online and it really depends on the game. a game might use the server authoritative model, where all the online players send their inputs and receive the final game state changes from the server. In that case the there is a constant upload, still minor but the download bandwidth is larger since state is usually bigger. Games can also use the lock state model or the client authoritative model, where all the clients send their inputs the server and the server just send back all the input from all players back to everyone so everyone calculate the game state locally. So in this efficient model, both the upload and download is quite small and its good for countries with low bandwidth. \n\nSome games require cloud saving which means upload speed is recommended. \n\nIn general latency is much better in gaming.\n\n\nMedia production \nYoutuber and you make 5 videos a day so you need to upload alot of data to the youtube server. So upload speed really matter, and download also matter because you will also consume alot.\n\nWeb servers\nNetflix (which is hosted in amazon) they upload data far more than they download. So their upload bandwidth is more than their download bandwidth. All those movies and tv shows pushed to consumers.\n\n\nExample\nAssume you have bandwidth of 80mb/s download speed (which is 10 Mega bytes per second) and 1mb/s upload (which is 125 KB per second). You are connected to a web server which has 80Gb/s upload and 80Gb/s download bandwidth, which is 10Gigabyte per second. Lets say you want to download a 60GB file or movie (no streaming). It will take the server 6 seconds to upload that file however it will take you 1.7 hours to download it. Your ISP That is not entirely true though for TCP, which implement congestion control. UDP does not implement congestion control. \n\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6Tf80mbhyAQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6Tf80mbhyAQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6Tf80mbhyAQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/6Tf80mbhyAQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "6Tf80mbhyAQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "g3KaoVTvxyZuYqVVw22hiWy6ppo",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:57:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Denial of Service Attacks Explained",
+                "description": "DOS  attacks (denial of service) are type of attack on a server to prevent users from consuming a particular service, usually this is an HTTP web server.  This could happen by either saturating the bandwidth of the pipe going to the server or by bringing the server down to its knees so it stops taking requests all together. In this video we will learn about 3 different types of DOS attacks and explain each one by example. \n\n0:00 Intro\n2:15 Bandwidth based DOS\n10:13 Max connections based DOS\n16:30 Vulnerability based DOS\n19:30 Summary\n\n\n\nBandwidth based DOS\n- Dos Sending Huge amount of data to a server with lower bandwidth from a client with higher bandwidth which ends up saturating the server pipe and queue up future requests, new requests will have to wait or perhaps denied service. Example, the attacker have 100mb/s bandwidth (upload) the server has 10Mb/s download. If the attacker starts sending 100 mb worth of data to the server, it will take it 1 second to leave the pipe. However, The server can only download 10 mb each second for processing because thats its bandwidth, so it needs 10 seconds to completely download that 100mb and process. In this 10 seconds the server is fully busy serving just 1 client. Other requests will not be able to even reach the server, they might get queued and they may never be executed. Thus denied service. It is important to know that the server must have an end point that actually accept such large data. Like upload file with no limit. Another example, is UDP where there is no connection. \n-  Ddos this previous scenario is less likely since servers usually has much more bandwidth than a single computer. A common attack is to do a DOS in distributed manner. Assume a server with 1 Gb and client with 10 mb/s no matter how much data the client can send it can only send 10mb per second, and the server can go through them real quick. Example, the client sends 1GB, it will leave the client’s pipe into 100 (10mb) means the client will take 100 seconds just to upload all the data because it can only sends 10 mb each seconds. And the server is processing it so fast it each second and it will still have enough bandwidth to process other requests(1000-10). But imagine 100 users with 10 mb connection each, all coordinate to send 1 Gb worth of data to the server at the same time (critical that its in the same time) 100x10 each second they can send 1 Gb in total to the server, the server can only process 1 GB per second so the server will not be able to process any other requests because its bandwidth is saturated processing this 1 GB from different place. Make it 200 users and you just clogged the pipe. \n- \n\nMax connections based DOS\nAnother type of denial of service attack is by somehow force the server to reach its max connections. The web server usually sets a maximum number of tcp connections so that it doesn’t run out of memory. an attacker can perform a DOS attack to force the server to reach its max connection. once it does, it wont accept any more connections thus deny service of future requests. However it is not easy, web servers have good preventive measures to minimize  unnecessary tcp connections. So you cannot just establish a connection and ghost the server. This isn’t your ex boyfriend. Server has good timeouts for connections that are idle, terminated or potentially harmful. However one possible attack is to establish a connection but send the data slowly so when the server tries to timeout it immediately reset the timeout and keep the connection alive! Assuming the max tcp connection is 200, Run your script 200 times and you just created 200 connections to the server so no new connection can connect. \n\nServers do preventive measures to prevent alot of connections from the same client. In this case you wont be able to execute the 200 slow connections, \nDo this multiple times from different machines you reached the maximum. \n\nVulnerability based DOS\nAnother way to deny service is to destroy the server all together. If an attacker knows a zero day vulnerability, like say a buffer stack overflow that can be executed on an input that completely overflow the stack buffer and overwrite piece of memory to either terminate the process all together or even worse execute malicious code to gain control over the server. \n \n\nBandwidth DOS\nMax tcp connections DOS\nVulnerability DOS\n\n\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4I7tPW8of2g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4I7tPW8of2g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4I7tPW8of2g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4I7tPW8of2g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "4I7tPW8of2g"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "IAI9kZXzmib1yNoNqZm0ncram4M",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:15:39Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Public IP vs. Private IP and Port Forwarding (Explained by Example)",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nIn this video we will explain how you can author a web application, host it on your laptop then expose it through the internet via port forwarding. We will explain the difference between private ip in Local Area network and Public IP, we will explain how routers have two IP addresses public and private IP. \n\nWe will also do a live edit on my router configuration to do a port forwarding of port 8080 to my local laptop and even access that through my phone. \n\n-Hussein\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/92b-jjBURkw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/92b-jjBURkw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/92b-jjBURkw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/92b-jjBURkw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "92b-jjBURkw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "kSQ-BBFT3uMUvru62c6G0ljoBkQ",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2019-10-14T01:19:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Load Balancer vs Reverse Proxy (Explained by Example)",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nIn this video we will discuss the difference between Reverse proxy and load balancer. Some of you guys asked this question and I thought its appropriate to make a video. \n\nSo Personally id like to think of a Load balancer as one of the applications of a reverse proxy. It is a special case of a reverse proxy. Lets us define what a reverse proxy is first. To define load balancer we need to first define what a reverse proxy is. And to define reverse proxy, we need to know what a proxy is! So lets start with a proxy \n\nA proxy is a piece of software that makes request to a server in place of the client. Servers don’t know who are the client. \n\nReverse proxy is the reverse! The client doesn’t know which server it is connected to. I recommend checking out the video of proxy vs reverse proxy to learn more. \n\nA Load balancer is a special case of a reverse proxy. Reverse proxy doesn’t have to be a load balancer. Load balancers must have two or more servers on the backend to balance the load, reverse proxy doesn’t have to. Reverse proxy can be optimized to perform the following: \n\n1. Caching web acceleration \n2. Canary deployment \n3. Security against servers \n4. Anonymous \n5. Single entry URL\n6. Load balancing\n\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/S8J2fkN2FeI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "S8J2fkN2FeI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "TXjv5F2kTYQgBTlj2dPpsrFivCY",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2019-11-03T01:54:07Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Do you REALLY need a VPN?",
+                "description": "@Tom Scott  Full Video ​This Video Is Sponsored By ███ VPN \n\n#tomscott \n\nhttps://youtu.be/WVDQEoe6ZWY\n\nIn this video I am elaborting on Tom’s video on Virtual Private Networks claims and I ask the question whether you really need a VPN or not. Virtual Private Networks or VPNs allows you to to tunnel your requests through a private network which hides your identity but how true is this?\n\n \nCards\n5:30 TLS https://www.youtube.com/watch?v=AlE5X1NlHgg\n12:24 TLS Termination https://www.youtube.com/watch?v=H0bkLsUe3no\n\n\n\nForged certificate \n\nhttps://slate.com/technology/2016/12/how-the-2011-hack-of-diginotar-changed-the-internets-infrastructure.html\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XCyP8TU6Rkw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XCyP8TU6Rkw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XCyP8TU6Rkw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/XCyP8TU6Rkw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "XCyP8TU6Rkw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "P_c_blzQd9JLVo80YC0wxIqC6Ws",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2019-11-07T04:54:09Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How Tor Works?  (The Onion Router)",
+                "description": "Tor or (The Onion Router) is a free and open source project for allowing anonymous communication. \n\nIn this video I want to discuss this technology and explain how it works.\n\n* What can sniffers really see?\n* Why Tor? Why don’t we just use a VPN?\n* How Tor Works?\n* More about Tor\n\nSo if you are interested stay tuned. \n\n\nTimeCodes:\n0:00 Intro\n1:30 Normal Request \n4:30 What sniffers see\n6:00 Why Tor and not VPN?\n8:50 How Tor Works\n21:00 More tor info \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gIkzx7-s2RU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gIkzx7-s2RU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gIkzx7-s2RU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gIkzx7-s2RU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gIkzx7-s2RU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "BhokGjbqwi5gyNJxO5_YB78HrYE",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2019-12-26T17:02:13Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Programmatically Open External Ports with UPNP",
+                "description": "Allow External Access to  WebServer in a Local Area Network with Upnp \n\nUpnp is a technology that allows external traffic to connect to an internal server. It is extremely useful for cases where the server is behind a router and is listening on private IP address such as 192.168.1.1 or 10.0.0.1 or 172 which are not addressable in the Internet. Use cases are peer to peer and webRTC \n\nIn this video I’ll show how we a client in a local area network can ask the routers that support upnp to open an external port. \n\n\nhttp://miniupnp.free.fr/files/\nbrew install miniupnpc\n\nupnpc -a  192.168.254.10 2222 7777 tcp\n\nupnpc -d 7777 tcp\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ey9YHcWdjWQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ey9YHcWdjWQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ey9YHcWdjWQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Ey9YHcWdjWQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Ey9YHcWdjWQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "c8bPjzRpu8S-slHF13Ea6egjOTQ",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2019-12-27T03:29:40Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Address Resolution Protocol - ARP",
+                "description": "Address Resolution Protocol is a protocol that maps IP address to a mac address so hosts can be addressed. I want to make a video explaining ARP because it is starting to surface a lot in different videos that I’m making such as man in the middle, load balancing, and security. \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mqWEWye-8m8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mqWEWye-8m8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mqWEWye-8m8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mqWEWye-8m8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mqWEWye-8m8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "W9MRL-CSqdo_Wp845hVZ7Sl-Zos",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci45NzUwQkI1M0UxNThBMkU0",
+            "snippet": {
+                "publishedAt": "2019-12-28T21:13:32Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Fail-over and High-Availability (Explained by Example)",
+                "description": "Failover is the technique of switching to a redundant backup machine when a certain node goes down. This is a very common implementation for achieving high availability and it is often mixed with different load balancing techniques such as layer 4 and layer 7 balancing.\n\nIn this video i want to go through following\n\nChapters\n0:00 Intro\n1:47 What is Failover?\n3:00 ARP - Address Resolution Protocol\n5:40 VIP & VRRP\n12:12 High-availability Example\n\n\n#KeepAlived \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Zgy1miPsTNs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Zgy1miPsTNs"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zjRxSdqqCooBekLkVR_rXXgXlMY",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci5DNzE1RjZEMUZCMjA0RDBB",
+            "snippet": {
+                "publishedAt": "2019-12-30T01:33:16Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What happens when type google.com into your browser address box and hit enter? (Detailed Analysis)",
+                "description": "In this video I want to go through what really happens under the hood when you type google.com and you hit enter in a browser. This is inspired by alex’s github page below, it is a great detailed description of what happens. I did however add more details to certain areas and I removed some stuff like keyboard events and low level operating system like that.  So if you are interested stay tuned! \n\nAlex Github page \n\nhttps://github.com/alex/what-happens-when\n \n\nChapters\n0:00 Intro\n1:54 Initial Typing\n3:00 URL Parsing\n7:40 DNS Lookup\n19:15 TCP Connection \n24:19 TLS, ALPN. SNI\n33:38 First GET request\n40:00 HTML Parsing\n\n\n\n\n\ninitial Typing \nAs you type g the browser will attempt a search and display an auto complete result of the previously visited sites\n\nSome browser does an actual search using the default configured search engine we will skip that part. This will have he same effect as next steps \n\nURL PARSE\nAs you complete the phrase google.com and hit enter , the browser will parse and will figure out whether this is a url or a search term . It is a url so it will attempt to visit the website google.com \n\nHTTP or HTTPS? Determine the port\nThe next step is to determine which protocol to use HTTP or HTTPS? to know that there is a protocol called HSTS list and we made a video about that tech. It is a local list of websites that only need to communicate with HTTPS. Google.com is in the HSTS list so we will use HTTPS so we now know the port is 443! We need to figure out the IP address so we can establish the connection\n\n\nDNS Lookup\nTO find out the IP address we do a DNS look up .first we ask the operating system, because the domain could be cached, we find that its not . The OS then looks through the hosts file and see if there is a n hardcoded entry , there isnt .. \n\nNext the browser check if DoH is enabled DNS over HTTPS if yes then it communicate with the DNS provided (e.g cloud flair and ask for DNS) thats another TLS connection assume we are not using DoH The we establish an insecure UDP request to port 53 on the default DNS Configured on our router (could be 8.8.8.8 or 1.1.1.1)  that in itself is a connection so we need to send the packet.. \n\n\nTCP connection\nWe know the IP we know the port! we can now establish a connection, we also know that we should also do TLS since its HTTPS and our client is smart enough to do TLS 1.3 so we will first do 3 way handshake and establish a TCP connection between 10.0.0.2 port random 1234 and 4.1.2.3 port 443 \n\n\nTLS, ALPN, SNI\nAssuming I’m using the latest browser so it supports TLS 1.3 and my server also supports TLS 1.3, next is Client Hello. Client generates a public and private key, merges public and private key in DH sends out public and merged keys which cannot be broken in a client hello. It also sends the supported cipher suits (supported for symmetric key algorithms) If TLS extensions are enabled such as ALPN & SNI the client also sends in the same request the host name google.com in the TLS client hello along with the fact that it actually supports HTTP2 (this might be different in Chrome since it uses HTTP/2 over UDP or QUIC) \n \nFirst Request GET/ \nThe client is now ready to send an actual HTTP data, so it builds header GET / since that is what we want to send, puts the hostname in the header and other stuff, checks if there are cookies and puts them, the whole thing is compressed and sent as a binary format. The data is then encrypted with the TLS symmetric key and sent.. \n\nThe get request is then streamed into the HTTP/2 tcp connection and sent to the server. \n\nHTML Parsing \nMake multiple requests css? JS? Multiple streams?\nIf H1 then pipeline? \n\n\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dh406O2v_1c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dh406O2v_1c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dh406O2v_1c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dh406O2v_1c/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "dh406O2v_1c"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "V6GFf3qg_pSbkBL_mtADcqfrWsU",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci43MTI1NDIwOTMwQjIxMzNG",
+            "snippet": {
+                "publishedAt": "2020-01-11T22:09:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Server Name Indication (SNI) (Explained by Example)",
+                "description": "SNI is TLS Extension that allows the client to specify which host it wants to connect during TLS handshake. This allows multiple domains to be hosted on a single public IP address. \n\njump codes\n0:00 Intro\n2:30 SNI\n10:20 Demo\n20:00 ESNI\n\nhttps://github.com/hnasr/javascript_playground/tree/master/sni\n\nResources\n\nhttps://tools.ietf.org/html/draft-ietf-tls-esni-05\n\n\ninstall lets encrypt\n\nsudo certbot certonly --standalone\n\nsudo cat /etc/letsencrypt/live/husseintest.ddns.net/fullchain.pem \\\n   /etc/letsencrypt/live/husseintest.ddns.net/privkey.pem \\\n    | sudo tee /Users/HusseinNasser/tls/husseintest.ddns.net/husseintest.ddns.net.pem\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/t0zlO5-NWFU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/t0zlO5-NWFU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/t0zlO5-NWFU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "t0zlO5-NWFU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "a3x20jz5mWhc42JwQeFp65yf5iA",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4yQUE2Q0JEMTk4NTM3RTZC",
+            "snippet": {
+                "publishedAt": "2020-01-25T17:31:35Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Scaling and Securing WebSockets with HAProxy",
+                "description": "WebSockets technology is a bidirectional, full duplex protocol for communication between client and server over the web. It has been standardized in 2011 and its fully compatible with HTTP. This protocol enables realtime applications such as chatting, notifications, live feed , multiplayer gaming and otheruse cases. \n\nIn this Video I want to discuss websocket secure protocol wss:// which is done over TLS on port 443\n\n\nSource Code WebSocket\nhttps://github.com/hnasr/javascript_playground/tree/master/websocket-demo\n\n\nCards \n6:21 nginx/ haproxy\n\n\n15:13 how i secured https://www.youtube.com/watch?v=CxamHNc3U4A \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Rf6AfhqJKxg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Rf6AfhqJKxg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "CJ5HyipmSEtSlSAf1tyZHcUfCW0",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci5DMkU4NTY1QUFGQTYwMDE3",
+            "snippet": {
+                "publishedAt": "2020-01-27T01:05:05Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Docker Volumes with PostgreSQL Example",
+                "description": "In this short video I discuss docker volumes and demonstrate how to use volumes with postgres instances. We will create a postgres docker container, create some tables, backup our volume, destroy the container and spin up a brand new container with our existing volume. \n\n#POSTGRES\ndocker run -p 5432:5432 --name pg -e POSTGRES_PASSWORD=postgres postgres\n\n#PGADMIN\ndocker run -e PGADMIN_DEFAULT_EMAIL=\"hussein” -e PGADMIN_DEFAULT_PASSWORD=“password” -p 5555:80 --name pgadmin dpage/pgadmin4 \n\nEnjoy\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G-5c25DYnfI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G-5c25DYnfI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G-5c25DYnfI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/G-5c25DYnfI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "G-5c25DYnfI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Q7S2RGQv9ym_WrI7C3XDJjnnZjI",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci43NDhFRTgwOTRERTU4Rjg3",
+            "snippet": {
+                "publishedAt": "2020-02-17T00:56:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building a Multi-player Game with WebSockets",
+                "description": "In this video I show how we can use websockets to build a browser-based multi-player game that works on any device. I design the multi-player game with the server authoritative model where the game state is stored on the server. I use WebSockets as a communication medium for the game I am building.\n\nChapters\n0:00 Intro\n6:00 Connect to Server\n9:45 Create game\n13:00 Join Game\n16:00 Play Game\n18:00 Broadcast State\n22:15 Example\n31:00 Code\n31:10 Connect Code\n50:00 Create Game Code\n59:10 Join Game Code\n1:25:40 Play Game Code\n1:30:00 Broadcast code\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/websocket-cell-game",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/cXxEiWudIUY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "cXxEiWudIUY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "stjXATkaeZn2zQgrjWtmzkNJKDI",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:51:07Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "SSL/TLS Termination, TLS Forward Proxy Pros and Cons",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nIs a proxy that terminates the TLS session and send unencrypted traffic to the main server. This offloads complex crypto TLS from the main server to this proxy so the main server can do what it does best. Serve.. \n\nIn this video we will discuss the pros and cons of TLS Termination proxies  \n\n- TLS 1.2 \n- TLS Termination Proxy\n- TLS Forward Proxy \n-  Pros and Cons\n    - Pros\n- Off load crypto to proxy instead of main servers (no longer a problem)\n- Have TLS session close to the client  \n- Decrypt data so HTTP accelerators like Varnish can function correctly. \n- Allow intrusion detection system to analyse traffic\n- Load balancers can make better decisions on the data (Layer 7)\n- Service Mesh in microservices architecture \n    - Cons\n- If proxy got compromised attacker can gains access to all data. \n- Limited by the maximum number of connections on the proxy. \n\n\n\n\njump codes\n2:00 TLS 1.2\n4:00 TLS Termination Proxy\n6:00 TLS Forward Proxy \n9:00 Pros and Cons\n\ncards\n2:20 TLS  https://www.youtube.com/watch?v=AlE5X1NlHgg\n3:49 Encryption https://www.youtube.com/watch?v=Z3FwixsBE94\n12:50 Denial of Service https://www.youtube.com/watch?v=4I7tPW8of2g\n15:20 Layer 4 vs Layer 7 Load Balancing https://www.youtube.com/watch?v=aKMLgFVxZYk\n\n\n\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome a patron https://www.patreon.com/join/hnasr? \n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/H0bkLsUe3no/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "H0bkLsUe3no"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "R_9eiLFd1QW-V0L6DGcazENBa7o",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2019-10-14T00:55:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "How public WIFI can be sniffed?",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\nYou might have been told that if connect to an open unencrypted public wifi, to avoid using your personal accounts as data are sent in clear text and can be sniffed. In this video we will explain how exactly this works so if you are ready for some nerding consider watching. Even if you have TLS an attacker can perform a man in the middle attack.\n\nWired router\nWireless router \nPacket sniffing\n\n\n\nTable of Content\nWired Router: \nWireless Router: \nPacket Sniffing 15:00\nMan in the middle attack 17:20 \n\n2:40 Private vs public ip address\n9:40 NAT \n13:40 OSI Model \n\n\nSo guys how can you browse securely in a public wifi? One solution is to use a VPN (virtual private network) service and I really recommend you trying NordVPN one of the best services out there. What Nord essentially does is tunnel your connection through dedicated high bandwidth servers providing additional encryption layers of encryption. We talked about tunneling in this channel. There is a link for NordVPN in the description check them out! you will get a discount and you will be supporting me as well. Thanks! \n\nTools \nSome of the tools that allows you to sniff traffic is Wireshark used heavily by network engineers. It shows you all kind of traffic. \n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ECukPUUK_74/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ECukPUUK_74/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ECukPUUK_74/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ECukPUUK_74/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 20,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ECukPUUK_74"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "i6IWRuE6yw9B02mpq7U2YibXN1o",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci45RjNFMDhGQ0Q2RkFCQTc1",
+            "snippet": {
+                "publishedAt": "2020-03-09T00:27:17Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Setup Active-Passive Cluster with Keepalived & HAProxy (Two raspberry pis)",
+                "description": "Keepalived is a routing software written in C that provides simple and robust facilities for loadbalancing and high-availability to Linux systems. In this video we will talk about this technology and implement it along side HAProxy as a high availability (failover) \n\n\nChapters\n0:00 Intro\n2:10 What is failover?\n4:30 What are we building\n7:20 KeepAlived Example\n\n* What is Keepalived?\n* Setup Keepalived with HAProxy\n    * VRRP/VIP\n    * Two rapsberrypis with keepalived and haproxy\n\nsudo apt-get install keepalived\n\nsudo vim /etc/keepalived/keepalived.conf\n\n\n\n \nvrrp_instance pi1 {\n    state MASTER\n    interface eth0\n    virtual_router_id 101\n    priority 100\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100 \n    }\n}\n\nvrrp_instance pi2 {\n    state BACKUP\n    interface wlan0\n    virtual_router_id 102\n    priority 200\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.254.100\n    }\n}\n\n \n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/NizRDkTvxZo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 21,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "NizRDkTvxZo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "DkKFF-g8uvZeilSTB1ssnsSBrCY",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci40QTA3NTU2RkM1QzlCMzYx",
+            "snippet": {
+                "publishedAt": "2020-03-15T19:40:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Active-Active vs Active-Passive Cluster to Achieve High Availability in Scaling Systems",
+                "description": "In this video I want to talk over the active active active vs active passive cluster failover configuration for high availability. We will also explain the pros & cons of using an active-active cluster vs using an active-passive cluster.  \n\n\n2:25 Fail-over https://www.youtube.com/watch?v=Zgy1miPsTNs\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/d-Bfi5qywFo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 22,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "d-Bfi5qywFo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "2swuHb7bHzd3Qm2CcwHaeE8vDPo",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4xOTEzQzhBQzU3MDNDNjcz",
+            "snippet": {
+                "publishedAt": "2020-03-29T23:11:23Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "SSH Tunneling - Local & Remote Port Forwarding (by Example)",
+                "description": "In this video I explain how to perform SSH Tunneling with Local Port forwarding and remote port \nforwarding \n\n\nChapters\n0:00 Intro\n3:30 Local Port Forwarding Example\n11:20 Remote Port Forwarding Example\n\nI need to access something remote that I don’t have access to. \nonly expose 1 port securely and access pretty much any service (database etc..)\n\nssh -L local_port:remote_address:remote_port username@sshserver\n\nI need people to access something local on my machine that they don’t have access to\n\n\nssh -R remote_port:local_address:local_port username@sshserver\n\n\nFor Remote Port forwarding the ssh server  config /etc/ssh/sshd_config should have a property GatewayPorts yes\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/N8f5zv9UUMI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/N8f5zv9UUMI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/N8f5zv9UUMI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/N8f5zv9UUMI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 23,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "N8f5zv9UUMI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "fhAvT6Q59hvntAu7bOJurtZ9sQ8",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci41MzY4MzcwOUFFRUU3QzEx",
+            "snippet": {
+                "publishedAt": "2020-06-15T19:08:25Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "A Good Network Engineering Videos Resource Recommendation",
+                "description": "Hey guys quick video recommendation for network engineers or backend engineers that want to learn more about how TCP works or other low-level networking topics. Chris is your guy\n\n@Chris Greer Playlist\n \nHow TCP Works \n\nhttps://www.youtube.com/watch?v=15wDU3Wx1h0&list=PLW8bTPfXNGdAZIKv-y9v_XLXtEqrPtntm\n\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/u3i30gMiqs0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/u3i30gMiqs0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/u3i30gMiqs0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 24,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "u3i30gMiqs0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "5Gw7il4vC0nxCgEw176D9VQWL3c",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4yQjZFRkExQjFGODk3RUFD",
+            "snippet": {
+                "publishedAt": "2020-06-17T02:40:37Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Multicast DNS Explained",
+                "description": "In this video I discuss multicast DNS. Wikipedia defines multicast dns In computer networking, the multicast DNS (mDNS) protocol resolves hostnames to IP addresses within small networks that do not include a local name server.  \n\n0:00 Intro\n0:30 DNS Explained in LAN\n4:00 Multicast DNS\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CPOpPTpMSiE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CPOpPTpMSiE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CPOpPTpMSiE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/CPOpPTpMSiE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/CPOpPTpMSiE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 25,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "CPOpPTpMSiE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "L38tyTuUcHqzgSQVqnvIv0PND0o",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4yQUJFNUVCMzVDNjcxRTlF",
+            "snippet": {
+                "publishedAt": "2020-06-18T01:36:01Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is the TCP 3-Way Handshake and Why Backend Engineers should understand it",
+                "description": "The TCP handshake is one of the most common things that happen when we establish a connection to a server. I thought I take a few minutes to explain why do we need the TCP Handshake,  how does it work and its effect on the performance of applications.\n\nChapters\n0:00 Intro\n0:40 Why Do we need TCP Handshake?\n4:40 Handshake Explained\n8:50 Impact of Handshake on Performance\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bW_BILl7n0Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bW_BILl7n0Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bW_BILl7n0Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/bW_BILl7n0Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 26,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "bW_BILl7n0Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Qohrcuk39EjWw0j8GZX2ef4TDKM",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci40QzRDOEU0QUYwNUIxN0M1",
+            "snippet": {
+                "publishedAt": "2020-06-18T01:53:49Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Wiresharking CURL - How a single GET request translates to 10 TCP Packets",
+                "description": "In this video, I explain how a single GET request is translated to 10 TCP packets. I will run CURL and then look at wireshark, talk through the three way handshake and explain the process. \n\n#wireshark_them_all\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gOEiBliwMUA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gOEiBliwMUA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gOEiBliwMUA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gOEiBliwMUA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 27,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "gOEiBliwMUA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vUHutAOT7bUAbQko0zZzpniLZP0",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci41RTNBREYwMkI5QzU3RkY2",
+            "snippet": {
+                "publishedAt": "2020-06-30T21:08:10Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What is TCP Slow Start and how Does it affect your Web Application Performance?",
+                "description": "In this video I discuss what is the TCP Slow Start and its effect on performance of backend applications, proxies and even frontend applications. \n\nRFC2001\n\nhttps://tools.ietf.org/html/rfc2001\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rgPcxg8gjho/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rgPcxg8gjho/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rgPcxg8gjho/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/rgPcxg8gjho/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 28,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "rgPcxg8gjho"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ux-8NWvou6oGVnwPBDj9ZiXnGRU",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci5ENjI1QUI0MDI5NEQzODFE",
+            "snippet": {
+                "publishedAt": "2020-07-04T16:54:21Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Expose Local WebSocket, HTTP and HTTPS WebServers to the Public Internet with Ngrok",
+                "description": "n this video I explain how to use ngrok to expose local webserver , websocket HTTP & HTTPS traffic to the public Internet using Ngrok. I also explain what Ngrok is doing behind the scene and why you should becareful when using that service.\n\n\n0:00 Intro\n1:30 Expose HTTP Local WebServer\n4:50 Expose Local WebSockets Server\n8:50 Expose HTTPS Server (TLS Termination)\n11:00 Expose HTTPS Server (TLS PassThrough)\n\n\nngrok \n\nGo to https://ngrok.com/\n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pR2qNnVIuKE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pR2qNnVIuKE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pR2qNnVIuKE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/pR2qNnVIuKE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 29,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "pR2qNnVIuKE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "bIFbCFzs0HhJ4pOKSzmLwBrXqoU",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci44QzVGQUU2QjE2NDgxM0M4",
+            "snippet": {
+                "publishedAt": "2020-07-07T19:20:52Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "TCP Half-Open Explained",
+                "description": "In this video I explain how the server can get out of a sync in a Half open state when it comes to TCP Connections. \n\n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SJq61Rhr6N4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SJq61Rhr6N4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SJq61Rhr6N4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SJq61Rhr6N4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 30,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SJq61Rhr6N4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "1PdYW0NJdajx1TPs3MoVcgggoOQ",
+            "id": "UExRbmxqT0ZUc3BRVUJTZ0JYaWxLaFJNSjFBQ3FyN3BUci4xMzgwMzBERjQ4NjEzNUE5",
+            "snippet": {
+                "publishedAt": "2020-10-19T00:55:23Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Career Path Advice - Moving from a Network Engineer to a Backend Engineer",
+                "description": "In this video I explain how Network Engineers can move to be a Backend Engineer by capitalizing on their skills in networking. Network Engineers can build great and improve the communication protocols that Backend Engineers use for service to service communication. Network Engineers can also be specialized in Proxies, Reverse Proxies, Load Balancers and Caching Layers. \n\n🎙️Listen to the Backend Engineering Podcast\nhttps://husseinnasser.com/podcast \n\n🏭 Backend Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🏛️ Software Archtiecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n📩 Messaging Systems\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVcumYRWE2w9kVxxIXy_AMo\n\nBecome a Member \nhttps://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg/join\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/A20hvCH6Drs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/A20hvCH6Drs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/A20hvCH6Drs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/A20hvCH6Drs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+                "position": 31,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "A20hvCH6Drs"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 32,
+        "resultsPerPage": 50
+    }
+}

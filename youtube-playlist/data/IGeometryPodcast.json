@@ -1,0 +1,910 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "SLe1t67-5UPWELQP-O4ro4OICS0",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "XxfVnfjDwiwkhrMSC43alkBYXpI",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2017-12-30T03:12:07Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Synchronous v. Asynchronous",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nHappy new Year!, This is exciting. Always wanted to do a Podcast and I'm glad I did in 2018. I'm trying out Anchor as a vehicle for this podcast might change it later.  Today's topic is Synchronous vs Asynchronous methods, we discuss what are they and what are the advantages disadvantages of each one.  \n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/fBO_un9szlc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "fBO_un9szlc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "b8KggpAB5pgVXjqbNvN4kNGVJn0",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2018-01-03T15:56:26Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Show Your Work. Blog, Vlog, Write, Create and Develop!",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nToday's topic is not directly related to software engineering but very important. We discuss how some people feel stuck at their job and how companies take advantage of that to take more from them. You have countless ways to show and put your body of work out there to everyone to see. Let your work become your cv. Do it for free, put your work out there for free upfront so others can find you. The age of job hunt is over.\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7fiAhtP7VrQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7fiAhtP7VrQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7fiAhtP7VrQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/7fiAhtP7VrQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/7fiAhtP7VrQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "7fiAhtP7VrQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "N-iMFqvnowILJUNSjoIaJe05TZI",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2018-01-06T02:22:33Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "What Comes First, User Experience or Software Architecture?",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nDo you architect the system first and then build the user experience for your end user clients? Or Are you the kind of engineer that design the user experience first and let it drive the rest of system? We talk about advantages and disadvantages of both! \n\nWe are using Instagram as a use case in our analysis.\n\nEnjoy\nStay Awesome\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BmX1WhWT27c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BmX1WhWT27c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BmX1WhWT27c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BmX1WhWT27c/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/BmX1WhWT27c/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BmX1WhWT27c"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "p9KjzAF1Me40a-JjPrO8BARtuC4",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2018-01-09T04:11:11Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Advice for New Software Engineers and Developers",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nNew software engineers are often forced to different paths in their career which leave them confused. People often push them to management or other jobs in order for them to \"evolve\". This podcast is reminder every engineer, every developer, ever designer to stay true to what they truly love and inspire. If people are pushing you through a path that you don't feel attached to don't do it.\n\nIts ok to be a software engineer, its up to you to stand out. \n\nKeep doing what you really love. \n\nStay Awesome\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cXaUoAW3DZQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cXaUoAW3DZQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cXaUoAW3DZQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/cXaUoAW3DZQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/cXaUoAW3DZQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "cXaUoAW3DZQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9-P78jD8teHpEZ25bAoEoaHpo6A",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2018-01-13T18:29:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Content Persistence: Examples from Siri, Whatsapp and Twitter",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nWe discuss persistence in building software specially on the client. What happens when I compose some content and I lose internet connection? Does the app store the content on some temporary local storage on the device like Whatsapp text messages? Does it store it both locally and on the cloud so it is accessible on other devices like twitter? Does it not persist it at all like Siri? or Does it implement smart UX to avoid persistence but prevent content loss like Whatsapp voice notes? \n\nWe discuss those interesting scenarios in this Podcast enjoy!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/edB-_JnhoRY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/edB-_JnhoRY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/edB-_JnhoRY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/edB-_JnhoRY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/edB-_JnhoRY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "edB-_JnhoRY"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zlqEZTlx8aLOYjRtVTOwZSEUitY",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2018-01-13T18:45:47Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Building Scalable Software - SLA, HS, VS",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nWhen we are asked to build a scalable software we will have to know what part of the software are we scaling. Are we scaling the backend, front end or middle tier? Is it worth scaling all of them do we have the enough resources or do we even need to scale to million users if I know the app will only be used by 3000 users? Can I invest in architecting the software in to be vertically scalable using 1 node with failover and gain 100% consistency and ACID properties? or save money by enabling cheaper horizontally scaled computers and take a hit on eventual consistency? All depends on what is called the SLA (Service Level Agreement) \n\nEnjoy! \nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FPELK256liQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FPELK256liQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FPELK256liQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/FPELK256liQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/FPELK256liQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "FPELK256liQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Myv3gZA9LWMjwrzzcc1dE4mw3Ds",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2018-01-19T05:22:30Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Stateless v. Stateful Architecture (Podcast)",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nWe discuss the difference between stateless and stateful architecture and how it can impact scaling. As usual our example is instagram. \n\nEnjoy! \nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Xe1BSX3g2HI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Xe1BSX3g2HI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Xe1BSX3g2HI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Xe1BSX3g2HI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Xe1BSX3g2HI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Xe1BSX3g2HI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "k0IDv5PYHrpyI9eVP1XPv35IXAY",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2018-01-19T05:35:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Do Developers Build Bad User Interfaces/Experience?",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nWe hear this alot that developers make the worst user experiences and interfaces that are almost unusable by users. How true is this? we discuss this by starting with a blog post I wrote 10 years ago.  \n  \nEnjoy! \nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2MdaSGgl5XM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2MdaSGgl5XM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2MdaSGgl5XM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2MdaSGgl5XM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/2MdaSGgl5XM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2MdaSGgl5XM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9zE_fZH6fUzpTpgL2Roq7qAljQ8",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2018-01-19T05:46:20Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Learn By Doing.",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n \nWant to learn Docker? Casandra? Or Kubernetes? Pick a project and get to work. Grind and learn while implementing the project.  Learn By Doing.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JGLJimhu_IE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JGLJimhu_IE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JGLJimhu_IE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JGLJimhu_IE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/JGLJimhu_IE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JGLJimhu_IE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Nz_7eXofRFVQYf_huOdMVLfGG5M",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2018-01-19T05:58:06Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "I Wrote Bad Front-End Code That Broke Chrome",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nWhile writing a game with Javascript I wrote a piece of code that end up destroying Chrome. Join me as how that piece of code did not scale and how we attempt to fix it.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bbJhCE83X9g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bbJhCE83X9g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bbJhCE83X9g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/bbJhCE83X9g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/bbJhCE83X9g/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "bbJhCE83X9g"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "xU9Sg07fEBkfK_azwSueA59g1GA",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2018-01-25T05:30:01Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Can User Experience Help Build Better Rest API?",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nSpending time designing a good user experience can help save time architecting the backend, we give an example with an app building exercise similar to amazon. \n\nStay Awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AYfwXG4iKOM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AYfwXG4iKOM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AYfwXG4iKOM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/AYfwXG4iKOM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/AYfwXG4iKOM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "AYfwXG4iKOM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "oG7wn6kPWDjk_-FF5lynuRUmvwg",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2018-01-25T05:46:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Dragons Fight Engineers Too",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nThe Lizard Brain is that part in the brain which was designed to to protect us from danger. Problem is this part is preventing us from doing creative art. Whether good software, cool UX, book, podcast, videos.. etc.. \n\nTwo books I recommend that make you go and do work! Fight the dragon, the resistance and build cool things. \n\nLinchpin by Seth Godin (Affiliate) https://goo.gl/eQCDZM \nDo The Work by Steven Pressfield (Affiliate)  https://goo.gl/Ctb2qe\n\nStay Awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PQaXd5gqXLo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PQaXd5gqXLo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PQaXd5gqXLo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/PQaXd5gqXLo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/PQaXd5gqXLo/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "PQaXd5gqXLo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vLZSJij4O9hi8a-V13ykNGxIR28",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2018-02-03T05:01:42Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Why JSON is so Popular?",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nI asked my self this question before and I never understood the reason why JSON was popular until I actually worked with JSON and javascript. For someone who worked with XML and C#. The beauty of reading JSON of Javascript is so satisfying.\n\n\nStay Awesome\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vv3TmB6O_9Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vv3TmB6O_9Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vv3TmB6O_9Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vv3TmB6O_9Q/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/vv3TmB6O_9Q/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vv3TmB6O_9Q"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "XVHC8Y1T7_wC7ifI-9rwAfL_3D8",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2018-02-03T05:15:34Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Should Software Engineers Learn Bleeding-Edge Technologies?",
+                "description": "New Podcast! \n\nFollow me on Social Media here: www.husseinnasser.com\n\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1cB27B9nYnE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1cB27B9nYnE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1cB27B9nYnE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1cB27B9nYnE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/1cB27B9nYnE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "1cB27B9nYnE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "GIn4RfOg4jcn7ZEonZ0OyKBU_iA",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2018-06-17T20:44:29Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 1 - What is Server?",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. \n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ROxr8K0zDZg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ROxr8K0zDZg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YpHWkzcp5L2Q7M2Uq70dLN9YT1A",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2018-06-24T02:32:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 2 - Server Site",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. In this episode we discuss server sites.\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/AEFye66eE5Y/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "AEFye66eE5Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "dIZg0SUka4IO-kOM3mq3IQfEsJc",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2018-06-27T02:13:02Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 3 - Clusters",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. In this episode we discuss clusters\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/SfdXcFlOWGk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "SfdXcFlOWGk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "dnWWBLrsJ29FbqWevQlXRNZyXEM",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2018-07-04T15:46:45Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 4 - ArcSOC.exe Isolation",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. In this episode we discuss process isolation\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/n4R8K_arxE0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "n4R8K_arxE0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "dOtqayMFA0Gh1hvZoKxMkCinKlc",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2018-07-07T02:53:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Server Talk - Episode 5 - Pooling",
+                "description": "Follow my Anchor.fm RSS Feed here https://anchor.fm/s/1eb6d14/podcast/rss\n\nArcGIS Server is an interesting technology we start a new podcast series to discuss this technology. In this episode we discuss pooling\n\nSuggest any topics you guys want to discuss in the comments section. \n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\nMore ArcObject Videos https://goo.gl/NbebLP\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/McRLYsDG_7o/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "McRLYsDG_7o"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zYD8OhANIHVfyH50Wi2jv9gguDI",
+            "id": "UExRbmxqT0ZUc3BRV0J3VFhzLUp2Szd1SmtSWWI2NC13NS5ENDU4Q0M4RDExNzM1Mjcy",
+            "snippet": {
+                "publishedAt": "2019-01-01T18:52:08Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Podcast - Long polling",
+                "description": "Hussein's Courses 📐⟶ https://www.husseinnasser.com/courses\nHussein's Books 📒⟶ https://www.husseinnasser.com/books\n\nlong poll \n\nIn a previous video we have discussed the difference between Push vs. Pull in the context of notifications, we talked about the advangages and disadvanages of both approaches you can click here to watch that video. One of the limitations of Pull method is bandwidth of continuous polling requesting data and getting disappointed when you don’t have any. \n\nLong polling is a way to save bandwidth while still using the Pull method. Long polling is used by Kafka and we will discuss this \n\nThe deficiency of a naive pull-based system is that if the broker has no data the consumer may end up polling in a tight loop, effectively busy-waiting for data to arrive. To avoid this we have parameters in our pull request that allow the consumer request to block in a \"long poll\" waiting until data arrives (and optionally waiting until a given number of bytes is available to ensure large transfer sizes).\n\nhttps://kafka.apache.org/\ndocumentation.html#design_pull\n\n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Q-VsoPAvM2o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Q-VsoPAvM2o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Q-VsoPAvM2o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Q-VsoPAvM2o/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Q-VsoPAvM2o/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWBwTXs-JvK7uJkRYb64-w5",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Q-VsoPAvM2o"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 20,
+        "resultsPerPage": 50
+    }
+}

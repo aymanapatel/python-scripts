@@ -1,0 +1,730 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "wf8GWnWVzTSWdbwQWIrNRjG4YCg",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "pZcNTyCNgAhybOj_LBs9qHtaJqw",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:15:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spin up a lightweight Nodejs docker container running your application",
+                "description": "In this video we will write a Dockerfile that will allow you to build your NodeJS application in a docker container\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/docker\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vmSMrQ8Ev9w"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ETLYaB0_WD8557xFOun_vhQfLqw",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:15:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Apache Kafka Crash Course",
+                "description": "Apache Kafka is a distributed stream processing software developed by LinkedIn and written in Scala and Java.  \n\nChapters \n0:00 Intro \n2:32 Kafka Broker\n5:39 Kafka Producer\n7:11 Kafka Consumer\n8:34 Kafka Partitions\n12:50 Queue vs Pub-Sub\n16:47 Consumer Group\n23:06 ZooKeeper\n29:45 Coding Example\n1:02:48 Kafka Pros-Cons\n1:17:00 Summary\n\n\n\nIn this video I want to focus on the basics on Kafka, talk about how it works give finally spin up a kafka cluster and write a producer and a consumer. \n\nKafka Components\n_ producer\n_consumer\n_topic \n_partition\nHow Kafka works\nExample ( Ride sharing ) \nSpin Kafka cluster \nWrite a producer \nWrite a consumer\nKafka Applications\nPros and Cons \n\n\n\nSource Code \nhttps://github.com/hnasr/javascript_playground/tree/master/kafka\n\nDocker commands spin up kafka\n//if you ever mess up or you want to start fresh just stop and remove the containers and rerun the command \n\ndocker stop zookeeper kafka\ndocker rm zookeeper kafka\n\ndocker run --name zookeeper  -p 2181:2181 -d zookeeper\n\n\ndocker run -p 9092:9092 --name kafka  -e KAFKA_ZOOKEEPER_CONNECT=husseinmac:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://husseinmac:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 -d confluentinc/cp-kafka \n\n\n\nResources\n\n KIP 500 (Remove Zookeeper)\nhttps://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/R873BlNVUB4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "R873BlNVUB4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KmE5DgsHSpDysHJNdSS3SDl2fVg",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:15:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Database Sharding Crash Course (with Postgres examples)",
+                "description": "Database sharding is the process of segmenting the data into partitions that are spread on multiple database instances to speed up queries and scale the system. \n\n\nWhat is sharding? \nConsistent Hashing \nHorizontal partitioning vs Sharding\nExample\nPros and cons \n\n\n0:00 Intro\n1:30 What is Sharding?\n4:50 Consistent Hashing\n7:36 Horizontal partitioning vs Sharding\n8:45 Example\n10:00 Spin up Docker Postgres Shards\n17:25 Writing to the shard\n39:20 Read from the Shard\n51:10 Pros & Cons of Sharding\n\n\n\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/sharding\n\nDocker commands (including pgadmin)\nhttps://github.com/hnasr/javascript_playground/blob/master/sharding/shards/commands.txt\n\nDockerfile & init.sql\nhttps://github.com/hnasr/javascript_playground/tree/master/sharding/shards\n\n\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/d1fXBLqnFvc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "d1fXBLqnFvc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "bHQhyKe5-GjAoCjlI0GXTdSky68",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:15:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Connection Pooling with PostgresSQL and NodeJS",
+                "description": "Connection pooling is a pattern of create a pool of available connections (usually tcp) and allow multiple clients to share the same pool of connections. This pattern is usually used when connection establishment and tearing down is particularly expensive and the server has a limited number of connections. \n\nIn this video we will learn how to use connection pooling in NodeJs when working with a Postgres Database, we will learn how to spin up a pool of database connections and use stateless pool queries and transactional queries begin/end, and finally, we will \n \n\n0:00 Intro\n3:00 stateless close/open\n4:30 Pooling approach\n8:20 Performance tests\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/postgresnode-pool\n\n\n  \nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/GTeCtIoV2Tw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "GTeCtIoV2Tw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MIwhhLu8LdZObhmuAisdY0c6DfY",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:15:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "RabbitMQ Crash Course",
+                "description": "RabbitMQ is an open source distributed message queue written in Erlang and supports many communication protocols.  It was trying to solve the spaghetti 🍝 mesh architecture where every client is communicating with other client in System  by introducing an extra layer in the middle. \n \nIn this video we will explain basic components of RabbitMQ Such as AMQP, channel, queue, publisher, consumer and some stuff, we will also learn how to spin up a RabbitMQ server and we will finally write some code to develop a publisher client that post messages to RabbitMQ. We will also write the consumer piece which will be the code that reads rabbitMQ. Finally I will talk about my personal thoughts on this tech. \n\n- RabbitMQ Components(slide) \n- *Publisher\n- *Consumer\n- *Connection\n- *Channel\n- *Queue\n- Spin RabbitMQ server with Docker\n- Write a Publisher client NodeJs\n- Write a Consumer client Nodejs\n- My Thoughts about this tech\n- Summary\n\n\ntimecodes\n0:00 Intro\n2:00 RabbitMQ Components\n8:30 Spin up RabbitMQ Docker Container\n11:00 Write a Publisher client NodeJs\n20:30 Write a consumer client NodeJs\n33:50 My thoughts on RabbitMQ \n\n\nSource Code: https://github.com/hnasr/javascript_playground/tree/master/rabbitmq\n\nDocker commands here \nhttps://github.com/hnasr/javascript_playground/blob/master/rabbitmq/scripts.md\n\nExample\n\nSchedule async job\n\n￼\n\nExchange \nQueues\nPublisher\nConsumer\nAMQP\nChannel\nConnection \n\n\nHTTP \nAMQP\nUses Channels and Queues\nMultiples channels into one connections\n\n\nhttps://www.squaremobius.net/amqp.node/channel_api.html#channel_bindExchange\n\nhttps://www.rabbitmq.com/tutorials/tutorial-three-javascript.html\nThis work is not associated with or endorsed by VMware.\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Cie5v59mrTg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Cie5v59mrTg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ecBj46Qm1RMNVMXXXqRwY7O7Rfk",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:15:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Javascript and Mongodb Tutorial with Mongodb NodeJS Driver",
+                "description": "💻 More software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\nMongodb is a document-oriented database that fits into the family of NOSQL databases. In this video we will learn how to establish a connection from Javascript through NodeJS to a MongoDB database through the new mongodb nodejs driver. We will do the basic CRUD operations, create update delete and read. \n\n\nSpinning a mongodb db\n\ndocker run  -p 27017:27017 --name mdb mongo\n\n\nCreate a connection\n\nFind\n\nInsert\ndb.Employee.insert()\nRemove\ndb.Employee.remove({Employeeid:22})\nUpdate \ndb.Employee.update(\n{\"Employeeid\" : 1},\n{$set: { \"EmployeeName\" : \"NewMartin\"}});\nQuery \ndb.Employee.find().limit(2).forEach(printjson);\nCount\ndb.Employee.count()\n\n\n\ntimecodes\n2:46 : Spin docker \n4:45 : Connect to mongo\n14:45 : Find Document\n24:25 : Insert Document\n27:20 : Update Document\n30:20 : Delete Document\n\ncards \n\n1:45 Mongodb docker\n\n\nMongodb doc\nhttps://mongodb.github.io/node-mongodb-native/3.3/quick-start/quick-start/\n\n\n\nSource Code\nhttps://github.com/hnasr/javascript_playground/tree/master/mongodb-js\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/M9Fs-CCe0Jo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/M9Fs-CCe0Jo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/M9Fs-CCe0Jo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/M9Fs-CCe0Jo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "M9Fs-CCe0Jo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zUzNYInWmQDfFgdNMU3jJvZpT7s",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:15:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Redis Crash Course",
+                "description": "Redis is a noSQL key-value store, in memory database first that exploded in popularity in the past few years. In this video slash course, we will explain what Redis is, talk about the in-memory model, the optional durability, replication, clustering publish subscribe and the protocol and finally we will go through examples. During the video I will add time codes to each topic so you guys can jump to the topic that interests you the most.\n \n\nTable of Content and TimeCodes\n\n0:00 Intro\n3:49 Redis as a NoSQL In Memory Key-Value store\n10:00 Optional Durability\n15:10 Transport Protocol\n18:24 Pub/Sub\n20:40 Replication and Clustering\n23:41 Examples\n26:10 Spin Docker\n28:50 Command CLI\n30:30 Set key\n31:00 get key\n31:10 Set key with expiry\n32:00 exists key\n32:30 del key\n32:50 append key\n33:30 publish subscribe\n\nCommands \nDocker run --name redis -p 6379:6379 redis\ndocker exec -it rdb redis-cli\n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/sVCZo5B8ghE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "sVCZo5B8ghE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "eyNXag1mDE-2kc4wTlu6tWvrq40",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:15:46Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning MongoDB, MongoShell and Mongo GUI with Docker",
+                "description": "Mongodb is a document-oriented database that fits into the family of NOSQL databases. In this video we will spin up mongodb database using docker, we will learn how to use mongo shell to create a  collections and write few rows. And we will also learn use mongo GUI web interface . \n\n\n//Install Docker from https://www.docker.com/ (Windows/Mac or Linux)\n\n//Run mongo db container \ndocker run  -p 27017:27017 --name mdb mongo\n\n//bash into the container and run mongo shell \ndocker exec -it mdb mongo\n\n//create db and collection \n\nuse husseindb\ndb.employees.insertMany([\n{\n \"name\": \"Hussein\",\n \"eId\": 1335, \n \"title\" : \"Engineer\"\n},\n{\n \"name\": \"Ali\",\n \"eId\": 1334, \n \"title\" : \"Engineer\"\n},\n{\n \"name\": \"Sam\",\n \"eId\": 1331, \n \"title\" : \"Developer\"\n},\n{\n \"name\": \"Nasser\",\n \"eId\": 1340, \n \"title\" : \"Manager\"\n}\n]\n)\n\n\n//optionally use a GUI mongo client\ndocker run -p 3000:3000 --name mclient mongoclient/mongoclient\n\n\n\nJump codes\n0:00 Intro\n2:00 Run mongo db container \n5:50 Mongo shell \n8:20 Create Database\n9:10 Create Collections \n11:00 InsertMany\n12:40 Find \n14:30 Mongo GUI \n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DzyC8lqbjC8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "u9UHuXAUYgRy8qbeOHafxPOyWIg",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:16:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spin up a lightweight Nodejs docker container running your application",
+                "description": "In this video we will write a Dockerfile that will allow you to build your NodeJS application in a docker container\n\nSource Code\n\nhttps://github.com/hnasr/javascript_playground/tree/master/docker\n\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vmSMrQ8Ev9w/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vmSMrQ8Ev9w"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ugD80GLeIEJbRaEj_ANegAr2iME",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:16:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning MongoDB, MongoShell and Mongo GUI with Docker",
+                "description": "Mongodb is a document-oriented database that fits into the family of NOSQL databases. In this video we will spin up mongodb database using docker, we will learn how to use mongo shell to create a  collections and write few rows. And we will also learn use mongo GUI web interface . \n\n\n//Install Docker from https://www.docker.com/ (Windows/Mac or Linux)\n\n//Run mongo db container \ndocker run  -p 27017:27017 --name mdb mongo\n\n//bash into the container and run mongo shell \ndocker exec -it mdb mongo\n\n//create db and collection \n\nuse husseindb\ndb.employees.insertMany([\n{\n \"name\": \"Hussein\",\n \"eId\": 1335, \n \"title\" : \"Engineer\"\n},\n{\n \"name\": \"Ali\",\n \"eId\": 1334, \n \"title\" : \"Engineer\"\n},\n{\n \"name\": \"Sam\",\n \"eId\": 1331, \n \"title\" : \"Developer\"\n},\n{\n \"name\": \"Nasser\",\n \"eId\": 1340, \n \"title\" : \"Manager\"\n}\n]\n)\n\n\n//optionally use a GUI mongo client\ndocker run -p 3000:3000 --name mclient mongoclient/mongoclient\n\n\n\nJump codes\n0:00 Intro\n2:00 Run mongo db container \n5:50 Mongo shell \n8:20 Create Database\n9:10 Create Collections \n11:00 InsertMany\n12:40 Find \n14:30 Mongo GUI \n\n\n\n\nSupport me on PayPal  https://bit.ly/33ENps4 \nBecome A Patron https://www.patreon.com/join/hnasr?\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DzyC8lqbjC8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DzyC8lqbjC8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "8tLVnQ8uFvK1e2E7x4GNm8fDbd4",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:16:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning MySQL Database with Docker",
+                "description": "💻 More Software engineering videos https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K\n\n\n\nIn this video we will learn how to spin up a mysql database using docker. \n\nDocker is the best and easiest way to practice, develop and learn. Instead of worrying about downloading, installing and configuring database. You can quickly spin a container do your testing and development then just spin it down. \n\nInstall docker from here https://www.docker.com/products/docker-desktop\n\nWe will use this video as a reference for our coding series where we can write python code or Javascript code that hits this mysql database. \n\nLets do this! \n\n#MYSQL\ndocker run  --name ms -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password mysql \n\nbash into the container to run mysql\ndocker exec -it ms bash\n\nrun mysql\nmysql -u root -ppassword (no space between -p and password) \n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kOrGN36ViaU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kOrGN36ViaU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kOrGN36ViaU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/kOrGN36ViaU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "kOrGN36ViaU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YBWk9-4AKMlash-29IE1PVAwbew",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:16:58Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning multiple Postgres instances and PGAdmin with Docker",
+                "description": "In this video we will learn how to spin up a PostgreSQL database and pgadmin using docker.  \n\nDocker is the best and easiest way to practice, develop and learn. Instead of worrying about downloading, installing and configuring database. You can quickly spin a container do your testing and development then just spin it down. \n\nInstall docker from here https://www.docker.com/products/docker-desktop\n\nWe will use this video as a reference for our coding series where we can write python code or Javascript code that hits this postgres database. \n\nLets do this! \n\n#POSTGRES\ndocker run -p 5432:5432 --name pg postgres\n\n#PGADMIN\ndocker run -e PGADMIN_DEFAULT_EMAIL=\"hussein” -e PGADMIN_DEFAULT_PASSWORD=“password” -p 5555:80 —name pgadmin dpage/pgadmin4 \n\n\nStay Awesome!\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5QNL7_i-ay8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5QNL7_i-ay8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "PhxgXXz_d22iVpInEUYZHQNd-h8",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2019-12-12T14:17:27Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "The evolution from virtual machines to containers",
+                "description": "In this video, we explain the evolution of application deployment from physical machines to virtual machines through containers and finally kubernetes. Hope you enjoy it. \n\nvideo created using gliffy tool.\n\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8qU3hZOXlBE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8qU3hZOXlBE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8qU3hZOXlBE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8qU3hZOXlBE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8qU3hZOXlBE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "CZm4SobcKhis3U2EkEXdMAgmYak",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2020-01-27T01:05:05Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Docker Volumes with PostgreSQL Example",
+                "description": "In this short video I discuss docker volumes and demonstrate how to use volumes with postgres instances. We will create a postgres docker container, create some tables, backup our volume, destroy the container and spin up a brand new container with our existing volume. \n\n#POSTGRES\ndocker run -p 5432:5432 --name pg -e POSTGRES_PASSWORD=postgres postgres\n\n#PGADMIN\ndocker run -e PGADMIN_DEFAULT_EMAIL=\"hussein” -e PGADMIN_DEFAULT_PASSWORD=“password” -p 5555:80 --name pgadmin dpage/pgadmin4 \n\nEnjoy\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G-5c25DYnfI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G-5c25DYnfI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G-5c25DYnfI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/G-5c25DYnfI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "G-5c25DYnfI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "9r2mtoLvnPlAm2lmiZl_8zHCqjY",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2020-02-29T20:59:24Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Step by Step Basic Microservices System (3 NodeJS + 1 Load Balancer containers) with Docker",
+                "description": "In this video, you will learn how to build a small microservices system that has four services. We will spin up a load balancer container that will balance requests through and 3 identical node js containers.\n\nSource Code https://github.com/hnasr/javascript_playground/tree/master/microservices-example \n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/9sAg7RooEDc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "9sAg7RooEDc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "07Cd6_rIq5a3_g92R4g7k4UX5l4",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2020-03-02T03:27:12Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spin up an Nginx Docker Container as a Load Balancer",
+                "description": "In this video we explain how to spin up a docker container that is running nginx load balancer. We will use an nginx.conf file to configure and load balance two services right from our container. We will then build a dockerfile inherit from the base nginx docker image and overwrite the default nginx.conf with ours. \n\nConfiguration\nhttps://github.com/hnasr/javascript_playground/tree/master/nginx-container\n\nCards\n0:40 Nginx Crash Course\n1:30 Node Js Docker lightweight\n\n\nTimecode\nnginx.conf 2:44\nDockerfile 4:44\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BRPvjNQsqis/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BRPvjNQsqis"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "sBhRTXiez1CXHwkW6zeDb0d1TjI",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2020-05-24T02:11:35Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Portainer - Lightweight Management UI for Docker",
+                "description": "Portainer is a lightweight management UI which allows you to easily manage your different Docker environments (Docker hosts or Swarm clusters). Portainer is meant to be as simple to deploy as it is to use. It consists of a single container that can run on any Docker engine (can be deployed as Linux container or a Windows native container, supports other platforms too). Portainer allows you to manage all your Docker resources (containers, images, volumes, networks and more) ! It is compatible with the standalone Docker engine and with Docker Swarm mode.\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8q9k1qzXRk4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8q9k1qzXRk4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8q9k1qzXRk4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8q9k1qzXRk4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8q9k1qzXRk4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "5WwvKwrw3r8QQ3JLI_3U7BXm3Xw",
+            "id": "UExRbmxqT0ZUc3BRV3NELXJha053MUMyMGMxSkk4VVIxci4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2020-05-24T02:11:40Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Portainer - Lightweight Management UI for Docker",
+                "description": "Portainer is a lightweight management UI which allows you to easily manage your different Docker environments (Docker hosts or Swarm clusters). Portainer is meant to be as simple to deploy as it is to use. It consists of a single container that can run on any Docker engine (can be deployed as Linux container or a Windows native container, supports other platforms too). Portainer allows you to manage all your Docker resources (containers, images, volumes, networks and more) ! It is compatible with the standalone Docker engine and with Docker Swarm mode.\n\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8q9k1qzXRk4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8q9k1qzXRk4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8q9k1qzXRk4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8q9k1qzXRk4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8q9k1qzXRk4"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 18,
+        "resultsPerPage": 50
+    }
+}

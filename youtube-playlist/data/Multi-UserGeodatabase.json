@@ -1,0 +1,450 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "Lw5sao3cfNvK6vlXH3j7knLdnHA",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "wucPHBUj_jYxfs2YL1K9I3j1pcI",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2016-11-27T16:16:17Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Getting Started with Esri ArcGIS Geodatabase",
+                "description": "Esri ArcGIS Geodatabase Playlist https://goo.gl/nSgYnM\n\nThis will be a series where we discuss Multi-User geodatabase (Enterprise SDE). We will talk about versioning, archiving and more geodatabase concepts and We will write arcobject code to hit the enterprise geodatabase. \n\nSame as our old vidoes, this is a By Example approach, We migrate out our Phonatech customer from a file geodatabase to an enterprise geodatabse and upgrade the application we built. \n\n\nSetup:\nArcGIS 10.4.1 Desktop\nArcObjects SDK 10.4.1 \nMicrosoft Visual Studio Community 2015\nPostgres 9.4.5\n\n\n\nGitHub Repo\nhttps://github.com/hnasr/phonatech\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qpZM-2JLZTc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qpZM-2JLZTc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qpZM-2JLZTc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qpZM-2JLZTc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qpZM-2JLZTc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "CrpvlCK-Rkhibz55RWMmpX1XOkM",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2016-12-04T22:07:50Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Esri Geodatabase - 2- Unversioned Datasets",
+                "description": "Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nThis episode, we will learn about the different types of multiuser geodatabases. Non-Versioned/No Archiving, Non-Versioned/with Archiving, Versioned/No Archiving, Versioned/With Archiving. We briefly discuss long transactions and migrate our Phonatech geodatabase from File to Non-Versioned. We then do necessary changes to our code to connect and consume the new geodatabase. \n\n\n\nGitHub Repo\nhttps://github.com/hnasr/phonatech\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/tLYVSnN_mek/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/tLYVSnN_mek/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/tLYVSnN_mek/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/tLYVSnN_mek/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/tLYVSnN_mek/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "tLYVSnN_mek"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "EbNWKL1_RjdJobhQyvcsvmgrnHw",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2016-12-11T22:38:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Esri Geodatabase  UnVersioned w/ Archiving",
+                "description": "Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nWe talk about archiving, how to enable it on your enterprise geodatabase. How to hit an archived geodatabase and edit it from ArcObjects using the IMultiUserWorkspaceEdit interface.\n\nWe ran into a small permission problem at the end that I want a solve in a separate mini episode. We did the workaround by connecting as the table owner (SDE).\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H7H4VMlZif8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H7H4VMlZif8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H7H4VMlZif8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/H7H4VMlZif8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/H7H4VMlZif8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "H7H4VMlZif8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "7o-gDjP8M7FnQ2SqTGo9Oksf0AA",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2016-12-18T20:27:18Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Geodatabase Versioning - Long Transactions",
+                "description": "Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nWe move to versioned geodatabase! We discuss Long Transactions in this part.\n\nSame as our old vidoes, this is a By Example approach, We migrate out our Phonatech customer from a file geodatabase to an enterprise geodatabse and upgrade the application we built. \n\n\nSetup:\nArcGIS 10.4.1 Desktop\nArcObjects SDK 10.4.1 \nMicrosoft Visual Studio Community 2015\nPostgres 9.4.5\n \nGitHub Repo\nhttps://github.com/hnasr/phonatech\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QrxayEAmqZ8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QrxayEAmqZ8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QrxayEAmqZ8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/QrxayEAmqZ8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/QrxayEAmqZ8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "QrxayEAmqZ8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "PMRMBkB56ZDMDbVPqtwG_KIWyzU",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2016-12-25T05:14:28Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Esri Geodatabase - Read phenomenas, Version Trees, Access controls",
+                "description": "Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\n\nHappy holidays! \n\nIn this episode, we talk about different read phenomenas that occurs when you lack proper isolation, like dirty reads and non-repeatable reads.  How to create a version, change a version, make edits. We also explain the version trees and illustrate the access levels. Finally we talk about the IVersion interface and how we use it to get the version name from ArcObjects. \n\nBlog post on Isolation\nhttp://www.husseinnasser.com/2016/07/acid-on-instagram-part-2.html\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/yZYjzWwb8Uc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/yZYjzWwb8Uc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/yZYjzWwb8Uc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/yZYjzWwb8Uc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/yZYjzWwb8Uc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "yZYjzWwb8Uc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "X2Sv350L-gKV92r1_DcqbuZLWRY",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2017-11-03T04:36:56Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Setting up a PostgreSQL Instance on Linux to work wth ArcGIS",
+                "description": "We discuss how to setup postgres instance from scratch on Ubuntu 16.04.2 LTS, configure the instance to work with ArcGIS and then create an enterprise geodatabase from ArcGIS Desktop and finally we connect to the geodatabase. \n\n\nSteps to Install Postgres\n\nUbuntu 16.0.4\nhttps://www.ubuntu.com/download/desktop\n\nEnable older postgres versions on the ubuntu\nhttps://www.postgresql.org/download/linux/ubuntu/\n\nInstall Open SSH so putty can connect to ubuntu\ninstall openssh-server\n\nInstall postgres 9.4\napt-get install postgresql-9.4\n\nChange postgres password\nsudo -u postgres psql\nalter user postgres password 'password';\n\nSet permissions \nchmod 777 usr/lib/postgresql/9.4/lib\n\nAllow remote connections\n\nsudo gedit /etc/postgresql/9.4/main/pg_hba.conf\nhost all all all md5\n\nsudo gedit /etc/postgresql/9.4/main/postgresql.conf \nlistenaddress=‘*’\n\n\ndownload putty on Windows machine to copy the st_geometry.so file\n\nhttp://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html\n\npscp.exe st_geometry.so ig@pg:/usr/lib/postgresql/9.4/lib\n\nwhere ig is the ubuntu user, pg is the ubuntu machine\n\nEnjoy! \n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aq_Vy_-9ICg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aq_Vy_-9ICg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aq_Vy_-9ICg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aq_Vy_-9ICg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/aq_Vy_-9ICg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "aq_Vy_-9ICg"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "g-CBnUEXAHcPC_XZ06TSbft-NmY",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2017-11-03T04:37:14Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Setting up a PostgreSQL Instance on Windows to work with ArcGIS",
+                "description": "We discuss how to set up a postgres instance from scratch, configure the instance to work with ArcGIS and then create an enterprise geodatabase from ArcGIS Desktop and finally we connect to the geodatabase.\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3FVdfq3XMsM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3FVdfq3XMsM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3FVdfq3XMsM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/3FVdfq3XMsM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "3FVdfq3XMsM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "_uqylWuQztOt-3xX0P3S3GpAZmM",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2017-11-24T03:37:09Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "Spinning ArcGIS Enterprise Geodatabase on Docker container",
+                "description": "Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nDocker is a great technology that allows you to host your application in small jails of memory called containers. \n\nWe use this technology to quickly spin up a postgres instance that has all the neccessary requirements to create enterprise geodatabase. \n\nhttps://hub.docker.com/r/husseinnasser/arcgispg/\n\n-----\nTo pull ArcGIS 10.5 compatible docker container of postgres (9.5). This command will pull and run a container.\n\ndocker run --rm -p 5432:5432 husseinnasser/arcgispg:105\n\n\n\nTo pull ArcGIS 10.4.1 compatible docker container of postgres (9.4) This command will pull and run a container.\n\ndocker run --rm -p 5432:5432 husseinnasser/arcgispg:1041\n\n\n\n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome!\nHussein Nasser",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Uubgl4GUdac/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Uubgl4GUdac/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Uubgl4GUdac/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Uubgl4GUdac/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Uubgl4GUdac/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Uubgl4GUdac"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "2nD2I5RiUSf8A_2j2bnoVQVg39c",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2017-12-02T03:13:34Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "PostgreSQL or SQLServer for Enterprise Geodatabase?",
+                "description": "Full Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nToday's question is from @GISTools \n\nBoost your GIS knowledge by grabbing my books\n \nLearning ArcGIS Geodatabase https://goo.gl/csQdCX\n\nAdministering ArcGIS for Server https://goo.gl/zvYCRg\n\nArcGIS By Example  https://goo.gl/yJKSqB\n\nBuilding Web Applications with ArcGIS https://goo.gl/brgKUJ\n\nSupport IGeometry on paypal:  https://goo.gl/wZ8hSh\n\nFull ArcGIS Javascript API Series Playlist http://bit.ly/2zf7G80\n\nFull Multi-User Geodatabase Playlist https://goo.gl/nSgYnM\n\nFull ArcGIS Pro 2.x Playlist https://goo.gl/2j4NoZ\n\nFull ArcGIS By Example (C#) [Phonatech] Playlist https://goo.gl/FwdrHa\n\nFull ArcGIS Server Playlist https://goo.gl/nkfM6Q\n\n\nStay Awesome",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qjjAqudu1DU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qjjAqudu1DU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qjjAqudu1DU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qjjAqudu1DU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/qjjAqudu1DU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qjjAqudu1DU"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "XYcjtw7KSEfdJpnKLPcLTqx5_rE",
+            "id": "UExRbmxqT0ZUc3BRV3NlaU5TbU9NZ3NSNWxndWdLZ19LUC5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2020-04-11T01:29:55Z",
+                "channelId": "UC_ML5xP23TOWKUcc-oAE_Eg",
+                "title": "ArcGIS Geodatabase - Inserting Million Features Comparison (Versioned vs UnVersioned vs Archiving)",
+                "description": "Exciting video comparing creating million features in a postgres enterprise geodatabase comparing Versioning and Archiving. \n\n\n7:35 UnVersioned Feature Class on Default Create Million Features takes 13 minutes\n8:40 UnVersioned Feature Class With Archiving Enabled on Default Create Million Features takes 19 minutes\n9:30 Versioned Feature Class on Default Create Million Features takes 58 minutes\n10:25 Versioned Feature Class with Archiving Enabled on Default Create Million Features takes 1 hour 48 minutes\n\n\nGitHub repo\n\nhttps://github.com/hnasr/IGeometry\n\ntwitter: @hnasr\nEnjoy\n-Hussein",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qkh4Wso6Q1k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qkh4Wso6Q1k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qkh4Wso6Q1k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qkh4Wso6Q1k/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/qkh4Wso6Q1k/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Hussein Nasser",
+                "playlistId": "PLQnljOFTspQWseiNSmOMgsR5lgugKg_KP",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qkh4Wso6Q1k"
+                }
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 10,
+        "resultsPerPage": 50
+    }
+}
