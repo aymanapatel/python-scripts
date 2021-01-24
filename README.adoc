@@ -2,6 +2,23 @@
 Ayman
 :toc:
 
+== Youtube playlist
+
+> Python script to add videos in Excel from 
+
+== Bots
+
+=== Twilio and Whatsapp
+
+=== Discord
+
+
+== Finance related Scripts
+
+
+== Web-scraping scripts
+
+
 
 == Creating your virtual environment
 
@@ -22,12 +39,4 @@ Ayman
 
 `pip freeze > requirements.txt`
 
-== Youtube playlist
-
-> Python script to add videos in Excel from 
-
-== Finance related Scripts
-
-
-== Web-scraping scripts
 
