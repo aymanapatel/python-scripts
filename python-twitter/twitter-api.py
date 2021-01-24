@@ -1,6 +1,5 @@
 import click
 import tweepy
-import click
 
 ###### Credentials
 # consumer_key

@@ -2,6 +2,26 @@
 Ayman
 :toc:
 
+
+== Creating your virtual environment
+
+=== 1. Create Virtual environnment
+
+`python -m venv <env-name>`
+
+=== 2. Activate virtual environment
+
+    - Windows: 
+      - Go to `<env-name>\Scripts` and use command `& .\activate`
+      - Or `<env-name>\Scripts\Activate`
+    - Linux & Mac: `<env-name>/bin/activate`
+
+=== 4. `pip install flask twilio`
+
+=== 5. Add `requiremnts.txt`
+
+`pip freeze > requirements.txt`
+
 == Youtube playlist
 
 > Python script to add videos in Excel from 
