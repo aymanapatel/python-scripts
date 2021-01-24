@@ -1,0 +1,35 @@
+= Discord Bot
+Ayman Patel
+:toc:
+
+== Getting Started
+
+ 
+=== 1. Installing `discord.py` (Name of Discord library)
+
+
+```
+pip install -U discord.py
+```
+
+`discord.py` is a Python library that exhaustively implements Discord’s APIs in an efficient and Pythonic way. This includes utilizing Python’s implementation of **Async IO**.
+
+
+=== 2. Add token
+
+
+```
+from dotenv import load_dotenv
+load_dotenv()
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
+```
+
+`.env`:
+
+`DISCORD_TOKEN=<discord-token>`
+
+image:img/Token.jpg[Token]
+
+
+
+> `pip install -r requirements.txt` after setting up virtual environment
