@@ -2,6 +2,7 @@
 Ayman Patel
 :toc:
 
+
 == Getting Started
 
  
@@ -33,3 +34,11 @@ image:img/token.jpg[Token]
 
 
 > `pip install -r requirements.txt` after setting up virtual environment
+
+
+== Links
+
+
+- https://discordpy.readthedocs.io/en/latest/api.html[Discord API]
+- https://discord.com/developers/docs/intro[Discord Development Portal]
+- https://www.writebots.com/discord-bot-hosting[Hosting your bot]
