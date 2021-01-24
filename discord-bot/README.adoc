@@ -28,7 +28,7 @@ DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
 
 `DISCORD_TOKEN=<discord-token>`
 
-image:img/Token.jpg[Token]
+image:img/token.jpg[Token]
 
 
 
