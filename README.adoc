@@ -31,7 +31,7 @@ Ayman
     - Windows: 
       - Go to `<env-name>\Scripts` and use command `& .\activate`
       - Or `<env-name>\Scripts\Activate`
-    - Linux & Mac: `<env-name>/bin/activate`
+    - Linux & Mac: `source <env-name>/bin/activate`
 
 === 4. `pip install flask twilio`
 
