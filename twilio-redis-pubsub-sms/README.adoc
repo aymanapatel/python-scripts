@@ -4,3 +4,47 @@ Ayman Patel
 :icons: font
 
 > https://www.twilio.com/blog/sms-microservice-python-twilio-redis-pub-sub[Link]
+
+
+== 👨‍🏭 Installaton
+
+1. Virtual Environment and Pip Installation
+
+```shell
+$ python -m venv twilio-redis-venv 
+$ source pubsub-venv/bin/activate  # for Unix and Mac OS
+$ pubsub-venv\Scripts\activate  # for Windows
+(twilio-redis-venv ) $ pip install redis twilio
+```
+
+2. Redis Installation
+
+
+```shell
+$ wget https://download.redis.io/releases/redis-6.0.9.tar.gz
+$ tar xzf redis-6.0.9.tar.gz
+$ cd redis-6.0.9
+$ make
+```
+
+Once make build is completed, start redis by:
+
+  src/redis-server
+  
+  
+== 👨‍💻 Publisher and Subscriber code
+
+
+== 🏃‍♂️ Running
+
+> **Prerequisite: Add `TWILIO_ACCOUNT_SID` and `TWILIO_AUTH_TOKEN` environment variables**
+
+```shell
+$ python sub.py
+$ python pub.py
+```
+
+== 💡 Ideas/TODOs
+
+1. Make producer or consumer down and check behaviour
+2. Have multiple instances of pub/sub along with LBing for moving across active and down systems
