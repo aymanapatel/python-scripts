@@ -1,0 +1,6 @@
+= SMS Microservice with Twilio SMS and Redis Pub/Sub
+Ayman Patel
+:toc:
+:icons: font
+
+> https://www.twilio.com/blog/sms-microservice-python-twilio-redis-pub-sub[Link]
