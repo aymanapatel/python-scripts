@@ -17,10 +17,10 @@ with open(csvFileName,'rb') as csvfile:
         IDs[i] = row[0]
 
 # Directories
-# 1. `txt_orig`: Original Path with Files
-# 2. `txt_tmp`:
+# 1. `txt_orig`: Original Folder with Files to be renamed
+# 2. `txt_tmp`:  Destination Folder where original files are moved with with prefix from CSV
 path = 'txt_orig/'
-tmpPath = 'txt_tmp/'
+tmpPath = 'txt_final/'
 
 
 for id in range(rangeStart, rangeEnd + 1):
