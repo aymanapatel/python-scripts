@@ -20,10 +20,10 @@
 === 4. `pip install flask twilio`
 
 
-=== 5. Use [ngrok](https://ngrok.com/docs) for reverse tunnelling. (Only local environment, not too secure)
+=== 5. Use https://ngrok.com/docs[ngrok] for reverse tunnelling. (Only local environment, not too secure)
 
 
-=== 6. Use [Twilio Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox) and use ngrok URL from step 3.
+=== 6. Use https://www.twilio.com/console/sms/whatsapp/sandbox[Twilio Sandbox] and use ngrok URL from step 3.
 
 == Technology stack
 
